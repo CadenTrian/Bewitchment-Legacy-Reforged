@@ -60,7 +60,8 @@ minecraft {
     runs {
         // applies to all the run configs below
         configureEach {
-            workingDirectory project.file('run')
+            workingDirectory project.file(findProperty('smokeRunDir') ?: 'run')
+            args '--mixin', 'bewitchment.configfix.mixins.json'
             // Dependencies such as Patchouli ship SRG mixin refmaps; dev runs use official names.
             property 'mixin.env.remapRefMap', 'true'
             property 'mixin.env.refMapRemappingFile', file('build/createSrgToMcp/output.srg').absolutePath
@@ -181,6 +182,7 @@ tasks.named('jar', Jar).configure {
     from('LICENSE.txt') { rename { 'FORGE-LICENSE.txt' } }
     manifest {
         attributes([
+                'MixinConfigs'            : 'bewitchment.configfix.mixins.json',
                 'Specification-Title'     : mod_id,
                 'Specification-Vendor'    : mod_authors,
                 'Specification-Version'   : '1', // We are version 1 of ourselves
@@ -1077,3 +1079,10 @@ tasks.named('check').configure { dependsOn tasks.named('verifyChalkPlacement') }
     mainClass = 'com.bewitchment.block.StatueStateCheck'
 }
 tasks.named('check').configure { dependsOn tasks.named('verifyStatueStates') }
+
+tasks.register('verifyConfigIoGuard', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.config.ConfigIoGuardCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyConfigIoGuard') }
