@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:witches_oven",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Feed the Witches\u0027 Oven a suitable ingredient and furnace fuel. Put Empty Jars in its jar slot to collect bottled byproducts. An oven can make its primary output even when a byproduct roll fails."
+                  },
+                  {
+                      "text":  "Three clay balls craft three Unfired Jars. Smelt them into Empty Jars. Oven recipes have different byproduct chances, so keep extra ingredients and jars ready. The recipe below builds the oven.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:witches_oven"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:unfired_jar"
+                  }
+              ],
+    "icon":  "bewitchment:witches_oven",
+    "category":  "bewitchment:alchemy",
+    "name":  "The Witches\u0027 Oven",
+    "sortnum":  5
+}

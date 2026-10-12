@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/phasing_chalk"
+                 },
+    "parent":  "minecraft:item/generated"
+}

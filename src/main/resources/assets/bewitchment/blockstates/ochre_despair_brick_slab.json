@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bewitchment:block/ochre_despair_brick_slab"
+    },
+    "type=double": {
+      "model": "bewitchment:block/ochre_despair_bricks"
+    },
+    "type=top": {
+      "model": "bewitchment:block/ochre_despair_brick_slab_top"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "name":  "Arachnophobia",
+    "icon":  "minecraft:cobweb",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  133,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Arachnophobia brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then a Cobweb, to hot powered water. The harmful silver effect has one base tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Webs fill dry replaceable spaces, including air, grass and thin snow, in radius one, two or three. Higher levels keep radius three: at most 343 positions per terrain pass. Existing cobwebs, solid blocks, containers, water, lava and waterlogged blocks stay unchanged. Replaced plants produce no direct drops or XP."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Terrain changes require loaded chunks, world border, build height and actor permissions. Each replacement posts a cancellable block-break event. Sources and permissions are checked again after callbacks. Placement-only protection listeners are not invoked. Non-player delivery uses the Minecraft fake player. These checks apply to webbing, not creature spawn permissions."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Each affected living target can summon two spiders per level, capped at eight even for command levels. Each candidate independently chooses ordinary or cave spider with equal probability. Peaceful difficulty and creative or spectator player targets suppress spawning. Missing safe positions can result in fewer spiders or none."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Each spider tries at most 16 random columns from offsets -12 through +11 around the target. It searches down at most 16 blocks for sturdy ground. Unloaded terrain, the world border, fluids and collisions prevent insertion. Across all targets, each dimension allows at most 16 mob attempts and 128 position searches per tick. Failed attempts consume the budget; excess requests are discarded."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Spawn checks use MOB_SUMMONED and honor Forge CheckSpawn denial, SpecialSpawn initialization and entity insertion cancellation. Natural light and biome spawn rules are not required. Spiders receive Resistance III, Regeneration II, Strength I and Speed I for two minutes, then target the victim. Their normal AI may later change targets. They have no special lifetime and retain ordinary hostile despawning."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking webs the drinker\u0027s surroundings and attempts spiders around them. Splash impacts web the hit area even without a living target; spiders require an affected creature. Occupied lingering clouds web once per effect application tick, while each affected creature can request spiders within the shared budget. Empty clouds do not repeatedly web the area."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "This adaptation bounds high-level commands and crowded cloud work, skips fluid replacement and uses loaded supported spawn sites. Callback reentry cannot summon recursively for the same target. No direct damage or fear debuff is added. Pesticide can remove the webs and harm spiders. Repeated applications may accumulate ordinary spiders over time; the per-tick budget is not a population cap."
+                  }
+              ]
+}

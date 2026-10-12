@@ -1,0 +1,22 @@
+{
+    "key":  {
+                "G":  {
+                          "tag":  "forge:gems/opal"
+                      },
+                "S":  {
+                          "item":  "minecraft:stone"
+                      },
+                "P":  {
+                          "item":  "bewitchment:pentacle"
+                      }
+            },
+    "pattern":  [
+                    "SPS",
+                    "SGS",
+                    " S "
+                ],
+    "result":  {
+                   "item":  "bewitchment:waystone"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

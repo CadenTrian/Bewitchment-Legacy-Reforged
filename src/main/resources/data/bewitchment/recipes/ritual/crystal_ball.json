@@ -1,0 +1,30 @@
+{
+  "type": "bewitchment:ritual",
+  "ingredients": [
+    {
+      "tag": "forge:glass"
+    },
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "tag": "forge:gems/quartz"
+    },
+    {
+      "item": "bewitchment:droplet_of_wisdom"
+    }
+  ],
+  "result": {
+    "item": "bewitchment:crystal_ball"
+  },
+  "seconds": 5,
+  "starting_power": 500,
+  "running_power": 50,
+  "circles": [
+    "normal",
+    "ender"
+  ]
+}

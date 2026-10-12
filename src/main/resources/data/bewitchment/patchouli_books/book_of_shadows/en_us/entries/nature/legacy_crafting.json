@@ -1,0 +1,30 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:garlic_bread",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Garlic Bread restores seven hunger points with a saturation modifier of 0.8. Craft it from two Wheat, Garlic, Salt and an herb. Garlic is the built-in herb option, so this normally needs two Garlic. Other mods or data packs may extend the herb tag. Player vampirism and its original garlic-burning penalty remain unported."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:garlic_bread"
+                  },
+                  {
+                      "text":  "A Hellhound Horn crafts into one Blaze Powder. A Frostflower crafts into one Snowball. Cracked or Chiseled Embittered Bricks each craft back into one ordinary Embittered Bricks block. Obtaining the main ingredient unlocks each recipe in the recipe book.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "recipe2":  "bewitchment:snowball",
+                      "recipe":  "bewitchment:hellhound_horn_to_blaze_powder",
+                      "type":  "patchouli:crafting"
+                  },
+                  {
+                      "recipe2":  "bewitchment:embittered_bricks_alt1",
+                      "recipe":  "bewitchment:embittered_bricks_alt0",
+                      "type":  "patchouli:crafting"
+                  }
+              ],
+    "icon":  "bewitchment:garlic_bread",
+    "category":  "bewitchment:nature",
+    "name":  "Food and Material Crafting"
+}

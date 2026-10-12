@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:bottled_frostfire",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use Bottled Frostfire on solid ground to place the flame and receive a Glass Bottle. Drop Iron Ore into it to make Cold Iron Ingots. Use an empty Glass Bottle on the flame to collect it again."
+                  },
+                  {
+                      "text":  "Bottled Hellfire places a harmful persistent flame. It does not spread, but contact burns and damages creatures. Both bottled fires have distillery recipes; Iceworld brews create Perpetual Ice for the Frostfire ingredient. Frostfire contact attempts two magic damage against cold-iron-weak creatures, including demons and spirits.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Collect either flame with a Glass Bottle while not sneaking. Build and interaction permissions apply. Collection must remove the flame before it gives the filled bottle. A last bottle is replaced in your hand; otherwise the result enters your inventory or drops if full. Creative mode retains the empty bottle but still removes the flame.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Frostfire checks dropped iron ore once per second and converts one item from each eligible stack. If output insertion is refused, the reserved ore is restored and no conversion sound plays. Collected flames and successful conversions retain their existing recipes, effects and sounds.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:bottled_frostfire",
+    "category":  "bewitchment:alchemy",
+    "name":  "Frostfire and Hellfire",
+    "sortnum":  10
+}

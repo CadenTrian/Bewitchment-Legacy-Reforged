@@ -1,0 +1,14 @@
+{
+    "parent":  "minecraft:item/generated",
+    "overrides":  [
+                      {
+                          "predicate":  {
+                                            "bewitchment:alice":  1
+                                        },
+                          "model":  "bewitchment:item/grimoire_magia_variant"
+                      }
+                  ],
+    "textures":  {
+                     "layer0":  "bewitchment:item/grimoire_magia"
+                 }
+}

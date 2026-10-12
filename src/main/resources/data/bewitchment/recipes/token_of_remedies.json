@@ -1,0 +1,22 @@
+{
+    "key":  {
+                "C":  {
+                          "tag":  "forge:nuggets/cold_iron"
+                      },
+                "S":  {
+                          "tag":  "forge:nuggets/silver"
+                      },
+                "A":  {
+                          "tag":  "forge:gems/amethyst"
+                      }
+            },
+    "pattern":  [
+                    "CSC",
+                    "SAS",
+                    "CSC"
+                ],
+    "result":  {
+                   "item":  "bewitchment:token_of_remedies"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

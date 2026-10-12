@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:nazar",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Damage defenses require their accessories to be worn in Curios. The Girdle handles bark first: eligible physical hits consume a layer and cancel the hit, while fire consumes a layer and increases damage by a quarter. A canceled bark hit does not then spend power on the other defenses."
+                  },
+                  {
+                      "text":  "For a remaining hit, Hellish Bauble is checked first, then Nazar, then Horseshoe. Each qualifying equipped defense independently spends twenty Grimoire power. Hellish reduces fire, explosion or demon damage by fifteen percent; Nazar reduces magic damage by ten percent; Horseshoe reduces damage from cold-iron-weak attackers by ten percent.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Reductions multiply. If all three qualify and are funded, twenty incoming damage becomes 13.77 before later mitigation. A hit matching several Hellish conditions pays for Hellish only once. Missing equipment, irrelevant sources and insufficient power do not receive that defense or consume its payment.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each payment requires one carried Grimoire to cover that payment completely. Separate payments may use different books. Two books with ten power each cannot fund a twenty-power defense. A book with forty power can fund the first two qualifying defenses; the third needs another funded book.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Armor and other ordinary mitigation then lead to final damage. Magic Weakness explicitly runs before the Vampiric Amulet and adds three damage per level to magic hits. The amulet keeps its 17.5 percent chance to pay fifty power and cancel the remaining hit. Earlier bark and power costs are not refunded. Protective poppets run after the amulet.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "These rules run on the server. Already-canceled events and nonpositive or nonfinite accessory damage do not spend bark or Grimoire power. Other mods can also change damage or cancel events; this order describes the restored Bewitchment handlers and is not a refund promise for later external cancellations.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:nazar",
+    "category":  "bewitchment:beginnings",
+    "name":  "Accessory Damage Rules",
+    "sortnum":  93
+}

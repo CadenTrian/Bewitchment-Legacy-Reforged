@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:cloudy_oil"
+                        },
+                        {
+                            "item":  "bewitchment:birch_soul"
+                        },
+                        {
+                            "tag":  "forge:feathers"
+                        },
+                        {
+                            "item":  "bewitchment:owlets_wing"
+                        }
+                    ],
+    "type":  "bewitchment:distillery",
+    "results":  [
+                    {
+                        "item":  "bewitchment:heaven_extract"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

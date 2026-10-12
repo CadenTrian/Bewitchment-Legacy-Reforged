@@ -1,0 +1,6 @@
+{
+  "parent": "bewitchment:block/witches_oven",
+  "textures": {
+    "particle": "bewitchment:block/witches_oven_lit"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:focal_chalk",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw one Focal Chalk glyph at the center of a flat 7 by 7 area. Sixteen Ritual Chalk glyphs form the surrounding small circle. All glyphs must lie at the same height. Keep a formed, powered Witches\u0027 Altar within 24 blocks of the focal glyph."
+                  },
+                  {
+                      "text":  "Count offsets from the center. At north/south distance 3, mark the middle three blocks (east/west offsets -1, 0, +1). At north/south distance 2, mark east/west offsets -2 and +2. On each of the middle three rows, mark east/west offsets -3 and +3. This makes sixteen white marks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Right-click the golden center with each ingredient to offer one item, up to ten offers. Repeated ingredients must be offered separately. Sneak-click while idle to retrieve the last offer. Empty-hand right-click starts a matching ritual. Grimoire Magia and the four time/weather rituals use small circles; Purifying Earth also needs a medium circle.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The Grimoire needs two Leather, three Paper, one Liquid Witchcraft and one Opal. Start cost is 150 power, followed by five payments of 20, one per second. The closest formed altar pays first; a carried Grimoire can cover a whole failed payment. Ingredients are consumed only on completion.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Any right-click stops casting. Only unconsumed offerings are returned: Hungry Flames and continuous rituals consume theirs at startup. Losing power, a required ring glyph or the living caster also stops the ritual. Spent power is not refunded. Unloaded chunks pause rituals and are not forced to load.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A completed ritual drops one empty Grimoire Magia. Charge it near an altar to power accessories. The supplied Liquid Witchcraft jar is consumed. Sheep-death activation is available for $(l:sympathy/conjure_leonard)Leonard$() and $(l:sympathy/conjure_baphomet)Baphomet$(); ritual inhibition also applies. Remote casting remains unavailable.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:focal_chalk",
+    "category":  "bewitchment:sympathy",
+    "name":  "First Rituals",
+    "sortnum":  31
+}

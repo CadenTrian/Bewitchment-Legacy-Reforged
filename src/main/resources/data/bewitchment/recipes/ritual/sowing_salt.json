@@ -1,0 +1,44 @@
+{
+    "circles":  [
+                    "ender",
+                    "nether",
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "tag":  "forge:dusts/salt"
+                        },
+                        {
+                            "tag":  "forge:dusts/salt"
+                        },
+                        {
+                            "item":  "bewitchment:demon_heart"
+                        },
+                        {
+                            "item":  "bewitchment:opal"
+                        },
+                        {
+                            "item":  "bewitchment:pentacle"
+                        },
+                        {
+                            "item":  "bewitchment:ebb_of_death"
+                        },
+                        {
+                            "item":  "bewitchment:dimensional_sand"
+                        },
+                        {
+                            "item":  "bewitchment:lizard_leg"
+                        },
+                        {
+                            "item":  "bewitchment:ravens_feather"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  1600,
+    "running_power":  75,
+    "effect":  "sowing_salt",
+    "seconds":  150
+}

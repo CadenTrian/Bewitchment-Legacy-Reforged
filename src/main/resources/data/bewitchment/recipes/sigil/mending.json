@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:essence_of_vitality"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:essence_of_vitality"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "bewitchment:essence_of_vitality"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:essence_of_vitality"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_mending"
+               },
+    "type":  "bewitchment:sigil_table"
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:witches_hat",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Craft base Witch garments, then use the Spinning Wheel to upgrade them into Alchemist, Besmirched or Green Witch clothing. Sets use a hat or hood, robes and pants; no matching boots are required."
+                  },
+                  {
+                      "text":  "A full Alchemist set clears Poison and Wither periodically and reduces indirect magic damage. A full Green Witch set can improve mature-crop loot and grants regeneration while standing on grass in a forest by day.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The Alchemist Hat needs an Owlet\u0027s Wing through Heaven Extract. Owls now supply those wings in survival. Its hood offers another survival alternative. Conjure Leonard or Baphomet and follow $(l:sympathy/demon_pledges)Greater Demon Pledges$() for survival allegiance and its protections. A full Besmirched set now prevents ordinary Feuerwurm prey selection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:witches_hat"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:witches_robes"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:witches_pants"
+                  }
+              ],
+    "icon":  "bewitchment:witches_hat",
+    "category":  "bewitchment:alchemy",
+    "name":  "Witches\u0027 Clothing",
+    "sortnum":  12
+}

@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:ritual_chalk",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Craft Ritual Chalk using Wood Ash, Birch Soul and Cobblestone. In a heated, filled Witches\u0027 Cauldron, combine Ritual Chalk, Liquid Witchcraft and a Gold Nugget to make Focal Chalk and an Empty Jar. Each chalk has 128 uses and cannot be repaired or enchanted."
+                  },
+                  {
+                      "text":  "Use chalk on the top of a solid supporting block to draw a glyph. Ritual Chalk draws white marks; Focal Chalk draws the golden center that stores ingredients. Glyphs have no collision and drop no chalk when erased. Removing the supporting block erases the glyph.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "White, red and purple glyphs can be overwritten with chalk; a golden storage glyph must be broken to remove it. Drawing requires dry space inside the world border and building permission. Failed placement consumes no durability. See Concentric Circles and Advanced Chalk for other sizes and types.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:ritual_chalk"
+                  }
+              ],
+    "icon":  "bewitchment:ritual_chalk",
+    "category":  "bewitchment:sympathy",
+    "name":  "Ritual and Focal Chalk",
+    "sortnum":  30
+}

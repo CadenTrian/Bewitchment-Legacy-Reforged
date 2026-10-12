@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tallow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bewitchment:tallow"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bewitchment:candelabra_silver",
+      "bewitchment:candelabra_silver_torch"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:ghost_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Ghosts phase through solid blocks and float without gravity. Their five original appearances are translucent. They have ten health and charge at players and nearby villagers, illagers, witches and iron golems. Cambions also hunt them."
+                  },
+                  {
+                      "text":  "Salt within three blocks horizontally and eight vertically clears a Ghost attack target once per second. A lit candelabra within eight blocks on each axis does the same. Small candles do not qualify. These wards interrupt targeting; they are not solid barriers to phasing or existing momentum.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Unnamed Ghosts vanish during clear daytime, even under cover. Rain or a custom name prevents this daytime disappearance. Names do not protect temporary spectral summons from expiry. Ghosts resist fire, poison and wither, breathe underwater and take no fall damage.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Natural spawns use eligible plains, wasteland, forest, spooky and magical biomes, with configurable weight three. Spawn eggs and /summon bewitchment:ghost are available. Spiritual Rift now provides another survival summoning route.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ordinary Ghosts drop from one weighted pool: Ectoplasm (weight two, zero to two) or Spectral Dust (weight one, zero to one), with Looting bonuses. Athames can supply additional Ectoplasm and Spectral Dust. Temporary spectral Ghosts drop neither loot nor experience.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:ghost_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Ghost",
+    "sortnum":  78
+}

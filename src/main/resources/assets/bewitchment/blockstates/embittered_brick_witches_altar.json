@@ -1,0 +1,140 @@
+{
+  "multipart": [
+    {
+      "when": {
+        "color": "0"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_0"
+      }
+    },
+    {
+      "when": {
+        "color": "1"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_1"
+      }
+    },
+    {
+      "when": {
+        "color": "2"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_2"
+      }
+    },
+    {
+      "when": {
+        "color": "3"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_3"
+      }
+    },
+    {
+      "when": {
+        "color": "4"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_4"
+      }
+    },
+    {
+      "when": {
+        "color": "5"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_5"
+      }
+    },
+    {
+      "when": {
+        "color": "6"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_6"
+      }
+    },
+    {
+      "when": {
+        "color": "7"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_7"
+      }
+    },
+    {
+      "when": {
+        "color": "8"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_8"
+      }
+    },
+    {
+      "when": {
+        "color": "9"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_9"
+      }
+    },
+    {
+      "when": {
+        "color": "10"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_10"
+      }
+    },
+    {
+      "when": {
+        "color": "11"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_11"
+      }
+    },
+    {
+      "when": {
+        "color": "12"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_12"
+      }
+    },
+    {
+      "when": {
+        "color": "13"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_13"
+      }
+    },
+    {
+      "when": {
+        "color": "14"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_14"
+      }
+    },
+    {
+      "when": {
+        "color": "15"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_15"
+      }
+    },
+    {
+      "when": {
+        "color": "16"
+      },
+      "apply": {
+        "model": "bewitchment:block/embittered_brick_witches_altar_16"
+      }
+    }
+  ]
+}

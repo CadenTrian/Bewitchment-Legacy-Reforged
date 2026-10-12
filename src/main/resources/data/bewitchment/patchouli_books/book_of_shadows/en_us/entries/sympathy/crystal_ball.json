@@ -1,0 +1,33 @@
+{
+  "name": "Crystal Ball",
+  "icon": "bewitchment:crystal_ball",
+  "category": "bewitchment:sympathy",
+  "sortnum": 140,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "A Glimpse Ahead",
+      "text": "The Crystal Ball assigns one of twenty-nine available fortunes, each with equal selection weight. These include Courage, Thunderbolt, Death, Meet Merchant, Orphan and the new Meet Zombie, Meet Witch and Meet Silverfish encounters. Conditional fortunes and encounters may expire without an effect. See $(l:sympathy/timed_fortunes)Timed Fortunes$() for the full list and conditions."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Creation Ritual",
+      "text": "Offer one Glass block, three Quartz gems and a Droplet of Wisdom. Use a normal inner circle and an Ender middle circle; the outer circle is unrestricted. The ritual lasts five seconds, costs 500 starting power plus 50 per second, and produces one Crystal Ball. Compatible forge:glass and forge:gems/quartz items work."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Request a Fortune",
+      "text": "Use the placed ball with your main hand. A new fortune costs 750 power: the nearest intact loaded altar is tried first, then a carried Grimoire Magia. One source must cover the full cost; balances are not combined. Creative players still pay. The ball and held item are not consumed."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "One Pending Future",
+      "text": "An existing fortune is preserved and its prophecy repeated without another charge or countdown reset. Insufficient power does not assign a fortune. Dead players and spectators cannot receive readings. A new fortune uses its normal random delay and persists on the player, even if the ball is broken."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Current Limits",
+      "text": "Taglock tarot now supports eleven reading categories for 1,000 power; see $(l:sympathy/tarot)Taglock Tarot$(). All twenty-nine legacy fortune identities are restored; Baphomet can now be conjured and pledged to through survival play. Client-side use and the offhand do not perform payment. Live ritual, altar/book payment and multiplayer interaction still need playtesting."
+    }
+  ]
+}

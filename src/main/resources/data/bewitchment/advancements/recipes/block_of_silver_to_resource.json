@@ -1,0 +1,32 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_ingredient":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "tag":  "forge:storage_blocks/silver"
+                                                                             }
+                                                                         ]
+                                                           }
+                                        },
+                     "has_recipe":  {
+                                        "trigger":  "minecraft:recipe_unlocked",
+                                        "conditions":  {
+                                                           "recipe":  "bewitchment:block_of_silver_to_resource"
+                                                       }
+                                    }
+                 },
+    "requirements":  [
+                         [
+                             "has_ingredient",
+                             "has_recipe"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:block_of_silver_to_resource"
+                                ]
+                }
+}

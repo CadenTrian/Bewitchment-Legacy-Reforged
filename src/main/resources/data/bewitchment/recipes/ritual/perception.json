@@ -1,0 +1,23 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal",
+                    "normal"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:glowstone"
+                        },
+                        {
+                            "item":  "minecraft:blaze_powder"
+                        },
+                        {
+                            "item":  "minecraft:blaze_powder"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  500,
+    "running_power":  25,
+    "effect":  "perception",
+    "seconds":  -1
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:ender_eye",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Paranoia is a greater negative curse. It refreshes Blindness IV for two hundred fifty-six ticks on each active server player tick, retaining the original duration and amplifier. Milk or Cleansing can remove the potion effect, but the curse applies it again. Purity cannot remove this greater curse."
+                  },
+                  {
+                      "text":  "A fresh Paranoia curse begins with a delay of 1,150 active ticks before a sound can play. On the tick the delay reaches zero, and each later eligible tick, there is a ten percent chance of playing a sound. A successful sound resets the delay to 1,150. Failed rolls leave it ready to try again.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The original thirty-five sound choices are restored: unsettling creature calls, footsteps and block noises, including Werewolf, Cleaver, Bafometyr and chalk sounds. Glass breaking occupies two choices, preserving its original double weighting. Each successful selection is uniform among the thirty-five choices.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Sounds play at the affected player position in the Hostile category, at volume and pitch one. Nearby players can hear them, as in the legacy implementation. They do not create mobs, break blocks or cause the action suggested by the sound. Standard client sound settings apply.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The sound delay is now independent for each player and saves with curse state, including through respawn. Offline players, dead players and spectators do not advance it. The online curse-duration timer can still advance while procs are paused. Reapplying an active curse preserves both timers; a fresh application after removal resets the sound delay.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can use /curse \u003cplayer\u003e add bewitchment:paranoia \u003cdays\u003e and /curse \u003cplayer\u003e remove bewitchment:paranoia. Removing or expiring the curse stops future refreshes and sounds; existing Blindness expires normally. This port corrects the original shared global sound timer. The Brazier now casts this curse with offerings.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:ender_eye",
+    "category":  "bewitchment:sympathy",
+    "name":  "Paranoia",
+    "sortnum":  98
+}

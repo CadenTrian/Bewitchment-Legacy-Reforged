@@ -1,0 +1,24 @@
+{
+    "incense":  "bewitchment:concentration",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:redstone"
+                        },
+                        {
+                            "item":  "bewitchment:elderberries"
+                        },
+                        {
+                            "item":  "minecraft:charcoal"
+                        },
+                        {
+                            "item":  "bewitchment:salt"
+                        }
+                    ],
+    "type":  "bewitchment:incense"
+}

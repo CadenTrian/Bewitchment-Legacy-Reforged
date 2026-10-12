@@ -1,0 +1,20 @@
+{
+    "criteria":  {
+                     "has_material":  {
+                                          "trigger":  "minecraft:inventory_changed",
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "item":  "bewitchment:ochre_despair_bricks"
+                                                                           }
+                                                                       ]
+                                                         }
+                                      }
+                 },
+    "parent":  "minecraft:recipes/root",
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:ochre_despair_brick_slab"
+                                ]
+                }
+}

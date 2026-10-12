@@ -1,0 +1,18 @@
+{
+    "incense":  "bewitchment:cats_eye",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:glowstone_dust"
+                        },
+                        {
+                            "item":  "minecraft:poppy"
+                        },
+                        {
+                            "item":  "minecraft:carrot"
+                        }
+                    ],
+    "type":  "bewitchment:incense"
+}

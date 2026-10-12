@@ -1,0 +1,22 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "F F",
+                    "FDF",
+                    "FRF"
+                ],
+    "key":  {
+                "F":  {
+                          "tag":  "forge:stone"
+                      },
+                "D":  {
+                          "item":  "bewitchment:liquid_witchcraft"
+                      },
+                "R":  {
+                          "item":  "minecraft:arrow"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:stone_herne_idol"
+               }
+}

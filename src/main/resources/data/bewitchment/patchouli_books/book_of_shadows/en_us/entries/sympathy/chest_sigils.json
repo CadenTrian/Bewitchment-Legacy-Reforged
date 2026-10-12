@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:sigil_mending",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Eleven sigils work in Dragon\u0027s Blood chests, doors and trapdoors: Mending, Binding, Cleansing, Luck, Disorientation, Shrieking, Ruin, Battle, Sentinel, Failure and Purity. Their original shared artwork and names are retained. Craft them at the Sigil Table using its exact five-by-five patterns. These eleven also work as placed sigils; see the Placed Sigils entry for their lifetime and pulse rules."
+                  },
+                  {
+                      "text":  "Mending grants Regeneration I for one hundred ticks, with a six-hundred-tick cooldown. Binding inflicts Slowness VI for three hundred ticks, also with a six-hundred-tick cooldown. Mending targets listed players; Binding targets unlisted players.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Cleansing removes harmful potion effects and preserves beneficial or neutral effects, with a twelve-hundred-tick cooldown. Luck grants Luck I for six thousand ticks and has the same six-thousand-tick cooldown. Both target listed players.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Disorientation applies Fear for three hundred ticks, with a six-hundred-tick cooldown. Shrieking gives one hundred ticks of nausea and plays a ghast cry to the affected player, at normal sound volume in this port. Shrieking has no cooldown. Both target unlisted players.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ruin and Battle are described in their own entry, including Magic Weakness and Rhino Hide. Sentinel has its own summoning entry. Failure has its own ritual-lockout entry. Purity now removes the restored lesser curses; see its entry and the Curses entry for the current scope.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:sigil_mending",
+    "category":  "bewitchment:sympathy",
+    "name":  "Chest Sigils",
+    "sortnum":  87
+}

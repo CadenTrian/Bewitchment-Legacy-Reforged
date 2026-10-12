@@ -1,0 +1,21 @@
+{
+    "incense":  "bewitchment:fullness",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:elderberries"
+                        },
+                        {
+                            "item":  "bewitchment:salt"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        },
+                        {
+                            "item":  "minecraft:dandelion"
+                        }
+                    ],
+    "type":  "bewitchment:incense"
+}

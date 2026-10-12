@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "G G",
+    "IAI"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:glass"
+    },
+    "I": {
+      "tag": "forge:ingots/silver"
+    },
+    "A": {
+      "tag": "forge:gems/opal"
+    }
+  },
+  "result": {
+    "item": "bewitchment:distillery"
+  }
+}

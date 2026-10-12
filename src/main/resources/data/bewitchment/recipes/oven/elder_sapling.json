@@ -1,0 +1,1 @@
+{"type":"bewitchment:oven","ingredient":{"item":"bewitchment:elder_sapling"},"result":{"item":"bewitchment:wood_ash"},"byproduct":{"item":"bewitchment:droplet_of_wisdom"},"chance":0.75,"requires_jar":true}

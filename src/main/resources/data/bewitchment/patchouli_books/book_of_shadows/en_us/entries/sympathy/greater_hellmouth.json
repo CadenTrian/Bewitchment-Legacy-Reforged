@@ -1,0 +1,41 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:ghast_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw small, medium and large Nether circles around the focal glyph. Offer an Athame, Hellebore, a Bottle of Blood, two Blaze Rods and two Gunpowder. Use one offering slot for each item, including the repeats, then activate with an empty main hand. All three circles must be complete."
+                  },
+                  {
+                      "text":  "The ritual lasts fifteen seconds and costs 1500 starting power plus 66 each second: 2490 total before existing modifiers. It requires dry weather and non-Peaceful difficulty at activation and completion. There is no day or dimension restriction. Rain after activation can prevent the final wave.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The six equal choices are Wither Skeleton, Hellhound, Bafometyr, Cleaver, Shadow Person and Ghast. Choices may repeat. One to six candidates are attempted, with the original loop rerolling its limit after each candidate. The six possible wave sizes are not equally likely, and failed placements may leave fewer creatures.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each candidate receives at most sixteen placement attempts within horizontal offsets minus six through plus five, searching downward for solid ground. Full bodies must fit within loaded chunks, build height and the world border, without colliding with blocks, entities, liquids or previously planned bodies. Ghasts need a large clear space.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Creatures use normal spawn initialization, equipment and behavior, without taming or caster ownership. Shadow People retain their default temporary spectral lifetime of thirty to sixty loaded seconds and yield no drops or experience. Other members use their ordinary loot rules. Natural biome restrictions do not restrict this ritual pool.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Any successful insertion completes the ritual, consumes all seven offerings and returns a fresh Athame without the offered tool data. The blood bottle is consumed; no empty bottle is returned. Failed members of a partial wave are not retried. Summon advancement triggers run only after successful world insertion.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "If every placement or insertion fails, the original offerings are returned, including the original Athame damage and custom data. Spent altar power is not refunded. Breaking circles, losing the caster or failing a payment uses normal cancellation. Unloading saves finite cast progress rather than creating a deferred spawning job.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Twenty flame particles mark each ritual update. Bottle of Blood comes from the existing Athame blood-collection mechanic with Glass Bottles in the offhand. Clear the area before casting: a Greater Hellmouth wave can include ranged attackers and several hostile demons.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:ghast_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Greater Hellmouth",
+    "sortnum":  77
+}

@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:sunflower",
+                      "type":  "patchouli:spotlight",
+                      "text":  "In the Overworld, offer a Gold Ingot, a Sunflower and two small flowers to a focal glyph within a small white circle. Use Dandelion or the original red-flower variants: Poppy, Blue Orchid, Allium, Azure Bluet, Tulips or Oxeye Daisy. Newer flowers do not count."
+                  },
+                  {
+                      "text":  "Begin when the world is not in its daytime state. After five seconds, time advances to the next noon (day tick 6,000). This changes daylight time, not elapsed game time. The ritual spends 250 to start and 20 each second: 350 total, or 312 with Hecate\u0027s Visage.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The offerings are consumed on successful completion and no item is produced. A sunrise during casting does not cancel it. This recipe is available with existing survival materials. The legacy vampire-caster restriction awaits the vampire system.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:sunflower",
+    "category":  "bewitchment:sympathy",
+    "name":  "Solar Glory",
+    "sortnum":  36
+}

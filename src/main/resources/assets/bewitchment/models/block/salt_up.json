@@ -1,0 +1,8 @@
+{
+  "ambientocclusion": false,
+  "textures": {"particle": "bewitchment:block/salt_dust_dot", "salt": "bewitchment:block/salt_dust_line0"},
+  "elements": [{"from": [0, 0, 0.05], "to": [16, 16, 0.05], "faces": {
+    "south": {"uv": [0, 0, 16, 16], "texture": "#salt"},
+    "north": {"uv": [0, 0, 16, 16], "texture": "#salt"}
+  }}]
+}

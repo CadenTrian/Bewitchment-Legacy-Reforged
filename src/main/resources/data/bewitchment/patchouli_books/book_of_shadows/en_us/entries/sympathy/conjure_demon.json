@@ -1,0 +1,34 @@
+{
+    "name":  "Conjure Demon",
+    "icon":  "bewitchment:demon_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "sortnum":  115,
+    "pages":  [
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "bewitchment:demon_spawn_egg",
+                      "text":  "Draw complete small, medium and large Nether circles around the focal glyph. Offer an Athame, Rotten Flesh, Hellebore, a Hellhound Horn, a Bottle of Blood, a Diamond and a Gold Ingot. Activate at night with an empty main hand. The original implementation permits this route without a sacrifice."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A nearby Villager, Witch, Evoker, Illusioner, Vindicator or player death can also activate the prepared ritual. The nearest living non-spectator player must be less than ten blocks from the victim. The focal glyph must lie within two blocks on each axis of the victim\u0027s block position. Pillagers, wandering traders and zombie villagers do not qualify."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A death need not be caused by the caster and may activate multiple prepared nearby glyphs. Cancelled deaths do not trigger activation. Death activation requires building and interaction permission and obeys ordinary inhibition, offerings, circles, night, power and space checks. It neither inserts held items nor cancels an active cast. Failed activation cannot restore the victim."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The cast lasts fifteen seconds: 1332 starting power plus 66 each second, totaling 2322 before modifiers. Hecate reduces startup power to 1132, totaling 2122. Sunrise after activation does not cancel the cast. Clear enough space for a 1.425-block-wide, 3.8-block-tall demon. Peaceful difficulty, liquids, collision, unloaded space and world borders can block summoning."
+                  },
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "bewitchment:demoness_spawn_egg",
+                      "text":  "Successful completion chooses Demon or Demoness with equal probability, initializes its name and skin, and returns a fresh Athame. The original tool\u0027s damage and enchantments are not carried onto that output. Both variants are potentially hostile merchants; wear a full Besmirched set to avoid ordinary prey selection and see Demon Merchants for trading rules."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Space is checked again at completion. Rejected insertion refunds the original offerings, including tool data, instead of producing the new Athame. Spent power is not refunded. Successful summoning triggers the vanilla summoned-entity criterion for nearby players. Use this ritual to reach $(l:sympathy/demon)Demon Merchants$() and their career-based offers. Demon and Demoness have no natural biome or structure spawn entries."
+                  }
+              ]
+}

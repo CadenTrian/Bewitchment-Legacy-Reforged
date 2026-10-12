@@ -1,0 +1,22 @@
+{
+    "key":  {
+                "L":  {
+                          "tag":  "forge:gems/lapis"
+                      },
+                "P":  {
+                          "item":  "bewitchment:pure_filament"
+                      },
+                "A":  {
+                          "item":  "bewitchment:acacia_resin"
+                      }
+            },
+    "pattern":  [
+                    "PAP",
+                    "PLP",
+                    "L L"
+                ],
+    "result":  {
+                   "item":  "bewitchment:nazar"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

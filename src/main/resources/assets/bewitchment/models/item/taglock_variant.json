@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/taglock_variant"
+                 },
+    "parent":  "minecraft:item/generated"
+}

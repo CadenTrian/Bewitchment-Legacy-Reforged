@@ -1,0 +1,44 @@
+{
+    "circles":  [
+                    "ender",
+                    "normal",
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "tag":  "forge:gems/lapis"
+                        },
+                        {
+                            "item":  "bewitchment:essence_of_vitality"
+                        },
+                        {
+                            "item":  "bewitchment:pentacle"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:dimensional_sand"
+                        },
+                        {
+                            "item":  "bewitchment:spruce_heart"
+                        },
+                        {
+                            "item":  "bewitchment:oak_spirit"
+                        },
+                        {
+                            "item":  "bewitchment:garlic"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  1600,
+    "running_power":  75,
+    "effect":  "natures_blessing",
+    "seconds":  150
+}

@@ -1,0 +1,31 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:oak_spirit"
+                        },
+                        {
+                            "item":  "bewitchment:birch_soul"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "minecraft:grass"
+                        },
+                        {
+                            "item":  "minecraft:grass"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  780,
+    "running_power":  30,
+    "effect":  "call_of_the_wild",
+    "seconds":  10
+}

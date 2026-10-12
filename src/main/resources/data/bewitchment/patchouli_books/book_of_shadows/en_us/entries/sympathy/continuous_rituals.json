@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:focal_chalk",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Sands of Time and Perception keep working while power, circles and the living caster remain available. They consume offerings immediately after a successful startup payment. Failed activation keeps the offerings in the focal glyph. There is no completion item or automatic time limit."
+                  },
+                  {
+                      "text":  "Right-click the center to stop. Breaking a required glyph, losing power, or the caster dying, disconnecting or leaving the dimension also stops the ritual on its next loaded tick. Consumed offerings and spent power are not returned. Starting again requires new offerings and starting power.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Running power is charged every twenty loaded ticks, using the altar-first, single-payment Grimoire fallback. Hecate discounts only startup. Unloaded chunks pause the ritual; partial payment seconds survive saves. These circles do not keep chunks loaded.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:focal_chalk",
+    "category":  "bewitchment:sympathy",
+    "name":  "Continuous Rituals",
+    "sortnum":  40
+}

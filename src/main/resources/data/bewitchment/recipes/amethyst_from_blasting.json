@@ -1,0 +1,9 @@
+{
+    "ingredient":  {
+                       "item":  "bewitchment:amethyst_ore"
+                   },
+    "result":  "bewitchment:amethyst",
+    "cookingtime":  100,
+    "experience":  0.85,
+    "type":  "minecraft:blasting"
+}

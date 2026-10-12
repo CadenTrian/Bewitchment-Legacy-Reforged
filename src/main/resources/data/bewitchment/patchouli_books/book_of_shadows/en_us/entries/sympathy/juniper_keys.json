@@ -1,0 +1,41 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:juniper_key",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Juniper doors, trapdoors and fence gates now require a matching key to open, close or mine in survival. Placing one gives the player its bound Juniper Key; a full inventory drops the key nearby. The key matches the block position and dimension. Either half of a door uses the lower half as its lock position."
+                  },
+                  {
+                      "text":  "Carry a matching key or key ring anywhere in your normal player inventory, including the offhand. You do not need to hold it while using the entrance. Stored keys inside bags or other nested inventories are not searched. Another player with a copied matching key has the same access.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "In a crafting table, combine exactly one Juniper Key or Key Ring with one Juniper Planks item. The output is a copy, and the original key or ring remains in the crafting grid. Extra ingredients are rejected. This dynamic recipe requires at least nine crafting cells.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Combine two or more keys or key rings, without other ingredients, to form one Juniper Key Ring. This works in the player crafting grid. Input keys are consumed. Rings merge their bound locks and remove duplicate position/dimension entries. Unbound keys do not grant access to any lock.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Redstone cannot open these Juniper entrances, including when first placed beside power. Door AI cannot toggle a Juniper door through the ordinary door-opening method. Doors and gates resist piston movement and have the original very high explosion resistance. Trapdoors keep their ordinary material properties.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Existing Juniper entrances now gain locks, including those placed before this batch. To recover a missing key, in creative mode sneak-right-click the entrance with an unbound Juniper Key. This also normalizes the upper half of a door. Bound keys are not rebound, and rings are not rebound through this interaction. Creative breaking remains available.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Keys bind to a location, not a secret owner identifier. Replacing a lock at the same coordinates lets its old keys work again; moving a movable block does not move its binding. Door support removal, fire, mobs and commands are not a complete claim-protection system. Skeleton Keys can bypass these entrances at a cost; see their entry. Juniper Chests also use these keys; see their entry for storage rules.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The original key and key-ring artwork is retained. Tooltips list each lock coordinate and dimension identifier. Modern dimension identifiers replace legacy numeric dimension IDs; this port does not automatically reinterpret old 1.12 key NBT.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:juniper_key",
+    "category":  "bewitchment:sympathy",
+    "name":  "Juniper Locks and Keys",
+    "sortnum":  83
+}

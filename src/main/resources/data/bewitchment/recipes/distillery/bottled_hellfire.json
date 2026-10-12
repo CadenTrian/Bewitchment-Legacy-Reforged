@@ -1,0 +1,28 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:glass_bottle"
+                        },
+                        {
+                            "tag":  "forge:tallow"
+                        },
+                        {
+                            "tag":  "forge:tallow"
+                        },
+                        {
+                            "item":  "bewitchment:fiery_unguent"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        }
+                    ],
+    "type":  "bewitchment:distillery",
+    "results":  [
+                    {
+                        "item":  "bewitchment:bottled_hellfire"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

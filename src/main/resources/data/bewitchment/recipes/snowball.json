@@ -1,0 +1,11 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:frostflower"
+                        }
+                    ],
+    "result":  {
+                   "item":  "minecraft:snowball"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_berries"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_berries"
+                        },
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_berries"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_berries"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_purity"
+               },
+    "type":  "bewitchment:sigil_table"
+}

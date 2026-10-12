@@ -1,0 +1,53 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "name":  "ghost",
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:ectoplasm",
+                                          "weight":  2,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  2
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:spectral_dust",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ],
+    "type":  "minecraft:entity"
+}

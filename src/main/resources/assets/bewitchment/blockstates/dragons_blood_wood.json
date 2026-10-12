@@ -1,0 +1,28 @@
+{
+    "variants":  {
+                     "axis=x,slashed=false":  {
+                                                  "y":  90,
+                                                  "model":  "bewitchment:block/dragons_blood_wood",
+                                                  "x":  90
+                                              },
+                     "axis=x,slashed=true":  {
+                                                 "y":  90,
+                                                 "model":  "bewitchment:block/dragons_blood_wood_slashed",
+                                                 "x":  90
+                                             },
+                     "axis=z,slashed=false":  {
+                                                  "model":  "bewitchment:block/dragons_blood_wood",
+                                                  "x":  90
+                                              },
+                     "axis=y,slashed=false":  {
+                                                  "model":  "bewitchment:block/dragons_blood_wood"
+                                              },
+                     "axis=z,slashed=true":  {
+                                                 "model":  "bewitchment:block/dragons_blood_wood_slashed",
+                                                 "x":  90
+                                             },
+                     "axis=y,slashed=true":  {
+                                                 "model":  "bewitchment:block/dragons_blood_wood_slashed"
+                                             }
+                 }
+}

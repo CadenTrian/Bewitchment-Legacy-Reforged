@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "WBW",
+                    "WBW"
+                ],
+    "key":  {
+                "B":  {
+                          "item":  "bewitchment:mossy_scorned_bricks"
+                      },
+                "W":  {
+                          "item":  "bewitchment:mossy_scorned_brick_slab"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:mossy_scorned_brick_wall",
+                   "count":  6
+               }
+}

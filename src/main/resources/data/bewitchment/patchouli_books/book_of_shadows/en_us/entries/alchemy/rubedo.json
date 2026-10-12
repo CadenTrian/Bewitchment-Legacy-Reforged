@@ -1,0 +1,40 @@
+{
+    "name":  "Rubedo",
+    "icon":  "bewitchment:acacia_resin",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  134,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Rubedo brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Acacia Resin, to hot powered water. A successful powered resin addition returns one Empty Jar. The red beneficial effect has one base tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Affected sheep become red, and wolves receive red collars, including their stored collar color while wild. Ownership and shearing state are unchanged. Worn dyeable armor becomes red without resetting durability, names or other item data. Armor must support the dyeable armor interface; held items, horse armor and ordinary metal armor are not recolored. There is no damage or healing."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sampled vanilla wool, carpets, terracotta, glass, glass panes, concrete and concrete powder become their red counterparts. Plain terracotta and clear glass are included. Already red blocks are unchanged. Glazed terracotta, beds, banners, containers and unrelated blocks are excluded. Modded block families are not automatically replaced."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sand becomes red sand. Ordinary, chiseled and cut sandstone become plain red sandstone, as in legacy. Sandstone slabs and stairs become red sandstone shapes, preserving slab type, facing, half, shape and waterlogging. Pane connections and waterlogging also survive recoloring. Newer sandstone walls, cut slabs and smooth slabs are not added to the original list."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Vanilla renamed the old smooth sandstone variant to Cut Sandstone. Today\u0027s full Smooth Sandstone came from seamless double sandstone slabs, so Rubedo turns it into a double red sandstone slab. Existing red sandstone variants stay unchanged. Converted sand and concrete powder retain normal falling and hardening behavior; replacements create no direct drops or XP."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Each candidate uses a one-in-three roll. Terrain radius is two, four or six, capped at six for higher command levels: at most 2,197 positions. Each dimension keeps 32 Rubedo jobs, scanning at most 512 candidates per tick and 128 per job. Sampling seeds, cursors and owners survive saves and restarts. Queue overflow does not suppress creature or armor recoloring."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Only loaded chunks within build height and world border are eligible. Player jobs stop when owners leave, die or cannot build; non-player work uses the Minecraft fake player. Actor interaction permissions and cancellable block-break events apply. Source state, permissions and replacement survival are rechecked after callbacks. Placement-only protection listeners are not invoked."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking schedules terrain work around the drinker. Splash impacts schedule at the hit area even without living targets. Occupied clouds schedule terrain once per effect application tick; empty clouds do not repeat sweeps. Jar returns use normal item spawning, so cancellation and doTileDrops can prevent collection. Empty Jars cannot reenter the brewing mixture. Creature recoloring is separate from terrain permissions."
+                  }
+              ]
+}

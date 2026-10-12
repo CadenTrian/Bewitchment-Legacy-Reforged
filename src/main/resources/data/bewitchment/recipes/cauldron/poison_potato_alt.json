@@ -1,0 +1,16 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:fermented_spider_eye"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "minecraft:poisonous_potato"
+                    }
+                ]
+}

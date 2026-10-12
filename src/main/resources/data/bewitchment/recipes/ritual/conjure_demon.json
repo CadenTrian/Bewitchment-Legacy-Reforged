@@ -1,0 +1,18 @@
+{
+  "type": "bewitchment:ritual",
+  "effect": "conjure_demon",
+  "seconds": 15,
+  "starting_power": 1332,
+  "running_power": 66,
+  "circles": ["nether", "nether", "nether"],
+  "ingredients": [
+    {"item": "bewitchment:athame"},
+    {"item": "minecraft:rotten_flesh"},
+    {"tag": "forge:crops/hellebore"},
+    {"item": "bewitchment:hellhound_horn"},
+    {"item": "bewitchment:bottle_of_blood"},
+    {"tag": "forge:gems/diamond"},
+    {"tag": "forge:ingots/gold"}
+  ],
+  "result": {"item": "bewitchment:athame"}
+}

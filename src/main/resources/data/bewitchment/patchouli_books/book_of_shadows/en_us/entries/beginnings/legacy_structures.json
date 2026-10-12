@@ -1,0 +1,13 @@
+{
+  "name": "Old Places of Power",
+  "icon": "minecraft:mossy_cobblestone",
+  "category": "bewitchment:beginnings",
+  "pages": [
+    {"type": "patchouli:text", "text": "Five families of old structures can now appear in newly generated Overworld chunks: Wickermen, stone circles, Menhirs, small Cambion homes and medium Cambion homes. Each family has an independent 0.1 percent attempt chance per eligible chunk. Terrain checks can reject an attempt, so this is not a guaranteed spacing."},
+    {"type": "patchouli:text", "text": "Wickermen occur in plains, forests and beaches. Half the attempts select a burned ruin; the rest select an intact cage. Both can face any cardinal direction. Intact cages contain one villager and zero to four animals, selected from cows, pigs, sheep, chickens, horses, mules, donkeys and rabbits."},
+    {"type": "patchouli:text", "text": "Stone circles occur in plains and forests. Menhirs also occur there, with distinct appearances in ordinary Taiga, Giant Tree Taiga and Snowy Taiga. The original generator selected only the first ordinary Menhir and stone-circle templates; this port keeps that selection. The second templates remain available as structure resources."},
+    {"type": "patchouli:text", "text": "Both Cambion homes occur in plains. Their original furnishings and inhabitants are retained: one Cambion in the small home and two in the medium home. Each generated inhabitant receives a fresh identity. These are the original converted templates, rather than newly designed houses."},
+    {"type": "patchouli:text", "text": "Generation requires suitable ground above Y=31 and rejects water above the ground. The original substrates are Grass Block, Sand, snow, Mycelium and Glass. All four rotated corners must be level or at most two blocks higher than the origin. The entire footprint and a border for neighbor updates must fit available generation chunks and world height."},
+    {"type": "patchouli:text", "text": "Use bewitchment-structures.toml to disable structures or adjust the five family chances. Zero disables a family. Restart after changes. These settings are separate from ore and tree generation. Existing chunks are not retrofitted. These template features do not provide /locate targets. Wickerman occupants rotate with their cage, correcting the old fixed-coordinate placement."}
+  ]
+}

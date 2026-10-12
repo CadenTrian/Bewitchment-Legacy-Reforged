@@ -1,0 +1,36 @@
+{
+  "variants": {
+    "facing=north,in_use=false": {
+      "model": "bewitchment:block/distillery",
+      "y": 90
+    },
+    "facing=north,in_use=true": {
+      "model": "bewitchment:block/distillery_in_use",
+      "y": 90
+    },
+    "facing=east,in_use=false": {
+      "model": "bewitchment:block/distillery",
+      "y": 180
+    },
+    "facing=east,in_use=true": {
+      "model": "bewitchment:block/distillery_in_use",
+      "y": 180
+    },
+    "facing=south,in_use=false": {
+      "model": "bewitchment:block/distillery",
+      "y": 270
+    },
+    "facing=south,in_use=true": {
+      "model": "bewitchment:block/distillery_in_use",
+      "y": 270
+    },
+    "facing=west,in_use=false": {
+      "model": "bewitchment:block/distillery",
+      "y": 0
+    },
+    "facing=west,in_use=true": {
+      "model": "bewitchment:block/distillery_in_use",
+      "y": 0
+    }
+  }
+}

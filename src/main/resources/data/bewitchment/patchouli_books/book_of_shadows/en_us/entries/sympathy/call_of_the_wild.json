@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:oak_spirit",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw small and medium Normal circles around a focal glyph. Offer one Oak Spirit, one Birch Soul, two Oak Apple Galls and two Grass items, then activate with an empty main hand. Grass means the short grass plant, obtained with shears, not a Grass Block. The ritual lasts ten seconds and costs 780 starting power plus 30 per second: 1080 total before existing modifiers."
+                  },
+                  {
+                      "text":  "The original pool has eighteen equal slots: Lizard twice, then Owl, Raven, Snake, Ocelot, Wolf, Parrot, Druden, Werewolf, Horse, Llama, Donkey, Sheep, Cow, Pig, Chicken and Toad. This doubles the Lizard chance. Choices can repeat. Summoned creatures use their normal spawn initialization and behavior; they do not become tame or owned by the caster.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "One to three creatures are attempted. The legacy loop rerolls its bound: the probabilities are one third for one attempt, four ninths for two, and two ninths for three. This is not an equal roll among the three counts. Blocked or rejected candidates can reduce the actual number spawned, including to zero.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each candidate gets at most sixteen placement attempts within offsets minus six through plus five blocks on each horizontal axis. The ritual searches downward for solid ground, checks the entire body against loaded chunks, borders, blocks, entities and liquids, and avoids overlap between planned creatures. Clear a roomy area for Druden and Werewolves.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "There is no day, weather or dimension restriction. Peaceful skips Druden and Werewolf selections without replacing them. Other difficulties can summon hostile creatures. Normal biome and moon spawning restrictions are bypassed by ritual summoning. Unnamed Werewolves still disappear when the world reports daytime, so night is useful if you want them to remain.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Offerings are consumed only at completion. If no candidate can be placed, the cast cancels and returns the offerings. If spawn events reject every prepared candidate, the original offerings are returned after settlement. Spent altar power is not refunded. Any successful spawn completes the ritual and consumes all offerings; failed members of a partial wave are not retried.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Cloud particles mark the cast. Nearby players receive the normal summoned-entity advancement trigger only after a successful world insertion. Breaking the circle, losing the caster or failing a power payment uses ordinary ritual cancellation. Chunk unloading preserves the finite cast progress; it does not leave a deferred creature-spawning job.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:oak_spirit",
+    "category":  "bewitchment:sympathy",
+    "name":  "Call of the Wild",
+    "sortnum":  70
+}

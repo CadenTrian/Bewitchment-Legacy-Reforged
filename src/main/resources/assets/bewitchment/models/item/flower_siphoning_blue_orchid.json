@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "minecraft:block/blue_orchid"
+                 },
+    "parent":  "minecraft:item/generated"
+}

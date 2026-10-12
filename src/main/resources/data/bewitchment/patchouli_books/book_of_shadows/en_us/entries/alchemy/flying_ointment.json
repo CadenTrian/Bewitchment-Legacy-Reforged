@@ -1,0 +1,32 @@
+{
+    "name":  "Flying Ointment",
+    "icon":  "bewitchment:flying_ointment",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  139,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Flying Ointment",
+                      "text":  "Flying Ointment is a legacy crafting and ritual ingredient. Combine a Glass Bottle, Mandrake Root, Belladonna, Aconitum, a Poppy and wax in any arrangement. Tallow supplies forge:wax; compatible items in the same crop and wax tags also work. This is not a drinkable potion and does not grant flight."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:flying_ointment"
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Altar Cup Upgrade",
+                      "text":  "Sneak-use Flying Ointment on the top of a formed altar section to place one as a cup upgrade. It adds 1 to the gain and multiplies capacity by 1.17. Only one cup-category upgrade counts: bottles, pots and goblets compete with it in altar traversal order. Multiple ointments do not stack their upgrades."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Ritual Ingredient",
+                      "text":  "Flying Ointment is used by the restored $(l:sympathy/brooms)flying Broom rituals$(), $(l:sympathy/conjure_leonard)Conjure Leonard$() and $(l:sympathy/conjure_baphomet)Conjure Baphomet$(). The greater-demon rites can start by hand at night; a nearby sheep death is an alternative trigger. See each ritual for its circles, offerings and power costs."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Recipe Verification",
+                      "text":  "Startup now checks item references and serializer IDs in bundled recipes, catching unknown items before opening a world. Full recipe parsing waits for world tags. This does not validate external datapacks, tag contents or live crafting transactions. In-world crafting, altar placement and Conjure Leonard still need playtesting."
+                  }
+              ]
+}

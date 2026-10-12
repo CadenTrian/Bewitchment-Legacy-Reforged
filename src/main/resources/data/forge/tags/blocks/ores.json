@@ -1,0 +1,10 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#forge:ores/silver",
+                   "#forge:ores/amethyst",
+                   "#forge:ores/garnet",
+                   "#forge:ores/opal",
+                   "#forge:ores/salt"
+               ]
+}

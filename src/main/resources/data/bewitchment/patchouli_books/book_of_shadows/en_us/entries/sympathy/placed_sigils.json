@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:sigil_mending",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use any restored sigil item on a sturdy, dry block face to draw it on the floor, wall or ceiling. Placement consumes one item in survival; creative placement does not. The same items still install in Dragon\u0027s Blood Chests when used on those chests."
+                  },
+                  {
+                      "text":  "A placed sigil lasts 168,000 loaded server ticks: seven Minecraft days, or about two hours twenty minutes at twenty ticks per second. Its lifetime and pulse timer pause while unloaded and persist through saves. After the final lifetime tick it dissolves in red particles.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Effects pulse within a box extending six blocks along X and Z and three along Y from the sigil block coordinates. Entity bounding boxes must intersect that area. Mobs as well as players can be affected, but dead entities and spectators are ignored. Walls do not block the effect.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The placer starts on the target list. Positive sigils affect listed identities; negative sigils affect unlisted identities. Use a bound Taglock on the placed mark to toggle its identity without consuming the taglock. Any player can edit the list; this is not ownership protection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each sigil waits its full configured effect cooldown before its first pulse. Pulses reset the cooldown even if no eligible entity is present. The legacy timing includes a pulse tick after the countdown: Mending, Binding, Disorientation, Ruin, Sentinel and Failure pulse every 601 loaded ticks, Cleansing every 1201, Battle every 3001, and Luck and Purity every 6001. Shrieking pulses every tick.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "All eleven effects match their chest versions. Shrieking applies nausea to eligible living entities but sends its sound only to affected players, at normal volume. Multiple nearby sigils have independent timers. No altar power is required.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The mark has no collision, emits light level four, and uses one of ten original designs selected by its coordinates. Removing the supporting face destroys it. Pistons, breaking and expiry do not return a fresh sigil item. Creative pick-block retrieves the matching sigil type. Fluids, unsupported faces and protected placement are refused.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:sigil_mending",
+    "category":  "bewitchment:sympathy",
+    "name":  "Placed Sigils",
+    "sortnum":  89
+}

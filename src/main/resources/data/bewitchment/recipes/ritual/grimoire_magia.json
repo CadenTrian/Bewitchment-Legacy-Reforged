@@ -1,0 +1,37 @@
+{
+    "circle":  "small_normal",
+    "ingredients":  [
+                        {
+                            "tag":  "forge:leather"
+                        },
+                        {
+                            "tag":  "forge:leather"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        },
+                        {
+                            "tag":  "forge:gems/opal"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:grimoire_magia",
+                   "nbt":  {
+                               "maxAmount":  1000,
+                               "amount":  0
+                           }
+               },
+    "type":  "bewitchment:ritual",
+    "starting_power":  150,
+    "running_power":  20,
+    "seconds":  5
+}

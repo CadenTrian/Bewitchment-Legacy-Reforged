@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "bewitchment:block/juniper_wood"
+    },
+    "axis=x": {
+      "model": "bewitchment:block/juniper_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=z": {
+      "model": "bewitchment:block/juniper_wood",
+      "x": 90
+    }
+  }
+}

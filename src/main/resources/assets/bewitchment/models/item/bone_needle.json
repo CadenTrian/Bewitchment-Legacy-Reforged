@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/bone_needle"
+                 },
+    "parent":  "minecraft:item/generated"
+}

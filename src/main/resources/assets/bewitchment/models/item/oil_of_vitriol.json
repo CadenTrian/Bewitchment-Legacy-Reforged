@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/oil_of_vitriol"
+                 },
+    "parent":  "minecraft:item/generated"
+}

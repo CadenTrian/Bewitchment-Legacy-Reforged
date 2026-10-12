@@ -1,0 +1,31 @@
+{
+    "circles":  [
+                    "normal",
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        },
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        },
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        },
+                        {
+                            "item":  "bewitchment:mandrake_root"
+                        },
+                        {
+                            "tag":  "forge:slimeballs"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  666,
+    "running_power":  66,
+    "effect":  "wednesday",
+    "seconds":  10
+}

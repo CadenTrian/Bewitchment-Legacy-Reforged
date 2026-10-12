@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:brazier",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Hoppers and compatible item pipes can now insert and extract Brazier offerings through any face. They use the same nine slots as manual insertion. Every slot accepts one item, so repeated ingredients occupy separate slots. There is no separate output inventory."
+                  },
+                  {
+                      "text":  "Automation operates only while the Brazier is unlit. Burning incense and a lit curse Brazier block transfers. Extinguish with a shovel, or wait for incense to burn out, before supplying another batch. Ignition still requires a player using Flint and Steel; inserting the tool through a pipe does not ignite it.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "An extracting hopper can remove ingredients before you ignite them. Lock it with redstone or disable extraction on your pipes while preparing a batch. An overfilled recipe with extra offerings will not ignite. Retrieve the extra items manually or through extraction.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Containers are returned to the player who ignites the Brazier, or dropped if their inventory is full. Insertion alone does not return containers or blank Taglocks. Breaking the block returns unconsumed offerings with their saved data. Both standing and hanging Braziers use these rules.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Curse casting temporarily blocks transfers while its event handlers run. A canceled or rejected cast restores its offerings. Item pipes can move them again afterward. This prevents pipes from changing reserved offerings during casting.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Unlike the old unrestricted item handler, this port enforces single-item slots and blocks transfers while burning. Recipes, curse durations, incense effects and manual retrieval are unchanged. The inventory persists across saves; chunk unloading does not consume its offerings.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:hopper",
+    "category":  "bewitchment:sympathy",
+    "name":  "Brazier Automation",
+    "sortnum":  104
+}

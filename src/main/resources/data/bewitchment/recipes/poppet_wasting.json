@@ -1,0 +1,21 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:poppet"
+                        },
+                        {
+                            "item":  "minecraft:rotten_flesh"
+                        },
+                        {
+                            "item":  "bewitchment:belladonna"
+                        },
+                        {
+                            "tag":  "forge:bones"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:poppet_wasting",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

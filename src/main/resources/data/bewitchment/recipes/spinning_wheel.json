@@ -1,0 +1,25 @@
+{
+    "key":  {
+                "T":  {
+                          "tag":  "forge:rods/wooden"
+                      },
+                "S":  {
+                          "tag":  "forge:string"
+                      },
+                "P":  {
+                          "tag":  "minecraft:planks"
+                      },
+                "H":  {
+                          "item":  "bewitchment:spruce_heart"
+                      }
+            },
+    "pattern":  [
+                    " ST",
+                    "SHT",
+                    "PPP"
+                ],
+    "result":  {
+                   "item":  "bewitchment:spinning_wheel"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

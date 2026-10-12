@@ -1,0 +1,1 @@
+{"type":"bewitchment:oven","ingredient":{"item":"bewitchment:juniper_sapling"},"result":{"item":"bewitchment:wood_ash"},"byproduct":{"item":"bewitchment:essence_of_vitality"},"chance":0.75,"requires_jar":true}

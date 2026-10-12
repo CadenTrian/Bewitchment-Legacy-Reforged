@@ -1,0 +1,20 @@
+{
+    "criteria":  {
+                     "hay":  {
+                                 "trigger":  "minecraft:inventory_changed",
+                                 "conditions":  {
+                                                    "items":  [
+                                                                  {
+                                                                      "item":  "minecraft:hay_block"
+                                                                  }
+                                                              ]
+                                                }
+                             }
+                 },
+    "parent":  "minecraft:recipes/root",
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:broom"
+                                ]
+                }
+}

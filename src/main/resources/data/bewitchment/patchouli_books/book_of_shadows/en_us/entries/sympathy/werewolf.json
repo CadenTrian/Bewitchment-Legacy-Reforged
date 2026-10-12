@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:werewolf_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Werewolves spawn on full-moon nights in Forest, Coniferous, Snowy, Spooky and Magical biome types, at monster weight one and groups of one to four. They require valid ground and enough room for their tall body, but no extra darkness check. Set werewolfWeight to zero and restart to disable natural spawning."
+                  },
+                  {
+                      "text":  "They have fifty-five health, three armor, one armor toughness and half knockback resistance. The legacy attack attribute is 2.5, but its attack code truncates that to two base damage; Reforged preserves this. Injured Werewolves heal four each tick during the first six ticks of every two-hundred-tick cycle.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Unnamed Werewolves disappear without drops whenever the world reports daytime, including under shelter. Naming protects them from this disappearance and ordinary distance despawning. They do not transform into villagers, and their bites do not give players lycanthropy. Player transformations remain unported.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "They hunt players, villagers, illagers, witches, iron golems, livestock, horses and Cambions. Cambions also hunt Werewolves. They leap and alert allies when hurt. Besmirched and Green Witch clothing do not pacify them. Werewolves are living creatures, not demons or spirits; ordinary fire, poison, fall and drowning rules apply.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Snowy biomes choose Arctic or Grey; otherwise Coniferous chooses Red or Black, Swamp chooses Red or Brown, and other biomes choose Timber or Brown. Group members share an appearance. Their eyes glow and remain visible during invisibility. The original howl uses volume five and an ambient interval of two thousand ticks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Deaths drop zero to eight Leather plus a zero-to-three Looting bonus per enchantment level under vanilla loot rules. There is no extra legacy Athame roll. Existing silver weapons and armor recognize Werewolves through the silver-weakness tag. Silver weapon melee deals increased damage; silver armor uses the existing retaliation/protection rules.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Spawn eggs and /summon bewitchment:werewolf are available. Saved WerewolfType values zero to five select Brown, Arctic, Black, Red, Timber and Grey. A summoned unnamed Werewolf can vanish immediately during daytime. Temporary spectral copies retain lifetime and summoner fields but yield no loot, equipment or experience. Call of the Wild can also summon this creature.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:werewolf_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Werewolves",
+    "sortnum":  69
+}

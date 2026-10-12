@@ -1,0 +1,9 @@
+{
+    "ingredient":  {
+                       "item":  "bewitchment:embittered_bricks"
+                   },
+    "result":  "bewitchment:cracked_embittered_bricks",
+    "cookingtime":  200,
+    "experience":  0.1,
+    "type":  "minecraft:smelting"
+}

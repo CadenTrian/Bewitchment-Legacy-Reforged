@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:cloudy_oil"
+                        },
+                        {
+                            "tag":  "forge:nuggets/iron"
+                        },
+                        {
+                            "item":  "minecraft:gunpowder"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        }
+                    ],
+    "type":  "bewitchment:distillery",
+    "results":  [
+                    {
+                        "item":  "bewitchment:oil_of_vitriol"
+                    }
+                ]
+}

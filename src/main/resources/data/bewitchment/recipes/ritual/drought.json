@@ -1,0 +1,34 @@
+{
+    "seconds":  5,
+    "starting_power":  250,
+    "result":  {
+                   "item":  "bewitchment:empty_jar"
+               },
+    "circle":  "small_normal",
+    "type":  "bewitchment:ritual",
+    "effect":  "drought",
+    "running_power":  20,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "item":  "bewitchment:acacia_resin"
+                        },
+                        {
+                            "item":  "minecraft:cactus"
+                        },
+                        {
+                            "tag":  "forge:sand"
+                        },
+                        {
+                            "tag":  "forge:gems/opal"
+                        },
+                        {
+                            "tag":  "forge:gems/opal"
+                        },
+                        {
+                            "item":  "bewitchment:lizard_leg"
+                        }
+                    ]
+}

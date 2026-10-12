@@ -1,0 +1,16 @@
+{
+    "variants":  {
+                     "hanging=true,lit=false":  {
+                                                    "model":  "bewitchment:block/brazier_hanging"
+                                                },
+                     "hanging=false,lit=false":  {
+                                                     "model":  "bewitchment:block/brazier"
+                                                 },
+                     "hanging=false,lit=true":  {
+                                                    "model":  "bewitchment:block/brazier"
+                                                },
+                     "hanging=true,lit=true":  {
+                                                   "model":  "bewitchment:block/brazier_hanging"
+                                               }
+                 }
+}

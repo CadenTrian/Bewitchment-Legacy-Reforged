@@ -1,0 +1,41 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:paper",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Five positive contract effects are available: Berserker, Salamandrine Tolerance, Devouring Rage, Desiccation and Ignition. All are lesser positive effects stored alongside curses. Berserker and Devouring Rage now have signable kill tasks. Salamandrine Tolerance, Desiccation and Ignition have donation tasks. Conjure Demon now provides ritual access to merchants; operators can issue tasks or apply effects directly."
+                  },
+                  {
+                      "text":  "Berserker multiplies damage you deal by maximum health divided by current health. At half health damage doubles; at quarter health it quadruples. Full or over-maximum health leaves damage unchanged. Invalid health values do not scale damage, and extreme results are capped to a finite value.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Salamandrine Tolerance reduces damage from standing in fire, burning and lava to one third. It uses the exact original damage sources. Magma-block hot-floor damage and other fire-tagged attacks are not included. This is damage reduction, not fire immunity; it does not extinguish you.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Devouring Rage heals three health points when a player-attributed kill defeats an animal, and grants Regeneration X for one second. This retains the original strong regeneration effect. Other creature types do not qualify. Canceled deaths do not trigger this handler.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Desiccation grants Strength III for one minute when you break a crop block. It does not require a mature crop, matching the original behavior. Stems and ordinary plants outside the crop-block class do not qualify. Break events already canceled when this handler runs grant nothing.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "These effects run on their relevant server events, rather than every tick. Berserker applies to the attacker before Salamandrine Tolerance applies to the victim; both run before normal accessory defenses. Dead players and spectators receive no new contract benefits.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use /curse \u003cplayer\u003e add bewitchment:berserker \u003cdays\u003e, substituting salamandrine_tolerance, devouring_rage or desiccation. Permission level two is required. Remove uses the same identity without a day count. Reapplying preserves the existing duration. Expiry or removal stops future benefits but leaves existing potion effects to expire normally.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Purity preserves these positive effects even though they are lesser. Direct add bypasses reflection. If an operator uses cast instead, Return to Sender can reflect them because the original casting rule checks lesser status, not whether an effect is positive. Contract redemption originally used direct application.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:paper",
+    "category":  "bewitchment:sympathy",
+    "name":  "Positive Contract Effects",
+    "sortnum":  106
+}

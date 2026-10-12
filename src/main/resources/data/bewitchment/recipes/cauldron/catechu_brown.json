@@ -1,0 +1,14 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "tag": "minecraft:logs"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:catechu_brown",
+      "count": 4
+    }
+  ]
+}

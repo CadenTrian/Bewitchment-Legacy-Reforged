@@ -1,0 +1,24 @@
+{
+    "curse":  "bewitchment:solar_hatred",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:snake_venom"
+                        },
+                        {
+                            "tag":  "forge:nuggets/gold"
+                        },
+                        {
+                            "item":  "bewitchment:fiery_unguent"
+                        },
+                        {
+                            "item":  "bewitchment:salt"
+                        },
+                        {
+                            "item":  "minecraft:rotten_flesh"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

@@ -1,0 +1,32 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "name":  "owl",
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:owlets_wing",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  2
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ],
+    "type":  "minecraft:entity"
+}

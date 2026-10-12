@@ -1,0 +1,26 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_stitching"
+                        },
+                        {
+                            "item":  "bewitchment:golden_thread"
+                        },
+                        {
+                            "item":  "bewitchment:acacia_resin"
+                        },
+                        {
+                            "tag":  "forge:crops/white_sage"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "count":  2,
+                        "item":  "bewitchment:pure_filament"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:imp_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Imps are hostile demons with seven original skins. The legacy registry does not assign them a natural spawn entry, and Reforged preserves that. Use their spawn egg or /summon bewitchment:imp for testing. $(l:sympathy/conjure_imp)Conjure Imp$() supplies a survival summoning route. There is no dedicated Meet Imp fortune in the twenty-nine restored legacy fortunes."
+                  },
+                  {
+                      "text":  "An Imp has ninety health, four base attack damage, five armor, two and a half armor toughness and half knockback resistance. It is immune to fire, lava damage, Poison, Wither, falls and drowning. Lava restores four health every second. It has no Hellhound-style water weakness.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A successful melee hit inflicts Nausea for five seconds, sets the victim on fire for twenty seconds and adds upward velocity of 0.2. Its arms swing for ten ticks. Player launch motion is synchronized to the server player. Ordinary deaths yield seventy-five experience under normal experience-drop rules.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Imps proactively target players less than two squared blocks away, roughly 1.4 blocks, and hunt Hellhounds and Feuerwurms within their follow range. A complete Besmirched set prevents proactive selection, while retaliation can still occur. Other nearby creatures are not automatic prey. They count as demons for accessory protection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ordinary loot makes three weighted selections. Heart has weight three and base amount zero to one; Horn has weight two and zero to two; Blaze Powder has weight two and zero to two; Quartz has weight one and zero to four. The original distinct Looting bonuses are retained. A selection can produce nothing or repeat a material.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Athame kills add separate Heart, Hoof, Blaze Powder and Hellhound Horn bonus rolls, with maxima one, two, four and two before their usual Looting adjustment. Spectral copies give no ordinary loot, Athame bonuses or experience. Their saved lifetime and summoner fields work as for the other restored demons; their appearance remains opaque.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:imp_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Imps",
+    "sortnum":  65
+}

@@ -1,0 +1,21 @@
+{
+    "incense":  "bewitchment:deftness",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        },
+                        {
+                            "tag":  "forge:feathers"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "item":  "bewitchment:essence_of_vitality"
+                        }
+                    ],
+    "type":  "bewitchment:incense"
+}

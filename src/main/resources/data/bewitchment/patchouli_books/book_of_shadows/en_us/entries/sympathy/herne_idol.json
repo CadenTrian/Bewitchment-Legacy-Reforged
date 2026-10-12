@@ -1,0 +1,31 @@
+{
+    "name":  "Herne Idol",
+    "icon":  "bewitchment:stone_herne_idol",
+    "category":  "bewitchment:sympathy",
+    "sortnum":  458,
+    "pages":  [
+                  {
+                      "item":  "bewitchment:stone_herne_idol",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Craft this idol using Liquid Witchcraft and an Arrow, with Stone, Gold, Nether Brick or Scorned Brick as the body material. The following pages show all four recipes."
+                  },
+                  {
+                      "text":  "Placement needs a clear column 2 block(s) tall, inside the build limits and world border. The entire column must permit building and be free of obstructing entities. It faces toward the placer. Breaking any part removes the remaining parts. Use a suitable pickaxe to collect the item; Gold and Scorned Brick variants require iron tier or better.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The base contributes 1.5 enchantment power when positioned where an enchanting table can use it. Upper parts do not add extra power. All four materials have the same bonus and height. Pistons destroy these decorations instead of moving them.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "recipe2":  "bewitchment:gold_herne_idol",
+                      "recipe":  "bewitchment:stone_herne_idol",
+                      "type":  "patchouli:crafting"
+                  },
+                  {
+                      "recipe2":  "bewitchment:scorned_brick_herne_idol",
+                      "recipe":  "bewitchment:nether_brick_herne_idol",
+                      "type":  "patchouli:crafting"
+                  }
+              ]
+}

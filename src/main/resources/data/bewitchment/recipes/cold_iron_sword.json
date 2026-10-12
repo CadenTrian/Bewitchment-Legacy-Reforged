@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "I",
+                    "I",
+                    "S"
+                ],
+    "key":  {
+                "I":  {
+                          "tag":  "forge:ingots/cold_iron"
+                      },
+                "S":  {
+                          "tag":  "forge:rods/wooden"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:cold_iron_sword"
+               }
+}

@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:wither_skeleton_skull",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw all three rings with Fiery Chalk. Offer an Athame, one Wither Skeleton Skull, four Soul Sand, three Wormwood and one Ectoplasm, each separately. These fill all ten offering slots. Keep enough clear, dry height above the focal center for the Wither."
+                  },
+                  {
+                      "text":  "The ritual takes fifteen seconds: 1,332 power to start and 66 each second, 2,322 total. With Hecate\u0027s Visage, startup is 1,132 and the total is 2,122. Peaceful difficulty, blocked space, fluids, world-border overlap or unloaded spawn space prevent activation.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Success summons a normal hostile Wither with its vanilla invulnerable charging phase and subsequent explosion. It returns a fresh undamaged Athame, without transferring the offered tool\u0027s custom data. Nearby players can receive the vanilla summoned-entity advancement criterion after a successful spawn.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "If the area becomes blocked or spawning is rejected at completion, the original offerings are returned once and no replacement Athame is produced. Spent power remains spent. Black Dogs now supply Ectoplasm. Test the boss in an appropriate area; it retains normal Wither behavior.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:wither_skeleton_skull",
+    "category":  "bewitchment:sympathy",
+    "name":  "Conjure Wither",
+    "sortnum":  50
+}

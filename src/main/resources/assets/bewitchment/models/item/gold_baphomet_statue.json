@@ -1,0 +1,107 @@
+{
+    "parent":  "builtin/entity",
+    "display":  {
+                    "gui":  {
+                                "rotation":  [
+                                                 30,
+                                                 225,
+                                                 0
+                                             ],
+                                "translation":  [
+                                                    2,
+                                                    -3,
+                                                    0
+                                                ],
+                                "scale":  [
+                                              0.4,
+                                              0.4,
+                                              0.4
+                                          ]
+                            },
+                    "ground":  {
+                                   "scale":  [
+                                                 0.4,
+                                                 0.4,
+                                                 0.4
+                                             ],
+                                   "translation":  [
+                                                       0,
+                                                       3,
+                                                       0
+                                                   ]
+                               },
+                    "thirdperson_lefthand":  {
+                                                 "translation":  [
+                                                                     0,
+                                                                     2.5,
+                                                                     0
+                                                                 ],
+                                                 "rotation":  [
+                                                                  75,
+                                                                  45,
+                                                                  0
+                                                              ],
+                                                 "scale":  [
+                                                               0.375,
+                                                               0.375,
+                                                               0.375
+                                                           ]
+                                             },
+                    "firstperson_lefthand":  {
+                                                 "scale":  [
+                                                               0.4,
+                                                               0.4,
+                                                               0.4
+                                                           ],
+                                                 "rotation":  [
+                                                                  0,
+                                                                  225,
+                                                                  0
+                                                              ]
+                                             },
+                    "thirdperson_righthand":  {
+                                                  "translation":  [
+                                                                      0,
+                                                                      2.5,
+                                                                      0
+                                                                  ],
+                                                  "rotation":  [
+                                                                   75,
+                                                                   45,
+                                                                   0
+                                                               ],
+                                                  "scale":  [
+                                                                0.375,
+                                                                0.375,
+                                                                0.375
+                                                            ]
+                                              },
+                    "fixed":  {
+                                  "scale":  [
+                                                0.6,
+                                                0.6,
+                                                0.6
+                                            ],
+                                  "rotation":  [
+                                                   0,
+                                                   180,
+                                                   0
+                                               ]
+                              },
+                    "firstperson_righthand":  {
+                                                  "scale":  [
+                                                                0.4,
+                                                                0.4,
+                                                                0.4
+                                                            ],
+                                                  "rotation":  [
+                                                                   0,
+                                                                   45,
+                                                                   0
+                                                               ]
+                                              }
+                },
+    "textures":  {
+                     "particle":  "minecraft:block/gold_block"
+                 }
+}

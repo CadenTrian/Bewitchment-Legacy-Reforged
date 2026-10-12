@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "bewitchment:block/coquina",
+    "top": "bewitchment:block/coquina",
+    "side": "bewitchment:block/coquina"
+  }
+}

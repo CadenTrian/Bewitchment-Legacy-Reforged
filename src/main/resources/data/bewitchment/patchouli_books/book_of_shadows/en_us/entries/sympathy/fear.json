@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:fermented_spider_eye",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Fear is a harmful effect that randomly pushes a player sideways each tick. Nazar can spend 20 power to remove it during its two-second check. Milk also clears the effect through normal potion rules."
+                  },
+                  {
+                      "text":  "A successful melee hit from a $(l:sympathy/druden)Druden$() inflicts Fear for 25 seconds. The effect changes player motion; it does not make mobs flee. Wear $(l:beginnings/protective_charms)Nazar$() with a charged Grimoire for its periodic cleansing, or use milk.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:fermented_spider_eye",
+    "category":  "bewitchment:sympathy",
+    "name":  "Fear",
+    "sortnum":  28
+}

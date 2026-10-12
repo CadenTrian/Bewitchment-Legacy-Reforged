@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:contract",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Berserker and Devouring Rage contracts now support signing, kill progress and redemption. Use an unsigned task to sign it. Its appearance changes to the original signed parchment. Progress and redemption belong to that player UUID; changing the displayed player name does not transfer ownership."
+                  },
+                  {
+                      "text":  "Berserker asks for six to ten villagers or players. Devouring Rage asks for six to ten animals. Carry the signed task in your inventory, including the offhand, while making qualifying player-attributed kills. Unsigned tasks, another player\u0027s tasks and unrelated creatures do not advance.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "One qualifying kill advances every matching incomplete contract you carry, matching legacy behavior. Progress stops at the required total. The tooltip shows the objective and current count; a completed contract glints. Tasks and ownership remain stored in the item when transferred or saved.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use a completed contract as its signer to redeem it. This consumes the item and grants its positive effect for seven Minecraft days. Redemption is direct and does not reflect through Return to Sender. If the effect is already active, the contract is preserved and its old timer is unchanged.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can issue a random six-to-ten-kill task with /contract \u003cplayer\u003e bewitchment:berserker or /contract \u003cplayer\u003e bewitchment:devouring_rage. The creative tab contains both unsigned variants with six required kills. A plain /give contract without task data is invalid and cannot be signed or redeemed.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Contracts cannot stack or be enchanted. Invalid identities, objective counts, partial signatures and malformed progress are rejected. Signing does not consume the item, and incomplete or wrong-owner use preserves it. Canceled deaths do not count if canceled before this handler runs.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "These two task items are available through demon trading, creative access or an operator command. Demon merchants now offer these tasks; Conjure Demon now provides ritual access. Salamandrine Tolerance, Desiccation and Ignition donation tasks are described separately, as is the negative Mahapadma contract. See Positive Contract Effects for positive rewards.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:contract",
+    "category":  "bewitchment:sympathy",
+    "name":  "Kill Contracts",
+    "sortnum":  107
+}

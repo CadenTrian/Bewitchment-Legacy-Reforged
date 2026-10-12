@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:fiery_chalk",
+                      "type":  "patchouli:spotlight",
+                      "text":  "In a heated, filled Witches\u0027 Cauldron, combine Ritual Chalk, Blaze Powder and Netherrack for Fiery Chalk. It draws red nether glyphs with flame particles. Like other chalk, it has 128 uses."
+                  },
+                  {
+                      "text":  "Ritual Chalk, Dimensional Sand and Glowstone Dust make Phasing Chalk in the cauldron. Its purple ender glyphs release portal particles. Kill Endermen or Endermites with an Athame for Dimensional Sand bonus rolls. Colored chalk does not satisfy recipes requiring white glyphs. Drawing rituals can recolor an existing ring. See $(l:sympathy/drawing_circles)Drawing Circles$() for offhand chalk use.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:fiery_chalk",
+    "category":  "bewitchment:sympathy",
+    "name":  "Advanced Chalk",
+    "sortnum":  32
+}

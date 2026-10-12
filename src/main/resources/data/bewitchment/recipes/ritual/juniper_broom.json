@@ -1,0 +1,31 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal",
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:broom"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_wood"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_leaves"
+                        },
+                        {
+                            "item":  "bewitchment:flying_ointment"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        }
+                    ],
+    "seconds":  10,
+    "type":  "bewitchment:ritual",
+    "starting_power":  1250,
+    "running_power":  60,
+    "result":  {
+                   "item":  "bewitchment:juniper_broom"
+               }
+}

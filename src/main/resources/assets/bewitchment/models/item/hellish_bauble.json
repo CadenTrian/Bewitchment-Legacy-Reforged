@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/hellish_bauble"
+                 },
+    "parent":  "minecraft:item/generated"
+}

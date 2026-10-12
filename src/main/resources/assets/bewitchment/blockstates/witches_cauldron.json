@@ -1,0 +1,27 @@
+{
+    "multipart":  [
+                      {
+                          "apply":  {
+                                        "model":  "bewitchment:block/witches_cauldron"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "filled":  "true",
+                                       "lava":  "false"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/cauldron_water"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "lava":  "true",
+                                       "filled":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/cauldron_lava"
+                                    }
+                      }
+                  ]
+}

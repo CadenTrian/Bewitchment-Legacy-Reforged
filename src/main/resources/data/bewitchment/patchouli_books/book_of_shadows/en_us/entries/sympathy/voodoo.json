@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:poppet_voodoo",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Bind a Voodoo Poppet to a target. Sneak-use it with a Bone Needle in your inventory to attempt two magic damage, spending a needle and a charge. The target must be alive and loaded in the same dimension."
+                  },
+                  {
+                      "text":  "Drop a bound Voodoo Poppet into lava to attempt 30 seconds of burning on its target. Each dropped item gets one attempt; the item still burns normally. Player targets respect PvP and team rules, and lava needs an identifiable online thrower.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A bound Voodoo Protection poppet blocks a needle or lava attempt for one charge. Carry it to protect yourself, or store it on a loaded shelf to protect a player or creature. A blocked needle attempt does not consume the attacker\u0027s needle or poppet charge.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_voodoo"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_voodooprotection"
+                  }
+              ],
+    "icon":  "bewitchment:poppet_voodoo",
+    "category":  "bewitchment:sympathy",
+    "name":  "Voodoo and Wards",
+    "sortnum":  19
+}

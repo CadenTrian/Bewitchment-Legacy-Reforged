@@ -1,0 +1,16 @@
+{
+    "key":  {
+                "N":  {
+                          "tag":  "forge:nuggets/silver"
+                      }
+            },
+    "pattern":  [
+                    "NNN",
+                    "NNN",
+                    "NNN"
+                ],
+    "result":  {
+                   "item":  "bewitchment:silver_ingot"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -1,0 +1,15 @@
+{
+  "type": "bewitchment:oven",
+  "ingredient": {
+    "item": "minecraft:cactus"
+  },
+  "result": {
+    "item": "minecraft:green_dye"
+  },
+  "byproduct": {
+    "item": "bewitchment:cloudy_oil",
+    "count": 1
+  },
+  "chance": 0.55,
+  "requires_jar": true
+}

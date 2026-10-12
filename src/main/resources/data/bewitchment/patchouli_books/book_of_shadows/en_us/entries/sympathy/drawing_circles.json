@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:ritual_chalk",
+                      "type":  "patchouli:spotlight",
+                      "text":  "These legacy rituals repaint an existing ring. Draw the required circles first; missing glyphs cannot be filled automatically. A ring may mix white, red and purple glyphs. Golden focal glyphs never count as ring marks. See $(l:sympathy/first_ritual)Your First Ritual$() for the small-circle layout and $(l:sympathy/advanced_chalk)Advanced Chalk$() for colored chalk ingredients."
+                  },
+                  {
+                      "text":  "Hold Ritual, Fiery or Phasing Chalk in your offhand, offer the recipe ingredients to the golden center, then use an empty main hand on it. The selected ring immediately becomes that chalk type. Other rings and the focal glyph stay unchanged. Existing letters and orientations are preserved.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Every target glyph needs a solid support, a loaded chunk and building permission. The offhand chalk needs enough uses for the whole ring. Checks run before startup power is spent. Successful drawing consumes offerings and one chalk use per target, even when the color already matches. Creative skips chalk damage but still needs a valid chalk.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:ritual_chalk",
+    "category":  "bewitchment:sympathy",
+    "name":  "Drawing Circles",
+    "sortnum":  43
+}

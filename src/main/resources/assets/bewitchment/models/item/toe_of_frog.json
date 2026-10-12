@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/toe_of_frog"
+                 },
+    "parent":  "minecraft:item/generated"
+}

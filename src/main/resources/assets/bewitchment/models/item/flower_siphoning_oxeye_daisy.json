@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "minecraft:block/oxeye_daisy"
+                 },
+    "parent":  "minecraft:item/generated"
+}

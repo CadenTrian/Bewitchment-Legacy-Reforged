@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "bewitchment:block/gray_candle"
+    },
+    "lit=true": {
+      "model": "bewitchment:block/gray_candle"
+    }
+  }
+}

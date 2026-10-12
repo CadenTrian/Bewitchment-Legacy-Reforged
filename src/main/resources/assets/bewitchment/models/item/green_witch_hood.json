@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/green_witch_hood"
+                 },
+    "parent":  "minecraft:item/generated"
+}

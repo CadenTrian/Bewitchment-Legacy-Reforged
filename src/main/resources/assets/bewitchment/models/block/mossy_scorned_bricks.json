@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/mossy_scorned_bricks"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

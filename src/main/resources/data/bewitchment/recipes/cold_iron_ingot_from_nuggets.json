@@ -1,0 +1,16 @@
+{
+    "key":  {
+                "N":  {
+                          "tag":  "forge:nuggets/cold_iron"
+                      }
+            },
+    "pattern":  [
+                    "NNN",
+                    "NNN",
+                    "NNN"
+                ],
+    "result":  {
+                   "item":  "bewitchment:cold_iron_ingot"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

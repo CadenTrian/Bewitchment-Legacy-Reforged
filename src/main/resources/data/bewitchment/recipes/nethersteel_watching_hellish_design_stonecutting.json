@@ -1,0 +1,8 @@
+{
+    "ingredient":  {
+                       "tag":  "bewitchment:nethersteel_designs"
+                   },
+    "result":  "bewitchment:nethersteel_watching_hellish",
+    "count":  1,
+    "type":  "minecraft:stonecutting"
+}

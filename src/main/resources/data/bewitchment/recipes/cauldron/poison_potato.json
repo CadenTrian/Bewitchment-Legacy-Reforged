@@ -1,0 +1,29 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:snake_venom"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "count":  4,
+                        "item":  "minecraft:poisonous_potato"
+                    },
+                    {
+                        "item":  "minecraft:glass_bottle"
+                    }
+                ]
+}

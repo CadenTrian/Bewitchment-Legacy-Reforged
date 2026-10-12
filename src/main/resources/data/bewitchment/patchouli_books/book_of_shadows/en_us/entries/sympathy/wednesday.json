@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:toe_of_frog",
+                      "type":  "patchouli:spotlight",
+                      "text":  "This optional legacy toad shower is disabled by default. Enable wednesday in the server common bewitchment-rituals.toml configuration. Activation requires Wednesday on the server real-world calendar, using its local timezone. Minecraft days, moon phases and the client calendar do not decide eligibility."
+                  },
+                  {
+                      "text":  "Draw a small Normal circle and a medium Ender circle. Offer three Toes of Frog in separate slots, one Mandrake Root, one Slimeball and one Liquid Witchcraft. Activate with an empty main hand. The ritual lasts ten seconds and costs 666 starting power plus 66 each second: 1326 total before modifiers. It produces no item or empty-jar output.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "During the cast, every tenth world tick has a one-in-six chance of one extra toad. The final shower tries sixty-four to one hundred ninety-one candidates. The original loop rerolls its bound each time, so this is not a uniform count roll. Each candidate has sixteen landing attempts; blocked terrain can reduce the actual shower.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Toads appear two to seven blocks above a suitable landing, with random motion. Both the ground body and raised body must fit loaded, dry space inside the world border. Keep the area open above the glyph. Planned raised bodies cannot overlap. Peaceful difficulty is allowed because these are animals.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each shower toad receives Resistance X and the Wednesday effect for sixty to one hundred fifty-nine loaded ticks. At expiry it disappears with an explosion sound and particles. This is a visual effect, not a block-damaging explosion. The toads are ordinary untamed toads until expiry; curing the Wednesday effect removes its expiry behavior.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Wednesday is checked at activation only. Midnight does not cancel a running ritual. Cancellation follows normal glyph rules; earlier shower toads and spent power are not reversed. If the final shower inserts no toads, offerings are returned. Any final insertion settles the offerings. Creature summon advancement credit is awarded only after insertion.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The Wednesday status effect is harmful and green. If explicitly applied to a player through commands, its final tick attempts lethal void damage, matching the legacy behavior. The ritual applies it only to its own summoned toads. Its icon reuses the original Toe of Frog artwork.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:toe_of_frog",
+    "category":  "bewitchment:sympathy",
+    "name":  "Wednesday",
+    "sortnum":  80
+}

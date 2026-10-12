@@ -1,0 +1,25 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "item": "bewitchment:elderberries"
+    },
+    {
+      "item": "bewitchment:elderberries"
+    },
+    {
+      "item": "bewitchment:elderberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:elderberry_jelly"
+    }
+  ]
+}

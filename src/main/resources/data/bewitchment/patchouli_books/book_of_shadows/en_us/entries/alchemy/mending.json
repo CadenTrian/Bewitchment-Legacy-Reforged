@@ -1,0 +1,40 @@
+{
+    "name":  "Mending",
+    "icon":  "minecraft:golden_apple",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  129,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Mending brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then a Golden Apple or Enchanted Golden Apple, to hot powered water. Both apples make the same effect with one base tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews. This effect does not repair tools or armor."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Eligible living targets heal six health points per level. Undead, entities in the bewitchment:demons tag and entities in the bewitchment:spirits tag receive no healing. Data packs can extend those tags. Normal healing events and maximum health still apply. Splash distance does not reduce the legacy healing amount."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Zombie villagers instead begin a cure with zero time remaining, without requiring Weakness or a separate apple interaction. Vanilla completes the cure on a later server tick and Forge conversion events can still prevent it. Mending preserves an existing cure-player attribution; a new Mending cure does not assign one."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Terrain restoration samples dirt, coarse dirt, podzol and mycelium. Each position has a one-in-three chance to become a grass block, provided the block above is not opaque. Farmland, paths, sand, gravel and nylium do not qualify. No item drops or XP are created. Subsequent grass survival and spreading follow normal Minecraft rules."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The inclusive scan radius is three at level I, six at level II and nine at level III. Higher command levels retain radius nine, at most 6,859 positions. Each dimension holds up to 32 Mending sweeps, scans at most 512 candidates per tick and gives each job at most 128. Mending has its own queue and budget, separate from Ruin."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Progress, player ownership and random sampling survive saves and restarts. Full queues reject further terrain sweeps without preventing healing or curing. Player jobs are discarded if their owner leaves, dies or loses build permission. Other sources use the Minecraft fake player. Unloaded positions are skipped permanently."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Terrain edits require build and interaction permissions and stay inside build height, loaded chunks and the world border. Each replacement posts a cancellable Forge block-break event. The soil and overhead block are checked again afterward, preserving listener replacements. Placement-only protection listeners are not invoked."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking schedules terrain work around the drinker. Splash and lingering impacts schedule around the hit block or entity even without living targets. Clouds schedule at most once per effect application tick when affecting living targets. Empty clouds do not repeatedly sweep. Healing and curing are separate from terrain permissions."
+                  }
+              ]
+}

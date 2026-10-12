@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bewitchment:item/eye_of_old_variant1"
+  }
+}

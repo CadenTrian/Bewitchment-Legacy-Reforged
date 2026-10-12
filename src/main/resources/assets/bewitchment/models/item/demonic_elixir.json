@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/demonic_elixir"
+                 },
+    "parent":  "minecraft:item/generated"
+}

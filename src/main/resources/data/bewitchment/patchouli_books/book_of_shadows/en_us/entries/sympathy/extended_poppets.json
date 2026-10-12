@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:poppet_tool",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Bind a Tool Protection Poppet to yourself using a filled Taglock in your other hand. Carry it or place it on a loaded same-dimension Poppet Shelf. One charge rescues one broken held tool, retaining its data and pre-break durability. It does not fully repair the tool. Armor and other non-hand breakages are excluded."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_tool"
+                  },
+                  {
+                      "text":  "Restoration happens at the end of your tick, after the game clears the broken hand. A replacement already in that hand prevents restoration and consumes no charge. A matching displayed item in an Item Frame within five blocks also prevents it, preserving the original exclusion. Poppets cannot rescue other poppets.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "item":  "bewitchment:poppet_vampiric",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Bind a Vampiric Poppet to a different living creature, then carry it. When you take damage, it tries to transfer the remaining damage using the same damage source. The target must be alive and loaded in your dimension. Its normal armor, immunity and damage hooks apply. Successful transfer prevents your damage and uses one of fifty charges."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_vampiric"
+                  },
+                  {
+                      "text":  "Vampiric Poppets work only while carried, not from shelves. Self-binding and absent targets do nothing. Rejected damage costs no charge. Only the first successful transfer is used; transfers cannot recursively trigger further Vampiric Poppets. This avoids reciprocal damage loops.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:poppet_tool",
+    "category":  "bewitchment:sympathy",
+    "name":  "Tool and Vampiric Poppets"
+}

@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "minecraft:block/allium"
+                 },
+    "parent":  "minecraft:item/generated"
+}

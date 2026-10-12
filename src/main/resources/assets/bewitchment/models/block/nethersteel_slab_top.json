@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "bewitchment:block/nethersteel",
+    "top": "bewitchment:block/nethersteel",
+    "side": "bewitchment:block/nethersteel"
+  }
+}

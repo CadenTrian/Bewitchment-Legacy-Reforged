@@ -1,0 +1,23 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:heart"
+                        },
+                        {
+                            "item":  "minecraft:glass_bottle"
+                        },
+                        {
+                            "item":  "minecraft:glass_bottle"
+                        },
+                        {
+                            "item":  "minecraft:glass_bottle"
+                        }
+                    ],
+    "type":  "bewitchment:distillery",
+    "results":  [
+                    {
+                        "count":  3,
+                        "item":  "bewitchment:bottle_of_blood"
+                    }
+                ]
+}

@@ -1,0 +1,15 @@
+{
+    "circles":  [
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "tag":  "bewitchment:teleport_targets"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  450,
+    "running_power":  20,
+    "effect":  "teleport",
+    "seconds":  5
+}

@@ -1,0 +1,19 @@
+{
+    "key":  {
+                "S":  {
+                          "tag":  "forge:ingots/silver"
+                      },
+                "G":  {
+                          "tag":  "forge:gems"
+                      }
+            },
+    "pattern":  [
+                    "SS",
+                    "S ",
+                    "G "
+                ],
+    "result":  {
+                   "item":  "bewitchment:boline"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

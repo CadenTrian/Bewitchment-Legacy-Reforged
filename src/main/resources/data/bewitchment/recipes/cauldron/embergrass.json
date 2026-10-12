@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:grass"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        },
+                        {
+                            "item":  "minecraft:blaze_powder"
+                        },
+                        {
+                            "tag":  "minecraft:small_flowers"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:embergrass"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

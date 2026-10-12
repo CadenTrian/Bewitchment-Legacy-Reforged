@@ -1,0 +1,30 @@
+{
+    "curse":  "bewitchment:paranoia",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:ender_eye"
+                        },
+                        {
+                            "item":  "minecraft:blaze_powder"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:snake_venom"
+                        },
+                        {
+                            "item":  "minecraft:ghast_tear"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "item":  "bewitchment:demonic_elixir"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

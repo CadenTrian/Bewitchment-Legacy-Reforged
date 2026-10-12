@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   "minecraft:slime",
+                   "minecraft:magma_cube",
+                   "minecraft:blaze",
+                   "minecraft:ghast",
+                   "minecraft:vex",
+                   "minecraft:enderman",
+                   "#bewitchment:demons",
+                   "#bewitchment:spirits"
+               ]
+}

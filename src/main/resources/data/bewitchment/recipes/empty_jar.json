@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bewitchment:unfired_jar"
+  },
+  "result": "bewitchment:empty_jar",
+  "experience": 0.15,
+  "cookingtime": 200
+}

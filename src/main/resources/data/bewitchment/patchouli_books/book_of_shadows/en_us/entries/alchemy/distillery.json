@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:distillery",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Place the Distillery near a formed, charged altar. Add Blaze Powder as fuel, then the recipe ingredients. Its six ingredient slots and six output slots support complete recipe batches."
+                  },
+                  {
+                      "text":  "An operation takes ten working seconds and draws 20 altar power each second. Leave output space for every result. For Bottled Frostfire use a Glass Bottle, Perpetual Ice, Cleansing Balm and Fiery Unguent; receive the bottle and two Empty Jars. Iceworld brews can convert stone and leaves into Perpetual Ice.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:distillery"
+                  }
+              ],
+    "icon":  "bewitchment:distillery",
+    "category":  "bewitchment:alchemy",
+    "name":  "Distilling",
+    "sortnum":  7
+}

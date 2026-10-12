@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "bewitchment:ghost",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:black_dog",
+                       "required":  false
+                   }
+               ]
+}

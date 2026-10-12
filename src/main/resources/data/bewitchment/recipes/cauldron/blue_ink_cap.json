@@ -1,0 +1,22 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "bewitchment:iron_gall_ink"
+    },
+    {
+      "item": "bewitchment:liquid_witchcraft"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:blue_ink_cap"
+    },
+    {
+      "item": "bewitchment:empty_jar"
+    }
+  ]
+}

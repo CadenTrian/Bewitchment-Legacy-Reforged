@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:despair_bricks"
+                        },
+                        {
+                            "item":  "bewitchment:despair_bricks"
+                        },
+                        {
+                            "item":  "minecraft:terracotta"
+                        },
+                        {
+                            "item":  "minecraft:terracotta"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:ochre_despair_bricks",
+                   "count":  4
+               }
+}

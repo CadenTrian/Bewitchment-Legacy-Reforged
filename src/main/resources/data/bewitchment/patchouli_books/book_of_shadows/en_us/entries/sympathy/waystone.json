@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:waystone",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Craft a Waystone with five Stone, a Pentacle and an Opal. Use it on a block face to bind the adjacent position permanently. Its tooltip records the coordinates and dimension; a bound stone glows."
+                  },
+                  {
+                      "text":  "A Waystone permits three successful survival teleport casts. It retains its binding and other item data between uses, then breaks on the third. Creative casters do not wear it out. Binding does not guarantee a safe landing: choose solid ground with open, dry space above.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:waystone"
+                  }
+              ],
+    "icon":  "bewitchment:waystone",
+    "category":  "bewitchment:sympathy",
+    "name":  "Waystone",
+    "sortnum":  51
+}

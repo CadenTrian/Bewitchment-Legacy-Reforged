@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "bewitchment:cold_iron_sword",
+    "bewitchment:cold_iron_pickaxe",
+    "bewitchment:cold_iron_axe",
+    "bewitchment:cold_iron_shovel",
+    "bewitchment:cold_iron_hoe"
+  ]
+}

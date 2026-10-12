@@ -1,0 +1,31 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "item": "bewitchment:goblet"
+    },
+    {
+      "item": "bewitchment:cloudy_oil"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:filled_goblet"
+    },
+    {
+      "item": "bewitchment:empty_jar"
+    }
+  ]
+}

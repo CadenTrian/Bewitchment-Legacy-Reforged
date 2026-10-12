@@ -1,0 +1,1 @@
+{"type":"bewitchment:oven","ingredient":{"item":"bewitchment:cypress_sapling"},"result":{"item":"bewitchment:wood_ash"},"byproduct":{"item":"bewitchment:ebb_of_death"},"chance":0.75,"requires_jar":true}

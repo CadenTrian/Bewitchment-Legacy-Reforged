@@ -1,0 +1,21 @@
+{
+    "incense":  "bewitchment:vitality",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "bewitchment:essence_of_vitality"
+                        },
+                        {
+                            "item":  "bewitchment:catechu_brown"
+                        },
+                        {
+                            "tag":  "forge:nuggets/iron"
+                        }
+                    ],
+    "type":  "bewitchment:incense"
+}

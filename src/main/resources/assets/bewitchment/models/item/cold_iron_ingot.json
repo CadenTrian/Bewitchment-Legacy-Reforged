@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/cold_iron_ingot"
+                 },
+    "parent":  "minecraft:item/generated"
+}

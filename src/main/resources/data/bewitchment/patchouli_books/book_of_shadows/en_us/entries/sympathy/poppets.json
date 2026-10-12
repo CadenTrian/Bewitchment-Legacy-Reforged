@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:poppet",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Craft the base doll from Leather, Spanish Moss, Bone Needle and Spirit String, then upgrade it. The base Poppet itself has no effect. Bind each upgrade to its intended target before carrying or storing it."
+                  },
+                  {
+                      "text":  "Ordinary defensive upgrades protect the bound player when carried in their inventory or on a loaded same-dimension shelf. Most have 50 uses. Death and Water Protection are single-use; only one matching poppet supplies a charge per effect.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Earth reduces falling damage by 75 percent. Flame reduces burning and fire-contact damage by 40 percent, excluding lava. Hunger blocks starvation damage. Water blocks a drowning hit and grants ten seconds of Water Breathing.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Death Protection restores up to two hearts and gives Weakness II for 50 seconds. Binding slows attacking mobs, Clumsiness disarms them, and Wasting inflicts Hunger on attacking players. Spirit\u0027s Bane reduces damage from spirit-tagged attackers, including Ghosts and Black Dogs. Toad drops supply Toes of Frog for Earth Protection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_deathprotection"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_waterprotection"
+                  }
+              ],
+    "icon":  "bewitchment:poppet",
+    "category":  "bewitchment:sympathy",
+    "name":  "Protective Poppets",
+    "sortnum":  17
+}

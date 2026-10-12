@@ -1,0 +1,32 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_ingredient":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "item":  "bewitchment:elder_wood"
+                                                                             }
+                                                                         ]
+                                                           }
+                                        },
+                     "has_recipe":  {
+                                        "trigger":  "minecraft:recipe_unlocked",
+                                        "conditions":  {
+                                                           "recipe":  "bewitchment:elder_charcoal"
+                                                       }
+                                    }
+                 },
+    "requirements":  [
+                         [
+                             "has_ingredient",
+                             "has_recipe"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:elder_charcoal"
+                                ]
+                }
+}

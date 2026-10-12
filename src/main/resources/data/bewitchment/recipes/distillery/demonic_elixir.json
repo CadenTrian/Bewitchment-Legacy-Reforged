@@ -1,0 +1,23 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:demon_heart"
+                        },
+                        {
+                            "item":  "bewitchment:fiery_unguent"
+                        },
+                        {
+                            "item":  "bewitchment:empty_jar"
+                        },
+                        {
+                            "item":  "bewitchment:empty_jar"
+                        }
+                    ],
+    "type":  "bewitchment:distillery",
+    "results":  [
+                    {
+                        "count":  3,
+                        "item":  "bewitchment:demonic_elixir"
+                    }
+                ]
+}

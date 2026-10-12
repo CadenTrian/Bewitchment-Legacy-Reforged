@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:sigil_sentinel",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Sentinel is a harmful sigil that summons hostile Ghosts against unlisted players. It works in Dragon\u0027s Blood Chests and as a placed mark. Listed players are exempt; use a bound Taglock to edit the list. It has no effect on mobs or spectators."
+                  },
+                  {
+                      "text":  "Each activation rolls one to three Ghost candidates. Every candidate is a separate entity. They appear three blocks above the affected player, with independent Gaussian offsets along X and Z, each scaled by five blocks. They initially target that player and then use normal Ghost AI.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The chest cooldown is six hundred loaded ticks. Placed marks wait six hundred ticks and pulse on the next tick, giving a six-hundred-and-one-tick interval. Cooldowns still run when Peaceful difficulty or unavailable spawn positions prevent summons. Multiple marks have independent timers.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Craft Sentinel using the common Sigil Table pattern: D is White Dye, C is Spruce Heart and M is Ectoplasm. That uses six White Dye, four Spruce Hearts, one Ectoplasm, six Paper and eight Dragon\u0027s Blood Resin. Equivalent Forge white dyes work. See the Sigil Table entry for the exact positions.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Summons skip Peaceful difficulty and positions outside loaded chunks, world height or the world border. There are at most three attempts per affected player, with no retries or forced chunk generation. Ghosts phase through blocks, so terrain and fluids do not prevent these summons.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "These are ordinary hostile Ghosts, not spectral companions: no owner, special lifetime or loot suppression is added. They retain normal despawning, daylight behavior, wards and drops. New summons receive a random original skin. The legacy loop reused one Ghost object; this port creates a fresh Ghost for each attempt.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:sigil_sentinel",
+    "category":  "bewitchment:sympathy",
+    "name":  "Sigil of Sentinel",
+    "sortnum":  91
+}

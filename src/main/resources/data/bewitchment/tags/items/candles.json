@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "bewitchment:white_candle",
+    "bewitchment:orange_candle",
+    "bewitchment:magenta_candle",
+    "bewitchment:light_blue_candle",
+    "bewitchment:yellow_candle",
+    "bewitchment:lime_candle",
+    "bewitchment:pink_candle",
+    "bewitchment:gray_candle",
+    "bewitchment:light_gray_candle",
+    "bewitchment:cyan_candle",
+    "bewitchment:purple_candle",
+    "bewitchment:blue_candle",
+    "bewitchment:brown_candle",
+    "bewitchment:green_candle",
+    "bewitchment:red_candle",
+    "bewitchment:black_candle"
+  ]
+}

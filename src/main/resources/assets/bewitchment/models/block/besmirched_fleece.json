@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/besmirched_fleece"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

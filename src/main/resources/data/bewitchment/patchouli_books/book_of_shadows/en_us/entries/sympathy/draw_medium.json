@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:wood_ash",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Offer one Clay Ball and one Wood Ash. Both small and medium circles must already be complete, using any mix of non-focal chalks. Hold the desired chalk in your offhand with at least 28 uses left."
+                  },
+                  {
+                      "text":  "Pay 300 starting power, or 255 with Hecate\u0027s Visage. Only the twenty-eight medium-ring glyphs are repainted; the small circle keeps its colors. There is no ongoing power cost or completion item.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:wood_ash",
+    "category":  "bewitchment:sympathy",
+    "name":  "Draw Medium Circle",
+    "sortnum":  45
+}

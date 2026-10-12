@@ -1,0 +1,58 @@
+{
+    "name":  "Taglock Tarot",
+    "icon":  "bewitchment:taglock",
+    "category":  "bewitchment:sympathy",
+    "sortnum":  141,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Reading Another Future",
+                      "text":  "Use a bound Taglock in your main hand on a Crystal Ball. The target must be an online player; self-readings and players in other dimensions are supported. Animals, offline players, empty bindings and malformed UUIDs do not produce a reading or charge power. The ball and Taglock are retained."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "The Price of Insight",
+                      "text":  "A valid reading costs 1,000 power from the nearest intact loaded altar, or a carried Grimoire Magia if that altar cannot pay. One source must cover the whole cost. Creative readers pay too. Dead or spectating readers cannot use it. Unlike legacy, invalid targets are checked before payment."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Eleven Reading Categories",
+                      "text":  "An unshrouded target gives one of eleven equally weighted categories: nothing revealed, fortune outlook, effects, curses, clothing, monster kills, boss history, demon pledges, player/villager kills, loaded companions or carried protection. All eleven-category slots are now represented, with the history, companion and protection limits below. Nothing revealed still costs power."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Fortunes and Effects",
+                      "text":  "Fortune outlook reveals good, bad or no pending fortune, without disclosing its identity or remaining time. Effects reports whether any nonambient effect is active, beneficial or harmful. Curses reports any active entry in the curse system, including beneficial entries. Reading does not apply, remove, replace or reset any of these states."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Clothing and Cold Iron",
+                      "text":  "A full worn cold-iron helmet, chestplate, leggings and boots shrouds all status details. A shrouded reading still costs 1,000 power. Carried or partial armor does not shroud. Clothing reports a complete Green Witch, Besmirched, Alchemist or Witches outfit, otherwise no matching outfit. Hats and alternate hoods follow the normal set rules."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Current Limits",
+                      "text":  "This is a read-only snapshot, not a promise about future effects or protection. Stored Taglock names are not trusted; successful messages use the online player\u0027s display name. Repeated intentional readings each pay again. Live multiplayer, cross-dimension lookup, payment and armor/clothing integration still need playtesting."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Recorded Kills",
+                      "text":  "History uses the target player\u0027s saved Minecraft statistics. Monster kills sum registered entity types classified as MONSTER, regardless of current hostility. People kills add player kills and Villager kills, excluding wandering traders and illagers. Counts ignore negative values and cap at 2,147,483,647. Vanilla kill attribution applies; these are not the old mod\u0027s custom counters."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Bosses and Pledges",
+                      "text":  "Boss history checks recorded Wither, Ender Dragon, Leonard and Baphomet kills only; other mods\u0027 bosses are not included. Pledges inspect the target, not the reader, for Leonard or Baphomet allegiance in server-wide saved data. Existing statistics work immediately; no new kill counters are maintained. Missing or reset statistics cannot reconstruct earlier events."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Loaded Companions",
+                      "text":  "Searches already-loaded entities across server dimensions for a living tamed animal or horse owned by the target. No chunks are loaded. At most 4,096 entities are examined; if that budget is exhausted before finishing, the result says incomplete. A completed negative search says only that no loaded companion was found, not that the player owns no pets. This replaces the legacy historical tame counter. Incomplete searches still cost 1,000 power."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Carried Protection",
+                      "text":  "Checks a Totem of Undying held in either hand, or a usable defensive poppet bound to the target in their inventory. Empty, exhausted, unbound, wrongly bound and offensive Voodoo poppets do not qualify. Charges and items are not consumed by inspection. A Totem elsewhere in the inventory does not qualify. Shelves, Curios accessories, other mods and other defenses are outside this check. Presence is conditional protection, not a promise of survival."
+                  }
+              ]
+}

@@ -1,0 +1,22 @@
+{
+    "key":  {
+                "S":  {
+                          "tag":  "forge:nuggets/silver"
+                      },
+                "F":  {
+                          "item":  "bewitchment:liquid_witchcraft"
+                      },
+                "I":  {
+                          "tag":  "forge:ingots/iron"
+                      }
+            },
+    "pattern":  [
+                    "SIS",
+                    "IFI",
+                    "SIS"
+                ],
+    "result":  {
+                   "item":  "bewitchment:pentacle"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

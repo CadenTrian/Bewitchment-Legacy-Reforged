@@ -1,0 +1,40 @@
+{
+    "name":  "Defensive and Utility Brews",
+    "icon":  "bewitchment:dragons_blood_resin",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  121,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "After adding Mandrake Root to a hot, powered cauldron, these ingredients add ten more custom effects. Together with Magic Weakness and the vanilla brews, 63 effects are brewable. Base durations below are modified by redstone, glowstone and clothing. See Cauldron Brewing for setup, bottles and saved batches."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Dragon\u0027s Blood Resin gives Magic Resistance for 1200 ticks. Magic damage is divided by effect level plus one: level I halves it, level II divides by three. Magic Weakness adds its damage first. Feather gives Grace for 600 ticks, using the same divisor on falling damage only."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Coquina, Smooth Coquina or Shell Coquina gives Shell Armor for 600 ticks. When a living attacker deals positive damage, it receives three thorns damage per effect level. Projectile owners can be retaliated against. Thorns, self-damage and cancelled damage do not reflect, preventing two shells from reflecting forever."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Stone Ichor gives Bulk for 600 ticks: two armor per level. Paper gives Paper Skin for 600 ticks: minus one armor toughness per level. Diamond now brews Rhino Hide for 600 ticks: plus one toughness per level. Oil of Vitriol brews Corrosion for 600 ticks: minus two armor per level. These attribute changes disappear when the effect ends."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Gold, Iron and Cold Iron Nuggets give Sinking for 400 ticks. Level I cancels one third of jumps, level II two thirds, and level III all jumps. A cancelled jump keeps horizontal movement but sets vertical velocity to zero. Copper, Tin, Bronze and Lead nugget compatibility tags are also accepted when supplied by other mods."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "White Sage, Garlic or Allium gives instant Holy Water. It deals eight magic damage per level only to undead, fire-immune or cold-iron-vulnerable creatures. It does not heal ordinary creatures. The original full damage regardless of splash distance is retained. Drinking, splash and lingering delivery are supported."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Ender Pearl gives instant Revealing, removing the Invisibility effect. Eye of Old gives Revealing alongside night vision and water breathing. Revealing does not add glowing or override invisibility from other mechanics. Stronger one-tick brews can round down to zero ticks. Instant drinking effects still act directly; only command-added ticking effects require positive duration."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Forge crop, coquina and selected nugget tags support matching modded ingredients. Matching a direct item and its tag does not duplicate its effect. Stone Ichor and Oil of Vitriol return no jar during brewing, matching the legacy brew recipe. Pesticide clears cobwebs. See $(l:alchemy/iceworld)Iceworld$(), $(l:alchemy/hellworld)Hellworld$() and $(l:alchemy/ruin)Ruin$() for terrain effects. Brewing hooks can cancel or adjust the first bottled output; later bottles retain that result. Unlisted ingredients remain unsupported."
+                  }
+              ]
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:ectoplasm",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw small and medium Ender circles around a focal glyph. Offer two Wormwood crops, two Ectoplasm, one Spectral Dust and one Ender Pearl. Place repeated offerings in separate glyph slots. Activate with an empty main hand when it is not daytime."
+                  },
+                  {
+                      "text":  "The ritual lasts fifteen seconds and costs 1250 starting power plus 66 per second: 2240 total before existing modifiers. Night is checked at activation; sunrise does not cancel a running cast. There is no rain or dimension restriction. Peaceful difficulty cannot produce this hostile wave and returns the offerings, but spent power is not refunded.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The original twelve equally weighted choices are Vex, Black Dog, Ghost, Druden, Skeleton, Husk, Stray, Shadow Person, Enderman, Endermite, Cambion and Zombie. Each candidate chooses independently, so duplicates are possible. The legacy loop rerolls its bound: two to thirteen candidates, not a uniform wave-size roll.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each candidate gets at most sixteen landing attempts near the glyph. Keep solid ground and clear space nearby. Unloaded terrain, liquids, blocked bodies, world borders and overlap can reduce the wave. If none appear, offerings are returned; spent power is not refunded. Any successful insertion settles the cast without retrying missing members. There is no item output.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Summoned creatures keep their ordinary behavior and are not tamed or assigned to the caster. Shadow People retain their temporary spectral lifetime. Sunrise can remove unnamed Ghosts and Black Dogs after a successful cast. Zombie and Husk babies remain possible, but the planning phase does not create chicken jockeys.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Five magical critical-hit particles mark each update. Creature initialization and loaded-space checks precede insertion; nearby players receive summon advancement credit only for creatures actually inserted. A running finite cast preserves its saved progress across chunk unloads, while cancellation follows the existing glyph rules.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:ectoplasm",
+    "category":  "bewitchment:sympathy",
+    "name":  "Spiritual Rift",
+    "sortnum":  79
+}

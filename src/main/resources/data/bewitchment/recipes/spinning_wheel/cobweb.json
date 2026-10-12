@@ -1,0 +1,19 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:string"
+                        },
+                        {
+                            "tag":  "forge:string"
+                        },
+                        {
+                            "tag":  "forge:string"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "minecraft:cobweb"
+                    }
+                ]
+}

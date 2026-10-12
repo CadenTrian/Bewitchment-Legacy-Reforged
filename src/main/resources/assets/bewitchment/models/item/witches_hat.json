@@ -1,0 +1,14 @@
+{
+    "parent":  "minecraft:item/generated",
+    "overrides":  [
+                      {
+                          "predicate":  {
+                                            "bewitchment:faith":  1
+                                        },
+                          "model":  "bewitchment:item/witches_hat_variant"
+                      }
+                  ],
+    "textures":  {
+                     "layer0":  "bewitchment:item/witches_hat"
+                 }
+}

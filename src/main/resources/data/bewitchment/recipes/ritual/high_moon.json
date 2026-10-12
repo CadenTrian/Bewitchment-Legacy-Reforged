@@ -1,0 +1,22 @@
+{
+    "circle":  "small_normal",
+    "ingredients":  [
+                        {
+                            "tag":  "forge:ingots/silver"
+                        },
+                        {
+                            "item":  "minecraft:poppy"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "item":  "minecraft:spider_eye"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  250,
+    "running_power":  20,
+    "effect":  "high_moon",
+    "seconds":  5
+}

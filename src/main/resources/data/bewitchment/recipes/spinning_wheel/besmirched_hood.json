@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_cowl"
+                        },
+                        {
+                            "item":  "bewitchment:diabolical_vein"
+                        },
+                        {
+                            "item":  "bewitchment:sanguine_cloth"
+                        },
+                        {
+                            "item":  "bewitchment:sanguine_cloth"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "bewitchment:besmirched_hood"
+                    }
+                ]
+}

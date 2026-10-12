@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "bewitchment:block/candelabra_iron"
+    },
+    "lit=true": {
+      "model": "bewitchment:block/candelabra_iron"
+    }
+  }
+}

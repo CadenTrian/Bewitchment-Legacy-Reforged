@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:caduceus",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Baphomet\u0027s staff summons spectral Feuerwurms and protects its holder from death. Its original three-dimensional model and texture are restored. It has 128 durability, cannot be repaired, and rejects enchanting-table and enchanted-book enchantments."
+                  },
+                  {
+                      "text":  "Use the staff on a block to attempt one to three spectral Feuerwurms near the block, one block above it. A successful use costs one durability and applies a forty-tick cooldown. Failed placement or Peaceful difficulty costs neither. Space must be loaded, dry, collision-free and inside the world border; build permission is required.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Summons last four hundred loaded ticks (twenty seconds). They remember the caster, initially take the caster\u0027s remembered attacker or target when available, and periodically assist through the existing spectral behavior. They cannot target their owner, but keep ordinary Feuerwurm prey behavior. They are not tame pets and can die from other causes before expiry.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Spectral Feuerwurms give no ordinary loot, experience or Athame bonuses. Their original nine appearances remain available. Cooldown and durability are charged once per successful use, even if only part of the rolled group appears. Blocked candidates are skipped without extra attempts or substitute creatures.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Holding the Caduceus in either hand prevents an uncancelled player death: health returns to eight (four hearts), capped by maximum health, and Regeneration I lasts two hundred ticks. This costs sixteen durability. Main hand takes priority if both hands hold one. The last charge can save the holder while breaking the staff.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Death protection runs before Death Poppets, so a rescued death does not also spend a poppet. A death already cancelled by an earlier handler does not spend the staff. Vanilla creative durability rules still apply. Rescue does not teleport you or remove an ongoing hazard.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Place it as a wand-category altar upgrade for 113 additional capacity, from the legacy 64 times 1.78 value. Baphomet now drops one Caduceus when killed; Conjure Baphomet provides survival access. No crafting recipe is needed.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:caduceus",
+    "category":  "bewitchment:sympathy",
+    "name":  "Caduceus",
+    "sortnum":  81
+}

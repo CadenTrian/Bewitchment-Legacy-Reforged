@@ -1,0 +1,41 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:sigil_table",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Craft a Sigil Table from three Smooth Stone Slabs across the top, Planks/Dragon\u0027s Blood Resin/Planks in the middle, and Planks/Liquid Witchcraft/Planks below. Any planks work. The table stores a five-by-five crafting grid and needs no altar power or waiting time."
+                  },
+                  {
+                      "text":  "Every sigil uses this exact pattern, read left to right:$(br)P R D R P$(br)R D C D R$(br)P C M C P$(br)R D C D R$(br)P R D R P$(br)P is Paper, R is Dragon\u0027s Blood Resin, D and C vary by sigil, and M is the center. Each craft uses six Paper, eight Resin, six D, four C and one M.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Mending: D = Purple Dye, C = Essence of Vitality, M = Oak Apple Gall.$(br)Binding: D = Slimeball, C = String, M = Belladonna.$(br)Cleansing: D = White Dye, C = Cleansing Balm, M = Green Dye.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Luck: D = Green Dye, C = Red Dye, M = Red Dye.$(br)Disorientation: D = Iron Gall Ink, C = Purple Dye, M = Ectoplasm.$(br)Shrieking: D = Red Dye, C = Ectoplasm, M = Toe of Frog. Forge ingredient tags allow equivalent dyes, slimeballs and string.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Click the result to craft one sigil onto an empty or compatible cursor. Shift-click crafts as many as fit, up to sixty-four per click. A full inventory or incompatible cursor consumes nothing. Inputs remain in the table when closed and drop when it breaks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "All twenty-five cells must match; patterns do not shift or mirror. Each craft consumes one item from every cell, including bottled ingredients without returned containers, matching legacy behavior. The result is a preview: changing ingredients or reloading recipes invalidates it before crafting.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Output supports left/right pickup and shift-click. Hotbar swaps, throwing from the preview, creative cloning and double-click preview collection are disabled. Move crafted sigils normally afterward. Table automation is not exposed. Ruin, Battle, Sentinel, Failure and Purity use the same pattern; their own entries list the ingredients.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:sigil_table"
+                  }
+              ],
+    "icon":  "bewitchment:sigil_table",
+    "category":  "bewitchment:sympathy",
+    "name":  "The Sigil Table",
+    "sortnum":  88
+}

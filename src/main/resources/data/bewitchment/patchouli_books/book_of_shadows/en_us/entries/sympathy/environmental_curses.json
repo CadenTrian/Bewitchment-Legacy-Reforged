@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:bottled_hellfire",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Conflagration, Overheating and Hydrophobia are lesser negative curses; Solar Hatred is a greater negative curse. They share the saved duration, offline pause and operator command described in Curses. Purity can remove the three lesser curses, but leaves Solar Hatred intact."
+                  },
+                  {
+                      "text":  "Conflagration refreshes Hellfire I for two hundred ticks once every twenty player ticks, without potion particles. It does not ignite the player itself. Hellfire increases fire damage through the existing effect. Removing the curse stops refreshes; the remaining potion effect expires normally.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Overheating rolls a 0.1 percent chance each server player tick. On success in a biome tagged HOT by Forge, it sets five seconds of fire and applies Hellfire I for two hundred ticks. It uses biome classification, not a raw temperature cutoff. In an untagged biome the proc has no effect.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Hydrophobia refreshes Slowness II for one hundred twenty ticks while the player is in water or exposed to rain. While wet, all positive finite final damage is multiplied by 1.5, regardless of its source. This multiplier runs before Magic Weakness adds damage and before the Vampiric Amulet or protective poppets. Dry players receive no new penalty.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Solar Hatred checks for a dimension with skylight and sky light minus sky darkening equal to fifteen at the player position. When that exact sunlight condition holds, it sets two seconds of fire and refreshes Slowness II, Mining Fatigue II and Weakness II for one hundred ticks. Shade, weather darkening and night can prevent it; armor does not bypass this check.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use /curse \u003cplayer\u003e add bewitchment:conflagration \u003cdays\u003e, substituting overheating, hydrophobia or solar_hatred as needed. Operators can remove even Solar Hatred with /curse \u003cplayer\u003e remove bewitchment:solar_hatred. The Brazier casts these curses with offerings. Milk clears resulting potion effects, but active curses can apply them again. Dead players and spectators receive no periodic curse procs.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:bottled_hellfire",
+    "category":  "bewitchment:sympathy",
+    "name":  "Environmental Curses",
+    "sortnum":  96
+}

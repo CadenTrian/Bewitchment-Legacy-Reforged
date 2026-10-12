@@ -1,0 +1,10 @@
+{
+  "parent": "bewitchment:block/witches_altar",
+  "textures": {
+    "end": "bewitchment:block/altar/obsidian_end",
+    "side": "bewitchment:block/altar/obsidian_side",
+    "cloth_top": "bewitchment:block/altar/cloth/top_white",
+    "cloth_side": "bewitchment:block/altar/cloth/side_white",
+    "shadow": "bewitchment:block/altar/obsidian_shadow"
+  }
+}

@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_shrieking"
+               },
+    "type":  "bewitchment:sigil_table"
+}

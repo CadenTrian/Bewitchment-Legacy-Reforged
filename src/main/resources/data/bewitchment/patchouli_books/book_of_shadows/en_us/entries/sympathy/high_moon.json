@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:ectoplasm",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Offer a Silver Ingot, one Poppy, Ectoplasm and a Spider Eye in a small white circle. The ritual must begin during daytime in the Overworld. Poppy is required here; the original recipe used the default red-flower variant."
+                  },
+                  {
+                      "text":  "After five seconds, time advances to the next legacy moon target, day tick 17,600. The cost is 250 startup plus five payments of 20: 350 total, or 312 while wearing Hecate\u0027s Visage. There is no item output.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Black Dogs now provide Ectoplasm through ordinary drops and Athame harvesting. It changes time for everyone in the world; a natural sunset during casting does not cancel it.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:ectoplasm",
+    "category":  "bewitchment:sympathy",
+    "name":  "High Moon",
+    "sortnum":  37
+}

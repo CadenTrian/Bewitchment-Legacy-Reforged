@@ -1,0 +1,20 @@
+{
+    "criteria":  {
+                     "has_mandrake":  {
+                                          "trigger":  "minecraft:inventory_changed",
+                                          "conditions":  {
+                                                             "items":  [
+                                                                           {
+                                                                               "item":  "bewitchment:mandrake_root"
+                                                                           }
+                                                                       ]
+                                                         }
+                                      }
+                 },
+    "parent":  "minecraft:recipes/root",
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:book_of_shadows"
+                                ]
+                }
+}

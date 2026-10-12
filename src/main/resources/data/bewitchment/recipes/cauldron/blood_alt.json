@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:adders_fork"
+                        },
+                        {
+                            "item":  "bewitchment:adders_fork"
+                        },
+                        {
+                            "item":  "bewitchment:adders_fork"
+                        },
+                        {
+                            "item":  "bewitchment:adders_fork"
+                        },
+                        {
+                            "item":  "minecraft:glass_bottle"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:bottle_of_blood"
+                    }
+                ]
+}

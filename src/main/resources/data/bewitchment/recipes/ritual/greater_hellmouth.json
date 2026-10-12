@@ -1,0 +1,38 @@
+{
+    "seconds":  15,
+    "starting_power":  1500,
+    "result":  {
+                   "item":  "bewitchment:athame"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "greater_hellmouth",
+    "circles":  [
+                    "nether",
+                    "nether",
+                    "nether"
+                ],
+    "running_power":  66,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:athame"
+                        },
+                        {
+                            "tag":  "forge:crops/hellebore"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "minecraft:blaze_rod"
+                        },
+                        {
+                            "item":  "minecraft:blaze_rod"
+                        },
+                        {
+                            "tag":  "forge:gunpowder"
+                        },
+                        {
+                            "tag":  "forge:gunpowder"
+                        }
+                    ]
+}

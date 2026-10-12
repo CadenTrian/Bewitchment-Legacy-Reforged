@@ -1,0 +1,21 @@
+{
+    "curse":  "bewitchment:lightning_rod",
+    "ingredients":  [
+                        {
+                            "tag":  "forge:nuggets/iron"
+                        },
+                        {
+                            "tag":  "forge:nuggets/gold"
+                        },
+                        {
+                            "tag":  "forge:dusts/redstone"
+                        },
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

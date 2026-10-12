@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:silver_ingot",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Find Silver, Amethyst, Garnet, Opal and Salt in newly generated eligible Overworld chunks. Silver needs a stone pickaxe; gems need iron. Salt can be mined with a wooden pickaxe."
+                  },
+                  {
+                      "text":  "Smelt Silver Ore into ingots. Gems support Fortune and Silk Touch. Nine matching resources form a storage block and can be unpacked. Cold Iron comes from iron ore exposed to Frostfire; Perpetual Ice is available from Iceworld brews.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:silver_ingot",
+    "category":  "bewitchment:beginnings",
+    "name":  "Gems, Silver and Salt",
+    "sortnum":  2
+}

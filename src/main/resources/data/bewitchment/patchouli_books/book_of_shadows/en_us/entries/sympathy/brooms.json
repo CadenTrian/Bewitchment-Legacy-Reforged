@@ -1,0 +1,40 @@
+{
+    "pages":  [
+                  {
+                      "recipe":  "bewitchment:broom",
+                      "type":  "patchouli:crafting",
+                      "text":  "Use a plain Broom on Redstone Dust, ritual Glyphs or Salt Barriers to sweep them away and recover their drops. Packs may extend the bewitchment:broom_sweepables block tag."
+                  },
+                  {
+                      "text":  "Enchant a Broom with a ritual using its chosen wood block and leaves, Flying Ointment and a fume. Each takes ten seconds, 1,250 starting power and 60 running power, with normal inner and middle circles and an ender outer circle. See $(l:alchemy/flying_ointment)Flying Ointment$() for its crafting recipe.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Juniper uses Liquid Witchcraft and flies without power. Cypress uses Ebb of Death; Elder uses Droplet of Wisdom. Dragon\u0027s Blood uses Liquid Witchcraft plus Dragon\u0027s Blood Resin. The other ingredients use the matching tree.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Place a flying Broom on top of a block, then interact to ride. Use movement keys to steer and Space to ascend; Sneak dismounts. Hit an empty Broom to recover it with its name and installed sigil. Placement consumes one even in creative mode, matching the original.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Cypress, Elder and Dragon\u0027s Blood require one power per twenty airborne ticks, paid before flight from a nearby altar or carried Grimoire Magia. Without power, ascent stops and the broom descends. Juniper is slowest; Elder is fastest. Flight stays inside loaded chunks, build height and the world border.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Cypress grants Resistance II while ridden. Use any of the eleven Sigils on a placed Dragon\u0027s Blood Broom to install it. Its effect applies to the rider every five seconds. The sigil is consumed, persists through pickup and saving, and cannot be replaced while installed.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Wash a Dragon\u0027s Blood Broom in a heated Witches\u0027 Cauldron to remove its sigil. This returns a clean broom and removes all item tags, including its custom name. Take care before washing a named broom.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "All eleven sigils retain their existing effects, including harmful ones: Mending, Binding, Cleansing, Luck, Disorientation, Shrieking, Ruin, Battle, Sentinel, Failure and Purity. Mounting does not make a harmful sigil beneficial.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:juniper_broom",
+    "category":  "bewitchment:sympathy",
+    "name":  "Brooms"
+}

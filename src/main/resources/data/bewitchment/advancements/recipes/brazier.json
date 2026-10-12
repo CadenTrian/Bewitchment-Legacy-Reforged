@@ -1,0 +1,32 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_ingredient":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "item":  "bewitchment:otherworldly_tears"
+                                                                             }
+                                                                         ]
+                                                           }
+                                        },
+                     "has_recipe":  {
+                                        "trigger":  "minecraft:recipe_unlocked",
+                                        "conditions":  {
+                                                           "recipe":  "bewitchment:brazier"
+                                                       }
+                                    }
+                 },
+    "requirements":  [
+                         [
+                             "has_ingredient",
+                             "has_recipe"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:brazier"
+                                ]
+                }
+}

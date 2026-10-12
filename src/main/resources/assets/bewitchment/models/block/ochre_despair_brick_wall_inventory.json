@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "bewitchment:block/ochre_despair_bricks"
+  }
+}

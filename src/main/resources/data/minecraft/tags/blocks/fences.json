@@ -1,0 +1,19 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_fence",
+                   "bewitchment:juniper_fence",
+                   "bewitchment:cypress_fence",
+                   "bewitchment:coquina_fence",
+                   "bewitchment:coquina_brick_fence",
+                   "bewitchment:dragons_blood_fence",
+                   "bewitchment:perpetual_ice_fence",
+                   "bewitchment:embittered_brick_fence",
+                   "bewitchment:scorned_brick_fence",
+                   "bewitchment:mossy_scorned_brick_fence",
+                   "bewitchment:crying_scorned_brick_fence",
+                   "bewitchment:despair_brick_fence",
+                   "bewitchment:ochre_despair_brick_fence",
+                   "bewitchment:nethersteel_fence"
+               ]
+}

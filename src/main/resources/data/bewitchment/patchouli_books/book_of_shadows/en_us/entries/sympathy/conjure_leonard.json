@@ -1,0 +1,29 @@
+{
+    "name":  "Conjure Leonard",
+    "icon":  "bewitchment:leonards_wand",
+    "category":  "bewitchment:sympathy",
+    "sortnum":  118,
+    "pages":  [
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "bewitchment:leonard_spawn_egg",
+                      "text":  "Prepare complete small, medium and large Nether circles. Offer an Athame, Demon Heart, Stew of the Grotesque, Bottled Hellfire, Flying Ointment, Liquid Witchcraft, Hellhound Horn and Bottle of Blood. Activate at night with an empty main hand. The original implementation permits this route without a sacrifice. See $(l:alchemy/flying_ointment)Flying Ointment$() for its recipe."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A sheep death may also activate a prepared ritual. Its block position must be within two blocks on each axis of the focal glyph. The nearest living non-spectator player must be less than ten blocks from the sheep. Death activation checks building and interaction permissions, ritual inhibition, offerings, circles, night, power and clear space. It does not insert held items or cancel active work."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The cast takes fifteen seconds and costs 1332 starting power plus 66 per second: 2322 total, or 2122 with Hecate\u0027s starting discount. Sunrise after activation does not cancel the cast. Clear space for Leonard\u0027s one-block-wide, 3.8-block-tall body. Peaceful difficulty, collision, liquids, unloaded space and world borders prevent conjuration."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Success summons Leonard with his wand and returns a fresh Athame. Original Athame damage, names and enchantments do not transfer to the replacement. Space is checked again at completion; rejected insertion returns original offerings, including their item data. Spent power is not refunded. The vanilla summoned-entity criterion is triggered for nearby players after insertion succeeds."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The sheep need not be killed by the caster. One death may activate multiple prepared nearby glyphs, and the same sheep trigger also supports a prepared Conjure Baphomet rite. Cancelled deaths do not trigger it; failure does not restore the sheep. Leonard is hostile until pledged: see Leonard and Greater Demon Pledges for clothing, Green Candle and stew requirements. His nearby brewing bonus applies when the first bottle is extracted."
+                  }
+              ]
+}

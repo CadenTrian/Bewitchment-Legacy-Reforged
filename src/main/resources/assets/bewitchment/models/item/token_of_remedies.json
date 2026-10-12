@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/token_of_remedies"
+                 },
+    "parent":  "minecraft:item/generated"
+}

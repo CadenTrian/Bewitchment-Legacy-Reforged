@@ -1,0 +1,47 @@
+{
+    "seconds":  15,
+    "starting_power":  1332,
+    "result":  {
+                   "item":  "bewitchment:athame"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "conjure_wither",
+    "circles":  [
+                    "nether",
+                    "nether",
+                    "nether"
+                ],
+    "running_power":  66,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:athame"
+                        },
+                        {
+                            "item":  "minecraft:wither_skeleton_skull"
+                        },
+                        {
+                            "item":  "minecraft:soul_sand"
+                        },
+                        {
+                            "item":  "minecraft:soul_sand"
+                        },
+                        {
+                            "item":  "minecraft:soul_sand"
+                        },
+                        {
+                            "item":  "minecraft:soul_sand"
+                        },
+                        {
+                            "tag":  "forge:crops/wormwood"
+                        },
+                        {
+                            "tag":  "forge:crops/wormwood"
+                        },
+                        {
+                            "tag":  "forge:crops/wormwood"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        }
+                    ]
+}

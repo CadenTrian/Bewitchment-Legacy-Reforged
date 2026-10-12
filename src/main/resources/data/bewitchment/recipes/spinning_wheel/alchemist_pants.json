@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_pants"
+                        },
+                        {
+                            "item":  "bewitchment:stone_ichor"
+                        },
+                        {
+                            "item":  "bewitchment:witches_stitching"
+                        },
+                        {
+                            "item":  "minecraft:light_gray_wool"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "bewitchment:alchemist_pants"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

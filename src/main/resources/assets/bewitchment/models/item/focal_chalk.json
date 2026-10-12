@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/focal_chalk"
+                 },
+    "parent":  "minecraft:item/generated"
+}

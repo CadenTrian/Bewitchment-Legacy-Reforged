@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "wool":  "bewitchment:block/besmirched_fleece"
+                 },
+    "parent":  "minecraft:block/carpet"
+}

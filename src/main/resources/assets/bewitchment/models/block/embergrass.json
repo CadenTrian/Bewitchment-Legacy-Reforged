@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "cross":  "bewitchment:block/embergrass"
+                 },
+    "parent":  "minecraft:block/cross"
+}

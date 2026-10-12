@@ -1,0 +1,43 @@
+{
+  "type": "bewitchment:plant_drops",
+  "mode": "grass_seeds",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:grass"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:fern"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:tall_grass"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:large_fern"
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

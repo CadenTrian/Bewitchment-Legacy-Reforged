@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_robes"
+                        },
+                        {
+                            "item":  "bewitchment:swirl_of_depths"
+                        },
+                        {
+                            "item":  "bewitchment:witches_stitching"
+                        },
+                        {
+                            "item":  "minecraft:light_gray_wool"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "bewitchment:alchemist_robes"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

@@ -1,0 +1,388 @@
+{
+    "variants":  {
+                     "facing=east,letter=0,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  90
+                                                     },
+                     "facing=east,letter=3,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=2,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=2,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  90
+                                                     },
+                     "facing=north,letter=0,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  0
+                                                      },
+                     "facing=east,letter=1,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  90
+                                                     },
+                     "facing=east,letter=2,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=3,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=5,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=3,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  270
+                                                     },
+                     "facing=west,letter=1,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=0,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  90
+                                                     },
+                     "facing=north,letter=1,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=3,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  0
+                                                      },
+                     "facing=east,letter=4,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  90
+                                                     },
+                     "facing=north,letter=4,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=3,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=2,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=4,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  0
+                                                      },
+                     "facing=south,letter=2,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=1,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  180
+                                                      },
+                     "facing=west,letter=0,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  270
+                                                     },
+                     "facing=south,letter=0,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=3,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=0,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  180
+                                                      },
+                     "facing=west,letter=5,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=0,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  90
+                                                     },
+                     "facing=east,letter=3,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=4,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  270
+                                                     },
+                     "facing=west,letter=4,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  270
+                                                     },
+                     "facing=north,letter=2,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  0
+                                                      },
+                     "facing=west,letter=5,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=2,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  90
+                                                     },
+                     "facing=south,letter=3,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=4,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=1,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  180
+                                                      },
+                     "facing=north,letter=5,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  0
+                                                      },
+                     "facing=south,letter=1,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  180
+                                                      },
+                     "facing=west,letter=1,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=4,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  90
+                                                     },
+                     "facing=south,letter=3,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  180
+                                                      },
+                     "facing=east,letter=4,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  90
+                                                     },
+                     "facing=north,letter=0,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  0
+                                                      },
+                     "facing=south,letter=2,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  180
+                                                      },
+                     "facing=north,letter=5,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  0
+                                                      },
+                     "facing=south,letter=2,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  180
+                                                      },
+                     "facing=east,letter=3,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=2,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  270
+                                                     },
+                     "facing=south,letter=0,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  180
+                                                      },
+                     "facing=west,letter=2,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=5,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=0,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  270
+                                                     },
+                     "facing=north,letter=1,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  0
+                                                      },
+                     "facing=west,letter=2,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  270
+                                                     },
+                     "facing=west,letter=3,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  270
+                                                     },
+                     "facing=north,letter=3,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  0
+                                                      },
+                     "facing=east,letter=1,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=5,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  270
+                                                     },
+                     "facing=north,letter=5,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  0
+                                                      },
+                     "facing=east,letter=2,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_2",
+                                                         "y":  90
+                                                     },
+                     "facing=south,letter=3,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  180
+                                                      },
+                     "facing=east,letter=1,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  90
+                                                     },
+                     "facing=south,letter=5,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  180
+                                                      },
+                     "facing=east,letter=5,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  90
+                                                     },
+                     "facing=north,letter=1,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=3,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_3",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=2,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  0
+                                                      },
+                     "facing=west,letter=4,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=3,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  90
+                                                     },
+                     "facing=north,letter=0,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  0
+                                                      },
+                     "facing=west,letter=0,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  270
+                                                     },
+                     "facing=south,letter=4,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=1,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=5,type=2":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=5,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=0,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  180
+                                                      },
+                     "facing=west,letter=4,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  270
+                                                     },
+                     "facing=north,letter=5,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  0
+                                                      },
+                     "facing=west,letter=3,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_3",
+                                                         "y":  270
+                                                     },
+                     "facing=west,letter=1,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=5,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  90
+                                                     },
+                     "facing=west,letter=5,type=1":  {
+                                                         "model":  "bewitchment:block/glyph_5",
+                                                         "y":  270
+                                                     },
+                     "facing=east,letter=4,type=0":  {
+                                                         "model":  "bewitchment:block/glyph_4",
+                                                         "y":  90
+                                                     },
+                     "facing=east,letter=1,type=3":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  90
+                                                     },
+                     "facing=south,letter=4,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  180
+                                                      },
+                     "facing=west,letter=1,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_1",
+                                                         "y":  270
+                                                     },
+                     "facing=north,letter=1,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_1",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=4,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=2,type=1":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  0
+                                                      },
+                     "facing=north,letter=4,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  0
+                                                      },
+                     "facing=east,letter=0,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  90
+                                                     },
+                     "facing=north,letter=0,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_0",
+                                                          "y":  0
+                                                      },
+                     "facing=west,letter=0,type=2":  {
+                                                         "model":  "bewitchment:block/glyph_0",
+                                                         "y":  270
+                                                     },
+                     "facing=south,letter=4,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_4",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=5,type=3":  {
+                                                          "model":  "bewitchment:block/glyph_5",
+                                                          "y":  180
+                                                      },
+                     "facing=south,letter=2,type=0":  {
+                                                          "model":  "bewitchment:block/glyph_2",
+                                                          "y":  180
+                                                      }
+                 }
+}

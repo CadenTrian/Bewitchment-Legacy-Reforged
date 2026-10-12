@@ -1,0 +1,23 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_stitching"
+                        },
+                        {
+                            "item":  "bewitchment:golden_thread"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "item":  "bewitchment:spanish_moss"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "count":  2,
+                        "item":  "bewitchment:spirit_string"
+                    }
+                ]
+}

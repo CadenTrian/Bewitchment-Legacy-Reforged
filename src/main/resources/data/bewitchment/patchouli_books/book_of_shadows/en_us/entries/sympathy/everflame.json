@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:flint_and_steel",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Everflame is a greater negative curse. It occasionally ignites air above flammable blocks near its victim. Each eligible server player tick has a 0.02 percent chance to trigger a search; each position then has a separate 10 percent chance to be considered for ignition."
+                  },
+                  {
+                      "text":  "The search extends two blocks in every direction from the player, including vertically: a five-by-five-by-five cube. The position must be air with an upward-flammable block directly below it. Unloaded chunks and positions outside building height are skipped. Building and world interaction permissions are checked.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Fire is ordinary Minecraft fire, with normal fire behavior afterward. Ending the curse stops new curse ignitions but does not extinguish existing fires. The initial ignition does not depend on doFireTick, matching the original curse; that rule still controls normal subsequent fire ticking.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Purity cannot remove this greater curse, and Return to Sender does not reflect it or lose its ward. Its saved duration pauses offline and survives respawn. Dead players and spectators do not trigger it. Milk does not remove the underlying curse.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can apply /curse \u003cplayer\u003e add bewitchment:everflame \u003cdays\u003e, use cast for the casting-event path, or remove with /curse \u003cplayer\u003e remove bewitchment:everflame. No original Brazier recipe exists for this identity, so none is added. Everflame currently has no survival acquisition route. It is not included in Baphomet\u0027s five positive contracts; the operator command is the available way to apply it.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "This port keeps the original probability and cube while avoiding forced chunk loads and checking building permissions. It does not provide a universal integration with third-party claim systems. Normal world fire behavior still applies after placement.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:flint_and_steel",
+    "category":  "bewitchment:sympathy",
+    "name":  "Everflame",
+    "sortnum":  105
+}

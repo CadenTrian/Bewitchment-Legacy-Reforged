@@ -1,0 +1,23 @@
+{
+    "key":  {
+                "W":  {
+                          "item":  "bewitchment:liquid_witchcraft"
+                      },
+                "S":  {
+                          "item":  "bewitchment:spanish_moss"
+                      },
+                "P":  {
+                          "item":  "minecraft:birch_planks"
+                      }
+            },
+    "pattern":  [
+                    "PSP",
+                    "PWP",
+                    "PSP"
+                ],
+    "result":  {
+                   "count":  1,
+                   "item":  "bewitchment:poppet_shelf_birch"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

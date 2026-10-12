@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_pants"
+                        },
+                        {
+                            "item":  "bewitchment:diabolical_vein"
+                        },
+                        {
+                            "item":  "bewitchment:golden_thread"
+                        },
+                        {
+                            "item":  "bewitchment:sanguine_cloth"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "bewitchment:besmirched_pants"
+                    }
+                ]
+}

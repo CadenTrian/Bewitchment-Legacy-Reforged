@@ -1,0 +1,26 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:black_wool"
+                        },
+                        {
+                            "item":  "minecraft:black_wool"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:diabolical_vein"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "count":  2,
+                        "item":  "bewitchment:sanguine_cloth"
+                    },
+                    {
+                        "item":  "minecraft:glass_bottle"
+                    }
+                ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "bewitchment:oven",
+  "ingredient": {
+    "item": "minecraft:ender_eye"
+  },
+  "result": {
+    "item": "minecraft:blaze_powder"
+  },
+  "byproduct": {
+    "item": "bewitchment:dimensional_sand",
+    "count": 2
+  },
+  "chance": 0.8,
+  "requires_jar": false
+}

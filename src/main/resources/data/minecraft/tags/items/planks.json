@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_planks",
+                   "bewitchment:juniper_planks",
+                   "bewitchment:cypress_planks",
+                   "bewitchment:dragons_blood_planks"
+               ]
+}

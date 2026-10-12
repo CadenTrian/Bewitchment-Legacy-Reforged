@@ -1,0 +1,7 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:silver_arrow",
+                   "bewitchment:cold_iron_arrow"
+               ]
+}

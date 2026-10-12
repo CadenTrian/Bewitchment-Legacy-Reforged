@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:hellebore",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Break grass for a chance of herb seeds. Grow the crops on farmland and harvest them when mature. Mandrake, Hellebore, Belladonna, Aconitum, Garlic and White Sage supply many early recipes."
+                  },
+                  {
+                      "text":  "Keep some seeds to replant. Mandrake Root can produce Liquid Witchcraft in the oven. Hellebore is needed for this book and Voodoo Poppets. White Sage and Garlic help make Voodoo Protection.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:hellebore",
+    "category":  "bewitchment:nature",
+    "name":  "Herbs",
+    "sortnum":  1
+}

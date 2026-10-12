@@ -1,0 +1,6 @@
+{
+  "parent": "bewitchment:block/candle",
+  "textures": {
+    "particle": "bewitchment:block/candle/brown"
+  }
+}

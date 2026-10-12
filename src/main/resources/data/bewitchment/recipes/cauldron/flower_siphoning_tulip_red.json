@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:red_tulip"
+                        },
+                        {
+                            "item":  "bewitchment:cloudy_oil"
+                        },
+                        {
+                            "item":  "bewitchment:bone_needle"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:flower_siphoning_tulip_red"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

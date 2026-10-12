@@ -1,0 +1,11 @@
+{
+ "name":"Candles and Goblets","icon":"bewitchment:white_candle","category":"bewitchment:beginnings",
+ "pages":[
+  {"type":"patchouli:spotlight","item":"bewitchment:white_candle","text":"Candles come in all sixteen dye colors. Place them on a surface that supports their center, such as a solid block or a top slab. They break when their support is removed. Use Flint and Steel to light one, or interact with a lit candle to extinguish it."},
+  {"type":"patchouli:text","text":"Lighting wears the Flint and Steel in the interacting hand by one durability after the state change succeeds; creative durability rules still apply. Extinguishing uses no tool durability. Building and interaction permissions apply. Lit candles give light level nine. Their enchantment power bonus is one half, whether lit or unlit."},
+  {"type":"patchouli:spotlight","item":"bewitchment:candelabra_iron","text":"Iron, Gold and Silver Candelabras use the same lighting rules and light level. Each contributes one and a half enchantment power. Lit candelabras show five flames and provide the separate nearby ward described under Ghosts. Small candles do not provide that ward. Pistons destroy candles and candelabras."},
+  {"type":"patchouli:crafting","recipe":"bewitchment:candle/white_candle","recipe2":"bewitchment:candelabra_iron"},
+  {"type":"patchouli:spotlight","item":"bewitchment:goblet","text":"Goblets also need support beneath their center. Empty goblets emit no redstone power; filled goblets emit weak power eight on every side. Removing a filled goblet updates its neighbors. Both retain their compact cup shape."},
+  {"type":"patchouli:spotlight","item":"bewitchment:filled_goblet","text":"Fill a Goblet in the powered cauldron with Cloudy Oil, a Ghast Tear and three Redstone Dust. The recipe returns a Filled Goblet and an Empty Jar. Candles, candelabras and goblets also participate in altar upgrades; see the altar guide. For growing decorative plants, see Cultivating Magical Plants."}
+ ]
+}

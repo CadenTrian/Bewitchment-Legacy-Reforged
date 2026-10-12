@@ -1,0 +1,40 @@
+{
+    "name":  "Desertification",
+    "icon":  "minecraft:coal",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  132,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Desertification brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Coal or Charcoal, to hot powered water. Both restore the original coal variants and have one base tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Water animals and slimes take six direct magic damage per level. This includes squid, dolphins, fish and magma cubes through their vanilla class families. Guardians and drowned are not water animals for this effect. Normal damage events still apply, and splash distance does not reduce the legacy damage. The original beneficial effect classification is retained."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sampled stone variants and regular, cracked, mossy or chiseled stone bricks become sandstone. Smooth Stone Slabs, the renamed legacy stone slabs, become sandstone slabs. Stone Brick Stairs become sandstone stairs. Slab type, stair facing and shape, and waterlogging are preserved. Full Smooth Stone, formerly the seamless double slab, becomes a double sandstone slab. Other slab and stair families are unchanged."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Grass blocks, coarse dirt and podzol become plain dirt. Supported bushes can become dead bushes, including suitable flowers, grass and saplings. New dead bushes must survive at the position; fluid-bearing plants are not replaced directly. Farmland, paths, mycelium and unrelated terrain are unchanged. Replacements produce no direct drops or XP."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Exposed source and flowing water are removed at every visited position, without the one-in-three roll used by other transformations. Waterlogged blocks are not drained directly. Ordinary fluid updates remain active: water can flow back from outside the sweep, and nearby plants may react normally. This is one drying pass, not a permanent fluid barrier."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The inclusive radius is two, four or six at levels I, II or III. Higher command levels stay capped at six, at most 2,197 positions. Each dimension holds 32 Desertification jobs and scans at most 512 candidates per tick, with 128 per job. Sampling seeds, cursors and owners survive saves and restarts."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Player jobs stop if their owner leaves, dies or cannot build. Other sources use the Minecraft fake player. Edits require loaded chunks, build height, world border and interaction permissions. Every action, including water removal, posts a cancellable Forge block-break event. Listener replacements are preserved; placement-only listeners are not invoked."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking schedules terrain work around the drinker. Splash and lingering impacts schedule around the hit block or entity, even without living targets. Occupied clouds schedule at most once per effect application tick; empty clouds do not repeatedly sweep. Full queues do not prevent creature damage. Desertification does not change biome or weather."
+                  }
+              ]
+}

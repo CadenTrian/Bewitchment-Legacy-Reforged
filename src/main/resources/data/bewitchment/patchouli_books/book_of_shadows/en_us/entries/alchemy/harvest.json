@@ -1,0 +1,40 @@
+{
+    "name":  "Harvest",
+    "icon":  "minecraft:pumpkin",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  127,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Harvest brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then a Pumpkin or Carved Pumpkin, to a hot, powered water cauldron. Its base duration is one tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews. Harvest has no separate effect on living creatures."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Mature crops yield their block loot and return to age zero. Wheat, carrots, potatoes, beetroot and compatible crop blocks qualify. Immature crops remain untouched, preventing repeated seed farming from newly replanted plants. Replanting consumes no seed, matching the original brew. Other crop properties are retained."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Crop loot uses a virtual wooden hoe: no Fortune at level I, Fortune I at level II and Fortune II at level III. Higher command levels retain Fortune II. Loot tables and compatible loot modifiers apply. The crop reset must succeed before items are released; cancelled or failed resets produce no items. No harvest XP is awarded."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Each oak-leaf block has a one-in-ten chance to release one apple without removing its leaves. Other leaf types do not qualify. Repeated brews can produce more apples. Replaceable, dry growable plants such as short grass and ferns have a one-in-four chance to become a Carved Pumpkin with a random horizontal facing. Like normal placement, it can complete golem structures."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Harvest scans an inclusive cube: radius one at level I, two at level II and three at level III. Higher command levels keep the radius capped at three, examining at most 343 positions per sweep. Work stays within build height, the world border and already-loaded chunks. Blocks with tile entities are excluded."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Player owners supply build and interaction permissions; ownerless and non-player delivery uses the Minecraft fake player. Every selected action requires a cancellable Forge block-break event, including apples. Placement-only protection listeners are not invoked. Blocks replaced by protection or loot listeners are preserved."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking harvests around the drinker. Splash and lingering impacts act around the hit block or entity even without living targets. Clouds sweep at most once per effect application tick when affecting living targets. Empty clouds do not repeatedly harvest. Already-cancelled impacts are ignored; later same-priority cancellation cannot undo a completed harvest."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Items follow doTileDrops and normal item-spawn events. A cancelled item spawn can lose that output after the crop has reset; the crop is not rolled back. Harvest does not consume or damage your held tool. Only mature crops are harvested in Reforged, unlike legacy. Pesticide, Ruin, Harvest and Fertility are now available."
+                  }
+              ]
+}

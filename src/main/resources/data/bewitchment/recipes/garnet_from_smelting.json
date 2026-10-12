@@ -1,0 +1,9 @@
+{
+    "ingredient":  {
+                       "item":  "bewitchment:garnet_ore"
+                   },
+    "result":  "bewitchment:garnet",
+    "cookingtime":  200,
+    "experience":  0.85,
+    "type":  "minecraft:smelting"
+}

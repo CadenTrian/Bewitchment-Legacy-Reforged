@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bewitchment:garlic"
+  },
+  "result": "bewitchment:garlic_grilled",
+  "experience": 0.25,
+  "cookingtime": 200
+}

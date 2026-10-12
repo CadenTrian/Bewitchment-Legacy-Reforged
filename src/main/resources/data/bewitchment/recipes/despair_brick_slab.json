@@ -1,0 +1,15 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "III"
+                ],
+    "key":  {
+                "I":  {
+                          "item":  "bewitchment:despair_bricks"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:despair_brick_slab",
+                   "count":  6
+               }
+}

@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:mandrake_root",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Gather herb seeds from grass, grow Mandrake and Hellebore, then craft this book with a Book and black dye. Build a Witches\u0027 Oven, fire some jars, and begin collecting fumes."
+                  },
+                  {
+                      "text":  "The Grimoire, Tool Protection and Vampiric Poppets have survival recipes, and ten accessories use Curios slots. $(l:alchemy/iceworld)Iceworld brews$() create Perpetual Ice; a master $(l:sympathy/alchemist_trading)Alchemist$() sells Dragon\u0027s Blood saplings. See $(l:sympathy/extended_poppets)Extended Poppets$() and the creature guides for their ingredients.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:book_of_shadows"
+                  }
+              ],
+    "icon":  "bewitchment:mandrake_root",
+    "category":  "bewitchment:beginnings",
+    "name":  "Beginning Witchcraft",
+    "sortnum":  0
+}

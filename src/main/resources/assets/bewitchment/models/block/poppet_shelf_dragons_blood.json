@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "texture":  "bewitchment:block/dragons_blood_planks"
+                 },
+    "parent":  "bewitchment:block/poppet_shelf"
+}

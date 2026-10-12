@@ -1,0 +1,40 @@
+{
+    "name":  "Targeted Brews and Witchworker",
+    "icon":  "bewitchment:aconitum",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  124,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Wolfsbane and Deviant\u0027s Decomposure bring brewing to 63 effects: 25 vanilla and thirty-eight custom. Start with Mandrake Root in a hot, powered water cauldron. Aconitum gives Wolfsbane; Elderberries give Deviant\u0027s Decomposure. Both have a one-tick base duration and attempt eight magic damage per effect level against eligible targets."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Wolfsbane affects wolves, foxes, werewolves and Hellhounds, including tame wolves. Its beneficial classification follows the original effect metadata; it still damages eligible creatures. Other living creatures are unaffected unless compatibility rules identify them as targets."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Deviant\u0027s Decomposure affects illagers, witches and player witches. A player qualifies after completing the Witchworker altar-acquisition advancement. Ordinary players without that milestone are unaffected unless a data pack explicitly adds their entity type to the vulnerability tag."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Witchworker accepts any one of six altar items: Stone, Obsidian, Nether Brick, Embittered Brick, Coquina or Scorned Brick. The original inventory-based trigger is retained, so obtaining an altar from another player also qualifies. The advancement does not require a formed or powered altar."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The new advancement branch appears under Bewitchment Legacy Reforged. Completion persists through vanilla advancement saves. Revoking completion removes this player-witch classification; missing or removed advancement definitions do not mark players as witches. Existing players can acquire an altar in inventory to earn the new milestone."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Both brews use direct magic damage, with no attacker attribution, and retain full damage regardless of splash distance. Normal magic resistance, damage cancellation and immunity can reduce or prevent the damage. Drinking, splash and owned or ownerless lingering delivery do not require a player source for these effects."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Compatibility tags are bewitchment:wolfsbane_weakness and bewitchment:deviants_decomposure_weakness. The former includes the existing werewolves tag. These tags add targets; removing a tag entry does not disable the built-in wolf, fox, werewolf, Hellhound, illager or witch class checks."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Wolfsbane also retains legacy Werewolf, EntityCoyote, EntityFeralWolf and EntityFox class-name compatibility rules. Forge Aconitum crop tags support matching herbs from other mods. This does not add player transformations or witch-hunter mechanics. Pesticide clears cobwebs. Terrain-changing brews include $(l:alchemy/iceworld)Iceworld$(), $(l:alchemy/hellworld)Hellworld$() and $(l:alchemy/ruin)Ruin$(). Ingredients not listed in the brewing guides remain unsupported."
+                  }
+              ]
+}

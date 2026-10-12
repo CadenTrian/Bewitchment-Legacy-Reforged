@@ -1,0 +1,19 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_wood_slab",
+                   "bewitchment:juniper_wood_slab",
+                   "bewitchment:cypress_wood_slab",
+                   "bewitchment:coquina_slab",
+                   "bewitchment:coquina_brick_slab",
+                   "bewitchment:dragons_blood_wood_slab",
+                   "bewitchment:perpetual_ice_slab",
+                   "bewitchment:embittered_bricks_slab",
+                   "bewitchment:scorned_bricks_slab",
+                   "bewitchment:mossy_scorned_brick_slab",
+                   "bewitchment:crying_scorned_brick_slab",
+                   "bewitchment:despair_brick_slab",
+                   "bewitchment:ochre_despair_brick_slab",
+                   "bewitchment:nethersteel_slab"
+               ]
+}

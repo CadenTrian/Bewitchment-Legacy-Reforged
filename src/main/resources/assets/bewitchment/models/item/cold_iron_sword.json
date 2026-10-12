@@ -1,0 +1,14 @@
+{
+    "parent":  "minecraft:item/handheld",
+    "textures":  {
+                     "layer0":  "bewitchment:item/cold_iron_sword"
+                 },
+    "overrides":  [
+                      {
+                          "predicate":  {
+                                            "bewitchment:legacy_variant":  1
+                                        },
+                          "model":  "bewitchment:item/cold_iron_sword_variant"
+                      }
+                  ]
+}

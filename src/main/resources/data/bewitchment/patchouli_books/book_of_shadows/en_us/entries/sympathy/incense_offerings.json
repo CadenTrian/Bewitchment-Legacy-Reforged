@@ -1,0 +1,47 @@
+{
+    "pages":  [
+                  {
+                      "text":  "All recipes use separate single-item offerings. Repeated resin means two separate pieces. The feather ingredient accepts the Forge feathers tag, including Raven feathers. Dandelion and Poppy are the exact flowers used by the legacy recipes; any other flower will not substitute.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "title":  "vitality",
+                      "type":  "patchouli:text",
+                      "text":  "dragons blood resin, oak apple gall, essence of vitality, catechu brown, nuggets iron (tag)."
+                  },
+                  {
+                      "title":  "deftness",
+                      "type":  "patchouli:text",
+                      "text":  "dragons blood resin, sugar, feathers (tag), ectoplasm, essence of vitality."
+                  },
+                  {
+                      "title":  "invigorating",
+                      "type":  "patchouli:text",
+                      "text":  "dragons blood resin, sugar, potato, dandelion, juniper berries."
+                  },
+                  {
+                      "title":  "cats eye",
+                      "type":  "patchouli:text",
+                      "text":  "dragons blood resin, glowstone dust, poppy, carrot."
+                  },
+                  {
+                      "title":  "fullness",
+                      "type":  "patchouli:text",
+                      "text":  "dragons blood resin, elderberries, salt, potato, dandelion."
+                  },
+                  {
+                      "title":  "intensity",
+                      "type":  "patchouli:text",
+                      "text":  "dragons blood resin, dragons blood resin, glowstone dust, juniper berries, charcoal, salt."
+                  },
+                  {
+                      "title":  "concentration",
+                      "type":  "patchouli:text",
+                      "text":  "dragons blood resin, dragons blood resin, redstone, elderberries, charcoal, salt."
+                  }
+              ],
+    "icon":  "bewitchment:dragons_blood_resin",
+    "category":  "bewitchment:sympathy",
+    "name":  "Incense Offerings",
+    "sortnum":  103
+}

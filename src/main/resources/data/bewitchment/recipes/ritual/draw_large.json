@@ -1,0 +1,26 @@
+{
+    "circles":  [
+                    "any",
+                    "any",
+                    "any"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:clay_ball"
+                        },
+                        {
+                            "item":  "bewitchment:wood_ash"
+                        },
+                        {
+                            "item":  "minecraft:clay_ball"
+                        },
+                        {
+                            "item":  "bewitchment:wood_ash"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  450,
+    "running_power":  0,
+    "effect":  "draw_large",
+    "seconds":  0
+}

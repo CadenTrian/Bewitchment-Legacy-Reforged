@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:feuerwurm_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Feuerwurms are fiery serpentine demons with nine original skins. They spawn in Nether-type biomes in ultrawarm dimensions, using monster weight three and groups of one to three. They need valid ground and clear space but no darkness. Peaceful difficulty blocks natural spawning. Set feuerwurmWeight to zero and restart to disable natural spawns."
+                  },
+                  {
+                      "text":  "They have fifteen health, four base attack damage, one and a half armor and a quarter point of armor toughness. Successful bites inflict Wither for five seconds. Fire, lava damage, Poison and falls do not harm them. Water and rain inflict magic damage; lava restores two health per second while they are dry.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A complete Besmirched head, chest and leg set prevents ordinary prey selection, although retaliation can still occur. Feuerwurms hunt animals and other eligible living creatures, excluding generic demon, undead and fire-immune targets. They count as demons for the existing accessory protections.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Lightning transforms a Snake into a Feuerwurm if the larger body fits. It preserves position, name, name visibility, disabled AI and persistence, but not taming or baby state. Conversion starts with the first skin. Peaceful difficulty, blocked space, liquids, unloaded space or a rejected spawn leave the Snake intact.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ordinary deaths drop zero or one Adder\u0027s Fork plus Looting. Spawn eggs and /summon bewitchment:feuerwurm are available. Command-created spectral variants are translucent, cast no shadow, have a saved lifetime and give no ordinary loot or experience. Their optional summoner UUID lets them assist that player. The Meet Feuerwurm fortune and Hellmouth provide encounter routes. Baphomet can also summon Feuerwurms during combat. See $(l:sympathy/timed_fortunes)Timed Fortunes$() for encounter conditions.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:feuerwurm_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Feuerwurms",
+    "sortnum":  62
+}

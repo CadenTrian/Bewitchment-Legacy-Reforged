@@ -1,0 +1,27 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:string"
+                        },
+                        {
+                            "tag":  "forge:string"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "count":  2,
+                        "item":  "bewitchment:witches_stitching"
+                    },
+                    {
+                        "count":  2,
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

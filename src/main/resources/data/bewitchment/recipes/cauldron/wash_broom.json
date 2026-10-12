@@ -1,0 +1,13 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_broom"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:dragons_blood_broom"
+                    }
+                ]
+}

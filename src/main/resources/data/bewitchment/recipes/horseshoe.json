@@ -1,0 +1,19 @@
+{
+    "key":  {
+                "A":  {
+                          "item":  "bewitchment:acacia_resin"
+                      },
+                "C":  {
+                          "tag":  "forge:nuggets/cold_iron"
+                      }
+            },
+    "pattern":  [
+                    "C C",
+                    "CAC",
+                    "CCC"
+                ],
+    "result":  {
+                   "item":  "bewitchment:horseshoe"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

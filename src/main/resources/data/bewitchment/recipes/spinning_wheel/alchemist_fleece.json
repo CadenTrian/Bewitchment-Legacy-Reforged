@@ -1,0 +1,26 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_stitching"
+                        },
+                        {
+                            "tag":  "bewitchment:elemental_fumes"
+                        },
+                        {
+                            "item":  "minecraft:light_gray_wool"
+                        },
+                        {
+                            "item":  "minecraft:light_gray_wool"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "count":  3,
+                        "item":  "bewitchment:alchemists_fleece"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

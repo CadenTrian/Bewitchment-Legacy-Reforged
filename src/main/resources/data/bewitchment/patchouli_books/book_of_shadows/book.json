@@ -1,0 +1,10 @@
+{
+    "book_texture":  "bewitchment:textures/gui/book.png",
+    "version":  "Reforged 1",
+    "model":  "bewitchment:book_of_shadows",
+    "name":  "Book of Shadows",
+    "show_toasts":  false,
+    "creative_tab":  "bewitchment",
+    "show_progress":  false,
+    "landing_text":  "A practical guide to the witchcraft restored in Bewitchment Legacy Reforged. Begin with herbs, an oven and an altar. Entries explain which paths are ready for survival and which still await restoration."
+}

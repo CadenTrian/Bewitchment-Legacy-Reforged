@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:ritual_chalk",
+                      "type":  "patchouli:spotlight",
+                      "text":  "All circles share one golden center and height. Small uses a 7 by 7 footprint with 16 glyphs; medium uses 11 by 11 with 28; large uses 15 by 15 with 40. Outer circles add to the inner rings. Purifying Earth requires 44 white glyphs in total."
+                  },
+                  {
+                      "text":  "For medium: at north/south offset 5, mark east/west offsets -2 through +2. At offset 4, mark east/west +/-3; at offset 3, mark +/-4. Across the middle five rows, mark +/-5.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "For large: at north/south offset 7, mark east/west -3 through +3. At offset 6 mark +/-4; at offset 5 mark +/-5; at offset 4 mark +/-6. Across the middle seven rows mark +/-7. Perception requires all three rings in white. Colored circles support custom recipes and later rituals.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A ritual checks each required glyph type both at activation and during casting. A missing or wrongly colored required glyph stops it. Only unconsumed offerings are returned; Hungry Flames and continuous rituals consume them at startup. Extra glyphs outside required rings do not prevent casting.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:ritual_chalk",
+    "category":  "bewitchment:sympathy",
+    "name":  "Concentric Circles",
+    "sortnum":  33
+}

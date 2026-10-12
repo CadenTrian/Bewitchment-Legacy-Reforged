@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:magma_cream",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw a small circle with Fiery Chalk. Offer an Athame, Netherrack, Hellebore and Charcoal. Coal is not a substitute. A damaged Athame is accepted. Cast outside Peaceful difficulty while the world is not raining."
+                  },
+                  {
+                      "text":  "The ritual runs for fifteen seconds, costing 1,000 starting power and 33 each second: 1,495 total, or 1,345 with Hecate\u0027s Visage. It attempts to summon two to five creatures, each chosen between a Zombified Piglin and a Magma Cube.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each creature gets sixteen landing attempts within six blocks west/north and five east/south of the focal glyph. It searches downward for ground. Leave dry, clear, loaded space within the world border. Failed placements are skipped, so fewer creatures may appear.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "One or more successful summons consumes the offerings and returns a fresh Athame. Its previous name, damage and enchantments do not transfer. If none appear, the original offerings are returned; spent power remains spent. Rain and difficulty are checked again at completion.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Summoned creatures keep their normal vanilla behavior. Magma Cube size and Piglin age/equipment use vanilla initialization. Chicken jockey creation is disabled for this ritual. Remote casting is not restored.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:magma_cream",
+    "category":  "bewitchment:sympathy",
+    "name":  "Lesser Hellmouth",
+    "sortnum":  53
+}

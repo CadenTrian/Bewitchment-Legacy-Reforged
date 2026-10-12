@@ -1,0 +1,11 @@
+{
+  "name": "Haunted Structures",
+  "icon": "bewitchment:shadow_person_spawn_egg",
+  "category": "bewitchment:sympathy",
+  "pages": [
+    {"type": "patchouli:text", "text": "Nether fortresses can attract Cleavers, Bafometyrs, Feuerwurms, Hellhounds, Cambions and Shadow People. Their added relative weights are 2, 2, 3, 3, 1 and 1. These encounters supplement the fortress's ordinary monsters."},
+    {"type": "patchouli:text", "text": "In the Overworld, new-moon nights bring Shadow People, Ghosts and Black Dogs to strongholds. Dry full-moon nights bring Cambions to villages. Either half-moon night brings Shadow People and Ghosts to mineshafts. Each added creature has relative weight 1."},
+    {"type": "patchouli:text", "text": "These pools retain the original 95 percent eligibility roll and zero-to-one group sizes. This is not a 95 percent chance to encounter a creature: ordinary spawn selection, population limits and placement rules still apply. Black Dogs additionally require dry weather. Only loaded structure pieces are checked."},
+    {"type": "patchouli:text", "text": "In bewitchment-creatures.toml, structureSpawns controls all these additions. cambionStructureSpawns and shadowPersonStructureSpawns control those creatures separately. Setting an existing creature weight to zero also disables its structure entries. Positive biome weights leave structure weights unchanged. Restart after configuration changes."}
+  ]
+}

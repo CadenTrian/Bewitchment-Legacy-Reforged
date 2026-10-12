@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_wood_stairs",
+                   "bewitchment:juniper_wood_stairs",
+                   "bewitchment:cypress_wood_stairs",
+                   "bewitchment:dragons_blood_wood_stairs"
+               ]
+}

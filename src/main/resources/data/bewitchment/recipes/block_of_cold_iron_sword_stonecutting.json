@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/cold_iron"
+  },
+  "result": "bewitchment:block_of_cold_iron_sword",
+  "count": 1
+}

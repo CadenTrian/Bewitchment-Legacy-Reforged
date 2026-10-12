@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CD"
+  ],
+  "key": {
+    "C": {
+      "tag": "bewitchment:candles"
+    },
+    "D": {
+      "tag": "forge:dyes/light_gray"
+    }
+  },
+  "result": {
+    "item": "bewitchment:light_gray_candle"
+  }
+}

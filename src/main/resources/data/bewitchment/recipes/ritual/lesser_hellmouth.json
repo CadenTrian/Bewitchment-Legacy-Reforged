@@ -1,0 +1,27 @@
+{
+    "seconds":  15,
+    "starting_power":  1000,
+    "result":  {
+                   "item":  "bewitchment:athame"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "lesser_hellmouth",
+    "circles":  [
+                    "nether"
+                ],
+    "running_power":  33,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:athame"
+                        },
+                        {
+                            "item":  "minecraft:netherrack"
+                        },
+                        {
+                            "tag":  "forge:crops/hellebore"
+                        },
+                        {
+                            "item":  "minecraft:charcoal"
+                        }
+                    ]
+}

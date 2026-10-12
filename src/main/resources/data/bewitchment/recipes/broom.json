@@ -1,0 +1,19 @@
+{
+    "key":  {
+                "H":  {
+                          "item":  "minecraft:hay_block"
+                      },
+                "S":  {
+                          "tag":  "forge:rods/wooden"
+                      }
+            },
+    "pattern":  [
+                    " S ",
+                    " S ",
+                    "HHH"
+                ],
+    "result":  {
+                   "item":  "bewitchment:broom"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

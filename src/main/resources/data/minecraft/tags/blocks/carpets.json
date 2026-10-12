@@ -1,0 +1,8 @@
+{
+    "values":  [
+                   "bewitchment:alchemists_carpet",
+                   "bewitchment:hedgewitches_carpet",
+                   "bewitchment:besmirched_carpet"
+               ],
+    "replace":  false
+}

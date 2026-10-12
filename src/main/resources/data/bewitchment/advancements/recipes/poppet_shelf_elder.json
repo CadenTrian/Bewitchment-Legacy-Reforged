@@ -1,0 +1,20 @@
+{
+    "criteria":  {
+                     "has_moss":  {
+                                      "trigger":  "minecraft:inventory_changed",
+                                      "conditions":  {
+                                                         "items":  [
+                                                                       {
+                                                                           "item":  "bewitchment:spanish_moss"
+                                                                       }
+                                                                   ]
+                                                     }
+                                  }
+                 },
+    "parent":  "minecraft:recipes/root",
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:poppet_shelf_elder"
+                                ]
+                }
+}

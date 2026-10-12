@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:skeleton_key",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Carry a Skeleton Key to bypass a Juniper gate, door or trapdoor without its matching key. A matching Juniper Key or Key Ring takes priority and costs nothing. Normal inventory slots, armor and offhand are searched; nested storage and Curios slots are not."
+                  },
+                  {
+                      "text":  "Each successful bypass costs ten experience levels and one durability. Gates cost 250 magic power, doors cost 500, and trapdoors cost 750. One carried Grimoire Magia or Bastard\u0027s Grimoire must contain the entire cost. Several partially charged books cannot combine, and nearby altars are not drained.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Opening and closing are separate paid uses. Survival breaking also pays once when the break is accepted. Mining-progress checks only predict affordability and do not spend resources. A key does not permanently unlock a block or bind itself to the lock.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The default lifetime is ten uses, configurable with maxSkeletonKeyUses in bewitchment-tools.toml. Ordinary enchanting and repair are disabled. Creative use still requires levels and magic, but vanilla creative durability protection applies. Creative breaking needs no key.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "High-level demon trading now supplies this key. Conjure Demon provides ritual access to merchants. Testing also uses the creative tab or /give @s bewitchment:skeleton_key. No crafting recipe has been invented. Juniper Chests cost 1000 magic power per opening or survival break. Closing their inventory does not cost another use.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:skeleton_key",
+    "category":  "bewitchment:sympathy",
+    "name":  "Skeleton Key",
+    "sortnum":  84
+}

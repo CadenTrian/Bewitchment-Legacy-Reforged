@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:athame",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use a small white circle, medium purple Phasing circle and large white circle. Offer an Athame, Silver Ingot, Pentacle and Poisonous Potato. A damaged Athame is accepted. Leave clear, dry space above the focal glyph for the Witch."
+                  },
+                  {
+                      "text":  "The ritual takes fifteen seconds: 750 starting power plus 50 each second, 1,500 total. Hecate\u0027s Visage reduces startup to 637, giving 1,387 total. It works in any dimension outside Peaceful difficulty and requires loaded spawn space inside the world border.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Success summons an ordinary hostile Witch at the focal center and returns a fresh, undamaged Athame. Old Athame names, enchantments and other custom data are not transferred. There is a ten percent chance the Witch receives five minutes of Regeneration III without potion particles.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "If casting is cancelled or spawning fails, the original offerings are returned with their data; spent power is not refunded. The space is checked before payment and again at completion. Athame kills of Endermen or Endermites provide Dimensional Sand bonus rolls for $(l:sympathy/advanced_chalk)Phasing Chalk$(). Remote casting is not restored.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:athame",
+    "category":  "bewitchment:sympathy",
+    "name":  "Conjure Witch",
+    "sortnum":  49
+}

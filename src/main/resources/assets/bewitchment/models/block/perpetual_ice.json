@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "minecraft:block/ice"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

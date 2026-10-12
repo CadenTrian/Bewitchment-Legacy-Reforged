@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:box_of_sealed_evil",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use this box without sneaking to consume one and draw one of twenty-six equally likely outcomes. It works from either hand and is consumed even in creative mode. Sneaking leaves it closed. Outcomes can give treasure, summon attackers or change the world. Noble demon merchants may offer boxes at career level four. Conjure Demon provides ritual access to merchants; creative access and /give also supply boxes."
+                  },
+                  {
+                      "text":  "Treasure outcomes include desert-pyramid chest loot, one random restored accessory, one of each block in the Forge ore tag, or a Nether Star. Another gives a blood bottle, heart, random unsigned contract and random skull. Thus each box has a one-in-twenty-six chance to supply a contract, drawn equally from all six tasks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Other gifts include a Nether Brick or Scorned Brick demon statue; Grotesque Stew with one to sixty-four raw chicken and mutton each; a bundle of magical plants; or one to two each of ghast tears, blaze rods, hellhound horns and demon hearts. Items enter your inventory, with overflow dropped. The ore outcome drops its items directly.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Beneficial potion outcomes give Strength II with Resistance I, or Speed II with Jump Boost I, for twenty minutes. Harmful outcomes give Poison I for one minute with Weakness I for twenty minutes, Wither I for forty seconds, or Hellfire for twenty minutes. These are ordinary potion effects, not saved contract state.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Creature outcomes include ten to nineteen bats with zero to nine ravens; one to three spectral Feuerwurms, Hellhounds, Shadow People or Ghosts; or one to two Druden, Bafometyrs or Cleavers. Spectral Feuerwurms last 1200 loaded entity ticks and yield no loot or XP. Hostile summons skip Peaceful difficulty. Placement attempts are bounded and require loaded, collision-free space.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "World outcomes start five to just under fifteen minutes of thunder, advance the current world to time 17600, or create visual-only lightning. The final outcome attempts a three-by-three-by-three cobweb area above your feet and summons matching groups of one to four cave spiders and silverfish. Webs replace only replaceable cells permitted by vanilla building checks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A blocked or canceled creature spawn is not rerolled into treasure, and using the box still consumes it. Reforged adds loaded-space and build-height checks; the ore reward uses Forge tags instead of the old ore class. Registry and random-call differences mean identical seeds need not reproduce 1.12.2 results. Noble demons can offer boxes at career level four; Conjure Demon provides ritual access.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:box_of_sealed_evil",
+    "category":  "bewitchment:sympathy",
+    "name":  "Box of Sealed Evil",
+    "sortnum":  112
+}

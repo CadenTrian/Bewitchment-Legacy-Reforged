@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/chiseled_scorned_bricks"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

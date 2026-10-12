@@ -1,0 +1,40 @@
+{
+    "name":  "Ruin",
+    "icon":  "minecraft:cactus",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  126,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Ruin brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Cactus or a Dead Bush, to a hot, powered water cauldron. Its base duration is one tick. Gunpowder makes a splash brew; adding Owlet\u0027s Wing too makes a lingering brew."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Living targets receive Weakness II and Mining Fatigue II for ten seconds per Ruin level. Splash distance does not reduce these legacy durations. Terrain and entity effects are separate: a full terrain queue does not prevent the debuffs."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Ruin samples an inclusive cube: radius three at level I, six at level II and nine at level III. Each position has a one-in-three chance. Higher command levels keep the terrain radius capped at nine. A sweep examines at most 6,859 positions."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Stone, granite, diorite and andesite, including polished variants, become cobblestone. Cobblestone becomes gravel. Gravel, dirt, coarse dirt, podzol and grass blocks become sand. A position is visited once per sweep, so one sweep does not repeatedly degrade the same block."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Flowers, short grass, ferns and crops can become dead bushes where those bushes can survive. Ores, stone bricks, containers and other unrelated blocks are retained. Replacements produce no item drops or XP. Falling gravel and sand still follow normal Minecraft physics."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Work is spread across server ticks: at most 512 candidate positions per dimension per tick and 128 per job. Each dimension holds up to 32 pending sweeps. Additional sweeps are rejected while full. Progress and random choices survive saves and restarts; unloaded chunks are skipped without loading them."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Player-owned work requires its owner to remain online, alive, in the same dimension and able to build. Otherwise the remaining job is discarded. Ownerless delivery uses the Minecraft fake player. Each replacement checks the world border, interaction permissions and a cancellable Forge block-break event. A listener replacement is left intact."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking schedules work around the drinker. Splash and lingering impacts schedule around the hit block or entity, even without living targets. A lingering cloud schedules at most one sweep per effect application tick when it affects living targets. Empty clouds do not repeat sweeps. Pesticide, Ruin, Harvest and Fertility are now available."
+                  }
+              ]
+}

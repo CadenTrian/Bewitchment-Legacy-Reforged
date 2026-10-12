@@ -1,0 +1,19 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:ritual_chalk"
+                        },
+                        {
+                            "item":  "minecraft:blaze_powder"
+                        },
+                        {
+                            "item":  "minecraft:netherrack"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:fiery_chalk"
+                    }
+                ]
+}

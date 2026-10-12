@@ -1,0 +1,16 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:block_of_silver",
+                   "bewitchment:block_of_silver_symbol",
+                   "bewitchment:block_of_silver_bevel",
+                   "bewitchment:block_of_silver_sun",
+                   "bewitchment:block_of_silver_moon",
+                   "bewitchment:block_of_silver_cup",
+                   "bewitchment:block_of_silver_pentacle",
+                   "bewitchment:block_of_silver_sword",
+                   "bewitchment:block_of_silver_wand",
+                   "bewitchment:block_of_silver_pentagram",
+                   "bewitchment:block_of_silver_old"
+               ]
+}

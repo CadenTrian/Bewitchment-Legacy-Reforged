@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:ritual_chalk"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        },
+                        {
+                            "tag":  "forge:nuggets/gold"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:focal_chalk"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

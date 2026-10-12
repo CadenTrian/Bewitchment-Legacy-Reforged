@@ -1,0 +1,264 @@
+{
+    "variants":  {
+                     "facing=up,variation=6":  {
+                                                   "model":  "bewitchment:block/sigil_6"
+                                               },
+                     "facing=north,variation=5":  {
+                                                      "model":  "bewitchment:block/sigil_5",
+                                                      "x":  90
+                                                  },
+                     "facing=east,variation=2":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_2",
+                                                     "x":  90
+                                                 },
+                     "facing=east,variation=1":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_1",
+                                                     "x":  90
+                                                 },
+                     "facing=west,variation=7":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_7",
+                                                     "x":  90
+                                                 },
+                     "facing=north,variation=8":  {
+                                                      "model":  "bewitchment:block/sigil_8",
+                                                      "x":  90
+                                                  },
+                     "facing=east,variation=9":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_9",
+                                                     "x":  90
+                                                 },
+                     "facing=up,variation=0":  {
+                                                   "model":  "bewitchment:block/sigil_0"
+                                               },
+                     "facing=down,variation=5":  {
+                                                     "model":  "bewitchment:block/sigil_5",
+                                                     "x":  180
+                                                 },
+                     "facing=north,variation=4":  {
+                                                      "model":  "bewitchment:block/sigil_4",
+                                                      "x":  90
+                                                  },
+                     "facing=down,variation=8":  {
+                                                     "model":  "bewitchment:block/sigil_8",
+                                                     "x":  180
+                                                 },
+                     "facing=down,variation=3":  {
+                                                     "model":  "bewitchment:block/sigil_3",
+                                                     "x":  180
+                                                 },
+                     "facing=north,variation=2":  {
+                                                      "model":  "bewitchment:block/sigil_2",
+                                                      "x":  90
+                                                  },
+                     "facing=east,variation=0":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_0",
+                                                     "x":  90
+                                                 },
+                     "facing=west,variation=9":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_9",
+                                                     "x":  90
+                                                 },
+                     "facing=north,variation=6":  {
+                                                      "model":  "bewitchment:block/sigil_6",
+                                                      "x":  90
+                                                  },
+                     "facing=west,variation=0":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_0",
+                                                     "x":  90
+                                                 },
+                     "facing=down,variation=6":  {
+                                                     "model":  "bewitchment:block/sigil_6",
+                                                     "x":  180
+                                                 },
+                     "facing=north,variation=1":  {
+                                                      "model":  "bewitchment:block/sigil_1",
+                                                      "x":  90
+                                                  },
+                     "facing=south,variation=1":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_1",
+                                                      "x":  90
+                                                  },
+                     "facing=west,variation=1":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_1",
+                                                     "x":  90
+                                                 },
+                     "facing=up,variation=2":  {
+                                                   "model":  "bewitchment:block/sigil_2"
+                                               },
+                     "facing=south,variation=4":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_4",
+                                                      "x":  90
+                                                  },
+                     "facing=up,variation=7":  {
+                                                   "model":  "bewitchment:block/sigil_7"
+                                               },
+                     "facing=west,variation=4":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_4",
+                                                     "x":  90
+                                                 },
+                     "facing=down,variation=2":  {
+                                                     "model":  "bewitchment:block/sigil_2",
+                                                     "x":  180
+                                                 },
+                     "facing=south,variation=7":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_7",
+                                                      "x":  90
+                                                  },
+                     "facing=up,variation=9":  {
+                                                   "model":  "bewitchment:block/sigil_9"
+                                               },
+                     "facing=south,variation=2":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_2",
+                                                      "x":  90
+                                                  },
+                     "facing=east,variation=8":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_8",
+                                                     "x":  90
+                                                 },
+                     "facing=east,variation=7":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_7",
+                                                     "x":  90
+                                                 },
+                     "facing=up,variation=5":  {
+                                                   "model":  "bewitchment:block/sigil_5"
+                                               },
+                     "facing=up,variation=8":  {
+                                                   "model":  "bewitchment:block/sigil_8"
+                                               },
+                     "facing=down,variation=4":  {
+                                                     "model":  "bewitchment:block/sigil_4",
+                                                     "x":  180
+                                                 },
+                     "facing=north,variation=0":  {
+                                                      "model":  "bewitchment:block/sigil_0",
+                                                      "x":  90
+                                                  },
+                     "facing=south,variation=5":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_5",
+                                                      "x":  90
+                                                  },
+                     "facing=east,variation=6":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_6",
+                                                     "x":  90
+                                                 },
+                     "facing=north,variation=9":  {
+                                                      "model":  "bewitchment:block/sigil_9",
+                                                      "x":  90
+                                                  },
+                     "facing=east,variation=3":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_3",
+                                                     "x":  90
+                                                 },
+                     "facing=up,variation=4":  {
+                                                   "model":  "bewitchment:block/sigil_4"
+                                               },
+                     "facing=down,variation=0":  {
+                                                     "model":  "bewitchment:block/sigil_0",
+                                                     "x":  180
+                                                 },
+                     "facing=down,variation=9":  {
+                                                     "model":  "bewitchment:block/sigil_9",
+                                                     "x":  180
+                                                 },
+                     "facing=west,variation=3":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_3",
+                                                     "x":  90
+                                                 },
+                     "facing=up,variation=3":  {
+                                                   "model":  "bewitchment:block/sigil_3"
+                                               },
+                     "facing=south,variation=0":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_0",
+                                                      "x":  90
+                                                  },
+                     "facing=south,variation=6":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_6",
+                                                      "x":  90
+                                                  },
+                     "facing=west,variation=5":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_5",
+                                                     "x":  90
+                                                 },
+                     "facing=south,variation=3":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_3",
+                                                      "x":  90
+                                                  },
+                     "facing=down,variation=1":  {
+                                                     "model":  "bewitchment:block/sigil_1",
+                                                     "x":  180
+                                                 },
+                     "facing=north,variation=3":  {
+                                                      "model":  "bewitchment:block/sigil_3",
+                                                      "x":  90
+                                                  },
+                     "facing=north,variation=7":  {
+                                                      "model":  "bewitchment:block/sigil_7",
+                                                      "x":  90
+                                                  },
+                     "facing=west,variation=6":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_6",
+                                                     "x":  90
+                                                 },
+                     "facing=west,variation=8":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_8",
+                                                     "x":  90
+                                                 },
+                     "facing=up,variation=1":  {
+                                                   "model":  "bewitchment:block/sigil_1"
+                                               },
+                     "facing=south,variation=9":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_9",
+                                                      "x":  90
+                                                  },
+                     "facing=east,variation=5":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_5",
+                                                     "x":  90
+                                                 },
+                     "facing=down,variation=7":  {
+                                                     "model":  "bewitchment:block/sigil_7",
+                                                     "x":  180
+                                                 },
+                     "facing=west,variation=2":  {
+                                                     "y":  270,
+                                                     "model":  "bewitchment:block/sigil_2",
+                                                     "x":  90
+                                                 },
+                     "facing=east,variation=4":  {
+                                                     "y":  90,
+                                                     "model":  "bewitchment:block/sigil_4",
+                                                     "x":  90
+                                                 },
+                     "facing=south,variation=8":  {
+                                                      "y":  180,
+                                                      "model":  "bewitchment:block/sigil_8",
+                                                      "x":  90
+                                                  }
+                 }
+}

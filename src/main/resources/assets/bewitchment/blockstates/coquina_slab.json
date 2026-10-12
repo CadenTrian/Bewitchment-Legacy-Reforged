@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bewitchment:block/coquina_slab"
+    },
+    "type=double": {
+      "model": "bewitchment:block/coquina"
+    },
+    "type=top": {
+      "model": "bewitchment:block/coquina_slab_top"
+    }
+  }
+}

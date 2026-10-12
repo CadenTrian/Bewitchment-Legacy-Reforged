@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:thyrsus",
+                      "type":  "patchouli:spotlight",
+                      "text":  "A Thyrsus is a staff carried by some Druden. It has seventy-two durability, sword-style melee handling and seven total unmodified player attack damage. Repair it with Sticks in an anvil. Druden loot and dropped equipment provide survival acquisition; master Hedge Witches can also sell the staff."
+                  },
+                  {
+                      "text":  "Use the staff on a living creature to spend six durability. Animals enter love mode, and tameable animals become yours, including animals previously owned by someone else, as in the legacy behavior. Other living targets still consume durability. Ordinary creature interaction handling can take priority over the staff. Creative mode follows normal durability exemptions.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A successful non-PvP staff melee hit has a ten percent chance to apply five seconds of Nausea and spend six extra durability, in addition to normal sword wear. Two players fighting each other cannot trigger this extra nausea. The original model and texture are retained.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Sneak-use a Thyrsus on top of a formed altar to place a Wand-category upgrade. It adds ninety-two capacity before other upgrade multipliers. Only one upgrade in that category contributes; it competes with other wand-category decorations. Carrying the staff alone does not upgrade an altar.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:thyrsus",
+    "category":  "bewitchment:sympathy",
+    "name":  "Thyrsus",
+    "sortnum":  68
+}

@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:hecates_visage",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Wear this animated mask in the Curios Head or general Curio slot. It reduces ritual starting power by 15 percent, rounded down. It does not reduce the ongoing cost and needs no separate Grimoire payment."
+                  },
+                  {
+                      "text":  "Grimoire Magia costs 127 to start while wearing the Visage, then the usual five payments of 20. Purifying Earth starts for 170, then two payments of 20. Extra copies do not multiply the discount.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A master Hedge Witch can select Hecate\u0027s Visage from the random accessory pool, with a base price of 8-16 emeralds. There is no crafting recipe. Wear it in Head or general Curio. Binding Curse prevents normal removal except in creative mode.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:hecates_visage",
+    "category":  "bewitchment:beginnings",
+    "name":  "Hecate\u0027s Visage",
+    "sortnum":  35
+}

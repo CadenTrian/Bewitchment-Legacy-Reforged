@@ -1,0 +1,18 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:nuggets/cold_iron"
+                        },
+                        {
+                            "tag":  "forge:rods/wooden"
+                        },
+                        {
+                            "item":  "bewitchment:ravens_feather"
+                        }
+                    ],
+    "result":  {
+                   "count":  4,
+                   "item":  "bewitchment:cold_iron_arrow"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

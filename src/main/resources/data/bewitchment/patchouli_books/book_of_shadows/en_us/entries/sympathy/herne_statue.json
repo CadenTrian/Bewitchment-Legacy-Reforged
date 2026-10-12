@@ -1,0 +1,31 @@
+{
+    "name":  "Herne Statue",
+    "icon":  "bewitchment:stone_herne_statue",
+    "category":  "bewitchment:sympathy",
+    "sortnum":  459,
+    "pages":  [
+                  {
+                      "item":  "bewitchment:stone_herne_statue",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Craft this statue using Bottled Hellfire and an Arrow, with Stone, Gold, Nether Brick or Scorned Brick as the body material. The following pages show all four recipes."
+                  },
+                  {
+                      "text":  "Placement needs a clear column 4 block(s) tall, inside the build limits and world border. The entire column must permit building and be free of obstructing entities. It faces toward the placer. Breaking any part removes the remaining parts. Use a suitable pickaxe to collect the item; Gold and Scorned Brick variants require iron tier or better.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The base contributes 3.5 enchantment power when positioned where an enchanting table can use it. Upper parts do not add extra power. All four materials have the same bonus and height. Pistons destroy these decorations instead of moving them.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "recipe2":  "bewitchment:gold_herne_statue",
+                      "recipe":  "bewitchment:stone_herne_statue",
+                      "type":  "patchouli:crafting"
+                  },
+                  {
+                      "recipe2":  "bewitchment:scorned_brick_herne_statue",
+                      "recipe":  "bewitchment:nether_brick_herne_statue",
+                      "type":  "patchouli:crafting"
+                  }
+              ]
+}

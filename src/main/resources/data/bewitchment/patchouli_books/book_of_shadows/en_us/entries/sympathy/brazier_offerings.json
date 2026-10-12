@@ -1,0 +1,62 @@
+{
+    "pages":  [
+                  {
+                      "text":  "Each recipe below also needs exactly one Taglock bound to the intended online player. Insert each listed item separately, including repeated ingredients. Item order does not matter. Use Flint and Steel after all offerings are inserted.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "title":  "conflagration",
+                      "type":  "patchouli:text",
+                      "text":  "fiery unguent, crops hellebore (tag), bottled hellfire, charcoal. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "darkness",
+                      "type":  "patchouli:text",
+                      "text":  "oil of vitriol, oak apple gall, iron gall ink, belladonna, aconitum. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "hydrophobia",
+                      "type":  "patchouli:text",
+                      "text":  "oil of vitriol, coquina (tag), coquina (tag), stone, ink sac, prismarine shard. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "lightning rod",
+                      "type":  "patchouli:text",
+                      "text":  "nuggets iron (tag), nuggets gold (tag), dusts redstone (tag), oil of vitriol. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "misfortune",
+                      "type":  "patchouli:text",
+                      "text":  "oil of vitriol, elderberries, elderberries, belladonna, snake venom, ravens feather. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "overheating",
+                      "type":  "patchouli:text",
+                      "text":  "oil of vitriol, fiery unguent, tallow, bone, bone. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "palor pestilence",
+                      "type":  "patchouli:text",
+                      "text":  "aconitum, hellebore, snake venom, belladonna. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "paranoia",
+                      "type":  "patchouli:text",
+                      "text":  "ender eye, blaze powder, dragons blood resin, snake venom, ghast tear, ectoplasm, demonic elixir. Add one bound Taglock."
+                  },
+                  {
+                      "title":  "return to sender",
+                      "type":  "patchouli:text",
+                      "text":  "white sage, salt, nuggets silver (tag), nuggets iron (tag). Add one bound Taglock."
+                  },
+                  {
+                      "title":  "solar hatred",
+                      "type":  "patchouli:text",
+                      "text":  "snake venom, nuggets gold (tag), fiery unguent, salt, rotten flesh. Add one bound Taglock."
+                  }
+              ],
+    "icon":  "bewitchment:taglock",
+    "category":  "bewitchment:sympathy",
+    "name":  "Brazier Offerings",
+    "sortnum":  101
+}

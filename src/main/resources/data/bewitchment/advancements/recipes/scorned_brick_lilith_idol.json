@@ -1,0 +1,20 @@
+{
+    "criteria":  {
+                     "has_ingredient":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "item":  "bewitchment:liquid_witchcraft"
+                                                                             }
+                                                                         ]
+                                                           }
+                                        }
+                 },
+    "parent":  "minecraft:recipes/root",
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:scorned_brick_lilith_idol"
+                                ]
+                }
+}

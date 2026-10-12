@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:snake_venom",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Snakes have six original skins. They spawn on suitable grass in Plains, Hills and Sandy biome types, with weight twenty and groups of one to four. The ordinary animal light rules and population cap still apply. Set snakeWeight to zero in bewitchment-creatures.toml and restart to disable natural spawns."
+                  },
+                  {
+                      "text":  "Tame a wild Snake with raw Chicken, raw Rabbit, Eggs, Rabbit Feet or Lizard Legs. Each offering has a one-in-five chance. Taming raises health from eight to twenty. Owners toggle sitting with non-breeding items, except Glass Bottles. Breed two tamed, standing adults with raw Rabbit; their baby inherits one skin but is wild.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use a Glass Bottle on an adult for a one-in-two chance of collecting Snake Venom. Success starts a three-minute cooldown that survives saving. A failed roll or collecting during cooldown provokes the Snake, even if tamed. Babies never provide venom. Creative collection retains bottles; full survival inventories drop the filled bottle.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A bite deals one and a half base damage and applies Poison for five seconds without particles. Snakes are immune to Poison, defend their owner and hunt Chickens, Lizards, Rabbits and Parrots while wild. They descend slowly and heal two health on each of the first six ticks in every two-hundred-tick cycle.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Adult drops supply zero or one Adder\u0027s Fork plus Looting. An Athame adds the legacy bonus roll, up to three before its Looting adjustment. Lizard and Toad Athame bonuses are also restored. Spawn eggs and /summon bewitchment:snake are available. Lightning now transforms Snakes into Feuerwurms when the larger body fits. Familiar binding remains unported.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:snake_venom",
+    "category":  "bewitchment:sympathy",
+    "name":  "Snakes",
+    "sortnum":  59
+}

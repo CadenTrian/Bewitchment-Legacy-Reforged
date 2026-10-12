@@ -1,0 +1,12 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#forge:crops/garlic",
+                   "#forge:crops/white_sage",
+                   "#forge:crops/aconitum",
+                   "#forge:crops/belladonna",
+                   "#forge:crops/hellebore",
+                   "#forge:crops/mandrake",
+                   "#forge:crops/wormwood"
+               ]
+}

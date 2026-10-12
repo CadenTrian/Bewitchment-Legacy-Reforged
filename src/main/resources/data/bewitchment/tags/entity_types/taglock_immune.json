@@ -1,0 +1,20 @@
+{
+    "replace":  false,
+    "values":  [
+                   "minecraft:ender_dragon",
+                   "minecraft:wither",
+                   {"id":"bewitchment:demoness","required":false},
+                   {
+                       "id":  "bewitchment:demon",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:baphomet",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:leonard",
+                       "required":  false
+                   }
+               ]
+}

@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:poppet_shelf_oak",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Each shelf holds nine stacks. Right-click an empty cell with your main-hand stack to store it; click an occupied cell to retrieve its contents. Hoppers can insert and extract items. Breaking a shelf drops its contents."
+                  },
+                  {
+                      "text":  "Bound protective poppets work while the shelf is loaded in the target\u0027s dimension. No altar power is needed, and shelves do not keep chunks loaded. Carried poppets are checked first. All ten wood variants work alike; any player can access them.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_shelf_oak"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:poppet_shelf_elder"
+                  }
+              ],
+    "icon":  "bewitchment:poppet_shelf_oak",
+    "category":  "bewitchment:sympathy",
+    "name":  "Poppet Shelves",
+    "sortnum":  18
+}

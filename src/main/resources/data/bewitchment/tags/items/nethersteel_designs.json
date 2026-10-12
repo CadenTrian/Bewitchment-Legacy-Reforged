@@ -1,0 +1,17 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:nethersteel",
+                   "bewitchment:nethersteel_symbol",
+                   "bewitchment:nethersteel_bevel",
+                   "bewitchment:nethersteel_polished",
+                   "bewitchment:nethersteel_sentient",
+                   "bewitchment:nethersteel_pentacle",
+                   "bewitchment:nethersteel_pentagram",
+                   "bewitchment:nethersteel_skull",
+                   "bewitchment:nethersteel_eye",
+                   "bewitchment:nethersteel_watching_eye",
+                   "bewitchment:nethersteel_hellish",
+                   "bewitchment:nethersteel_watching_hellish"
+               ]
+}

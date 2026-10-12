@@ -1,0 +1,33 @@
+{
+    "name":  "Greater Demon Pledges",
+    "icon":  "bewitchment:stew_of_the_grotesque",
+    "category":  "bewitchment:sympathy",
+    "sortnum":  116,
+    "pages":  [
+                  {
+                      "type":  "patchouli:spotlight",
+                      "item":  "bewitchment:stew_of_the_grotesque",
+                      "text":  "Greater-demon allegiance has saved state and creature protections. Both Leonard and Baphomet can now be summoned through their rituals and pledged to. Demon and Demoness merchants do not accept pledges. Operators can also test the implemented effects with the pledge command."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Use /pledge \u003cplayer\u003e add baphomet or /pledge \u003cplayer\u003e add leonard. Use get to inspect, remove \u003cpatron\u003e to revoke one, or clear to revoke both. These commands require permission level two and one online player target. Duplicate additions do nothing. Both pledges can coexist, matching legacy behavior."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Baphomet allegiance clears new attack targets against you from Bafometyrs and Feuerwurms. Leonard allegiance does the same for Cambions. It is not damage immunity: stray projectiles and environmental hazards still hurt. Existing targets are not swept by the testing command; test a fresh target selection. Ordinary Demon merchants, Imps and Hellhounds gain no protection from these pledges."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Allegiance is keyed to player UUID and saved in the server\u0027s Overworld data, shared across dimensions. It survives respawn and travel without a player-clone copy. Removing one pledge preserves the other and leaves other players unchanged. Malformed UUIDs, unknown patrons and unsupported saved schemas grant no allegiance. This format does not import 1.12.2 saves."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Wear a full Alchemist, Besmirched, Green Witch or Witches set. Hold a Pentacle offhand for Baphomet or a Green Candle for Leonard, then eat stew within eight horizontal and five vertical blocks of the boss. The nearest living pledgeable entity is selected, with a stable tie break. The token is retained. See $(l:sympathy/conjure_leonard)Conjure Leonard$() and $(l:sympathy/conjure_baphomet)Conjure Baphomet$() for summoning."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Stew retains its food effects and bowl behavior. Pledging clears the boss target and updates its bar; player-attributed damage to that boss revokes its own pledge. Both greater demons have pledge-aware boss bars. Leonard grants brewing bonuses and stew interactions; Baphomet sells positive contracts for six levels. Live encounter testing is still recommended."
+                  }
+              ]
+}

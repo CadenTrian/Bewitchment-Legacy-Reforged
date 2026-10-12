@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:elder_sapling",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use small and medium white circles. Offer two Oak Apple Galls, two Vines and two Ink Sacs separately. The Ink Sacs preserve the original recipe\u0027s actual dye metadata. Start for 550 power, or 467 with Hecate\u0027s Visage, then pay 40 each second for five seconds."
+                  },
+                  {
+                      "text":  "On completion, Oak and Birch saplings become Elder; Spruce and Jungle become Cypress; Acacia becomes Juniper. Dark Oak, potted saplings and grown trees are unchanged. The area extends sixteen blocks from the focal glyph in every direction, including vertically.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Only loaded positions that the caster can edit and that support the replacement sapling are changed. No chunks are generated for this ritual. It creates saplings rather than instantly growing trees. Offerings are consumed on completion; a cancelled cast returns them. A full run costs 750 power, or 667 with the Visage.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:elder_sapling",
+    "category":  "bewitchment:sympathy",
+    "name":  "Frenzied Growth",
+    "sortnum":  48
+}

@@ -1,0 +1,21 @@
+{
+    "curse":  "bewitchment:conflagration",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:fiery_unguent"
+                        },
+                        {
+                            "tag":  "forge:crops/hellebore"
+                        },
+                        {
+                            "item":  "bewitchment:bottled_hellfire"
+                        },
+                        {
+                            "item":  "minecraft:charcoal"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

@@ -1,0 +1,74 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  1,
+                      "name":  "hellhound",
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:tongue_of_dog",
+                                          "weight":  3,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:hellhound_horn",
+                                          "weight":  2,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  2
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:blaze_powder",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  3
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ],
+    "type":  "minecraft:entity"
+}

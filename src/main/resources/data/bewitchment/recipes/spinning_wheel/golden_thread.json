@@ -1,0 +1,26 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:nuggets/gold"
+                        },
+                        {
+                            "tag":  "forge:crops/wheat"
+                        },
+                        {
+                            "tag":  "forge:crops/wheat"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "count":  2,
+                        "item":  "bewitchment:golden_thread"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

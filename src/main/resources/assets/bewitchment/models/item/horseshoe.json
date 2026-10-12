@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/horseshoe"
+                 },
+    "parent":  "minecraft:item/generated"
+}

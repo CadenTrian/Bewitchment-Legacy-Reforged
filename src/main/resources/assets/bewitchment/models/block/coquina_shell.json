@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/coquina_shell"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

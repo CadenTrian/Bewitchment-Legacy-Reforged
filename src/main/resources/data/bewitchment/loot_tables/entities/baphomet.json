@@ -1,0 +1,23 @@
+{
+    "pools":  [
+                  {
+                      "entries":  [
+                                      {
+                                          "name":  "bewitchment:caduceus",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1
+                  },
+                  {
+                      "entries":  [
+                                      {
+                                          "name":  "bewitchment:demon_heart",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1
+                  }
+              ],
+    "type":  "minecraft:entity"
+}

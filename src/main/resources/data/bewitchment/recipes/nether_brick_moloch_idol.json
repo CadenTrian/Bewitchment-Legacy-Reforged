@@ -1,0 +1,22 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "F F",
+                    "FDF",
+                    "FRF"
+                ],
+    "key":  {
+                "F":  {
+                          "item":  "minecraft:nether_brick"
+                      },
+                "D":  {
+                          "item":  "bewitchment:liquid_witchcraft"
+                      },
+                "R":  {
+                          "item":  "bewitchment:heart"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:nether_brick_moloch_idol"
+               }
+}

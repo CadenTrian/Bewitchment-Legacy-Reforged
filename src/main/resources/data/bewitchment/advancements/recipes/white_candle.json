@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_tallow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bewitchment:tallow"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "bewitchment:candle/white_candle_dye",
+      "bewitchment:candle/white_candle"
+    ]
+  }
+}

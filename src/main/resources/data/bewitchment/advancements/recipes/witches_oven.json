@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_bars"
+          }
+        ]
+      }
+    },
+    "has_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "bewitchment:witches_oven"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_bars",
+      "has_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bewitchment:witches_oven"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "pages":  [
+                  {
+                      "text":  "The original demon trade tables are available for operator preview. Use /demontrades noble 1, /demontrades despot 3 or /demontrades apocryphal_teacher 5. Levels run from one to five. The command samples two distinct offers at levels one through four, or one offer at level five. It displays offers without taking payment or delivering items.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The three careers contain forty-nine candidate offers. Noble trades include materials, boxes, statues, idols and accessories. Despots offer creature parts and weapons. Apocryphal Teachers offer magical supplies, enchanted books, idols, statues and Skeleton Keys. Each career can select a random contract at level five; selection does not guarantee one.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Payment is randomly blaze rods (4-15), diamonds (5-7), gold ingots (15-30), or magma cream (8-18). Append true to preview Besmirched pricing, for example /demontrades noble 4 true. Ordinary and fixed-enchantment offers halve their price, rounding down. Random enchantments, idols, statues and contracts retain full prices, matching the legacy trade handlers.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Normal offers begin with seven uses; contracts have one. Contract results are unsigned tasks from the six-task pool. Fixed bow and book enchantments are preserved. Reforged caps output counts at the item stack limit, correcting the legacy Fortune\u0027s Favor trade that could request fifteen unstackable accessories. Each preview generates fresh offers.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Preview requires operator permission level two and works from the console. Use /demontrades progression noble true to simulate five career levels with discounted new offers. It reports cumulative counts and simulated XP without charging or rewarding you. Actual demons now have trading screens; see Demon Merchants. Conjure Demon now provides ritual access; natural spawning remains pending.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:gold_ingot",
+    "category":  "bewitchment:sympathy",
+    "name":  "Demon Trade Preview",
+    "sortnum":  113
+}

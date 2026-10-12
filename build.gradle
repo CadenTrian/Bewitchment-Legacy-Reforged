@@ -1,0 +1,1079 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0,6.2)'
+    }
+
+version = mod_version
+group = mod_group_id
+
+base {
+    archivesName = mod_id
+    }
+
+// Minecraft 1.16.5 mod sources target Java 8.
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+minecraft {
+    // The mappings can be changed at any time and must be in the following format.
+    // Channel:   Version:
+    // official   MCVersion  Official field/method names from Mojang mapping files
+    // parchment  YYYY.MM.DD-MCVersion  Open community-sourced parameter names and javadocs layered on top of official
+    //
+    // You must be aware of the Mojang license when using the 'official' or 'parchment' mappings.
+    // See more information here: https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
+    //
+    // Parchment is an unofficial project maintained by ParchmentMC, separate from MinecraftForge
+    // Additional setup is needed to use their mappings: https://github.com/ParchmentMC/Parchment/wiki/Getting-Started
+    //
+    // Use non-default mappings at your own risk. They may not always work.
+    // Simply re-run your setup task after changing the mappings to update your workspace.
+    mappings channel: mapping_channel, version: mapping_version
+    
+    // When true, this property will have all Eclipse/IntelliJ IDEA run configurations run the "prepareX" task for the given run configuration before launching the game.
+    // In most cases, it is not necessary to enable.
+    // enableEclipsePrepareRuns = true
+    // enableIdeaPrepareRuns = true
+
+    // This property allows configuring Gradle's ProcessResources task(s) to run on IDE output locations before launching the game.
+    // It is REQUIRED to be set to true for this template to function.
+    // See https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
+    copyIdeResources = true
+
+    // When true, this property will add the folder name of all declared run configurations to generated IDE run configurations.
+    // The folder name can be set on a run configuration using the "folderName" property.
+    // By default, the folder name of a run configuration is the name of the Gradle project containing it.
+    // generateRunFolders = true
+
+    // This property enables access transformers for use in development.
+    // They will be applied to the Minecraft artifact.
+    // The access transformer file can be anywhere in the project.
+    // However, it must be at "META-INF/accesstransformer.cfg" in the final mod jar to be loaded by Forge.
+    // This default location is a best practice to automatically put the file in the right place in the final jar.
+    // See https://docs.minecraftforge.net/en/latest/advanced/accesstransformers/ for more information.
+    // accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    // Default run configurations.
+    // These can be tweaked, removed, or duplicated as needed.
+    runs {
+        // applies to all the run configs below
+        configureEach {
+            workingDirectory project.file('run')
+            // Dependencies such as Patchouli ship SRG mixin refmaps; dev runs use official names.
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', file('build/createSrgToMcp/output.srg').absolutePath
+
+            // Recommended logging data for a userdev environment
+            // The markers can be added/remove as needed separated by commas.
+            // "SCAN": For mods scan.
+            // "REGISTRIES": For firing of registry events.
+            // "REGISTRYDUMP": For getting the contents of all registries.
+            property 'forge.logging.markers', 'REGISTRIES'
+
+            // Recommended logging level for the console
+            // You can set various levels here.
+            // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        client {
+            // this block needs to be here for runClient to exist
+        }
+
+        server {
+            args '--nogui'
+        }
+
+        data {
+            // example of overriding the workingDirectory set in configureEach above
+            workingDirectory project.file('run-data')
+
+            // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
+            args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+        }
+    }
+}
+
+// Include resources generated by data generators.
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+repositories {
+    maven {
+        url 'https://maven.theillusivec4.top/'
+        content { includeGroup 'top.theillusivec4.curios' }
+    }
+    maven {
+        url 'https://maven.blamejared.com'
+        content { includeGroup 'vazkii.patchouli' }
+    }
+    // Put repositories for dependencies here
+    // ForgeGradle automatically adds the Forge maven and Maven Central for you
+
+    // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
+    // flatDir {
+    //     dir 'libs'
+    // }
+}
+
+dependencies {
+    // Specify the version of Minecraft to use.
+    // Any artifact can be supplied so long as it has a "userdev" classifier artifact and is a compatible patcher artifact.
+    // The "userdev" classifier will be requested and setup by ForgeGradle.
+    // If the group id is "net.minecraft" and the artifact id is one of ["client", "server", "joined"],
+    // then special handling is done to allow a setup of a vanilla dependency without the use of an external repository.
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:${patchouli_version}")
+    implementation fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}")
+
+    // Real mod deobf dependency examples - these get remapped to your current mappings
+    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
+    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
+    // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
+
+    // Example mod dependency using a mod jar from ./libs with a flat dir repository
+    // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
+    // The group id is ignored when searching -- in this case, it is "blank"
+    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
+
+    // For more info:
+    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
+    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+}
+
+// This block of code expands all declared replace properties in the specified resource targets.
+// A missing property will result in an error. Properties are expanded using ${} Groovy notation.
+// When "copyIdeResources" is enabled, this will also run before the game launches in IDE environments.
+// See https://docs.gradle.org/current/dsl/org.gradle.language.jvm.tasks.ProcessResources.html
+tasks.named('processResources', ProcessResources).configure {
+    var replaceProperties = [
+            minecraft_version: minecraft_version, minecraft_version_range: minecraft_version_range,
+            forge_version: forge_version, forge_version_range: forge_version_range,
+            loader_version_range: loader_version_range,
+            mod_id: mod_id, mod_name: mod_name, mod_license: mod_license, mod_version: mod_version,
+            mod_authors: mod_authors, mod_description: mod_description,
+    ]
+    inputs.properties replaceProperties
+
+    filesMatching(['META-INF/mods.toml', 'pack.mcmeta']) {
+        expand replaceProperties + [project: project]
+    }
+    // Index the final merged resources, so the startup audit covers generated recipes too.
+    doLast {
+        def recipeRoot = new File(destinationDir, 'data/bewitchment/recipes')
+        def paths = fileTree(recipeRoot).matching { include '**/*.json' }.files.collect {
+            recipeRoot.toPath().relativize(it.toPath()).toString().replace('\\', '/')
+        }.sort()
+        new File(destinationDir, 'bewitchment-recipes.txt').setText(paths.join('\n') + '\n', 'UTF-8')
+    }
+}
+
+// Example for how to get properties into the manifest for reading at runtime.
+tasks.named('jar', Jar).configure {
+    from('LICENSE')
+    from('LICENSE.txt') { rename { 'FORGE-LICENSE.txt' } }
+    manifest {
+        attributes([
+                'Specification-Title'     : mod_id,
+                'Specification-Vendor'    : mod_authors,
+                'Specification-Version'   : '1', // We are version 1 of ourselves
+                'Implementation-Title'    : project.name,
+                'Implementation-Version'  : project.jar.archiveVersion,
+                'Implementation-Vendor'   : mod_authors,
+                'Implementation-Timestamp': new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
+
+    }
+
+// This is the preferred method to reobfuscate your jar file
+    finalizedBy 'reobfJar'
+}
+
+// However if you are in a multi-project build, dev time needs unobfed jar files, so you can delay the obfuscation until publishing by doing:
+// tasks.named('publish').configure {
+//     dependsOn 'reobfJar'
+// }
+
+publishing {
+    publications {
+        register('mavenJava', MavenPublication) {
+            artifact jar
+        }
+    }
+    repositories {
+        maven {
+            url "file://${project.projectDir}/mcmodsrepo"
+        }
+    }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
+}
+
+tasks.matching { it.name in ['runClient', 'runServer', 'runData', 'prepareRuns', 'prepareRunClient', 'prepareRunServer', 'prepareRunData'] }.configureEach {
+    dependsOn 'createSrgToMcp'
+}
+
+tasks.register('verifyWorldgenConfig', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.config.WorldGenerationConfigCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyWorldgenConfig') }
+
+tasks.register('verifyAthameLoot', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.loot.AthameRollsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyAthameLoot') }
+
+tasks.register('verifySpinningWheel', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.SpinningWheelCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySpinningWheel') }
+
+tasks.register('verifyGreenWitchHarvest', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.loot.GreenWitchHarvestCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyGreenWitchHarvest') }
+
+tasks.register('verifySpanishMoss', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.block.SpanishMossCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySpanishMoss') }
+
+tasks.register('verifyPoppets', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.PoppetCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyPoppets') }
+
+tasks.register('verifyPoppetShelves', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.PoppetShelfCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyPoppetShelves') }
+
+tasks.register('verifyVoodoo', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.VoodooCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyVoodoo') }
+
+tasks.register('verifyGrimoire', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.GrimoireCheck'
+}
+tasks.register('verifyFortuneFavor', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.loot.FortuneFavorCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyGrimoire'), tasks.named('verifyFortuneFavor') }
+
+tasks.register('verifyAdvancedAccessories', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.AdvancedAccessoryCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyAdvancedAccessories') }
+
+tasks.register('verifyRituals', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.RitualCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyRituals') }
+
+tasks.register('verifyWorldRituals', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.WorldRitualCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyWorldRituals') }
+
+tasks.register('verifyContinuousRituals', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.ContinuousRitualCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyContinuousRituals') }
+
+tasks.register('verifyDrawingRituals', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DrawingRitualCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDrawingRituals') }
+
+tasks.register('verifyFlamesGrowth', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.FlamesGrowthCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyFlamesGrowth') }
+
+tasks.register('verifyConjuration', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.ConjurationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyConjuration') }
+
+
+tasks.register('verifyTeleport', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.TeleportCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyTeleport') }
+tasks.register('verifyNatureHellmouth', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.NatureHellmouthCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyNatureHellmouth') }
+tasks.register('verifyLandscape', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.LandscapeCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyLandscape') }
+
+// Avoid first-load Forge/Curios correction racing NightConfig's watcher on Windows.
+// Existing developer defaults and world-specific settings remain untouched.
+tasks.register('prepareDevServerDefaults') {
+    doLast {
+        ['curios-server.toml', 'forge-server.toml'].each { name ->
+            def destination = file("run/defaultconfigs/${name}")
+            if (!destination.exists()) {
+                destination.parentFile.mkdirs()
+                java.nio.file.Files.copy(file("config/dev-defaultconfigs/${name}").toPath(), destination.toPath())
+            }
+        }
+    }
+}
+tasks.matching { it.name in ['runClient', 'prepareRunClient', 'runServer', 'prepareRunServer'] }.configureEach {
+    dependsOn tasks.named('prepareDevServerDefaults')
+}
+tasks.register('verifyCreatures', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.CreatureCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCreatures') }
+
+tasks.register('verifyBirds', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.BirdCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBirds') }
+
+tasks.register('verifyFeuerwurm', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.FeuerwurmCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyFeuerwurm') }
+
+tasks.register('verifyHellhound', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.HellhoundCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyHellhound') }
+
+tasks.register('verifyBlackDog', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.BlackDogCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBlackDog') }
+
+tasks.register('verifyImp', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.ImpCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyImp') }
+
+tasks.register('verifyCambion', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.CambionCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCambion') }
+
+tasks.register('verifyDruden', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.DrudenCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDruden') }
+
+tasks.register('verifyWerewolf', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.WerewolfCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyWerewolf') }
+
+tasks.register('verifyCallOfTheWild', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.CallOfTheWildCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCallOfTheWild') }
+
+tasks.register('verifyImpConjuration', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.ImpConjurationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyImpConjuration') }
+
+tasks.register('verifyHellmouth', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.HellmouthCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyHellmouth') }
+
+tasks.register('verifyShadowPerson', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.ShadowPersonCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyShadowPerson') }
+
+tasks.register('verifyBafometyr', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.BafometyrCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBafometyr') }
+
+tasks.register('verifyCleaver', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.CleaverCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCleaver') }
+
+tasks.register('verifyGreaterHellmouth', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.GreaterHellmouthCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyGreaterHellmouth') }
+
+tasks.register('verifyGhost', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.GhostCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyGhost') }
+
+tasks.register('verifySpiritualRift', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.SpiritualRiftCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySpiritualRift') }
+
+tasks.register('verifyWednesday', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.WednesdayCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyWednesday') }
+
+tasks.register('verifyCaduceus', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.CaduceusCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCaduceus') }
+
+tasks.register('verifyLeonardsWand', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.LeonardsWandCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyLeonardsWand') }
+
+tasks.register('verifyDevServerDefaults', JavaExec) {
+    dependsOn tasks.named('testClasses'), tasks.named('prepareDevServerDefaults')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.config.DevServerDefaultsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDevServerDefaults') }
+
+tasks.register('verifyJuniperKeys', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.JuniperKeyCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyJuniperKeys') }
+
+tasks.register('verifySkeletonKey', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.SkeletonKeyCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySkeletonKey') }
+
+tasks.register('verifyJuniperChest', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.JuniperChestCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyJuniperChest') }
+
+tasks.register('verifyDragonsBloodChest', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DragonsBloodChestCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDragonsBloodChest') }
+
+tasks.register('verifySigilTable', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.SigilTableCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySigilTable') }
+
+tasks.register('verifyPlacedSigils', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.PlacedSigilCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyPlacedSigils') }
+
+tasks.register('verifyRuinBattle', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.RuinBattleCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyRuinBattle') }
+
+tasks.register('verifySentinelSigil', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.SentinelSigilCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySentinelSigil') }
+
+tasks.register('verifyRitualInhibition', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.RitualInhibitionCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyRitualInhibition') }
+
+tasks.register('verifyAccessoryDamage', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.AccessoryDamageCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyAccessoryDamage') }
+
+tasks.register('verifyCurses', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.CurseCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCurses') }
+
+tasks.register('verifyEnvironmentalCurses', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.EnvironmentalCurseCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyEnvironmentalCurses') }
+
+tasks.register('verifyGreaterCurses', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.GreaterCurseCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyGreaterCurses') }
+
+tasks.register('verifyParanoia', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.ParanoiaCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyParanoia') }
+
+tasks.register('verifyCurseReflection', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.CurseReflectionCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCurseReflection') }
+
+tasks.register('verifyBrazier', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BrazierCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBrazier') }
+
+tasks.register('verifyIncense', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.IncenseCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyIncense') }
+
+tasks.register('verifyBrazierAutomation', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BrazierAutomationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBrazierAutomation') }
+
+tasks.register('verifyEverflame', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.EverflameCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyEverflame') }
+
+tasks.register('verifyContractEffects', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.ContractEffectsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyContractEffects') }
+
+tasks.register('verifyKillContracts', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.KillContractCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyKillContracts') }
+
+tasks.register('verifyDonationContracts', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DonationContractCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDonationContracts') }
+
+tasks.register('verifyIgnition', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.loot.IgnitionCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyIgnition') }
+
+tasks.register('verifyMahapadma', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.MahapadmaCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyMahapadma') }
+tasks.register('verifyContractGeneration', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.ContractGenerationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyContractGeneration') }
+tasks.register('verifySealedBox', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.SealedBoxCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySealedBox') }
+tasks.register('verifyDemonTrades', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.trade.DemonTradesCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDemonTrades') }
+tasks.register('verifyDemonMerchantState', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.trade.DemonMerchantStateCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDemonMerchantState') }
+tasks.register('verifyDemon', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.DemonCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDemon') }
+tasks.register('verifyDemoness', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.DemonessCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDemoness') }
+tasks.register('verifyDemonConjuration', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DemonConjurationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDemonConjuration') }
+tasks.register('verifyDemonPledges', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DemonPledgesCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDemonPledges') }
+tasks.register('verifyGreaterDemon', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.GreaterDemonCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyGreaterDemon') }
+tasks.register('verifyLeonard', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.LeonardCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyLeonard') }
+tasks.register('verifyLeonardConjuration', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.LeonardConjurationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyLeonardConjuration') }
+tasks.register('verifyBrewPlan', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BrewPlanCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBrewPlan') }
+tasks.register('verifyBrewBatch', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BrewBatchCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBrewBatch') }
+tasks.register('verifyDefensiveBrews', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DefensiveBrewsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDefensiveBrews') }
+tasks.register('verifyUtilityBrews', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.UtilityBrewsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyUtilityBrews') }
+tasks.register('verifyCombatBrews', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.CombatBrewsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCombatBrews') }
+tasks.register('verifyTargetedBrews', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.TargetedBrewsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyTargetedBrews') }
+tasks.register('verifyPesticide', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.PesticideCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyPesticide') }
+tasks.register('verifyRuin', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.RuinCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyRuin') }
+tasks.register('verifyHarvest', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.HarvestCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyHarvest') }
+tasks.register('verifyFertility', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.FertilityCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyFertility') }
+tasks.register('verifyMending', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.MendingCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyMending') }
+tasks.register('verifyBlight', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BlightCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBlight') }
+tasks.register('verifySporeCloud', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.SporeCloudCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySporeCloud') }
+tasks.register('verifyDesertification', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DesertificationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDesertification') }
+tasks.register('verifyArachnophobia', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.ArachnophobiaCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyArachnophobia') }
+tasks.register('verifyRubedo', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.RubedoCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyRubedo') }
+tasks.register('verifyCitrinitas', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.CitrinitasCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCitrinitas') }
+tasks.register('verifyIceworld', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.IceworldCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyIceworld') }
+tasks.register('verifyHellworld', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.HellworldCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyHellworld') }
+tasks.register('verifyFortunes', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.FortuneCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyFortunes') }
+
+tasks.register('verifyRecipeItemReferences', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.RecipeItemReferencesCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyRecipeItemReferences') }
+
+tasks.register('verifyCrystalBall', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.CrystalBallCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCrystalBall') }
+
+tasks.register('verifyTarot', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.TarotCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyTarot') }
+
+tasks.register('verifyTarotHistory', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.TarotHistoryCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyTarotHistory') }
+
+tasks.register('verifyTarotCompanions', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.TarotCompanionsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyTarotCompanions') }
+
+tasks.register('verifyConditionalFortunes', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.ConditionalFortuneCheck'
+}
+
+tasks.named('check').configure { dependsOn tasks.named('verifyConditionalFortunes') }
+
+tasks.register('verifyVillagerFortunes', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.VillagerFortuneCheck'
+}
+
+tasks.named('check').configure { dependsOn tasks.named('verifyVillagerFortunes') }
+
+tasks.register('verifyHostileFortunes', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.HostileFortuneCheck'
+}
+
+tasks.named('check').configure { dependsOn tasks.named('verifyHostileFortunes') }
+tasks.register('verifySpecialFortunes', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.SpecialFortuneCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySpecialFortunes') }
+tasks.register('inspectLegacyStructures', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.LegacyStructurePort'
+}
+
+tasks.register('verifyBrooms', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BroomCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBrooms') }
+
+tasks.register('verifyBrewHooks', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BrewHooksCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBrewHooks') }
+
+tasks.register('verifyCauldronFluids', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.CauldronFluidCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyCauldronFluids') }
+
+tasks.register('verifyVillageTrades', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.trade.VillageTradesCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyVillageTrades') }
+
+tasks.register('verifyExtendedPoppets', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.ExtendedPoppetCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyExtendedPoppets') }
+
+tasks.register('verifyBaphomet', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.entity.BaphometCheck'
+}
+tasks.register('verifyBaphometConjuration', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.BaphometConjurationCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyBaphomet'), tasks.named('verifyBaphometConjuration') }
+
+tasks.register('verifyStructureSpawns', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.world.StructureSpawnCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyStructureSpawns') }
+
+tasks.register('verifyLegacyChestLoot', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.loot.LegacyChestLootCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyLegacyChestLoot') }
+
+tasks.register('verifyLegacyStructures', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.world.LegacyStructureCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyLegacyStructures') }
+
+tasks.register('verifyDoorSigils', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.machine.DoorSigilCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDoorSigils') }
+
+tasks.register('verifySaltBarrier', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.block.SaltBarrierCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySaltBarrier') }
+
+tasks.register('verifyMaterialWeakness', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.combat.MaterialWeaknessCheck'
+    workingDir = projectDir
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyMaterialWeakness') }
+
+tasks.register('verifySpreadingPlants', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.block.SpreadingPlantsCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifySpreadingPlants') }
+
+tasks.register('verifyDecorativeParity', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.block.DecorativeParityCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyDecorativeParity') }
+
+tasks.register('verifyInteractionCommit', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.block.InteractionCommitCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyInteractionCommit') }
+
+tasks.register('verifyChalkPlacement', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.item.ChalkPlacementCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyChalkPlacement') }
+
+ tasks.register('verifyStatueStates', JavaExec) {
+    dependsOn tasks.named('testClasses')
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.bewitchment.block.StatueStateCheck'
+}
+tasks.named('check').configure { dependsOn tasks.named('verifyStatueStates') }

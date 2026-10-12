@@ -1,0 +1,22 @@
+{
+    "pools":  [
+                  {
+                      "entries":  [
+                                      {
+                                          "name":  "bewitchment:spanish_moss",
+                                          "type":  "minecraft:item"
+                                      }
+                                  ],
+                      "rolls":  1,
+                      "conditions":  [
+                                         {
+                                             "condition":  "minecraft:match_tool",
+                                             "predicate":  {
+                                                               "item":  "bewitchment:boline"
+                                                           }
+                                         }
+                                     ]
+                  }
+              ],
+    "type":  "minecraft:block"
+}

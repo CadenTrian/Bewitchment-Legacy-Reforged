@@ -1,0 +1,14 @@
+{
+  "type": "bewitchment:oven",
+  "ingredient": {
+    "item": "bewitchment:mandrake_root"
+  },
+  "result": {
+    "item": "bewitchment:wood_ash"
+  },
+  "byproduct": {
+    "item": "bewitchment:liquid_witchcraft"
+  },
+  "chance": 0.75,
+  "requires_jar": true
+}

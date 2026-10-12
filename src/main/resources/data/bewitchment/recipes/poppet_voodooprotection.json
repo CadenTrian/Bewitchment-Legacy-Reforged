@@ -1,0 +1,21 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:poppet"
+                        },
+                        {
+                            "item":  "bewitchment:garlic"
+                        },
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "tag":  "forge:ingots/silver"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:poppet_voodooprotection",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

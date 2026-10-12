@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:taglock",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use an empty Taglock on an eligible living creature to collect its identity. To collect your own, sneak-use an empty Taglock on the bed set as your respawn point. Bed collection requires the target player to be online."
+                  },
+                  {
+                      "text":  "To bind an upgraded poppet, hold it in one hand and the filled Taglock in the other, then use the poppet. Either hand arrangement works. Binding consumes one Taglock, preserves custom names and cannot overwrite an existing binding.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:taglock"
+                  }
+              ],
+    "icon":  "bewitchment:taglock",
+    "category":  "bewitchment:sympathy",
+    "name":  "Taglocks",
+    "sortnum":  16
+}

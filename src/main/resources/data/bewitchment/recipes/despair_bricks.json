@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:soul_sand"
+                        },
+                        {
+                            "item":  "minecraft:soul_sand"
+                        },
+                        {
+                            "tag":  "forge:sand"
+                        },
+                        {
+                            "tag":  "forge:sand"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:despair_bricks",
+                   "count":  4
+               }
+}

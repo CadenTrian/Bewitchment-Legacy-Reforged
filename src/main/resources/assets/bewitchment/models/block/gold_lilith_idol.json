@@ -1,0 +1,8 @@
+{
+    "textures":  {
+                     "particle":  "minecraft:block/gold_block"
+                 },
+    "elements":  [
+
+                 ]
+}

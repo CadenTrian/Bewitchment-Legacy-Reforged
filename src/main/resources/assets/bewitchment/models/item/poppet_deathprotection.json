@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/poppet_deathprotection"
+                 },
+    "parent":  "minecraft:item/generated"
+}

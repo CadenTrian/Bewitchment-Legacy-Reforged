@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "WBW",
+                    "WBW"
+                ],
+    "key":  {
+                "B":  {
+                          "item":  "bewitchment:coquina"
+                      },
+                "W":  {
+                          "item":  "bewitchment:coquina_slab"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:coquina_wall",
+                   "count":  6
+               }
+}

@@ -1,0 +1,20 @@
+{
+    "replace":  false,
+    "values":  [
+                   "minecraft:blaze",
+                   "minecraft:ghast",
+                   "minecraft:vex",
+                   "minecraft:enderman",
+                   "#bewitchment:demons",
+                   "#bewitchment:spirits",
+                   "#bewitchment:fae",
+                   {
+                       "id":  "thaumcraft:pech",
+                       "required":  false
+                   },
+                   {
+                       "id":  "thaumcraft:wisp",
+                       "required":  false
+                   }
+               ]
+}

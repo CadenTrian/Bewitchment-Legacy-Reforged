@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:storage_blocks/garnet"
+    }
+  ],
+  "result": {
+    "item": "bewitchment:garnet",
+    "count": 9
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/dragons_blood_resin_block"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

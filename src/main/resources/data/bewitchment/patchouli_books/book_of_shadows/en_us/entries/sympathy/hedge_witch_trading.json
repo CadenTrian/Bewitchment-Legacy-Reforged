@@ -1,0 +1,35 @@
+{
+    "pages":  [
+                  {
+                      "text":  "An unemployed adult villager can become a Hedge Witch by claiming a reachable Brazier. Trade normally to advance through five levels. The workstation is a 1.16 adaptation; it does not consume the Brazier contents or cast curses.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Novice offers: buy 6-10 Tallow for 1-3 Emeralds; sell 3-5 Empty Jars, Juniper Berries, Elderberries or Oak Apple Galls for 1-2 Emeralds; or sell 2-5 random Seeds for 1-2 Emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Apprentice offers: 2-3 random Saplings for 1-3 Emeralds, or 2-5 random Seeds for 4-6 Emeralds. Saplings are Cypress, Juniper and Elder. Elder occupies two of the four choices, preserving its original double weighting.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Journeyman offers: 5-10 Raven Feathers or 3-5 Owlet Wings for 1-3 Emeralds; buy 10-20 Wood Ash for 1-3 Emeralds; sell an Athame or Boline for 3-7 Emeralds; or sell 3-10 random Seeds for 6-7 Emeralds. Tools have a fifty percent enchanting attempt with a randomly selected level from zero through thirty.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Expert offers: 1-2 Hearts for 3-6 Emeralds; 2-5 random plants for 3-5 Emeralds; or 2-5 random Seeds for 3-12 Emeralds. Plants are Embergrass, Torchwood and Spanish Moss.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Master offers: one of the ten accessories for 8-16 Emeralds; 2-7 random Seeds for 2-11 Emeralds; or one Thyrsus for 3-12 Emeralds. Seed choices are wheat, melon, pumpkin, beetroot and all seven restored herb seed types.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Prices listed are base ranges before modern demand, reputation or discounts. Vanilla chooses up to two offers from each level; a villager need not have every listed offer. Each offer starts with seven uses. Keep its workstation accessible so ordinary villager restocking can replenish stock. Saved offers retain their selected goods and enchantments.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:brazier",
+    "category":  "bewitchment:sympathy",
+    "name":  "Hedge Witch Trading"
+}

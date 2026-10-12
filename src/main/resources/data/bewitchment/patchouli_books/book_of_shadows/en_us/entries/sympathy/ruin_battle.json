@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:sigil_battle",
+                      "type":  "patchouli:spotlight",
+                      "text":  "The Sigil of Ruin affects unlisted targets. It applies Hunger I, Blindness, Nausea, Wither I and Magic Weakness I for two hundred ticks. Its chest cooldown is six hundred ticks; placed marks wait that cooldown and pulse on the following tick."
+                  },
+                  {
+                      "text":  "Magic Weakness adds three damage per effect level to hits marked as magic damage. The addition happens at the final damage event, after ordinary mitigation, rather than increasing the starting attack value. Physical and other nonmagic sources are unchanged. The effect is harmful and can be removed by Cleansing.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Craft Ruin in the common five-by-five sigil pattern: D is Snake Venom, C is White Sage and M is Cleansing Balm. This requires six Venom, four White Sage and one Balm, plus the usual six Paper and eight Dragon\u0027s Blood Resin. See the Sigil Table entry for the exact layout.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The Sigil of Battle affects listed targets. It grants Strength I, Resistance I and Rhino Hide I for twelve hundred ticks. Its chest cooldown is three thousand ticks; placed marks pulse every three thousand and one loaded ticks after their initial delay.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Rhino Hide adds one armor toughness per effect level. It does not add armor points or a flat damage reduction. Reapplying the effect replaces its existing modifier; it does not stack copies. Expiry or removal removes only its own modifier, preserving other armor bonuses. Cleansing preserves this beneficial effect.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Craft Battle with Bottle of Blood as both D and M, and Iron Gall Ink as C: seven Blood bottles and four Ink, plus six Paper and eight Resin. Containers are consumed as in other sigil recipes. Both sigils work in chests and as floor, wall or ceiling marks, using the existing taglock targeting rules.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:sigil_battle",
+    "category":  "bewitchment:sympathy",
+    "name":  "Ruin and Battle",
+    "sortnum":  90
+}

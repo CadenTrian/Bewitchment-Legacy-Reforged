@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "texture":  "bewitchment:block/cypress_planks"
+                 },
+    "parent":  "bewitchment:block/poppet_shelf"
+}

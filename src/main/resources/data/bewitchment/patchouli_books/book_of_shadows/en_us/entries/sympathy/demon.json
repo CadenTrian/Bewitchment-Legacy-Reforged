@@ -1,0 +1,42 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:demon_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Demons and Demonesses have their original four appearances, shared names, combat and merchant screen. Use their spawn eggs or /summon bewitchment:demon and /summon bewitchment:demoness for testing. Conjure Demon now provides ritual access; natural spawning remains pending. Either merchant must be alive, grounded, out of water and out of combat to trade."
+                  },
+                  {
+                      "text":  "Approach within four blocks and use the demon without sneaking. Only one customer can trade at a time. Moving away, disconnecting, dying, changing dimensions or combat closes the session. Vanilla trading returns unused payment items when the screen closes. Wear a full Besmirched set to avoid normal prey selection; retaliation can still make a demon hostile.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Each demon chooses Noble, Despot or Apocryphal Teacher. Opening first generates two offers. A first purchase, or a one-in-five later purchase, schedules a forty-tick reset. The countdown pauses while trading. Close the screen and wait to let the demon gain its next offers. Levels two through four add two offers, level five adds one, for nine total.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "On reset, exhausted ordinary offers gain two to twelve uses. Contract offers remain spent permanently. Purchases grant three to six XP, plus five when scheduling a reset; completed resets grant the demon ten seconds of Regeneration I. Career, stock, pending reset and last buyer save with the demon. Corrupt merchant data disables trading instead of granting fresh stock.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A full Besmirched set discounts newly generated ordinary and fixed-enchantment offers by half, rounding down. Initial offers inspect the current customer. Later generation checks the online buyer who triggered the reset. Existing prices stay fixed. Random enchantments, idols, statues and contracts are not discounted. See Demon Trade Preview for prices and career pools.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Demons have 195 health, sixteen base melee damage, strong armor and fire immunity. Successful melee causes nausea, twenty-five seconds of fire and upward knockback. At more than two blocks, they fire during six ticks of each eighty-tick cycle. Lava heals six health each second. Poison, Wither and fall damage do not harm them.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Demons persist instead of despawning at distance. Hellish Baubles reduce normal prey selection to one in four checks; fire immunity normally excludes prey. Besmirched robes prevent normal selection but do not clear existing anger. Loot uses one of four original tables, now tied to the saved skin. Actual purchases, screen interruption, combat and rendering still need in-world playtesting.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "item":  "bewitchment:demoness_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Demonesses share all three careers, saved stock, discounts and restocking rules with Demons. Their original model has separate hair, horns, lower body and moving loincloth. Both variants use four saved skins and matching Demon loot tables, resist taglock sampling, and persist at distance. Conjure Demon summons either variant with equal chance."
+                  }
+              ],
+    "icon":  "bewitchment:demon_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Demon Merchants",
+    "sortnum":  114
+}

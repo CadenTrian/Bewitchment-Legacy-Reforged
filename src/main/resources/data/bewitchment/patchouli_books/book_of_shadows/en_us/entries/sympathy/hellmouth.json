@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:magma_block",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw small and medium Nether circles around a focal glyph. Offer an Athame, Netherrack, a Magma Block, Hellebore, Snake Venom and Charcoal. Activate with an empty main hand in dry weather and non-Peaceful difficulty. There is no day or dimension restriction."
+                  },
+                  {
+                      "text":  "The cast lasts fifteen seconds and costs 1250 starting power plus 45 each second: 1925 total before existing modifiers. Rain or Peaceful difficulty at completion prevents spawning and returns the offerings. Spent power is not refunded.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The five equal creature slots are Feuerwurm, Feuerwurm, Blaze, Cambion and Blaze. Choices may repeat. This gives Feuerwurms and Blazes two-fifths each, and Cambions one-fifth. Creatures use normal spawn initialization, equipment and behavior; they are neither tame nor owned by the caster.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Two to six creatures are attempted. The original loop rerolls its limit after every candidate, so counts are not equally likely. Each candidate gets sixteen placement attempts within horizontal offsets minus six through plus five, searching down for ground. Failed candidates are skipped without a replacement roll.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Clear room for the entire wave. Placement checks loaded chunks, height, the world border, body collisions and liquids, including other planned bodies. Spawn events may reject individual creatures. Any successful insertion settles the ritual; partial waves are not retried.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Success consumes the offerings and returns a fresh Athame, without the original tool data. If every placement or insertion fails, the original offerings and Athame data are returned instead. Flame particles mark the cast, and nearby summon advancement triggers run only after successful insertion.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Hellmouth provides a survival summoning route for Cambions without adding natural biome spawns. Cambions also inhabit naturally generated $(l:beginnings/legacy_structures)homes$() and can appear through the Meet Cambion fortune. Snake Venom can be collected from adult snakes with Glass Bottles; Hellebore is a restored crop. Summoned creatures keep their normal hostility, vulnerabilities and loot.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:magma_block",
+    "category":  "bewitchment:sympathy",
+    "name":  "Hellmouth",
+    "sortnum":  72
+}

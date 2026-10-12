@@ -1,0 +1,74 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  3,
+                      "name":  "demon3",
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:demon_heart",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  3
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:experience_bottle",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  3
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "minecraft:gold_ingot",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  4
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ],
+    "type":  "minecraft:entity"
+}

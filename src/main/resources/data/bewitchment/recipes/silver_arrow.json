@@ -1,0 +1,18 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:nuggets/silver"
+                        },
+                        {
+                            "tag":  "forge:rods/wooden"
+                        },
+                        {
+                            "item":  "bewitchment:ravens_feather"
+                        }
+                    ],
+    "result":  {
+                   "count":  4,
+                   "item":  "bewitchment:silver_arrow"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "bewitchment:block/coquina_bricks",
+    "top": "bewitchment:block/coquina_bricks",
+    "side": "bewitchment:block/coquina_bricks"
+  }
+}

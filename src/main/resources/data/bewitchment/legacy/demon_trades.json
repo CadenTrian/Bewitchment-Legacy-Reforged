@@ -1,0 +1,307 @@
+{
+    "noble":  [
+                  [
+                      {
+                          "min":  10,
+                          "item":  "bewitchment:nethersteel",
+                          "type":  "item",
+                          "max":  20
+                      },
+                      {
+                          "min":  15,
+                          "item":  "bewitchment:scorned_bricks",
+                          "type":  "item",
+                          "max":  25
+                      }
+                  ],
+                  [
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:diabolical_vein",
+                          "type":  "item",
+                          "max":  3
+                      },
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:opal",
+                          "type":  "item",
+                          "max":  3
+                      },
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:garnet",
+                          "type":  "item",
+                          "max":  3
+                      },
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:amethyst",
+                          "type":  "item",
+                          "max":  3
+                      }
+                  ],
+                  [
+                      {
+                          "min":  1,
+                          "item":  "minecraft:emerald",
+                          "type":  "item",
+                          "max":  3
+                      },
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:triskelion",
+                          "type":  "item",
+                          "max":  1
+                      },
+                      {
+                          "min":  10,
+                          "item":  "bewitchment:silver_ingot",
+                          "type":  "item",
+                          "max":  13
+                      }
+                  ],
+                  [
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:box_of_sealed_evil",
+                          "type":  "item",
+                          "max":  2
+                      },
+                      {
+                          "type":  "idol"
+                      },
+                      {
+                          "type":  "statue"
+                      }
+                  ],
+                  [
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:fortunes_favor",
+                          "type":  "item",
+                          "max":  15
+                      },
+                      {
+                          "type":  "contract"
+                      },
+                      {
+                          "min":  1,
+                          "item":  "bewitchment:gluttons_sash",
+                          "type":  "item",
+                          "max":  1
+                      }
+                  ]
+              ],
+    "despot":  [
+                   [
+                       {
+                           "min":  5,
+                           "item":  "bewitchment:tongue_of_dog",
+                           "type":  "item",
+                           "max":  7
+                       },
+                       {
+                           "min":  10,
+                           "item":  "bewitchment:nethersteel",
+                           "type":  "item",
+                           "max":  16
+                       },
+                       {
+                           "min":  10,
+                           "item":  "minecraft:arrow",
+                           "type":  "item",
+                           "max":  16
+                       }
+                   ],
+                   [
+                       {
+                           "min":  1,
+                           "item":  "minecraft:skeleton_skull",
+                           "type":  "item",
+                           "max":  1
+                       },
+                       {
+                           "min":  1,
+                           "item":  "bewitchment:heart",
+                           "type":  "item",
+                           "max":  2
+                       },
+                       {
+                           "min":  3,
+                           "item":  "minecraft:ghast_tear",
+                           "type":  "item",
+                           "max":  6
+                       },
+                       {
+                           "min":  2,
+                           "item":  "bewitchment:hellhound_horn",
+                           "type":  "item",
+                           "max":  4
+                       }
+                   ],
+                   [
+                       {
+                           "min":  1,
+                           "item":  "minecraft:wither_skeleton_skull",
+                           "type":  "item",
+                           "max":  1
+                       },
+                       {
+                           "level":  15,
+                           "item":  "minecraft:iron_sword",
+                           "type":  "random_enchant"
+                       },
+                       {
+                           "level":  1,
+                           "enchantment":  "minecraft:flame",
+                           "item":  "minecraft:bow",
+                           "type":  "enchant"
+                       },
+                       {
+                           "level":  2,
+                           "enchantment":  "minecraft:power",
+                           "item":  "minecraft:bow",
+                           "type":  "enchant"
+                       }
+                   ],
+                   [
+                       {
+                           "min":  1,
+                           "item":  "bewitchment:demon_heart",
+                           "type":  "item",
+                           "max":  1
+                       },
+                       {
+                           "level":  30,
+                           "item":  "minecraft:diamond_sword",
+                           "type":  "random_enchant"
+                       },
+                       {
+                           "min":  1,
+                           "item":  "bewitchment:bottled_hellfire",
+                           "type":  "item",
+                           "max":  3
+                       }
+                   ],
+                   [
+                       {
+                           "type":  "contract"
+                       },
+                       {
+                           "min":  1,
+                           "item":  "bewitchment:vampiric_amulet",
+                           "type":  "item",
+                           "max":  1
+                       }
+                   ]
+               ],
+    "apocryphal_teacher":  [
+                               [
+                                   {
+                                       "min":  10,
+                                       "item":  "minecraft:book",
+                                       "type":  "item",
+                                       "max":  20
+                                   },
+                                   {
+                                       "min":  3,
+                                       "item":  "bewitchment:ravens_feather",
+                                       "type":  "item",
+                                       "max":  6
+                                   },
+                                   {
+                                       "min":  5,
+                                       "item":  "bewitchment:iron_gall_ink",
+                                       "type":  "item",
+                                       "max":  10
+                                   },
+                                   {
+                                       "min":  1,
+                                       "item":  "bewitchment:snake_venom",
+                                       "type":  "item",
+                                       "max":  1
+                                   }
+                               ],
+                               [
+                                   {
+                                       "min":  4,
+                                       "item":  "bewitchment:dragons_blood_resin",
+                                       "type":  "item",
+                                       "max":  12
+                                   },
+                                   {
+                                       "min":  3,
+                                       "item":  "bewitchment:poppet",
+                                       "type":  "item",
+                                       "max":  5
+                                   },
+                                   {
+                                       "min":  2,
+                                       "item":  "bewitchment:sanguine_cloth",
+                                       "type":  "item",
+                                       "max":  4
+                                   },
+                                   {
+                                       "level":  10,
+                                       "item":  "minecraft:book",
+                                       "type":  "random_enchant"
+                                   }
+                               ],
+                               [
+                                   {
+                                       "level":  20,
+                                       "item":  "minecraft:book",
+                                       "type":  "random_enchant"
+                                   },
+                                   {
+                                       "min":  1,
+                                       "item":  "bewitchment:stew_of_the_grotesque",
+                                       "type":  "item",
+                                       "max":  1
+                                   },
+                                   {
+                                       "min":  2,
+                                       "item":  "bewitchment:oil_of_vitriol",
+                                       "type":  "item",
+                                       "max":  3
+                                   }
+                               ],
+                               [
+                                   {
+                                       "level":  3,
+                                       "enchantment":  "minecraft:looting",
+                                       "item":  "minecraft:enchanted_book",
+                                       "type":  "enchant"
+                                   },
+                                   {
+                                       "level":  1,
+                                       "enchantment":  "minecraft:flame",
+                                       "item":  "minecraft:enchanted_book",
+                                       "type":  "enchant"
+                                   },
+                                   {
+                                       "level":  2,
+                                       "enchantment":  "minecraft:fire_aspect",
+                                       "item":  "minecraft:enchanted_book",
+                                       "type":  "enchant"
+                                   }
+                               ],
+                               [
+                                   {
+                                       "min":  1,
+                                       "item":  "bewitchment:skeleton_key",
+                                       "type":  "item",
+                                       "max":  1
+                                   },
+                                   {
+                                       "type":  "idol"
+                                   },
+                                   {
+                                       "type":  "statue"
+                                   },
+                                   {
+                                       "type":  "contract"
+                                   }
+                               ]
+                           ]
+}

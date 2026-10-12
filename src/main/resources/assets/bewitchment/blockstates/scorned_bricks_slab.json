@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bewitchment:block/scorned_bricks_slab"
+    },
+    "type=double": {
+      "model": "bewitchment:block/scorned_bricks"
+    },
+    "type=top": {
+      "model": "bewitchment:block/scorned_bricks_slab_top"
+    }
+  }
+}

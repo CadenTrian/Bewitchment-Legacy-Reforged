@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/girdle_of_the_dryads"
+                 },
+    "parent":  "minecraft:item/generated"
+}

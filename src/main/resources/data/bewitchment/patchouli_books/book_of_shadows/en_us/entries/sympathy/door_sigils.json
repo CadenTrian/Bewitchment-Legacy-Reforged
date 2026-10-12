@@ -1,0 +1,12 @@
+{
+  "name": "Sigils on Doors",
+  "icon": "bewitchment:dragons_blood_door",
+  "category": "bewitchment:sympathy",
+  "pages": [
+    {"type": "patchouli:spotlight", "item": "bewitchment:dragons_blood_door", "text": "Dragon's Blood doors and trapdoors now accept all eleven restored sigils. Use a sigil on the block to install it. One sigil is consumed, including in creative mode, as in the original. Installation also opens or closes the block, but does not apply the sigil's effect on that click."},
+    {"type": "patchouli:text", "text": "The installer begins on the sigil's player list. Positive sigils affect listed players; negative sigils affect unlisted players. Use a bound Taglock to add or remove its player from the list. The Taglock is retained. Invalid identities change nothing. Installation and list editing require build permission; the list is not an ownership lock."},
+    {"type": "patchouli:text", "text": "Ordinary manual interaction applies an eligible sigil effect and opens or closes the block. Cooldowns and effects match chest sigils. Either half of a door uses one shared sigil, list and cooldown, stored in the lower half. Opening, closing and redstone changes preserve that state. Redstone and mob AI do not themselves trigger sigil effects."},
+    {"type": "patchouli:text", "text": "Cooldowns count down while the block is loaded and resume after saving and loading. Shrieking retains its zero cooldown. Doors and trapdoors retain ordinary wooden opening behavior; trapdoors retain waterlogging. Spectators cannot configure or trigger sigils. Red particles indicate an installed sigil."},
+    {"type": "patchouli:text", "text": "Breaking the block removes its installed sigil and player list; the sigil is not refunded. Replacement blocks start empty. These additions use the existing Dragon's Blood door and trapdoor recipes and artwork. See Chest Sigils for individual effects, and Placed Sigils for drawings on other block faces."}
+  ]
+}

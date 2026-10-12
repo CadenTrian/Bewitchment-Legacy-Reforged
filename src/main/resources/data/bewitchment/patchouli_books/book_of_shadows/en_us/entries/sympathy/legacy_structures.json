@@ -1,0 +1,19 @@
+{
+    "pages":  [
+                  {
+                      "text":  "Eleven original templates are available through structure blocks for mapmaking. Nine are also selected by natural generation in new Overworld chunks; see $(l:beginnings/legacy_structures)Old Places of Power$() for biomes and settings. Use the bewitchment: namespace followed by a template name, and enable entity placement for inhabited templates.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Template names: burnedwickerman, wickerman, cambion1, cambionmedium1, menhir1, menhir2, menhir3, menhir4, menhir5, stonecircle1 and stonecircle2. Original dimensions, block positions and entity positions are retained.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The templates use modern block states and tile data, including black beds, black banners, the wither skull and complete tall plants. Empty legacy cauldrons start with current defaults. Cambions retain their equipment and use current attributes; invalid old skin IDs use skin zero.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:cypress_planks",
+    "category":  "bewitchment:sympathy",
+    "name":  "Legacy Structure Templates"
+}

@@ -1,0 +1,40 @@
+{
+    "name":  "Iceworld",
+    "icon":  "minecraft:ice",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  136,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Iceworld brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Ice, Packed Ice or a Snow Block, to hot powered water. Snow layers and snowballs are not ingredients. The harmful cyan effect has one base tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Living targets are extinguished. Except for polar bears, they receive Slowness III and Mining Fatigue III for fifteen seconds. Amplifier does not change these debuff levels or duration. Polar bears are still extinguished. Existing effect rules and resistance interactions remain; no direct damage is added."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sampled stone variants, netherrack and leaves become Perpetual Ice. Source water becomes ordinary ice; flowing and waterlogged water are not directly frozen. Ice and frosted ice become packed ice. Blocks in the minecraft:logs tag also become packed ice, including tagged mod logs. Vanilla wool becomes light blue. Packed and blue ice stay unchanged unless tagged as logs."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Stonebrick variants, Nether Bricks, Red Nether Bricks and ordinary Scorned Bricks become Embittered Bricks. Fence blocks become Perpetual Ice fences; wall blocks become Embittered walls. This branch order also applies to mossy Scorned fences and walls. Mossy Scorned full blocks, stairs and slabs instead become their crying counterparts."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Legacy stone slabs, including petrified oak and red sandstone slabs, become Embittered slabs. Full Smooth Stone, Smooth Sandstone, Smooth Red Sandstone and Smooth Quartz represent seamless double slabs and become double Embittered slabs. Stone Brick Stairs and ordinary Scorned stairs/slabs convert too. Shared orientation, connection, slab type and waterlogging remain. Newer slab and stair families are excluded."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Fire and Soul Fire are removed at every visited candidate, outside the one-in-three transformation roll. A separate one-in-five roll may add one snow layer above a full collision block, only into air with valid snow support. Snow can extend one block above the scan. Its own position requires permissions and a cancellable block-break event. Normal melting, fluid flow and neighbor updates still apply."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Radius is three, six or nine, capped at nine: at most 6,859 candidates per job. Each dimension holds 32 Iceworld jobs and scans 512 candidates per tick, with 128 per job. A candidate can change itself and add snow, up to two writes. Sampling seeds, cursors and owners survive saves; snow rolls use world randomness as processed. This does not change biome or weather."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Only loaded chunks within build height and border qualify. Actor permissions and block-break cancellation apply; source, support and permissions are rechecked after callbacks. Placement-only listeners are not invoked. Missing mappings fail closed. Unavailable player owners stop jobs; other sources use the Minecraft fake player. Queue overflow does not prevent debuffs or extinguishing. Drinking, splash and occupied-cloud delivery use the shared terrain system."
+                  }
+              ]
+}

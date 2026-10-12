@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:owlets_wing",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Owls have four original skins and hooting sounds. They spawn at night in Forest, Dense and Spooky biome types, with weight twenty and groups of one to four. Suitable grass and ordinary animal light checks still apply. Set owlWeight to zero and restart to disable natural spawning."
+                  },
+                  {
+                      "text":  "Tame Owls with raw Rabbit, raw Chicken, Eggs, Rabbit Feet or Lizard Legs. Each attempt has a one-in-five chance; success raises health from eight to twenty. Tamed Owls follow and defend their owner. Breed two tamed, standing adults with raw Rabbit. Babies inherit one parent\u0027s skin but remain wild.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Wild Owls hunt Bats, Chickens, Lizards, Parrots and Rabbits. They seek shade during the day, deal two and a half base damage and take no fall damage. Owners toggle sitting with non-breeding items other than a Boline. Damage makes a sitting bird stand.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Adults shed ordinary Feathers every five to ten minutes while loaded. A Boline collects one to three ordinary Feathers every ten minutes, including from babies. Adult deaths supply zero to two Owlet\u0027s Wings plus Looting; an Athame adds a bonus roll up to two before its Looting adjustment. Wings now supply Heaven Extract in survival.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Both birds have spawn eggs and support /summon bewitchment:raven or /summon bewitchment:owl. Boline clicks during cooldown do not change sitting. Timers pause while unloaded. Familiar binding remains unported. Call of the Wild can summon both birds.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:owlets_wing",
+    "category":  "bewitchment:sympathy",
+    "name":  "Owls",
+    "sortnum":  61
+}

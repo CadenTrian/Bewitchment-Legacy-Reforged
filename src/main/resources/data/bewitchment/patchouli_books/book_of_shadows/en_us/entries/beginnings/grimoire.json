@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:grimoire_magia",
+                      "type":  "patchouli:spotlight",
+                      "text":  "This portable book stores up to 1,000 magic power for worn accessories. Carry it in your inventory or offhand. An accessory must find one book with enough power for its entire cost. It cannot draw directly from an altar."
+                  },
+                  {
+                      "text":  "Every five seconds, a formed altar can charge one book per nearby player within its 25-block area. The altar spends 50 power to supply up to 25 to the first non-full book it can charge. A full book costs nothing. Multiple altars can contribute.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Sneak-use a Grimoire on top of a formed altar to place it as a pentacle-category upgrade: +16 power per second, without stacking other pentacles. After each full vegetation scan, a placed book can receive 25 power for 100 altar power. Retrieve it to carry the charge.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "To create an empty book, use a small ordinary ritual circle with two Leather, three Paper, one Liquid Witchcraft and one Opal. It costs 150 power to start and 20 each second for five seconds. See First Rituals for layout and operation. Renaming it Grimoire of Alice changes its cover.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:grimoire_magia",
+    "category":  "bewitchment:beginnings",
+    "name":  "Grimoire Magia",
+    "sortnum":  20
+}

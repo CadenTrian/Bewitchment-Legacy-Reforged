@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "bewitchment:block/purple_candle"
+    },
+    "lit=true": {
+      "model": "bewitchment:block/purple_candle"
+    }
+  }
+}

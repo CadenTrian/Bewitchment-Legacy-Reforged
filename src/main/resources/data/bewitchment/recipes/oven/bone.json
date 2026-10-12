@@ -1,0 +1,15 @@
+{
+  "type": "bewitchment:oven",
+  "ingredient": {
+    "item": "minecraft:bone"
+  },
+  "result": {
+    "item": "minecraft:bone_meal"
+  },
+  "byproduct": {
+    "item": "bewitchment:ectoplasm",
+    "count": 1
+  },
+  "chance": 0.65,
+  "requires_jar": false
+}

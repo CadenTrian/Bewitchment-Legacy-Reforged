@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:sigil_failure",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Failure prevents an affected player from starting new rituals. It targets unlisted players in Dragon\u0027s Blood Chests and from placed marks. The placer begins exempt. Bound Taglocks toggle exemptions without being consumed. Mobs and spectators are unaffected."
+                  },
+                  {
+                      "text":  "The lockout lasts twenty-four thousand server player ticks, about twenty minutes at normal speed. As in the legacy countdown, ritual access returns on the tick after the counter reaches zero. Reapplication resets the full duration rather than adding another duration. Large smoke particles mark each application.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The timer saves with the player, pauses while offline and survives respawn and dimension travel. Sleeping or changing world time does not skip it. It is player state rather than a potion effect: milk and Cleansing do not remove it. It is enforced on the server without a client countdown display.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Failure blocks both normal focal-glyph starts and chicken-sacrifice starts, including drawing and conjuration rituals. A blocked start displays a message before checking ingredients or consuming power. Offerings remain available for retrieval; players can still insert offerings, draw chalk and stop active rituals.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Rituals already running continue normally. Failure does not cancel them or change Hecate accessory discounts. The chest cooldown is six hundred loaded ticks; placed marks pulse every six hundred and one ticks. Remaining near an eligible mark can therefore keep renewing the lockout.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Craft Failure in the common Sigil Table pattern: D is Black Dye, C is Oil of Vitriol and M is Red Dye. Use six Black Dye, four Oil of Vitriol, one Red Dye, six Paper and eight Dragon\u0027s Blood Resin. Forge dye equivalents work; bottled ingredients are consumed without container returns.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:sigil_failure",
+    "category":  "bewitchment:sympathy",
+    "name":  "Sigil of Failure",
+    "sortnum":  92
+}

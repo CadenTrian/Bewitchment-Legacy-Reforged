@@ -1,0 +1,25 @@
+{
+    "key":  {
+                "W":  {
+                          "item":  "bewitchment:liquid_witchcraft"
+                      },
+                "S":  {
+                          "item":  "minecraft:smooth_stone_slab"
+                      },
+                "P":  {
+                          "tag":  "minecraft:planks"
+                      },
+                "R":  {
+                          "item":  "bewitchment:dragons_blood_resin"
+                      }
+            },
+    "pattern":  [
+                    "SSS",
+                    "PRP",
+                    "PWP"
+                ],
+    "result":  {
+                   "item":  "bewitchment:sigil_table"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

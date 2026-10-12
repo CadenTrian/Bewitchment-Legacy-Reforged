@@ -1,0 +1,40 @@
+{
+    "name":  "Cleansing and Disruption Brews",
+    "icon":  "minecraft:milk_bucket",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  122,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Seven more instant effects bring cauldron brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root first in a hot, powered water cauldron, then an ingredient below. These recipes have one base tick. Milk Bucket: Absence; Melon Slice: Purification; Fermented Spider Eye: Corruption; Poppy: Sleeping; Toe of Frog: Cursed Leaps; Cloudy Oil: Butterfingers; Tallow: Disrobing."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Absence removes all active effects. Purification removes harmful effects, keeping beneficial and neutral ones. Corruption removes beneficial and neutral effects, keeping harmful ones. Removal honors normal Forge cancellation hooks. Retained effects keep their duration, amplifier and hidden-effect history rather than being cleared and reapplied."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The brewing calculation places Absence, Purification and Corruption after other effects, reversing their ingredient order as in legacy. Thus a cleansing ingredient can remove effects applied earlier by the same potion. This matters when combining multiple effects. These brews do not cure unrelated curses, contracts or transformation data."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sleeping applies Slowness IV and Blindness IV for ten seconds per effect level. It also attempts lethal magic damage if current health is at most two points per level. It does not create a bed or sleep animation. Normal damage cancellation and protection can still intervene."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cursed Leaps adds upward velocity: 1.25 at level I, 1.5 at level II and 1.75 at level III. Existing horizontal and vertical motion are preserved and the boost is added. Player velocity is sent from the server. Falling afterward can still hurt; this brew grants no fall immunity."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Butterfingers drops both complete held stacks, preserving their item data. The potion currently being consumed is excluded to avoid duplicating it during drink completion. If an item cannot be inserted into the world, its original equipped stack is restored. Cloudy Oil returns no jar in this legacy brew recipe."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Disrobing makes one attempt per level, each with a 50 percent chance to pick one armor or functional Curios slot. It drops one item from that slot; empty slots can waste attempts. Cosmetic Curios slots are excluded. This forced removal follows legacy behavior, including bound equipment. Failed world insertion restores the item."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "All actions run on the server. Milk Buckets return no empty bucket in the original Absence recipe. Forge tallow tags support compatible ingredients. Instant potions act directly when drunk even at zero ticks; stored duration is not a drinking prerequisite. Command-added effects still use ticking rules. Pesticide clears cobwebs. See $(l:alchemy/iceworld)Iceworld$(), $(l:alchemy/hellworld)Hellworld$() and $(l:alchemy/ruin)Ruin$() for terrain-changing brews."
+                  }
+              ]
+}

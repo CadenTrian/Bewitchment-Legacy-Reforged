@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/nazar"
+                 },
+    "parent":  "minecraft:item/generated"
+}

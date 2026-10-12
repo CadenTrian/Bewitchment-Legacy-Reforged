@@ -1,0 +1,40 @@
+{
+    "name":  "Pesticide and Terrain Brews",
+    "icon":  "bewitchment:wormwood",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  125,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Pesticide brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Wormwood, to a hot, powered water cauldron. Pesticide has one base tick. Forge Wormwood crop tags accept compatible herbs. Gunpowder makes splash potions; add Owlet\u0027s Wing as well for lingering."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Pesticide attempts eight direct magic damage per level against arthropods, such as spiders, cave spiders, silverfish and endermites. Other creature types take no Pesticide damage. The original full damage regardless of splash distance is retained; ordinary damage protections can still intervene."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The terrain action clears cobwebs without drops or XP. Level I scans a radius of one block, level II two blocks and level III three blocks. The scan is an inclusive cube, not a sphere. Higher command amplifiers keep the terrain radius capped at three, so at most 343 positions are examined per sweep."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Throwing a Pesticide potion clears around the hit block or hit entity position, including a ground impact with no living targets. Misses do nothing. The impact hook ignores already-cancelled projectile events. Entity splash delivery does not repeat the terrain pass at every affected creature."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking clears cobwebs around the drinker. A lingering potion clears at impact, then a cloud can clear around itself when it applies effects to a living target. Multiple targets in the same application tick share one sweep per effect. An empty lingering cloud does not repeatedly sweep terrain."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Terrain edits stay inside the build height, world border and already-loaded chunks. The brew does not load distant chunks. Only cobweb blocks are eligible; blocks with tile entities are excluded. Other plants, containers and terrain remain untouched."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A player owner supplies the build and interaction permissions. Ownerless and non-player delivery uses the Minecraft fake player for those checks. Each removal posts a Forge block-break event; cancellation prevents that removal. If a listener replaces the block, Pesticide leaves its replacement intact. These checks govern terrain edits; entity damage uses normal damage events."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "This is the first terrain-brew implementation. The original radii for obtainable brew levels are preserved, but duplicate splash/cloud scans are reduced and extreme command scans are capped. Pesticide, Ruin, Harvest and Fertility are now available."
+                  }
+              ]
+}

@@ -1,0 +1,24 @@
+{
+    "incense":  "bewitchment:intensity",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:glowstone_dust"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_berries"
+                        },
+                        {
+                            "item":  "minecraft:charcoal"
+                        },
+                        {
+                            "item":  "bewitchment:salt"
+                        }
+                    ],
+    "type":  "bewitchment:incense"
+}

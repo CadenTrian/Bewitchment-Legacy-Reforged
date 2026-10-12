@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:bastards_grimoire",
+                      "type":  "patchouli:spotlight",
+                      "text":  "This legacy creative testing book starts with 2,147,483,646 power when taken from the creative tab. Carry it in your inventory or offhand to power accessories. Its reserve is large but finite: effects still pay their normal costs."
+                  },
+                  {
+                      "text":  "It uses the same single-book payment rule as Grimoire Magia. Books are checked in inventory order, and the first one with enough power pays the whole cost. A depleted reserve can charge near an altar at the usual carried-book rate.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "There is no survival recipe or altar-upgrade effect. The creative tab supplies one full entry. A plain /give @s bewitchment:bastards_grimoire produces an empty, chargeable book; use the full creative entry for testing. Ordinary Grimoires still hold only 1,000 power.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:bastards_grimoire",
+    "category":  "bewitchment:beginnings",
+    "name":  "Bastardus Grimoira",
+    "sortnum":  29
+}

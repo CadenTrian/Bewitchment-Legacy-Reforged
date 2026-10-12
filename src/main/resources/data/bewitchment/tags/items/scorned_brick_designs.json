@@ -1,0 +1,23 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:scorned_bricks",
+                   "bewitchment:scorned_bricks_symbol",
+                   "bewitchment:scorned_bricks_bevel",
+                   "bewitchment:scorned_bricks_hellish",
+                   "bewitchment:scorned_bricks_raw",
+                   "bewitchment:scorned_bricks_raw_cracked",
+                   "bewitchment:scorned_bricks_small",
+                   "bewitchment:scorned_bricks_soft",
+                   "bewitchment:scorned_bricks_small_tiles",
+                   "bewitchment:scorned_bricks_medium_tiles",
+                   "bewitchment:scorned_bricks_triple",
+                   "bewitchment:scorned_bricks_braid",
+                   "bewitchment:scorned_bricks_layers",
+                   "bewitchment:scorned_bricks_road",
+                   "bewitchment:scorned_bricks_ornate",
+                   "bewitchment:scorned_bricks_panel",
+                   "bewitchment:scorned_bricks_prism",
+                   "bewitchment:scorned_bricks_slanted"
+               ]
+}

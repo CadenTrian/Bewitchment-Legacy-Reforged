@@ -1,0 +1,20 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/eye_of_old"
+                 },
+    "parent":  "minecraft:item/generated",
+    "overrides":  [
+                      {
+                          "predicate":  {
+                                            "bewitchment:legacy_variant":  1
+                                        },
+                          "model":  "bewitchment:item/eye_of_old_variant0"
+                      },
+                      {
+                          "predicate":  {
+                                            "bewitchment:legacy_variant":  2
+                                        },
+                          "model":  "bewitchment:item/eye_of_old_variant1"
+                      }
+                  ]
+}

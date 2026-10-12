@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:brazier",
+                      "type":  "patchouli:spotlight",
+                      "text":  "The Brazier casts curses using up to nine offerings, including one Taglock bound to an online player. Right-click to insert one item at a time, in any order. Use an empty hand to see the slot count; sneak with an empty hand to retrieve the last offering."
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:brazier"
+                  },
+                  {
+                      "text":  "Use Flint and Steel to cast a matching recipe for seven Minecraft days. The target may be in another dimension. Invalid recipes, offline targets and canceled casts keep their offerings. An accepted cast consumes the offerings, even if that curse is already active; duplicates keep their old duration.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A successful cast returns a blank Taglock and ingredient containers to your inventory, dropping them if it is full. Containers are returned only when offerings are consumed. Breaking an unlit Brazier returns its stored offerings, including their data.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The lit Brazier emits clouds and stays lit until you use a shovel to extinguish it. Extinguish it before inserting another recipe. Neither ignition nor extinguishing wears the tool. Attach it underneath a block for the original hanging model, or place it normally for the standing model.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Lesser curses reflect through Return to Sender exactly as described in its entry. The target and caster lose their wards when reflection occurs. Casting the ward itself does not reflect. Purity can remove lesser negative curses, but leaves greater curses and the ward intact.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "This version supports manual curse casting. Incense is described in its own entry. Hoppers and pipes can move offerings while the Brazier is unlit. Recipes retain their original ingredients, so some still depend on materials whose survival acquisition is unfinished. See Brazier Offerings for the ten combinations.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:brazier",
+    "category":  "bewitchment:sympathy",
+    "name":  "Brazier",
+    "sortnum":  100
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "bewitchment:block/cube_overlay",
+  "textures": {
+    "base": "minecraft:block/stone",
+    "overlay": "bewitchment:block/silver_ore"
+  }
+}

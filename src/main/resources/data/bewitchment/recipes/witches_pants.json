@@ -1,0 +1,19 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "WLW",
+                    "LLL",
+                    "W W"
+                ],
+    "key":  {
+                "L":  {
+                          "tag":  "forge:leather"
+                      },
+                "W":  {
+                          "item":  "bewitchment:witches_stitching"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:witches_pants"
+               }
+}

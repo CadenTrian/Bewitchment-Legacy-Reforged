@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:girdle_of_the_dryads",
+                      "type":  "patchouli:spotlight",
+                      "text":  "While worn above Grass Blocks, the Girdle has a 0.08 percent chance each tick to grow one bark layer, up to four. Growth spends 20 Grimoire power and causes four seconds of Slowness XI. The average wait for each layer is about 62.5 seconds at normal tick speed."
+                  },
+                  {
+                      "text":  "One bark layer blocks an attacker-caused, nonmagical hit greater than two damage before armor reduction. Smaller hits, falls and magical hits do not consume bark. Fire instead burns one layer and increases that hit by 25 percent, even if an attacker caused it.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The bark count appears in the tooltip and as growing wooden armor on the wearer. Removing the belt clears its bark. Extra copies do not stack its protection. Growing bark needs a charged Grimoire, now obtainable through the small-circle ritual. Use Belt or general Curio. Besides crafting, a master Hedge Witch may offer one for a base 8-16 emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:girdle_of_the_dryads"
+                  }
+              ],
+    "icon":  "bewitchment:girdle_of_the_dryads",
+    "category":  "bewitchment:beginnings",
+    "name":  "Girdle of the Dryads",
+    "sortnum":  25
+}

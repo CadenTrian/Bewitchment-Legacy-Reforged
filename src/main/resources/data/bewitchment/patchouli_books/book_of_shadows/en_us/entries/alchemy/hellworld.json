@@ -1,0 +1,40 @@
+{
+    "name":  "Hellworld",
+    "icon":  "bewitchment:hellhound_horn",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  137,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Hellworld brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then a Hellhound Horn, to hot powered water. The harmful red effect has one base tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews. Living targets are set on fire for fifteen seconds, subject to ordinary fire protection and immunity."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Wild adult vanilla wolves can become Hellhounds; wild adult Bewitchment snakes can become Feuerwurms. Tamed animals, babies, leashed creatures, mounts and riders are excluded, as is Peaceful difficulty. Conversion requires loaded, dry, collision-free space within world bounds for the larger destination. Forge conversion denial or rejected insertion keeps the source creature; it can still be ignited."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Converted creatures retain position, bounded health, name visibility, disabled AI, persistence and invulnerability. They initialize normal variants and have ordinary hostile behavior, without summoner ownership or a special lifetime. Equipment, existing effects, breeding state and arbitrary mod data are not copied. Source removal occurs only after insertion succeeds; recursive conversion callbacks are guarded."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sampled stone variants and Perpetual Ice become netherrack. Grass, dirt variants and sand become soul sand; paths become Red Nether Bricks. Stonebrick variants become Nether Bricks, and vanilla wool turns red. Log-tagged blocks become bone blocks with axis preserved. Leaves become Nether Wart Blocks. Other blocks in forge:ores become Nether Quartz Ore after the specific mappings are considered."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Bricks, Embittered Bricks and mossy or crying Scorned full blocks become ordinary Scorned Bricks. Despair full blocks, stairs and walls become their ochre counterparts. Cobblestone wall variants become Scorned walls. Embittered fences become Scorned fences; other fences become Nether Brick Fences. A later pass can therefore change the resulting Scorned fence again."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Legacy stone slabs and Embittered slabs become Nether Brick Slabs. Four full smooth blocks representing seamless double slabs become double Nether Brick Slabs. Brick, Stone Brick and Embittered stairs become Nether Brick Stairs. Shared orientation, connection, slab type and waterlogging remain. Newer slab families are excluded. Replacements create no direct drops or XP."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A separate one-in-five roll attempts fire above each visited candidate, only into air with valid fire survival. Its own position needs permissions, a cancellable block-break event and loaded neighbors. State, support and permissions are rechecked after callbacks. Placement-only listeners are not invoked. Fire can spread through ordinary game rules; these checks do not protect all later fire spread."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Radius is three, six or nine, capped at nine: 6,859 candidates per job. Each dimension holds 32 Hellworld jobs and scans 512 candidates per tick, with 128 per job and up to two writes per candidate. Seeds, cursors and owners persist; fire rolls use world randomness. Missing or non-building owners stop jobs. Overflow does not prevent entity effects. Drinking, splash and occupied clouds use shared delivery. This does not change biome or weather."
+                  }
+              ]
+}

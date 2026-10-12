@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "minecraft:block/dirt"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

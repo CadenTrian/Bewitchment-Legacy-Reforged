@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:white_sage",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Return to Sender is a positive greater ward stored in curse state. It has no periodic potion effect. Its saved duration ticks down like other curses, pauses offline and survives respawn. Purity preserves it. Operators can grant it with /curse \u003cplayer\u003e add bewitchment:return_to_sender \u003cdays\u003e."
+                  },
+                  {
+                      "text":  "When a lesser curse is cast at a warded target, it is redirected once to the caster. Return to Sender is removed from both the target and caster, preventing a reflection loop. Greater curses pass through without consuming either ward. Casting the positive Return to Sender ward itself does not reflect.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "If the caster already has the reflected curse, its old duration remains unchanged, but both wards are still consumed as in the legacy implementation. A self-cast reflects once, removes the ward and applies the curse to that same player. Reflection does not remove any pre-existing curse from the intended target.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use /curse \u003ctarget\u003e cast \u003ccurse-id\u003e \u003cdays\u003e to exercise casting and reflection. Permission level two and a player command source are required; the source player is the caster. Targets must be online, including when in another dimension. The ordinary add command remains direct administration and bypasses reflection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Casting posts a cancellable event before changing curse state. Integrations may redirect its target, change the curse or change its duration. The result is checked again before reflection or application. Canceled and invalid casts do not consume wards through this casting service. Durations must remain within the supported positive day range.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The Brazier provides ten original curse offering recipes, including this ward. A pledged Baphomet sells a randomly selected positive contract for six experience levels; see $(l:sympathy/baphomet)Baphomet$(). Return to Sender is a ward, not one of those five positive contracts. The new event is an API for this port, not binary compatibility with the 1.12 capability and event classes.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:white_sage",
+    "category":  "bewitchment:sympathy",
+    "name":  "Return to Sender",
+    "sortnum":  99
+}

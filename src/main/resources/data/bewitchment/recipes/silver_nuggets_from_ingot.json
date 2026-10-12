@@ -1,0 +1,12 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:ingots/silver"
+                        }
+                    ],
+    "result":  {
+                   "count":  9,
+                   "item":  "bewitchment:silver_nugget"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

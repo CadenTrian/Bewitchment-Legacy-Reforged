@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bewitchment:catechu_brown"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_dye"
+  }
+}

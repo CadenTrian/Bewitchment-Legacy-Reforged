@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:hellhound_horn",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Hellhounds are fast, hostile demons with four original skins. They spawn in Nether-type biomes in ultrawarm dimensions, with weight six and groups of one to three. Natural spawning needs non-Peaceful difficulty and valid ground, but not darkness. Set hellhoundWeight to zero in bewitchment-creatures.toml and restart to disable natural spawns."
+                  },
+                  {
+                      "text":  "They have twenty health, four base damage, two and a quarter armor and one armor toughness. A successful bite applies Slowness II for five seconds and ignites the victim for three seconds. The jaw opens briefly with the attack. Fire, lava damage, Poison, Wither and falls do not harm Hellhounds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Water and rain inflict magic damage. While dry and in lava they recover two health each second. They hunt players, Feuerwurms, livestock and other eligible living creatures. A complete Besmirched head, chest and leg set prevents proactive targeting; retaliation still occurs. Hellhounds count as demons for accessory protection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ordinary loot chooses one weighted entry: Tongue of Dog at weight three, Hellhound Horn at weight two, or Blaze Powder at weight one. Base amounts are zero to one, zero to two and zero to three respectively, with Looting. This does not guarantee a drop. An Athame adds separate legacy bonus rolls with maxima one, two and four before its Looting adjustment.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Feuerwurms now also have Athame bonus rolls for Adder\u0027s Fork, Blaze Powder and Hellhound Horn, with maxima three, two and two. Spectral copies of either demon yield no ordinary loot, Athame bonuses or experience. Hellhounds retain the legacy opaque appearance even when spectral. Saved lifetime and summoner UUID work as for Feuerwurms.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use a spawn egg or /summon bewitchment:hellhound for testing. Hellhounds are not tameable pets. Hellhounds supply horns in survival and can also appear through Hellmouth or Nether fortress structure pools. Greater-demon pledges do not protect against Hellhounds. See $(l:sympathy/demon_pledges)Greater Demon Pledges$() for the creatures each allegiance affects.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:hellhound_horn",
+    "category":  "bewitchment:sympathy",
+    "name":  "Hellhounds",
+    "sortnum":  63
+}

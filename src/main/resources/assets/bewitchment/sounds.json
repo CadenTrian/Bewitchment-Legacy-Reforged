@@ -1,0 +1,101 @@
+{
+    "toad_idle":  {
+                      "sounds":  [
+                                     "bewitchment:toad_idle_0",
+                                     "bewitchment:toad_idle_1",
+                                     "bewitchment:toad_idle_2"
+                                 ],
+                      "subtitle":  "subtitles.bewitchment.toad_idle"
+                  },
+    "toad_hurt":  {
+                      "sounds":  [
+                                     "bewitchment:toad_hurt_0",
+                                     "bewitchment:toad_hurt_1",
+                                     "bewitchment:toad_hurt_2"
+                                 ],
+                      "subtitle":  "subtitles.bewitchment.toad_hurt"
+                  },
+    "toad_death":  {
+                       "sounds":  [
+                                      "bewitchment:toad_death"
+                                  ],
+                       "subtitle":  "subtitles.bewitchment.toad_death"
+                   },
+    "raven_cry":  {
+                      "sounds":  [
+                                     "bewitchment:raven_cry_0",
+                                     "bewitchment:raven_cry_1"
+                                 ],
+                      "subtitle":  "subtitles.bewitchment.raven_cry"
+                  },
+    "owl_hoot":  {
+                     "sounds":  [
+                                    "bewitchment:owl_hoot_0",
+                                    "bewitchment:owl_hoot_1"
+                                ],
+                     "subtitle":  "subtitles.bewitchment.owl_hoot"
+                 },
+    "werewolf_howl":  {
+                          "sounds":  [
+                                         "bewitchment:werewolf_howl"
+                                     ],
+                          "subtitle":  "subtitles.bewitchment.werewolf_howl"
+                      },
+    "bafometyr_living":  {
+                             "sounds":  [
+                                            "bewitchment:bafometyr_living_0",
+                                            "bewitchment:bafometyr_living_1",
+                                            "bewitchment:bafometyr_living_2",
+                                            "bewitchment:bafometyr_living_3"
+                                        ],
+                             "subtitle":  "subtitles.bewitchment.bafometyr_living"
+                         },
+    "bafometyr_hurt":  {
+                           "sounds":  [
+                                          "bewitchment:bafometyr_hurt_0"
+                                      ],
+                           "subtitle":  "subtitles.bewitchment.bafometyr_hurt"
+                       },
+    "bafometyr_death":  {
+                            "sounds":  [
+                                           "bewitchment:bafometyr_death_0",
+                                           "bewitchment:bafometyr_death_1"
+                                       ],
+                            "subtitle":  "subtitles.bewitchment.bafometyr_death"
+                        },
+    "cleaver_living":  {
+                           "sounds":  [
+                                          "bewitchment:cleaver_living_0",
+                                          "bewitchment:cleaver_living_1",
+                                          "bewitchment:cleaver_living_2"
+                                      ],
+                           "subtitle":  "subtitles.bewitchment.cleaver_living"
+                       },
+    "cleaver_hurt":  {
+                         "sounds":  [
+                                        "bewitchment:cleaver_hurt_0",
+                                        "bewitchment:cleaver_hurt_1"
+                                    ],
+                         "subtitle":  "subtitles.bewitchment.cleaver_hurt"
+                     },
+    "cleaver_death":  {
+                          "sounds":  [
+                                         "bewitchment:cleaver_death_0",
+                                         "bewitchment:cleaver_death_1"
+                                     ],
+                          "subtitle":  "subtitles.bewitchment.cleaver_death"
+                      },
+    "chalk_scribble":  {
+                           "sounds":  [
+                                          "bewitchment:chalk_scribble_0",
+                                          "bewitchment:chalk_scribble_1",
+                                          "bewitchment:chalk_scribble_2"
+                                      ],
+                           "subtitle":  "subtitles.bewitchment.chalk_scribble"
+                       },
+    "broom_sweep":  {
+                        "sounds":  [
+                                       "bewitchment:broom_sweep"
+                                   ]
+                    }
+}

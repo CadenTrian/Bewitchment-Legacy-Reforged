@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/garlic_bread"
+                 },
+    "parent":  "minecraft:item/generated"
+}

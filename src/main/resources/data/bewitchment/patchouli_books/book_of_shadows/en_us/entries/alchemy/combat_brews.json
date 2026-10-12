@@ -1,0 +1,40 @@
+{
+    "name":  "Combat and Influence Brews",
+    "icon":  "minecraft:fire_charge",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  123,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Five additional recipes bring brewing to 63 effects: 25 vanilla and thirty-eight custom. Start with Mandrake Root in hot, powered cauldron water. Popped Chorus Fruit gives Deflection for 600 ticks; Fire Charge gives Volatility for 900 ticks; Bone gives instant Rage; Cookie gives instant Friendship; Demon Heart gives Fear for 600 ticks."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Deflection cancels a projectile attack against the affected creature. The original motion rule is unusual: level I stops the projectile; level II multiplies velocity by four; level III by eight. It does not reverse direction or transfer ownership. The projectile still follows its own collision and lifetime rules."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Volatility triggers on positive magic damage or positive non-projectile damage. Ordinary arrows do not trigger it, but magic projectiles can. It attempts eight explosion damage per level against living creatures in the affected creature\u0027s bounding box expanded by three blocks, including the affected creature itself."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Volatility is removed from the entire selected group before damage is applied. A guard prevents nested detonations during removal or damage callbacks, including when another mod cancels removal. A later independent hit can trigger any effect that was retained. The original incoming hit still proceeds. Damage protections can intervene."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The Volatility burst plays an explosion sound and particle but does not destroy blocks or ignite terrain. Its damage source is attributed to the volatile creature. The three-block expansion is a box, not a spherical distance test, and does not require line of sight."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Rage records the player potion owner as the target\u0027s last attacker. Revenge-capable AI may react; this is not forced movement or control of players. It does not directly override attack targets or pledge protection. Drinking it does not make you attack yourself. Ownerless command/dispenser effects cannot invent a player."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Friendship tames a tameable creature to the player potion owner. It can transfer an existing pet, following legacy behavior. Dragon-class tameables are excluded. Forge tame-cancellation hooks are honored. Drinking it yourself has no taming effect; throw a splash potion or create an owned lingering cloud to affect a creature."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Both influence brews require a living, non-spectator player owner in the same world. Fear uses the existing random horizontal player movement; it does not add a new fleeing AI for mobs. The stronger instant-potion duration rounding does not prevent direct drinking dispatch. Pesticide clears cobwebs. See $(l:alchemy/iceworld)Iceworld$(), $(l:alchemy/hellworld)Hellworld$() and $(l:alchemy/ruin)Ruin$() for terrain-changing brews. Unlisted ingredients remain unsupported."
+                  }
+              ]
+}

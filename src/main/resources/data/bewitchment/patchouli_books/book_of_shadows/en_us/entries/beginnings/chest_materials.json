@@ -1,0 +1,13 @@
+{
+  "name": "Materials from Exploration",
+  "icon": "minecraft:chest",
+  "category": "bewitchment:beginnings",
+  "pages": [
+    {"type": "patchouli:text", "text": "Dungeon and abandoned mineshaft chests can now supply witchcraft materials alongside their ordinary loot. The same additions appear in stronghold corridor, crossing and library chests, jungle temples, desert pyramids, igloos, end cities and woodland mansions."},
+    {"type": "patchouli:text", "text": "Village weaponsmith chests also receive these materials. This is the modern replacement for the old blacksmith chest. Other village professions, ordinary houses and jungle temple dispensers keep their usual loot."},
+    {"type": "patchouli:text", "text": "The shared materials table makes two selections. Its rewards include gems, salt, Elder, Juniper and Cypress saplings, gold and silver ingots, Fortune's Favor, Hecate's Visage and the Triskelion. Quantities and relative weights match the original table. Some selections can yield zero items, so a particular material is never guaranteed."},
+    {"type": "patchouli:text", "text": "Nether fortress chests additionally select once from the Nether materials table before the shared materials table. Nether rewards include Dragon's Blood saplings and resin, Nethersteel, Hellebore, hearts, Hellhound Horns and books. The legacy Codex reward uses this version's Book of Shadows."},
+    {"type": "patchouli:text", "text": "Each added pool rolls once, with the original zero-to-one bonus multiplied by Luck. At zero Luck this gives two shared-table selections, plus one Nether selection in fortresses. These are extra pools, not a five-percent chance: the table entry's weight of five competes with no other entry in its pool."},
+    {"type": "patchouli:text", "text": "Loot is generated when a chest's stored loot table is first used. Already-filled chests are not refilled. Resource reloads apply to later loot generation. Custom data-pack loot tables may replace these additions; the material tables themselves remain editable through data packs."}
+  ]
+}

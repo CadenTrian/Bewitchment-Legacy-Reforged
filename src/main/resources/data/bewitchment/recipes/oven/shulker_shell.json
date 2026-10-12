@@ -1,0 +1,15 @@
+{
+  "type": "bewitchment:oven",
+  "ingredient": {
+    "item": "minecraft:shulker_shell"
+  },
+  "result": {
+    "item": "minecraft:popped_chorus_fruit"
+  },
+  "byproduct": {
+    "item": "bewitchment:dimensional_sand",
+    "count": 4
+  },
+  "chance": 1,
+  "requires_jar": false
+}

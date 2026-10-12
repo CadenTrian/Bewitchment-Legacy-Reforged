@@ -1,0 +1,22 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "tag": "forge:dusts/salt"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:mushroom_stew"
+    }
+  ]
+}

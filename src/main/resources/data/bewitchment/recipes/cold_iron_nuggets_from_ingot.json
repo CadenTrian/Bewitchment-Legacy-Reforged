@@ -1,0 +1,12 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:ingots/cold_iron"
+                        }
+                    ],
+    "result":  {
+                   "count":  9,
+                   "item":  "bewitchment:cold_iron_nugget"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

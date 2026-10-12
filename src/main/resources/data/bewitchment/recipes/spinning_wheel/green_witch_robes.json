@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_robes"
+                        },
+                        {
+                            "item":  "bewitchment:pure_filament"
+                        },
+                        {
+                            "tag":  "minecraft:saplings"
+                        },
+                        {
+                            "item":  "minecraft:blue_wool"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "bewitchment:green_witch_robes"
+                    }
+                ]
+}

@@ -1,0 +1,29 @@
+{
+    "seconds":  15,
+    "starting_power":  825,
+    "result":  {
+                   "item":  "bewitchment:athame"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "conjure_imp",
+    "circles":  [
+                    "nether",
+                    "any",
+                    "nether"
+                ],
+    "running_power":  66,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:athame"
+                        },
+                        {
+                            "tag":  "forge:ingots/gold"
+                        },
+                        {
+                            "tag":  "forge:crops/hellebore"
+                        },
+                        {
+                            "item":  "bewitchment:hellhound_horn"
+                        }
+                    ]
+}

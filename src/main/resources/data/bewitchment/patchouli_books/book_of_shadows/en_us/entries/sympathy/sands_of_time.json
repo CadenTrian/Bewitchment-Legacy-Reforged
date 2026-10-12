@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:sand",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw small and medium white circles: 44 glyphs around the golden center. Offer one Gold Ingot, one Silver Ingot, one Sandstone and two Sand separately. Forge sandstone variants and both sand colors work. All ingredients have existing survival sources."
+                  },
+                  {
+                      "text":  "Start in the Overworld for 600 power, or 510 with Hecate\u0027s Visage. Offerings are consumed. Each second of operation costs 50 more power. The ritual adds five daylight ticks per loaded game tick; normal daylight adds its usual one, giving sixfold daylight progression with normal game rules.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "It changes daylight time, not entity or machine tick speed. It continues adding daylight even if natural daylight cycling is disabled. Each active circle adds its own acceleration. Right-click the focal glyph to stop; offerings and spent power are not refunded.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:sand",
+    "category":  "bewitchment:sympathy",
+    "name":  "Sands of Time",
+    "sortnum":  41
+}

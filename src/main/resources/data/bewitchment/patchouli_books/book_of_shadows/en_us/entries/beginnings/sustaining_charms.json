@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:gluttons_sash",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Triskelion spends one Grimoire power every ten seconds to grant Strength I for twelve seconds. It uses a Necklace slot. Noble demon merchants can offer it at career level three; see $(l:sympathy/demon)Demon Merchants$(). Offers are randomly selected, so each merchant need not stock it. A master Hedge Witch may also sell it for a base 8-16 emeralds. It has no crafting recipe."
+                  },
+                  {
+                      "text":  "Glutton\u0027s Sash checks hunger once per second. If hungry, it spends five power to restore one food point, with saturation modifier 1. It does not spend power at full hunger. Noble demon merchants can offer it at career level five. Both charms are also in the master Hedge Witch\u0027s random accessory pool. Equip the Sash in Belt or general Curio. It has no crafting recipe; the Hedge Witch base offer is 8-16 emeralds.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:gluttons_sash",
+    "category":  "bewitchment:beginnings",
+    "name":  "Strength and Sustenance",
+    "sortnum":  23
+}

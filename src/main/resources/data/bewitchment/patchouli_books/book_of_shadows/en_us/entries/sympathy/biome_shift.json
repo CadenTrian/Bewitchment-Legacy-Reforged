@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:boline",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use a Boline in the air to record the biome at your position. Its tooltip shows the registry name. Biome Shift accepts a valid recorded biome, including modded biomes still registered in this world. An unbound Boline cannot start the ritual."
+                  },
+                  {
+                      "text":  "Draw all three circles with Phasing Chalk. Offer a Sapling, a Log, two Oak Apple Galls, a Pentacle, Oak Spirit, Dimensional Sand and the recorded Boline separately. The Boline is consumed on successful completion, matching the original ritual.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The cast takes fifty seconds and costs 1,300 starting power plus 33 each second: 2,950 total, or 2,755 with Hecate\u0027s Visage. It works in any dimension. After payment, the focal glyph changes loaded nearby biome data gradually without further power.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The intended radius is strictly 32 blocks. Minecraft 1.16 stores biomes in four-block cells. Only whole horizontal cells inside that circle are changed, across the full build height, so the edge is stepped and slightly smaller. All blocks represented by each cell must pass edit and border checks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "One chunk is considered per tick, across at most twenty-five chunks. Unloaded chunks and denied cells are skipped. Biome changes are saved and sent to players watching those chunks. This changes biome data, not existing terrain, structures or vegetation.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Progress stays with the focal glyph and pauses while its caster is absent, dead or cannot build. A missing target biome also pauses work. Click or break the focal glyph to stop permanently; completed changes and consumed items are not reversed. Athame kills of Endermen or Endermites provide Dimensional Sand bonus rolls. Remote ritual casting remains unsupported.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:boline",
+    "category":  "bewitchment:sympathy",
+    "name":  "Biome Shift",
+    "sortnum":  55
+}

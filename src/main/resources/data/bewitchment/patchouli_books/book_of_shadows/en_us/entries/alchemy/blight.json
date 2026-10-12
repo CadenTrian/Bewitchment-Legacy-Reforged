@@ -1,0 +1,40 @@
+{
+    "name":  "Blight",
+    "icon":  "minecraft:rotten_flesh",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  130,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Blight brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Rotten Flesh, to hot powered water. Its base duration is one tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Eligible creatures receive Weakness II and Slowness II for six seconds per level. Undead and entities in the bewitchment:demons or bewitchment:spirits tags are excluded. Normal effect events still apply. Splash distance does not reduce these legacy durations."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Vanilla mooshrooms can become cows. Forge conversion events may cancel this, and a rejected cow insertion leaves the mooshroom intact. Leashed animals, passengers and animals carrying riders are not converted. Custom mooshroom entity types are excluded. A successful cow receives the debuffs; a rejected conversion can still leave debuffs on the original animal."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Conversion keeps age, health up to the cow\u0027s maximum, name, name visibility, persistence, invulnerability and disabled AI. The source is removed only after cow insertion succeeds. It does not copy arbitrary mod data or mushroom-specific data. No mushrooms or other conversion drops are generated."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sampled grass blocks, dirt, podzol, mycelium, farmland and paths become coarse dirt. Existing coarse dirt is left alone. Leaves and bonemeal-growable blocks are destroyed with their block loot. Not every plant supports bonemeal. Liquids inside a destroyed block remain. Ordinary loot modifiers and doTileDrops apply; no direct XP is added."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Each position has a one-in-three chance. Inclusive radius is three, six or nine at levels I, II or III, with higher command levels capped at nine: at most 6,859 positions. Each dimension holds 32 Blight jobs and scans at most 512 candidates per tick, with 128 per job. Progress, owners and sampling seeds survive saves and restarts."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Player-owned jobs stop when their owner leaves, dies or cannot build. Other sources use the Minecraft fake player. Edits require loaded chunks, build height, the world border and interaction permissions. A cancellable Forge block-break event precedes each action. Listener replacements are preserved. Placement-only listeners are not invoked."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Plant removal must succeed before loot is released. Loot or protection callbacks that change the block abort that action. Cancelled item spawns can lose drops after removal; blocks are not restored. Full terrain queues do not prevent creature effects. Drinking, splash impacts and occupied lingering clouds use the shared terrain delivery rules."
+                  }
+              ]
+}

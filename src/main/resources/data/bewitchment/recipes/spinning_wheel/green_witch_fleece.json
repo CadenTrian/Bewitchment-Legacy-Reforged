@@ -1,0 +1,23 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "minecraft:leaves"
+                        },
+                        {
+                            "item":  "minecraft:leather"
+                        },
+                        {
+                            "item":  "minecraft:blue_wool"
+                        },
+                        {
+                            "item":  "minecraft:blue_wool"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "count":  3,
+                        "item":  "bewitchment:greenwitch_fleece"
+                    }
+                ]
+}

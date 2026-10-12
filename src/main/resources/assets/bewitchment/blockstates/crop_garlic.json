@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "bewitchment:block/crop/crop_garlic_0"
+    },
+    "age=1": {
+      "model": "bewitchment:block/crop/crop_garlic_1"
+    },
+    "age=2": {
+      "model": "bewitchment:block/crop/crop_garlic_1"
+    },
+    "age=3": {
+      "model": "bewitchment:block/crop/crop_garlic_1"
+    },
+    "age=4": {
+      "model": "bewitchment:block/crop/crop_garlic_2"
+    },
+    "age=5": {
+      "model": "bewitchment:block/crop/crop_garlic_2"
+    },
+    "age=6": {
+      "model": "bewitchment:block/crop/crop_garlic_2"
+    },
+    "age=7": {
+      "model": "bewitchment:block/crop/crop_garlic_3"
+    }
+  }
+}

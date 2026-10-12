@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:cactus",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Offer White Sage, Acacia Resin, Cactus, Sand, two Opals and a Lizard Leg in a small white circle. After five seconds, Drought stops Overworld rain and returns one Empty Jar. Both sand colors are accepted."
+                  },
+                  {
+                      "text":  "The cost is 250 startup plus five payments of 20: 350 total, or 312 with Hecate\u0027s Visage. Like the legacy ritual, it can finish even if the weather is already dry. It does not promise a fixed clear-weather duration; normal weather timers remain.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Lizards now drop Lizard Legs, restoring this ingredient in survival. As with other finite rituals, cancellation returns the unconsumed offerings but not spent power. Weather changes and container returns occur only after the last successful payment.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:cactus",
+    "category":  "bewitchment:sympathy",
+    "name":  "Drought",
+    "sortnum":  39
+}

@@ -1,0 +1,27 @@
+{
+  "type": "bewitchment:distillery",
+  "ingredients": [
+    {
+      "item": "bewitchment:cloudy_oil"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "tag": "forge:coquina"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:water\"}"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:swirl_of_depths"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ]
+}

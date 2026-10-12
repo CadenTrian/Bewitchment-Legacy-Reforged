@@ -1,0 +1,1 @@
+{"variants":{"facing=north":{"model":"bewitchment:block/dragons_blood_chest"},"facing=east":{"model":"bewitchment:block/dragons_blood_chest","y":90},"facing=south":{"model":"bewitchment:block/dragons_blood_chest","y":180},"facing=west":{"model":"bewitchment:block/dragons_blood_chest","y":270}}}

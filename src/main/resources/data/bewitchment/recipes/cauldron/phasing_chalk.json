@@ -1,0 +1,19 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:ritual_chalk"
+                        },
+                        {
+                            "item":  "bewitchment:dimensional_sand"
+                        },
+                        {
+                            "tag":  "forge:dusts/glowstone"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:phasing_chalk"
+                    }
+                ]
+}

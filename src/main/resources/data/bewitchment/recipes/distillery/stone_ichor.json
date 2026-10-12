@@ -1,0 +1,22 @@
+{
+  "type": "bewitchment:distillery",
+  "ingredients": [
+    {
+      "item": "bewitchment:cloudy_oil"
+    },
+    {
+      "tag": "forge:stone"
+    },
+    {
+      "tag": "forge:nuggets/iron"
+    },
+    {
+      "tag": "forge:gravel"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:stone_ichor"
+    }
+  ]
+}

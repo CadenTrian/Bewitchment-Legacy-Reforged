@@ -1,0 +1,8 @@
+{
+    "ingredient":  {
+                       "tag":  "bewitchment:scorned_brick_designs"
+                   },
+    "result":  "bewitchment:scorned_bricks_raw_cracked",
+    "count":  1,
+    "type":  "minecraft:stonecutting"
+}

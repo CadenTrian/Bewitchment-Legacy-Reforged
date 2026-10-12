@@ -1,0 +1,28 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal"
+                ],
+    "ingredients":  [
+                        {
+                            "tag":  "forge:ingots/gold"
+                        },
+                        {
+                            "tag":  "forge:ingots/silver"
+                        },
+                        {
+                            "tag":  "forge:sandstone"
+                        },
+                        {
+                            "tag":  "forge:sand"
+                        },
+                        {
+                            "tag":  "forge:sand"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  600,
+    "running_power":  50,
+    "effect":  "sands_of_time",
+    "seconds":  -1
+}

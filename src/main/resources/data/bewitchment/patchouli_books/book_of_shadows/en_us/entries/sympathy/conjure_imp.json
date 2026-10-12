@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:imp_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw a small Nether circle, a complete medium circle of any ordinary chalk types, and a large Nether circle. The medium ring may mix Normal, Nether and Ender glyphs, but not focal glyphs. Offer an Athame, a Gold Ingot, Hellebore and a Hellhound Horn. Start at night with an empty main hand."
+                  },
+                  {
+                      "text":  "The cast lasts fifteen seconds and costs 825 starting power plus 66 each second, for 1815 before existing modifiers. Sunrise after activation does not cancel a paid cast. Peaceful difficulty and blocked, liquid-filled, unloaded or out-of-border spawn space prevent conjuration. Clear room at the focal glyph for the Imp.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A nearby chicken death can also activate a prepared ritual. The nearest living non-spectator player must be less than ten blocks from the chicken, and the focal glyph must be within two blocks on each axis of its block position. The same night, circle, ingredient, permission, power and space checks apply. Active casts are left alone.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Legacy behavior permits empty-hand night activation without a chicken death; Reforged retains that route. A chicken death need not be caused by the nearby player, and one death may activate multiple eligible nearby glyphs. Already-cancelled death events do not trigger the handler. A failed activation does not bring the chicken back.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Completion summons one ordinary hostile Imp with normal skin initialization, without taming, caster ownership or spectral lifetime. Its ordinary attacks and loot apply. A fresh Athame is returned after successful insertion, replacing the offered one rather than retaining its damage, enchantments or other data.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Offerings remain recoverable until completion. If the final body-space check or world insertion fails, the original offerings are returned, including the original Athame data. Spent power is not refunded. Summon advancement triggers run only after insertion succeeds. Breaking the circle or failing a running payment uses ordinary ritual cancellation.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Flame particles mark the cast. Horns are available from restored creatures such as Hellhounds and Druden; Hellebore is a restored crop. Summoned Imps can provide Heart, Horn, Blaze Powder and Quartz loot, with the existing Athame bonus rules. They remain dangerous, and ordinary despawning still applies.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:imp_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Conjure Imp",
+    "sortnum":  71
+}

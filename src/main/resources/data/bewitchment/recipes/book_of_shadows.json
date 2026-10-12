@@ -1,0 +1,23 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:book"
+                        },
+                        {
+                            "tag":  "forge:dyes/black"
+                        },
+                        {
+                            "item":  "bewitchment:mandrake_root"
+                        },
+                        {
+                            "item":  "bewitchment:hellebore"
+                        }
+                    ],
+    "result":  {
+                   "item":  "patchouli:guide_book",
+                   "nbt":  {
+                               "patchouli:book":  "bewitchment:book_of_shadows"
+                           }
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

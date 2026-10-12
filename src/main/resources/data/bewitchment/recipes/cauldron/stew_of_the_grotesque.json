@@ -1,0 +1,40 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:demonic_elixir"
+                        },
+                        {
+                            "item":  "bewitchment:heart"
+                        },
+                        {
+                            "item":  "minecraft:mutton"
+                        },
+                        {
+                            "item":  "minecraft:slime_ball"
+                        },
+                        {
+                            "item":  "bewitchment:lizard_leg"
+                        },
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        },
+                        {
+                            "item":  "bewitchment:adders_fork"
+                        },
+                        {
+                            "item":  "bewitchment:belladonna"
+                        },
+                        {
+                            "item":  "bewitchment:hellebore"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:stew_of_the_grotesque"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

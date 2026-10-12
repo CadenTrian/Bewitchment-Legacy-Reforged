@@ -1,0 +1,48 @@
+{
+    "name":  "Cauldron Brewing",
+    "icon":  "minecraft:potion",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  120,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Fill a Witches Cauldron with water, heat it for five seconds and keep a formed, charged altar nearby. Drop Mandrake Root FIRST to activate brewing, then add supported ingredients. Ten ingredients fit, including the root. Ingredients drain altar power; power loss spoils the batch. Brewing has no crafting timeout."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Example: Mandrake Root, then Sugar, then right-click with Glass Bottles for three Speed I potions lasting 900 ticks each. At least one effect ingredient is required. Bottling requires a hot, unspoiled mixture. Each extraction consumes one bottle, including in creative mode. The final bottle empties the cauldron."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Redstone extends duration (up to three times). Glowstone increases potency (normally capped at two), reducing duration proportionally. Gunpowder makes splash potions; add Owlet\u0027s Wing as well for lingering. Raven\u0027s Feather hides particles. Owlet\u0027s Wing alone stays drinkable. Very short effects can round down to zero ticks."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "The first bottle freezes the potion and bottle allowance. A full Alchemist set adds one bottle and starting potency. Each nearby living Leonard adds one bottle when you are pledged to him, and permits potency three. Later gear or nearby-entity changes cannot alter the batch. Remaining bottles survive save/load. No ingredients can be added after extraction starts."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Apple: healing; Spider Eye: harming; Glistering Melon: regeneration; Belladonna or Snake Venom: poison; Bottle of Blood: wither. Carrot: night vision; Eye of Old: night vision, water breathing AND revealing. Ink Sac or Iron Gall Ink: blindness. Raw pork, beef, mutton, chicken or rabbit: strength; cooked versions: resistance."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Hellebore: weakness; Embergrass: fire resistance; Rabbit Hide or Hoof: jump boost; Sugar: speed; Brown Mushroom or slimeballs: slowness; Sugar Cane: haste; Lizard Leg: mining fatigue. Rabbit Foot: luck; Adder\u0027s Fork: bad luck; Cod: water breathing. Saplings: absorption."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Ectoplasm: invisibility; Tongue of Dog: hunger; Red Mushroom: nausea; Spectral Dust: glowing; Chorus Fruit: levitation; Juniper Berries: Magic Weakness. These cover 25 vanilla effects; see Defensive and Utility Brews and Cleansing and Disruption Brews, and Combat and Influence Brews for the thirty-eight custom effects, including Magic Weakness. Unlisted custom-effect ingredients remain unsupported and are left unconsumed. Snake Venom and Bottle of Blood return empty bottles when added."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Add Wood Ash to hot water to discard any mixture. Breaking a brewing cauldron loses its contents; crafting ingredients are still returned. Plan before bottling: bonuses freeze at first extraction and the exact allowance prevents extra bottles from fluid rounding. Other mods can cancel or adjust a brew before the first bottle. Later bottles retain that output. Cauldron teleportation remains unported."
+                  },
+                  {
+                      "text":  "An empty Witches\u0027 Cauldron can store a Lava Bucket. Use an empty Bucket to retrieve the lava. Lava cannot be used for crafting or brewing, and does not absorb ingredients. Like the original, living creatures overlapping its block take four lava damage and are set on fire for fifteen seconds, subject to normal immunity and damage cooldowns. Breaking the cauldron loses its lava.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Water in a filled cauldron extinguishes living creatures overlapping its block. At full heat (five), it also deals one point of hot-floor damage, using normal damage cooldowns and protections. This applies to clean water, crafting mixtures and potion brews, including failed mixtures. An empty cauldron has no fluid contact effect. Contact does not consume the water.",
+                      "type":  "patchouli:text"
+                  }
+              ]
+}

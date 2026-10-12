@@ -1,0 +1,81 @@
+{
+    "multipart":  [
+                      {
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_dot"
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "north":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_side",
+                                        "y":  0
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "east":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_side",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "south":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_side",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "west":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_side",
+                                        "y":  270
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "north_up":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_up",
+                                        "y":  0
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "east_up":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_up",
+                                        "y":  90
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "south_up":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_up",
+                                        "y":  180
+                                    }
+                      },
+                      {
+                          "when":  {
+                                       "west_up":  "true"
+                                   },
+                          "apply":  {
+                                        "model":  "bewitchment:block/salt_up",
+                                        "y":  270
+                                    }
+                      }
+                  ]
+}

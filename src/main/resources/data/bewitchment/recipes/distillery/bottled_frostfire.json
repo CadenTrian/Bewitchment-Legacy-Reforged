@@ -1,0 +1,26 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:glass_bottle"
+                        },
+                        {
+                            "item":  "bewitchment:perpetual_ice"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:fiery_unguent"
+                        }
+                    ],
+    "type":  "bewitchment:distillery",
+    "results":  [
+                    {
+                        "item":  "bewitchment:bottled_frostfire"
+                    },
+                    {
+                        "count":  2,
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

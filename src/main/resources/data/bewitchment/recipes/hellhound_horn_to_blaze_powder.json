@@ -1,0 +1,12 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:hellhound_horn"
+                        }
+                    ],
+    "result":  {
+                   "item":  "minecraft:blaze_powder",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

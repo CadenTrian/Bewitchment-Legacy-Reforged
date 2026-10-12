@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:furnace",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Ignition is the fifth restored positive contract effect. It replaces the drops of a block you harvest with that block's furnace recipe output. It uses the block itself as the recipe input, rather than individually smelting its normal dropped items."
+                  },
+                  {
+                      "text":  "For example, a harvested iron ore with a matching furnace recipe yields the recipe's iron ingot output. The whole original drop list is replaced once, regardless of its count. Fortune and this mod's earlier loot bonuses do not multiply that replacement. Silk Touch does not bypass Ignition, matching legacy.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Blocks without a matching furnace recipe retain their existing drops. Only the block's own loot table is eligible: creature, chest and unrelated nested tables are excluded. The harvester must be a living non-spectator player with Ignition active. Furnace XP is not granted.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Recipe output counts and data are preserved. If several furnace recipes match the same block, the lowest recipe ID in alphabetical order wins. Current recipes are consulted on every harvest, so data-pack reloads take effect without a stale recipe cache. This mod runs Ignition after its other loot modifiers; other mods can still change later drops.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ignition's donation task requires blaze rods and magma cream, six to eleven of each independently. Sign the contract, carry it while picking up the offerings, then use the completed task to redeem seven days. The normal owner checks, partial progress and duplicate-reward preservation apply.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can issue /contract \u003cplayer\u003e bewitchment:ignition. Creative inventory includes an unsigned six-of-each variant. Direct testing uses /curse \u003cplayer\u003e add bewitchment:ignition \u003cdays\u003e. Conjure Demon now provides ritual access to merchants.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ignition saves with the player, pauses offline and survives respawn. Purity preserves this positive lesser effect. Direct contract redemption bypasses reflection; explicit operator cast uses the original lesser-only reflection rule. Removing or expiring Ignition restores normal future harvests.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:furnace",
+    "category":  "bewitchment:sympathy",
+    "name":  "Ignition",
+    "sortnum":  109
+}

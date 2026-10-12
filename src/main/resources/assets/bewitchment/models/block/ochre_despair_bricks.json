@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/ochre_despair_bricks"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

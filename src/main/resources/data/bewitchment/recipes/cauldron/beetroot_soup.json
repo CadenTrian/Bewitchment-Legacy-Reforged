@@ -1,0 +1,25 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "tag": "forge:dusts/salt"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:beetroot_soup"
+    }
+  ]
+}

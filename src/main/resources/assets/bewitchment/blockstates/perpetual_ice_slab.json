@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bewitchment:block/perpetual_ice_slab"
+    },
+    "type=double": {
+      "model": "bewitchment:block/perpetual_ice"
+    },
+    "type=top": {
+      "model": "bewitchment:block/perpetual_ice_slab_top"
+    }
+  }
+}

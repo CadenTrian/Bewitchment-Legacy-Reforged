@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:fortunes_favor",
+                      "type":  "patchouli:spotlight",
+                      "text":  "While worn, this charm grants Haste I for five seconds when you have no Haste effect. It checks once per second and does not replace stronger Haste. No magic power is needed."
+                  },
+                  {
+                      "text":  "Mining Coal, Diamond, Emerald, Lapis, Salt, Amethyst, Garnet or Opal Ore without Silk Touch can add one item to each drop stack, with a separate 50 percent chance. Fortune enchantments still apply. Silver, Redstone and Quartz are not included.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Obtain this Charm-slot accessory from a master Hedge Witch\u0027s random accessory pool. The base offer costs 8-16 emeralds for one accessory; a particular merchant need not select it. There is no crafting recipe. Wear it in a Charm or general Curio slot.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:fortunes_favor",
+    "category":  "bewitchment:beginnings",
+    "name":  "Fortune\u0027s Favor",
+    "sortnum":  22
+}

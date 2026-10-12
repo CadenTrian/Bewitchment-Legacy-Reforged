@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "tag":  "forge:dyes/purple"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_disorientation"
+               },
+    "type":  "bewitchment:sigil_table"
+}

@@ -1,0 +1,19 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_wood_stairs",
+                   "bewitchment:juniper_wood_stairs",
+                   "bewitchment:cypress_wood_stairs",
+                   "bewitchment:coquina_stairs",
+                   "bewitchment:coquina_brick_stairs",
+                   "bewitchment:dragons_blood_wood_stairs",
+                   "bewitchment:perpetual_ice_stairs",
+                   "bewitchment:embittered_brick_stairs",
+                   "bewitchment:scorned_brick_stairs",
+                   "bewitchment:mossy_scorned_brick_stairs",
+                   "bewitchment:crying_scorned_brick_stairs",
+                   "bewitchment:despair_brick_stairs",
+                   "bewitchment:ochre_despair_brick_stairs",
+                   "bewitchment:nethersteel_stairs"
+               ]
+}

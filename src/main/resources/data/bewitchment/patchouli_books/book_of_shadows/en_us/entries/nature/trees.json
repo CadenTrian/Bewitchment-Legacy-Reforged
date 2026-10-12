@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:elder_sapling",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Look for rare Elder, Juniper and Cypress trees in suitable newly generated chunks. Gather saplings and grow your own supply of wood, leaves and oven ingredients. Their planks support familiar building recipes."
+                  },
+                  {
+                      "text":  "A master Alchemist sells Dragon\u0027s Blood saplings. Grow a tree and slash a natural, uncut log with a Boline to start resin production. Placed logs cannot be tapped. Each eligible random tick has an eight-percent resin chance. Existing explored chunks are not repopulated with trees.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Slashing requires building and interaction permission. One Boline durability is used only after the log successfully becomes slashed; failed changes do not wear the tool. Its axis and natural marker are retained. Creative tool durability follows vanilla rules.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:elder_sapling",
+    "category":  "bewitchment:nature",
+    "name":  "Witch Trees",
+    "sortnum":  9
+}

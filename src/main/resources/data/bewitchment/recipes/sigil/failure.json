@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/black"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/black"
+                        },
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "tag":  "forge:dyes/black"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/black"
+                        },
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "tag":  "forge:dyes/black"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/black"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_failure"
+               },
+    "type":  "bewitchment:sigil_table"
+}

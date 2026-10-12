@@ -1,0 +1,15 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:bones"
+                        },
+                        {
+                            "item":  "minecraft:flint"
+                        }
+                    ],
+    "result":  {
+                   "count":  6,
+                   "item":  "bewitchment:bone_needle"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

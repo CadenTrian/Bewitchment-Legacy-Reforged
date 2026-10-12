@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:liquid_witchcraft",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Burn Mandrake Root in a Witches\u0027 Oven with an Empty Jar available. It produces Wood Ash and has a 75 percent chance to bottle Liquid Witchcraft. This is a foundation for altars, shelves and magical threads."
+                  },
+                  {
+                      "text":  "Saplings provide other oven fumes: Oak Spirit, Spruce Heart, Birch Soul and more. Ordinary crafting returns an Empty Jar from fume items. Machine recipes specify their own outputs; do not assume an extra jar appears automatically.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:liquid_witchcraft",
+    "category":  "bewitchment:alchemy",
+    "name":  "Liquid Witchcraft and Fumes",
+    "sortnum":  6
+}

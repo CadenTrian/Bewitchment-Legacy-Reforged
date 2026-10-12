@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "bewitchment:block/crying_scorned_brick_slab"
+    },
+    "type=double": {
+      "model": "bewitchment:block/crying_scorned_bricks"
+    },
+    "type=top": {
+      "model": "bewitchment:block/crying_scorned_brick_slab_top"
+    }
+  }
+}

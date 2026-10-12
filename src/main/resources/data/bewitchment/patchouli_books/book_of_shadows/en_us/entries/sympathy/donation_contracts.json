@@ -1,0 +1,41 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:contract",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Salamandrine Tolerance, Desiccation, Ignition and Mahapadma have donation tasks. Use an unsigned task to sign it. While carrying your signed task, matching items picked up from the ground are consumed toward its requirements. Items already in your inventory are not automatically taken."
+                  },
+                  {
+                      "text":  "Salamandrine Tolerance requires blaze rods and ghast tears. Desiccation requires fermented spider eyes and poisonous potatoes. Ignition requires blaze rods and magma cream. Each ingredient has its own independently chosen requirement of six to eleven items. Ordinary spider eyes, potatoes and ingredient tags do not substitute.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The tooltip shows progress for each ingredient. Small deliveries accumulate. A large pickup consumes only the remaining requirement; leftovers continue through normal pickup handling. All ingredients must be complete before the contract glints and can be redeemed.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Only the first matching incomplete contract in inventory order receives a donation from one pickup attempt. Further carried contracts do not share that donation. The signer must be the player picking up the item. Unsigned contracts and another player\u0027s contracts consume nothing.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use a completed positive contract as its signer to redeem seven days of its effect. Redemption consumes the contract and bypasses reflection. If that effect is already active, the completed contract remains intact and the old duration is unchanged. Mahapadma instead requires a target taglock; see its own entry.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can issue /contract \u003cplayer\u003e bewitchment:salamandrine_tolerance, bewitchment:desiccation, bewitchment:ignition or bewitchment:mahapadma. Positive creative tasks require six of each ingredient. Mahapadma requires ice, one water bucket and slime balls. Conjure Demon now provides ritual access to merchants.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Donation skips delayed pickups and items marked as belonging to another player. This also skips donation during the final vanilla public-pickup window of such an item; ordinary pickup is still handled by Minecraft. Drop an item again after collecting it if you want to offer it yourself.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Tasks save their progress counters and owner on the item. Removing the contract from your carried inventory stops automatic donations. Donation does not count as a kill objective. Malformed task data, unsupported items and overfilled requirements consume nothing.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:contract",
+    "category":  "bewitchment:sympathy",
+    "name":  "Donation Contracts",
+    "sortnum":  108
+}

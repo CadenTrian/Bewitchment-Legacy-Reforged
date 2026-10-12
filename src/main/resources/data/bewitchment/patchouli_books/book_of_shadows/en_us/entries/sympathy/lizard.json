@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:lizard_leg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Lizards are small passive animals with four original skins. They appear on suitable grass in Forest, Swamp and Jungle biome types, using weight six and groups of one or two. Natural spawns still obey the ordinary creature cap and light rules."
+                  },
+                  {
+                      "text":  "Feed two adults Spider Eyes to breed them. A baby inherits one parent\u0027s skin. Lizards have ten health and retain the original quick movement and healing pattern: two health each tick during the first six ticks of every two-hundred-tick cycle.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Adult drops provide zero to four Lizard Legs, with the original Looting bonus. This restores a survival ingredient source for Drought and other recipes. Spawn eggs and /summon bewitchment:lizard are also available. Invalid saved skin numbers fall back to the first skin.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:lizard_leg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Lizards",
+    "sortnum":  57
+}

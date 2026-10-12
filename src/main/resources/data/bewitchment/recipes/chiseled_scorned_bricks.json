@@ -1,0 +1,15 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "B",
+                    "B"
+                ],
+    "key":  {
+                "B":  {
+                          "item":  "bewitchment:scorned_bricks_slab"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:chiseled_scorned_bricks"
+               }
+}

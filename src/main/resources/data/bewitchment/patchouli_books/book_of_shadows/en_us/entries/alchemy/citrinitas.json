@@ -1,0 +1,40 @@
+{
+    "name":  "Citrinitas",
+    "icon":  "bewitchment:birch_soul",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  135,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Citrinitas brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Birch Soul, to hot powered water. A successful powered addition returns one Empty Jar. The beneficial yellow effect has one base tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Affected sheep become yellow and wolves receive yellow collars, including stored color while wild. Ownership and shearing state remain. Worn dyeable armor becomes yellow while preserving durability, names and other item data. Held items, horse armor and ordinary metal armor are excluded. There is no damage or healing, and creature recoloring is separate from terrain permissions."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Sampled vanilla wool, carpets, terracotta, glass, panes, concrete and concrete powder become yellow. Plain terracotta and clear glass are included. Already yellow blocks are unchanged. Glazed terracotta, beds, banners, containers and unrelated blocks are excluded. Pane connections and waterlogging remain. Modded color families are not automatically replaced."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Red sand becomes ordinary sand. Red, chiseled red and cut red sandstone become plain sandstone. Red sandstone slabs and stairs become sandstone shapes with slab type, facing, half, shape and waterlogging preserved. Full Smooth Red Sandstone represents the old seamless double slab and becomes a double sandstone slab. Newer cut/smooth slabs and sandstone walls are excluded."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Regular, cracked, mossy and chiseled stone bricks become Despair Bricks. Stone Brick Stairs become Despair stairs. Cobblestone and mossy cobblestone walls become Despair walls. Fence blocks, including Nether Brick Fences, become Despair fences; fence gates do not. Shared facing, connection, wall height and waterlogging states are preserved. Existing Despair blocks stay unchanged."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Each candidate has a one-in-three chance. Radius is two, four or six, capped at six: at most 2,197 positions per job. Each dimension holds 32 Citrinitas jobs and scans at most 512 candidates per tick, with 128 per job. Sampling seeds, cursors and owners survive saves and restarts. Queue overflow does not suppress creature or armor recoloring."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Edits require loaded chunks, build height, world border and actor permissions. Player jobs stop when owners leave, die or cannot build; other sources use the Minecraft fake player. A cancellable block-break event applies to each change. State, permissions and replacement survival are rechecked after callbacks. Placement-only listeners are not invoked. Missing Despair destinations fail closed."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking schedules around the drinker; splash impacts schedule at the hit area even without living targets. Occupied clouds schedule once per effect application tick; empty clouds do not repeat sweeps. Replacements produce no direct drops or XP, but falling, hardening and neighbor updates still apply. Jar returns use normal item spawning and doTileDrops. Empty Jars cannot reenter brewing."
+                  }
+              ]
+}

@@ -1,0 +1,15 @@
+{
+    "circles":  [
+                    "any"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:clay_ball"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  150,
+    "running_power":  0,
+    "effect":  "draw_small",
+    "seconds":  0
+}

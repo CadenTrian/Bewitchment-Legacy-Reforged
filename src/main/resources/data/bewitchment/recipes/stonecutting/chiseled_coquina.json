@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "bewitchment:coquina"
+  },
+  "result": "bewitchment:chiseled_coquina",
+  "count": 1
+}

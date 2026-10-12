@@ -1,0 +1,74 @@
+{
+    "pools":  [
+                  {
+                      "rolls":  3,
+                      "name":  "demon1",
+                      "entries":  [
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:demon_heart",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  3
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:scorned_bricks",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  6
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      },
+                                      {
+                                          "type":  "minecraft:item",
+                                          "name":  "bewitchment:nethersteel",
+                                          "weight":  1,
+                                          "functions":  [
+                                                            {
+                                                                "function":  "minecraft:set_count",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  6
+                                                                          }
+                                                            },
+                                                            {
+                                                                "function":  "minecraft:looting_enchant",
+                                                                "count":  {
+                                                                              "min":  0,
+                                                                              "max":  1
+                                                                          }
+                                                            }
+                                                        ]
+                                      }
+                                  ]
+                  }
+              ],
+    "type":  "minecraft:entity"
+}

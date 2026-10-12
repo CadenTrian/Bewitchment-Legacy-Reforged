@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "bewitchment:block/ochre_despair_bricks",
+    "top": "bewitchment:block/ochre_despair_bricks",
+    "side": "bewitchment:block/ochre_despair_bricks"
+  }
+}

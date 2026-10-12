@@ -1,0 +1,14 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:lizard_leg"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "count":  3,
+                        "item":  "minecraft:green_dye"
+                    }
+                ]
+}

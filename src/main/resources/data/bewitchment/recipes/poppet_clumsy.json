@@ -1,0 +1,21 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:poppet"
+                        },
+                        {
+                            "item":  "bewitchment:belladonna"
+                        },
+                        {
+                            "item":  "bewitchment:elderberries"
+                        },
+                        {
+                            "tag":  "forge:wax"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:poppet_clumsy",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:ravens_feather",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Ravens fly in Plains, Wasteland and Spooky biome types. They use spawn weight twenty, groups of one to four and ordinary animal grass/light placement. Their original black plumage and cries are restored. Set ravenWeight to zero in bewitchment-creatures.toml and restart to disable natural spawning."
+                  },
+                  {
+                      "text":  "Offer Gold, Iron, Cold Iron or Silver Nuggets for a one-in-five taming chance. Taming assigns ownership and raises health from eight to twenty. Tamed Ravens follow and defend their owner. Toggle sitting with a non-breeding item other than a Boline. Breed two standing, tamed adults with items in the Forge seeds tag. Babies are wild.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Adults shed one Raven\u0027s Feather every five to ten minutes while loaded. A Boline collects one to three feathers without harming the bird or wearing the tool, followed by a ten-minute cooldown. The source permits collection from babies too. Both timers survive saving; baby birds pause their automatic shedding timer.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Adult deaths drop zero to four Raven\u0027s Feathers plus Looting. An Athame adds the legacy bonus roll up to four before its Looting adjustment. Feathers now supply metal arrows and ritual offerings in survival. Ravens deal one and a half base attack damage, take no fall damage and retain the six-tick healing burst every two hundred ticks.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:ravens_feather",
+    "category":  "bewitchment:sympathy",
+    "name":  "Ravens",
+    "sortnum":  60
+}

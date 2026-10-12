@@ -1,0 +1,19 @@
+{
+    "pages":  [
+                  {
+                      "text":  "Magic Protection is a very rare armor enchantment with four levels. It protects against magic damage through ordinary enchantment protection and the additional original reduction based on total worn levels. It cannot combine with other Protection types except Feather Falling. Damage that bypasses invulnerability is unaffected.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Name a Cold Iron Sword Hudson Bat, Masashi Bat, Emmanuel Bat, Michael Bat, Yoshihiro Bat, Lewis Bat, Katushiro Bat or Ashley Bat to reveal its alternate model. Letter case does not matter.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The Eye of Old has two alternate models. Haru, Haruspex and H4rv5p3x select the first; Izuxe, Izu and Izuxe43ui520815 select the second. These names change appearance only. The Ghost and Broom advancements are now restored with their original requirements.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:cold_iron_sword",
+    "category":  "bewitchment:sympathy",
+    "name":  "Magic Protection and Named Items"
+}

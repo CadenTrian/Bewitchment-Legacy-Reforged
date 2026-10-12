@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_wood",
+                   "bewitchment:juniper_wood",
+                   "bewitchment:cypress_wood",
+                   "bewitchment:dragons_blood_wood"
+               ]
+}

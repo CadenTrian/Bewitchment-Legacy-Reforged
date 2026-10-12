@@ -1,0 +1,19 @@
+{
+    "variants":  {
+                     "facing=north":  {
+                                          "model":  "bewitchment:block/poppet_shelf_acacia"
+                                      },
+                     "facing=south":  {
+                                          "model":  "bewitchment:block/poppet_shelf_acacia",
+                                          "y":  180
+                                      },
+                     "facing=east":  {
+                                         "model":  "bewitchment:block/poppet_shelf_acacia",
+                                         "y":  90
+                                     },
+                     "facing=west":  {
+                                         "model":  "bewitchment:block/poppet_shelf_acacia",
+                                         "y":  270
+                                     }
+                 }
+}

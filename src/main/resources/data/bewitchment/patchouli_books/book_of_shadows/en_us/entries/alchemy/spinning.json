@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:spinning_wheel",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Place a Spinning Wheel within reach of a formed altar. It has four input slots and two output slots, needs no fuel, and works for ten seconds while drawing 20 power each second."
+                  },
+                  {
+                      "text":  "Two String and two Liquid Witchcraft produce two Witches\u0027 Stitching and two Empty Jars. Witches\u0027 Stitching, Golden Thread, Ectoplasm and Spanish Moss produce two Spirit String. Leave room for all outputs.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:spinning_wheel"
+                  }
+              ],
+    "icon":  "bewitchment:spinning_wheel",
+    "category":  "bewitchment:alchemy",
+    "name":  "Threads and the Spinning Wheel",
+    "sortnum":  11
+}

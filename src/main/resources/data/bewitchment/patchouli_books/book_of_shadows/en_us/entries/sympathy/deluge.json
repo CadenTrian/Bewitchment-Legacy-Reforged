@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:water_bucket",
+                      "type":  "patchouli:spotlight",
+                      "text":  "In a small white circle, offer a Water Bucket, a sapling, Coquina, Sand, two Lapis Lazuli and a Toe of Frog. Coquina variants and both sand colors are accepted. This ritual changes weather in the Overworld."
+                  },
+                  {
+                      "text":  "After five seconds, the ritual starts rain for a random 3 to just under 10 minutes and returns one empty Bucket. It spends 250 startup and 20 per second: 350 total, or 312 with Hecate\u0027s Visage. It can also refresh existing rain.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A previous command-created clear-weather timer is removed so rain can begin. The ritual does not force a thunderstorm, override biome precipitation rules or change weather-cycle game rules. Toads now drop Toes of Frog, restoring this ingredient in survival.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:water_bucket",
+    "category":  "bewitchment:sympathy",
+    "name":  "Deluge",
+    "sortnum":  38
+}

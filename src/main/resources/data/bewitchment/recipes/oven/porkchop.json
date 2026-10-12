@@ -1,0 +1,15 @@
+{
+  "type": "bewitchment:oven",
+  "ingredient": {
+    "item": "minecraft:porkchop"
+  },
+  "result": {
+    "item": "minecraft:cooked_porkchop"
+  },
+  "byproduct": {
+    "item": "bewitchment:tallow",
+    "count": 1
+  },
+  "chance": 0.35,
+  "requires_jar": false
+}

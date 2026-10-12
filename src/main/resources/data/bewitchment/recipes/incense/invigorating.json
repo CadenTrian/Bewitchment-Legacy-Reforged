@@ -1,0 +1,21 @@
+{
+    "incense":  "bewitchment:invigorating",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:sugar"
+                        },
+                        {
+                            "item":  "minecraft:potato"
+                        },
+                        {
+                            "item":  "minecraft:dandelion"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_berries"
+                        }
+                    ],
+    "type":  "bewitchment:incense"
+}

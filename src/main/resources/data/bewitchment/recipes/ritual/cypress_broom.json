@@ -1,0 +1,31 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal",
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:broom"
+                        },
+                        {
+                            "item":  "bewitchment:cypress_wood"
+                        },
+                        {
+                            "item":  "bewitchment:cypress_leaves"
+                        },
+                        {
+                            "item":  "bewitchment:flying_ointment"
+                        },
+                        {
+                            "item":  "bewitchment:ebb_of_death"
+                        }
+                    ],
+    "seconds":  10,
+    "type":  "bewitchment:ritual",
+    "starting_power":  1250,
+    "running_power":  60,
+    "result":  {
+                   "item":  "bewitchment:cypress_broom"
+               }
+}

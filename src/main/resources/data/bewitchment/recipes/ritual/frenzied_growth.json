@@ -1,0 +1,31 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "tag":  "forge:vines"
+                        },
+                        {
+                            "tag":  "forge:vines"
+                        },
+                        {
+                            "item":  "minecraft:ink_sac"
+                        },
+                        {
+                            "item":  "minecraft:ink_sac"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  550,
+    "running_power":  40,
+    "effect":  "frenzied_growth",
+    "seconds":  5
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:druden_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Druden are towering forest demons with four original skins and glowing eyes. They spawn in Forest, Dense, Coniferous, Magical and Spooky biome types at monster weight one. Groups request one to three, with an individual spawn cluster limit of two. They need valid ground and space but no darkness. Peaceful difficulty prevents natural spawning."
+                  },
+                  {
+                      "text":  "They have thirty health, four base damage, 4.14 armor and two armor toughness. Successful attacks apply Fear for twenty-five seconds. They hunt nearby players, villagers, Endermen, golems and eligible undead. Complete Besmirched or Green Witch clothing prevents proactive selection; retaliation still occurs.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Water and wet healing are separate: every second, water grants three health and wetness grants three more. Injured Druden also heal two and receive Regeneration III during the first six ticks of each two-hundred-tick cycle. They resist Poison, Wither, falling and drowning, but burning attempts 6.66 extra fire damage under normal damage immunity rules.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A direct hit from a living attacker holding an axe triples incoming damage before ordinary armor handling. Arrows do not acquire this bonus just because their shooter holds an axe. Druden can leap and have silent footsteps. Naming protects them from distance despawning. Set drudenWeight to zero and restart to disable natural spawning.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ordinary loot makes three weighted selections: Heart and Oak Apple Gall each have weight three; Cypress, Elder, Juniper and a vanilla-sapling branch each have weight two; Thyrsus has weight one. The vanilla branch picks equally among six saplings. Original count and Looting ranges remain; a Thyrsus loot-table selection needs Looting to yield an item.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Athame kills add separate Cypress Sapling, Heart, Oak Apple Gall, Hoof and Horn bonus rolls, with maxima one, one, four, two and two. Some Druden spawn holding a Thyrsus, and local difficulty affects pickup and enchantments. Temporary spectral copies give no loot, equipment or experience. Use /summon bewitchment:druden or the spawn egg to test; Call of the Wild can also summon this creature.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:druden_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Druden",
+    "sortnum":  67
+}

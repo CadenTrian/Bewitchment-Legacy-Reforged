@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "texture":  "minecraft:block/dark_oak_planks"
+                 },
+    "parent":  "bewitchment:block/poppet_shelf"
+}

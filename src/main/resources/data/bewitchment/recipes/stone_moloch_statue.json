@@ -1,0 +1,22 @@
+{
+    "type":  "minecraft:crafting_shaped",
+    "pattern":  [
+                    "F F",
+                    "FDF",
+                    "FRF"
+                ],
+    "key":  {
+                "F":  {
+                          "tag":  "forge:stone"
+                      },
+                "D":  {
+                          "item":  "bewitchment:bottled_hellfire"
+                      },
+                "R":  {
+                          "item":  "bewitchment:heart"
+                      }
+            },
+    "result":  {
+                   "item":  "bewitchment:stone_moloch_statue"
+               }
+}

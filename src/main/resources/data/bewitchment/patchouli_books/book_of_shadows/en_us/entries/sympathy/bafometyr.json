@@ -1,0 +1,41 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:bafometyr_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Bafometyrs are fire-immune demons that spawn rarely in Nether biome types at monster weight one. The original group range is zero to one, so a selected group can produce no creature. There is no extra darkness check; normal placement, collision and non-Peaceful difficulty rules still apply. Set bafometyrWeight to zero and restart to disable natural spawning."
+                  },
+                  {
+                      "text":  "They have thirty health, two attack damage, one armor, one armor toughness and 0.3 knockback resistance. Melee attempts swing the main hand and ignite living targets for twenty-five seconds before damage is attempted, as in the legacy code. A rejected damage attempt can therefore still ignite its target.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "With a living target farther than two blocks, they fire a small fireball on each of the first six ticks of an eighty-tick cycle. The burst is tied to creature age, not time since acquiring a target. The original horizontal spread grows with distance. There is no added sight check, but projectiles still collide with blocks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Fireballs use vanilla impact damage and fire behavior, including Forge mob-griefing hooks for block ignition. Projectiles are created only on the server. A successful insertion triggers the firing sound and forty-tick arm animation. Fireball bursts are separate from melee ignition.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "They hunt players, Hellhounds, and other living creatures that are neither fire-immune, demons nor undead. They also hunt Cleavers. Besmirched clothing prevents proactive targeting, but does not prevent retaliation. Bafometyrs alert allies when hurt and are not tameable.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "They are immune to fall damage and drowning, with no special poison or Wither immunity, water weakness or lava healing. Naming prevents ordinary distance despawning. Temporary spectral copies retain lifetime and summoner fields but give no loot, equipment or experience. Their flame layer cycles through eight original frames, including during invisibility.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "One weighted loot entry is selected: Fire Charges at weight three, Hellhound Horns at weight two, Hooves at weight two, or Blaze Powder at weight one. Base counts are zero to four, two, two and six respectively; each has a zero-to-two Looting bonus per level. There is no extra Bafometyr Athame roll. Normal experience is twenty-five.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The original model, body texture and seven sound recordings are retained. Spawn eggs and /summon bewitchment:bafometyr are available. Greater Hellmouth, the Meet Bafometyr fortune and Baphomet combat summons provide further encounters. Nether fortress structure pools can also add Bafometyrs. See $(l:sympathy/timed_fortunes)Timed Fortunes$().",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:bafometyr_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Bafometyrs",
+    "sortnum":  74
+}

@@ -1,0 +1,25 @@
+{
+    "key":  {
+                "O":  {
+                          "item":  "bewitchment:oak_spirit"
+                      },
+                "L":  {
+                          "tag":  "minecraft:logs"
+                      },
+                "P":  {
+                          "item":  "bewitchment:pure_filament"
+                      },
+                "G":  {
+                          "tag":  "forge:gems/garnet"
+                      }
+            },
+    "pattern":  [
+                    "POP",
+                    "OGO",
+                    "LOL"
+                ],
+    "result":  {
+                   "item":  "bewitchment:girdle_of_the_dryads"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

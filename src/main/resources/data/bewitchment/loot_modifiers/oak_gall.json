@@ -1,0 +1,39 @@
+{
+  "type": "bewitchment:plant_drops",
+  "mode": "oak_gall",
+  "conditions": [
+    {
+      "condition": "minecraft:alternative",
+      "terms": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:oak_leaves"
+        },
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "minecraft:dark_oak_leaves"
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.02
+    }
+  ]
+}

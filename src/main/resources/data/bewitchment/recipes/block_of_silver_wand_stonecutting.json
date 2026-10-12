@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/silver"
+  },
+  "result": "bewitchment:block_of_silver_wand",
+  "count": 1
+}

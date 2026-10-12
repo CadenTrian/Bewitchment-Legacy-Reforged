@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/book_of_shadows"
+                 },
+    "parent":  "minecraft:item/generated"
+}

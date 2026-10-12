@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:witches_cauldron",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Fill a Witches\u0027 Cauldron with a water bucket. Put fire, lava, magma or a lit campfire underneath, and allow five seconds to heat. Keep a formed, charged altar nearby. Empty-hand right-click reports its state."
+                  },
+                  {
+                      "text":  "Drop the exact ingredients into the hot water. Matching recipes finish immediately and consume the water. Waiting crafting mixtures drain power and fail after 20 seconds or if power runs out. Add Wood Ash to hot water to discard a failed mixture. For potion brewing, add Mandrake Root first; see Cauldron Brewing.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Two Rotten Flesh make Tallow. For Elderberry Jelly, use three Elderberries, Sugar and a Glass Bottle. Add complex-recipe ingredients carefully: a smaller complete recipe can finish before you add the remaining items.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:witches_cauldron"
+                  }
+              ],
+    "icon":  "bewitchment:witches_cauldron",
+    "category":  "bewitchment:alchemy",
+    "name":  "Cauldron Crafting",
+    "sortnum":  8
+}

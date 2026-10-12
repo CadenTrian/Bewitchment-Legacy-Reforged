@@ -1,0 +1,32 @@
+{
+    "parent":  "minecraft:recipes/root",
+    "criteria":  {
+                     "has_ingredient":  {
+                                            "trigger":  "minecraft:inventory_changed",
+                                            "conditions":  {
+                                                               "items":  [
+                                                                             {
+                                                                                 "tag":  "forge:ingots/cold_iron"
+                                                                             }
+                                                                         ]
+                                                           }
+                                        },
+                     "has_recipe":  {
+                                        "trigger":  "minecraft:recipe_unlocked",
+                                        "conditions":  {
+                                                           "recipe":  "bewitchment:cold_iron_hoe"
+                                                       }
+                                    }
+                 },
+    "requirements":  [
+                         [
+                             "has_ingredient",
+                             "has_recipe"
+                         ]
+                     ],
+    "rewards":  {
+                    "recipes":  [
+                                    "bewitchment:cold_iron_hoe"
+                                ]
+                }
+}

@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:fiery_unguent",
+                   "bewitchment:swirl_of_depths",
+                   "bewitchment:heaven_extract",
+                   "bewitchment:stone_ichor"
+               ]
+}

@@ -1,0 +1,22 @@
+{
+    "circle":  "small_normal",
+    "ingredients":  [
+                        {
+                            "tag":  "forge:ingots/gold"
+                        },
+                        {
+                            "item":  "minecraft:sunflower"
+                        },
+                        {
+                            "tag":  "bewitchment:legacy_small_flowers"
+                        },
+                        {
+                            "tag":  "bewitchment:legacy_small_flowers"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  250,
+    "running_power":  20,
+    "effect":  "solar_glory",
+    "seconds":  5
+}

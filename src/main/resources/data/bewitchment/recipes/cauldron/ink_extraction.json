@@ -1,0 +1,14 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "item": "bewitchment:blue_ink_cap"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:ink_cap_dye",
+      "count": 4
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:rotten_flesh",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Lightning Rod and Palor Pestilence are greater negative curses. They use the saved duration and operator commands described in Curses. Purity never rolls to remove either curse, just as it preserves Solar Hatred. Duration expiry and operator removal still work."
+                  },
+                  {
+                      "text":  "Lightning Rod rolls a 0.2 percent chance each active server player tick. A proc requires rain at the player position and a wet player. It does not require a thunderstorm. Standing in water under cover does not satisfy the rain-at-position requirement.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A successful Lightning Rod proc creates a visual-only lightning bolt at the player and separately attempts three lightning damage. The visual bolt does not place fires, strike nearby entities or transform mobs. Its normal thunder and flash may be seen or heard nearby. The direct hit still passes through ordinary damage handling.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The direct hit is attempted even if insertion of the visual bolt fails, matching the legacy behavior. Invulnerability and other defenses can affect the actual damage received. A simultaneous Hydrophobia curse can amplify the final hit while wet. The three-damage value is the starting hit, not guaranteed health loss.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Palor Pestilence rolls a 0.04 percent chance per active player tick. It applies Wither I and Poison I for six hundred ticks each, with normal potion particles. The original identifier is spelled bewitchment:palor_pestilence. Milk and Cleansing remove these potion effects, but the curse can apply them again.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can use /curse \u003cplayer\u003e add bewitchment:lightning_rod \u003cdays\u003e, or substitute bewitchment:palor_pestilence. Use remove with the same identity to end the curse. Existing potion effects continue until removed or expired. The Brazier casts these curses. A pledged $(l:sympathy/baphomet)Baphomet$() also sells positive contracts for six experience levels.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:rotten_flesh",
+    "category":  "bewitchment:sympathy",
+    "name":  "Lightning and Pestilence",
+    "sortnum":  97
+}

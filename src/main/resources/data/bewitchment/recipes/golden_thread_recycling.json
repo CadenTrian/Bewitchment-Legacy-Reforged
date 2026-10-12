@@ -1,0 +1,9 @@
+{
+    "ingredient":  {
+                       "item":  "bewitchment:golden_thread"
+                   },
+    "result":  "minecraft:gold_nugget",
+    "cookingtime":  200,
+    "experience":  0.15,
+    "type":  "minecraft:smelting"
+}

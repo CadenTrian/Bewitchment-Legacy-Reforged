@@ -1,0 +1,14 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:coquina_wall",
+                   "bewitchment:coquina_brick_wall",
+                   "bewitchment:scorned_brick_wall",
+                   "bewitchment:mossy_scorned_brick_wall",
+                   "bewitchment:crying_scorned_brick_wall",
+                   "bewitchment:despair_brick_wall",
+                   "bewitchment:ochre_despair_brick_wall",
+                   "bewitchment:nethersteel_wall",
+                   "bewitchment:embittered_brick_wall"
+               ]
+}

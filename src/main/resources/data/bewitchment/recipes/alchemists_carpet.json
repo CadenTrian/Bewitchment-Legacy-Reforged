@@ -1,0 +1,15 @@
+{
+    "key":  {
+                "P":  {
+                          "item":  "bewitchment:alchemists_fleece"
+                      }
+            },
+    "pattern":  [
+                    "PP"
+                ],
+    "result":  {
+                   "count":  3,
+                   "item":  "bewitchment:alchemists_carpet"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

@@ -1,0 +1,21 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:poppet"
+                        },
+                        {
+                            "item":  "bewitchment:hoof"
+                        },
+                        {
+                            "tag":  "forge:feathers"
+                        },
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:poppet_earthprotection",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

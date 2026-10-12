@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:stone_witches_altar",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Place six matching altar blocks as a 3 by 2 rectangle, with no extra altar blocks touching the border. Use a carpet on top to form the altar. Empty-hand right-click shows stored power, capacity and regeneration."
+                  },
+                  {
+                      "text":  "Plant varied vegetation nearby to increase capacity. Repeating one plant gives diminishing returns. Grass blocks do not supply power capacity. The base altar regenerates eight power each second; let it charge before operating machines.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Distilleries, cauldrons and spinning wheels find a formed altar within 24 blocks on each axis. Skull, planted-pot, light and placed-item upgrades can improve the altar. Breaking an altar member dismantles the structure and returns the carpet.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:stone_witches_altar"
+                  }
+              ],
+    "icon":  "bewitchment:stone_witches_altar",
+    "category":  "bewitchment:beginnings",
+    "name":  "The Witches\u0027 Altar",
+    "sortnum":  3
+}

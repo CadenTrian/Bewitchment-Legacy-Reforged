@@ -1,0 +1,11 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:cracked_embittered_bricks"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:embittered_bricks"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

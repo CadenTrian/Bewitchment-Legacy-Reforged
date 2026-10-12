@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:spanish_moss",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Spanish Moss can generate in eligible new swamp chunks. It hangs from supported surfaces and grows like vines, sometimes ending in a terminal tip. It cannot be climbed."
+                  },
+                  {
+                      "text":  "Harvest body moss with a Boline. Tips drop nothing, and shears do not substitute for the Boline. Moss feeds Spirit String production and is used in Poppets and Poppet Shelves. It is flammable.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:spanish_moss",
+    "category":  "bewitchment:nature",
+    "name":  "Spanish Moss",
+    "sortnum":  14
+}

@@ -1,0 +1,43 @@
+{
+    "seconds":  15,
+    "starting_power":  1000,
+    "result":  {
+                   "item":  "minecraft:bucket"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "greater_curse_cleansing",
+    "circles":  [
+                    "normal",
+                    "normal"
+                ],
+    "running_power":  10,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:birch_soul"
+                        },
+                        {
+                            "item":  "minecraft:water_bucket"
+                        },
+                        {
+                            "tag":  "forge:crops/garlic"
+                        },
+                        {
+                            "tag":  "forge:ingots/silver"
+                        }
+                    ]
+}

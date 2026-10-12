@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_hat"
+                        },
+                        {
+                            "item":  "bewitchment:heaven_extract"
+                        },
+                        {
+                            "item":  "bewitchment:witches_stitching"
+                        },
+                        {
+                            "item":  "minecraft:light_gray_wool"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "bewitchment:alchemist_hat"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

@@ -1,0 +1,41 @@
+{
+    "seconds":  15,
+    "starting_power":  1332,
+    "result":  {
+                   "item":  "bewitchment:athame"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "conjure_leonard",
+    "circles":  [
+                    "nether",
+                    "nether",
+                    "nether"
+                ],
+    "running_power":  66,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:athame"
+                        },
+                        {
+                            "item":  "bewitchment:demon_heart"
+                        },
+                        {
+                            "item":  "bewitchment:stew_of_the_grotesque"
+                        },
+                        {
+                            "item":  "bewitchment:bottled_hellfire"
+                        },
+                        {
+                            "item":  "bewitchment:flying_ointment"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        },
+                        {
+                            "item":  "bewitchment:hellhound_horn"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        }
+                    ]
+}

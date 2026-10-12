@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "bewitchment:item/ink_cap_dye"
+  }
+}

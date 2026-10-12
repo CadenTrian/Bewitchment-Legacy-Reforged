@@ -1,0 +1,34 @@
+{
+    "seconds":  5,
+    "starting_power":  250,
+    "result":  {
+                   "item":  "minecraft:bucket"
+               },
+    "circle":  "small_normal",
+    "type":  "bewitchment:ritual",
+    "effect":  "deluge",
+    "running_power":  20,
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:water_bucket"
+                        },
+                        {
+                            "tag":  "minecraft:saplings"
+                        },
+                        {
+                            "tag":  "forge:coquina"
+                        },
+                        {
+                            "tag":  "forge:sand"
+                        },
+                        {
+                            "tag":  "forge:gems/lapis"
+                        },
+                        {
+                            "tag":  "forge:gems/lapis"
+                        },
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        }
+                    ]
+}

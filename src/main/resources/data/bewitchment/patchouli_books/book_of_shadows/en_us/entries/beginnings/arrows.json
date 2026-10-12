@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:cold_iron_arrow",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Silver and Cold Iron Arrows work with bows, crossbows and dispensers. The picked-up arrow retains its material. Infinity does not grant unlimited metal arrows."
+                  },
+                  {
+                      "text":  "A matching nugget, a wooden stick and a Raven\u0027s Feather make four arrows. Ravens now supply feathers through shedding, Boline collection and drops. Material-weak targets receive a separate magic-damage attempt: 1.5 for creatures or 2.25 for weakness-tagged players. Ordinary hurt immunity can suppress this extra hit.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:silver_arrow"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:cold_iron_arrow"
+                  }
+              ],
+    "icon":  "bewitchment:cold_iron_arrow",
+    "category":  "bewitchment:beginnings",
+    "name":  "Metal Arrows",
+    "sortnum":  13
+}

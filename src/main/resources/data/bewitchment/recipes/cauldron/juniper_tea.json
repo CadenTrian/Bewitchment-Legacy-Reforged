@@ -1,0 +1,25 @@
+{
+  "type": "bewitchment:cauldron",
+  "ingredients": [
+    {
+      "item": "bewitchment:juniper_berries"
+    },
+    {
+      "item": "bewitchment:juniper_berries"
+    },
+    {
+      "item": "bewitchment:juniper_berries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:juniper_tea"
+    }
+  ]
+}

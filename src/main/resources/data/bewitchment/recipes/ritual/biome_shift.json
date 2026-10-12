@@ -1,0 +1,38 @@
+{
+    "circles":  [
+                    "ender",
+                    "ender",
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "tag":  "minecraft:saplings"
+                        },
+                        {
+                            "tag":  "minecraft:logs"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "bewitchment:pentacle"
+                        },
+                        {
+                            "item":  "bewitchment:oak_spirit"
+                        },
+                        {
+                            "item":  "bewitchment:dimensional_sand"
+                        },
+                        {
+                            "item":  "bewitchment:boline"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  1300,
+    "running_power":  33,
+    "effect":  "biome_shift",
+    "seconds":  50
+}

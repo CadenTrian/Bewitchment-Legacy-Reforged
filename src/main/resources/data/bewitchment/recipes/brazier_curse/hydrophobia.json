@@ -1,0 +1,27 @@
+{
+    "curse":  "bewitchment:hydrophobia",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "tag":  "forge:coquina"
+                        },
+                        {
+                            "tag":  "forge:coquina"
+                        },
+                        {
+                            "item":  "minecraft:stone"
+                        },
+                        {
+                            "item":  "minecraft:ink_sac"
+                        },
+                        {
+                            "item":  "minecraft:prismarine_shard"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

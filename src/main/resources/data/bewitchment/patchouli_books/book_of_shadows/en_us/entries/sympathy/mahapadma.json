@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:contract",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Mahapadma is the negative contract. Sign its task, then pick up the required ice, water bucket and slime balls while carrying it. Ice and slime each require six to eleven items; water always requires one bucket. The entire water bucket is donated, with no empty bucket returned."
+                  },
+                  {
+                      "text":  "After completing all three requirements, use the contract with an online player\u0027s bound taglock in your opposite hand. Only the signer can redeem it. The contract is consumed, but the taglock remains. Targets may be in another dimension. An absent or invalid target preserves the contract.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Redemption queues Mahapadma directly on the target, bypassing Return to Sender. An already queued Mahapadma preserves the completed task and its existing timer. On the next eligible server tick, a living non-spectator target receives the effect once. Dead and spectator targets defer it while the one-day online timer continues.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The effect attempts a three-by-five-by-three enclosure centered at the target\u0027s feet, randomly using ice or packed ice in replaceable cells. Reforged skips unloaded chunks, invalid heights and cells denied by the target\u0027s vanilla building permissions. Solid terrain remains in place.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "After the ice attempt, Mahapadma requests the legacy magic damage amount of 2147483647, even when no ice could be placed. It can be lethal. Normal damage defenses, immunity and mod events still apply. The pending effect is removed before damage, so death or respawn does not replay it. Purity cannot remove this greater curse.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can issue /contract \u003cplayer\u003e bewitchment:mahapadma. Its creative task requires six ice, one water bucket and six slime balls. The curse commands can also queue or remove it directly. All six original contract tasks are now represented; the Box of Sealed Evil can now reward these tasks, while demon merchants can now sell these items, but Conjure Demon now provides ritual access.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:ice",
+    "category":  "bewitchment:sympathy",
+    "name":  "Mahapadma",
+    "sortnum":  110
+}

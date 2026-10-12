@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bewitchment:cold_iron_helmet",
+    "bewitchment:cold_iron_chestplate",
+    "bewitchment:cold_iron_leggings",
+    "bewitchment:cold_iron_boots"
+  ]
+}

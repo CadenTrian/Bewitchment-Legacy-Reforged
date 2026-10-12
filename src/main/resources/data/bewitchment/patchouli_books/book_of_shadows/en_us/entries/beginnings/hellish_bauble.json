@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:hellish_bauble",
+                      "type":  "patchouli:spotlight",
+                      "text":  "This universal trinket clears Nausea every two seconds while worn, without using power. It separately spends 20 Grimoire power per fire, explosion or demon-caused hit to reduce damage by 15 percent."
+                  },
+                  {
+                      "text":  "A hit that meets several conditions still costs only 20 power. The bewitchment:demons entity tag identifies demonic attackers, including the restored demon families. Ordinary Nether creatures are not automatically demons. Besides the recipe below, a master Hedge Witch may offer this universal trinket for a base 8-16 emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Make two Diabolical Veins in the Spinning Wheel from Witches\u0027 Stitching, Golden Thread, Fiery Unguent and a Heart; recover an Empty Jar. Noble demon merchants can also offer veins at level two. Hellhounds and Athame-harvested Feuerwurms supply horns. Wear this charm and carry a charged Grimoire for damage protection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:hellish_bauble"
+                  }
+              ],
+    "icon":  "bewitchment:hellish_bauble",
+    "category":  "bewitchment:beginnings",
+    "name":  "Hellish Bauble",
+    "sortnum":  26
+}

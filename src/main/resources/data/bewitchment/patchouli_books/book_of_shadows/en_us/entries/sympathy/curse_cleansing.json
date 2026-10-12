@@ -1,0 +1,19 @@
+{
+    "pages":  [
+                  {
+                      "text":  "Lesser Curse Cleansing rolls a sixty percent removal chance for each harmful lesser curse on the caster. Greater Curse Cleansing rolls ninety percent for each harmful curse of either tier. Blessings survive. Failed rolls leave the curse and its remaining duration unchanged.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Draw normal small and medium circles. Offer two White Sage, Cleansing Balm, two Dragon's Blood Resin, Birch Soul and a Water Bucket. Greater cleansing also needs Garlic and a Silver Ingot. Both take fifteen seconds at ten power each second, plus 500 starting power for lesser or 1,000 for greater.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Completion consumes the offerings and returns one empty Bucket, even if no curse is removed. The ritual works in any dimension, day or night. It treats the caster only. It does not remove potion effects already caused by curses; those expire normally.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:cleansing_balm",
+    "category":  "bewitchment:sympathy",
+    "name":  "Curse Cleansing"
+}

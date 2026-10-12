@@ -1,0 +1,10 @@
+{
+ "name":"Silver and Cold Iron", "icon":"bewitchment:cold_iron_sword", "category":"bewitchment:beginnings",
+ "pages":[
+  {"type":"patchouli:spotlight","item":"bewitchment:cold_iron_sword","text":"Cold Iron now recognizes all restored demon and spirit families, alongside Blazes, Ghasts, Vexes and Endermen. Silver recognizes Werewolves. Use the corresponding metal weapon to deal one and a half times melee damage. A data-pack-tagged player takes two and a quarter times damage instead."},
+  {"type":"patchouli:text","text":"Each matching armor piece reduces damage from a vulnerable attacker by six percent and attempts one point of reflected damage. A matching weapon bonus takes precedence over that metal's armor effect on the same hit. Silver is evaluated before Cold Iron; mixed armor reductions multiply. Reflected hits do not recursively trigger more retaliation."},
+  {"type":"patchouli:text","text":"A vulnerable creature wearing its matching metal armor takes a magic-damage attempt once every second, equal to its number of matching armor pieces. Metal arrows attempt separate magic damage of 1.5, or 2.25 against a weakness-tagged player. Hurt immunity and other damage defenses still apply."},
+  {"type":"patchouli:text","text":"The same cold iron targets are recognized by Frostfire, Holy Water, Purifying Earth, Salt and the powered Horseshoe. Existing fire immunity still protects against ignition. Holy Water also affects undead and fire-immune creatures independently of material weakness. See the individual guides for costs and effects."},
+  {"type":"patchouli:text","text":"Packs can edit bewitchment:cold_iron_weakness and bewitchment:silver_weakness. Cold Iron includes the demons, spirits and initially empty fae entity tags. Optional Thaumcraft Pech and Wisp IDs retain legacy compatibility without requiring that mod. Tags replace legacy class-name guessing and reload with data packs; players are not vulnerable by default."}
+ ]
+}

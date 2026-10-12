@@ -1,0 +1,24 @@
+{
+    "curse":  "bewitchment:darkness",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "item":  "bewitchment:oak_apple_gall"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:belladonna"
+                        },
+                        {
+                            "item":  "bewitchment:aconitum"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

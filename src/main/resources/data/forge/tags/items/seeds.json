@@ -1,0 +1,12 @@
+{
+    "replace":  false,
+    "values":  [
+                   "#forge:seeds/garlic",
+                   "#forge:seeds/white_sage",
+                   "#forge:seeds/aconitum",
+                   "#forge:seeds/belladonna",
+                   "#forge:seeds/hellebore",
+                   "#forge:seeds/mandrake",
+                   "#forge:seeds/wormwood"
+               ]
+}

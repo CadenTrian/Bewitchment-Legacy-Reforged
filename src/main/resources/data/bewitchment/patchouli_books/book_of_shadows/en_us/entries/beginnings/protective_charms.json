@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:nazar",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Nazar checks every two seconds and spends 20 Grimoire power to remove Bad Luck, then separately 20 to remove Fear if present. It can also spend 20 power per magic-damage hit to reduce the damage by ten percent. Equip it in Necklace or general Curio. Craft it below, or seek a random master Hedge Witch offer at a base 8-16 emeralds."
+                  },
+                  {
+                      "text":  "Token of Remedies checks every four seconds. If Blindness, Nausea or Weakness is present, it spends 20 power once to remove all three. Without sufficient power it removes none. This corrects a legacy condition that could bypass the cost. This universal trinket can be crafted below or selected by a master Hedge Witch for a base 8-16 emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Horseshoe spends 20 power every two seconds for six seconds of Luck I. It also spends 20 per hit from a creature in the Cold Iron weakness tag to reduce damage by ten percent. These are separate costs. This universal trinket has the recipe below and can appear in the master Hedge Witch pool at a base 8-16 emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "These three charms retain their original crafting recipes below. Cold Iron uses Frostfire, with Perpetual Ice available from Iceworld brews, and their powered effects require a charged Grimoire made with the restored ritual.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:nazar"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:token_of_remedies"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:horseshoe"
+                  }
+              ],
+    "icon":  "bewitchment:nazar",
+    "category":  "bewitchment:beginnings",
+    "name":  "Protective Charms",
+    "sortnum":  24
+}

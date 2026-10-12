@@ -1,0 +1,1 @@
+{"parent":"minecraft:recipes/root","criteria":{"has_ingot":{"trigger":"minecraft:inventory_changed","conditions":{"items":[{"tag":"forge:ingots/silver"}]}},"has_recipe":{"trigger":"minecraft:recipe_unlocked","conditions":{"recipe":"bewitchment:silver_plate"}}},"requirements":[["has_ingot","has_recipe"]],"rewards":{"recipes":["bewitchment:silver_plate"]}}

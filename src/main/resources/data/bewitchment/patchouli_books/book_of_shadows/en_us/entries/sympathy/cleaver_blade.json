@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:cleaver_sword",
+                      "type":  "patchouli:spotlight",
+                      "text":  "A Cleaver Blade has 333 durability, one-item stacking and seven total unmodified player attack damage. It uses the original Hellish tier and sword attack speed. It cannot use material repair or an enchanting table. Legacy equipment enchantment routines can still produce enchanted blades; commands and other mod integrations are separate."
+                  },
+                  {
+                      "text":  "A successful blade item hit has a five-percent special roll unless both attacker and target are players. It adds 0.6 upward velocity and Corrosion II for 450 ticks, while spending nine extra durability in addition to ordinary sword wear. Corrosion reduces armor by two per level, so level two subtracts four armor.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The item effect uses the normal sword hit hook. The Cleaver mob has its own custom attack and does not automatically invoke this item hook; its three-percent slowing strike is separate. Corrosion does not directly damage equipment or deal damage over time.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Sneak-use the blade on top of a formed altar to place a Sword-category upgrade with a 1.35 capacity multiplier. Only one upgrade of that category contributes. Carrying it alone does not upgrade the altar. Original blade artwork and held-item display transforms are retained.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:cleaver_sword",
+    "category":  "bewitchment:sympathy",
+    "name":  "Cleaver Blade",
+    "sortnum":  76
+}

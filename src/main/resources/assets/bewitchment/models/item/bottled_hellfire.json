@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/bottled_hellfire"
+                 },
+    "parent":  "minecraft:item/generated"
+}

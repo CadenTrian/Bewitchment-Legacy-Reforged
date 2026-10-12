@@ -1,0 +1,25 @@
+{
+  "type": "bewitchment:distillery",
+  "ingredients": [
+    {
+      "item": "bewitchment:acacia_resin"
+    },
+    {
+      "tag": "forge:crops/white_sage"
+    },
+    {
+      "tag": "forge:dusts/salt"
+    },
+    {
+      "tag": "forge:crops/garlic"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:cleansing_balm"
+    },
+    {
+      "item": "bewitchment:wood_ash"
+    }
+  ]
+}

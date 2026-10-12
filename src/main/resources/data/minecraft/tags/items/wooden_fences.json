@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_fence",
+                   "bewitchment:juniper_fence",
+                   "bewitchment:cypress_fence",
+                   "bewitchment:dragons_blood_fence"
+               ]
+}

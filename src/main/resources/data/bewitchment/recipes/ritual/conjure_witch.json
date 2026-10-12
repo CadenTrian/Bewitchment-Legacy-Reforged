@@ -1,0 +1,29 @@
+{
+    "seconds":  15,
+    "starting_power":  750,
+    "result":  {
+                   "item":  "bewitchment:athame"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "conjure_witch",
+    "circles":  [
+                    "normal",
+                    "ender",
+                    "normal"
+                ],
+    "running_power":  50,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:athame"
+                        },
+                        {
+                            "tag":  "forge:ingots/silver"
+                        },
+                        {
+                            "item":  "bewitchment:pentacle"
+                        },
+                        {
+                            "item":  "minecraft:poisonous_potato"
+                        }
+                    ]
+}

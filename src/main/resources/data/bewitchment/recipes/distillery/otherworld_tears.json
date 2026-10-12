@@ -1,0 +1,22 @@
+{
+  "type": "bewitchment:distillery",
+  "ingredients": [
+    {
+      "item": "bewitchment:cloudy_oil"
+    },
+    {
+      "item": "bewitchment:dimensional_sand"
+    },
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "tag": "forge:dusts/glowstone"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:otherworldly_tears"
+    }
+  ]
+}

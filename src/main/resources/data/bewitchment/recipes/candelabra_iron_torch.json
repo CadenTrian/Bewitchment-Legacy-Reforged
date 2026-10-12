@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "RFR",
+    " F "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:torch"
+    },
+    "R": {
+      "tag": "forge:nuggets/iron"
+    },
+    "F": {
+      "tag": "forge:ingots/iron"
+    }
+  },
+  "result": {
+    "item": "bewitchment:candelabra_iron"
+  }
+}

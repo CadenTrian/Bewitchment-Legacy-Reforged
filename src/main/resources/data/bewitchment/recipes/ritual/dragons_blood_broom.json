@@ -1,0 +1,34 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal",
+                    "ender"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:broom"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_wood"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_leaves"
+                        },
+                        {
+                            "item":  "bewitchment:flying_ointment"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        }
+                    ],
+    "seconds":  10,
+    "type":  "bewitchment:ritual",
+    "starting_power":  1250,
+    "running_power":  60,
+    "result":  {
+                   "item":  "bewitchment:dragons_blood_broom"
+               }
+}

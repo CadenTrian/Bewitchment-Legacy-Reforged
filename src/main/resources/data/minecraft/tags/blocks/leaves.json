@@ -1,0 +1,9 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:elder_leaves",
+                   "bewitchment:juniper_leaves",
+                   "bewitchment:cypress_leaves",
+                   "bewitchment:dragons_blood_leaves"
+               ]
+}

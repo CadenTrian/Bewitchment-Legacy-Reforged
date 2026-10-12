@@ -1,0 +1,53 @@
+{
+    "replace":  false,
+    "values":  [
+                   {
+                       "id":  "bewitchment:hellhound",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:feuerwurm",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:cleaver",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:demon",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:demoness",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:imp",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:bafometyr",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:shadow_person",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:cambion",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:druden",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:baphomet",
+                       "required":  false
+                   },
+                   {
+                       "id":  "bewitchment:leonard",
+                       "required":  false
+                   }
+               ]
+}

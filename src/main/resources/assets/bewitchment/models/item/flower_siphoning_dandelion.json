@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "minecraft:block/dandelion"
+                 },
+    "parent":  "minecraft:item/generated"
+}

@@ -1,0 +1,25 @@
+{
+    "key":  {
+                "O":  {
+                          "item":  "bewitchment:otherworldly_tears"
+                      },
+                "S":  {
+                          "tag":  "forge:ingots/silver"
+                      },
+                "I":  {
+                          "item":  "minecraft:iron_bars"
+                      },
+                "N":  {
+                          "tag":  "forge:nuggets/silver"
+                      }
+            },
+    "pattern":  [
+                    "NON",
+                    "SSS",
+                    "I I"
+                ],
+    "result":  {
+                   "item":  "bewitchment:brazier"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

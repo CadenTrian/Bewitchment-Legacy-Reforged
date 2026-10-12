@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:glowstone",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Draw small, medium and large white circles: 84 glyphs around the golden center. Offer a Glowstone block and two Blaze Powder separately. Glowstone Dust does not substitute for the block. The ritual can operate in any dimension."
+                  },
+                  {
+                      "text":  "Starting costs 500 power, or 425 with Hecate\u0027s Visage, and consumes the offerings. Operation costs 25 power each second. Every five elapsed-world seconds it removes the Invisibility potion effect from nearby living entities and applies Glowing I for 110 ticks without potion particles.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The area is the focal block\u0027s box expanded twenty blocks in every direction, including vertically. It affects nearby players, creatures and the caster. The pulse follows world time, so the first reveal may take up to five seconds. After stopping, existing Glowing expires normally.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:glowstone",
+    "category":  "bewitchment:sympathy",
+    "name":  "Perception",
+    "sortnum":  42
+}

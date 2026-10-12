@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/white"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/white"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "tag":  "forge:dyes/white"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "tag":  "forge:dyes/green"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/white"
+                        },
+                        {
+                            "item":  "bewitchment:cleansing_balm"
+                        },
+                        {
+                            "tag":  "forge:dyes/white"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/white"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_cleansing"
+               },
+    "type":  "bewitchment:sigil_table"
+}

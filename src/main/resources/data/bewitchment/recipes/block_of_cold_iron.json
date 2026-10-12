@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "tag": "forge:ingots/cold_iron"
+    }
+  },
+  "result": {
+    "item": "bewitchment:block_of_cold_iron"
+  }
+}

@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:dragons_blood_chest",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Surround one Dragon\u0027s Blood Resin with eight Dragon\u0027s Blood Planks to craft this chest. Its twenty-seven slots match the visible legacy menu. Unlike a Juniper Chest it needs no key, and hoppers or ordinary item-handler automation can insert and extract."
+                  },
+                  {
+                      "text":  "Right-click the chest with a supported sigil to install it permanently. This consumes one sigil from the hand used, including in creative, and adds the installer to its player list. Installing does not open the menu or trigger the effect. A second sigil cannot replace the first.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "With a sigil installed, use a bound Taglock on the chest to toggle that identity on its player list. The taglock is not consumed. Any player can edit this list with a valid taglock; it is an effect-targeting list, not access control. Blank taglocks simply open the chest.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Beneficial sigils affect listed players; harmful sigils affect unlisted players. Opening triggers an eligible effect and starts a cooldown shared by everyone using that chest. Keeping the menu open does not repeat the effect. Unaffected visitors do not spend the cooldown.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The chest opens even under a solid block, matching the old custom chest. Adjacent chests stay separate. Breaking drops stored items separately and loses the installed sigil. A named chest retains its name. It has ordinary chest blast resistance, not the Juniper lock resistance.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Original artwork, animated lid and sounds are restored. Inventory, sigil, target list and cooldown persist through saves. Cooldown counts loaded server ticks and pauses while unloaded. The accessible inventory is twenty-seven slots; nine hidden legacy automation slots are not retained. No 1.12 save conversion or waterlogging is provided.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:dragons_blood_chest"
+                  }
+              ],
+    "icon":  "bewitchment:dragons_blood_chest",
+    "category":  "bewitchment:sympathy",
+    "name":  "Dragon\u0027s Blood Chest",
+    "sortnum":  86
+}

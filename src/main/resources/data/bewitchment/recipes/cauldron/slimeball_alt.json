@@ -1,0 +1,13 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:toe_of_frog"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "minecraft:slime_ball"
+                    }
+                ]
+}

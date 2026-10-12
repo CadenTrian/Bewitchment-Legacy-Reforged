@@ -1,0 +1,14 @@
+{
+    "parent":  "minecraft:item/generated",
+    "overrides":  [
+                      {
+                          "predicate":  {
+                                            "bewitchment:bound":  1
+                                        },
+                          "model":  "bewitchment:item/contract_variant"
+                      }
+                  ],
+    "textures":  {
+                     "layer0":  "bewitchment:item/contract"
+                 }
+}

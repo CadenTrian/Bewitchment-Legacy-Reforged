@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "cross":  "bewitchment:block/torchwood"
+                 },
+    "parent":  "minecraft:block/cross"
+}

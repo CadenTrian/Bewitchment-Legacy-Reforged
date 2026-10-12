@@ -1,0 +1,40 @@
+{
+    "name":  "Fertility",
+    "icon":  "minecraft:blue_orchid",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  128,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Fertility brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then a Blue Orchid, to hot, powered water. Its base duration is one tick. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Living adult animals with no breeding cooldown and no current love mode enter love mode for the normal thirty seconds. Babies and animals on cooldown remain unchanged. Fertility does not create offspring directly or attribute love mode to a player. Normal pairing, mating and breed events still apply."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Terrain growth targets bonemeal-compatible blocks, including crops, saplings, grass blocks and mushrooms. Each eligible position receives one direct growth call, as in legacy, without the ordinary bonemeal success roll. Space, light, substrate and the block\u0027s own growth rules can still prevent a visible result. Blocks with tile entities are excluded."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "An inclusive cube is scanned: radius one at level I, two at level II and three at level III. Higher command levels retain radius three, at most 343 positions per sweep. Each dimension queues up to 32 sweeps and scans at most 128 positions per tick, with at most eight growth-event attempts. One job scans at most 32 positions per tick."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Queue progress and player ownership survive saves and restarts. Full queues reject additional terrain sweeps without preventing animal effects. Player-owned jobs are discarded if their owner leaves the dimension, disconnects, dies or cannot build. Ownerless and non-player delivery uses the Minecraft fake player."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Growth sources must be inside build height and the world border, with nearby chunks loaded within sixteen blocks. Unavailable positions are skipped permanently. Source build and interaction permissions are checked. Each attempt posts a Forge bonemeal event: cancellation blocks growth, while externally handled events are not grown a second time."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "A growth callback can generate a whole tree or spread plants beyond its source. The queue limits callback counts, not all block writes or callback execution time. Source permissions do not authorize each resulting block separately; protection mods must handle growth events. Custom growables can spread farther than the nearby-chunk check. Use appropriate space for trees."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking schedules terrain growth around the drinker. Splash and lingering impacts schedule at the hit block or entity even without living targets. Clouds schedule once per effect application tick when affecting living targets. Empty clouds do not repeatedly sweep. Held bonemeal is not consumed. Pesticide, Ruin, Harvest and Fertility are now available."
+                  }
+              ]
+}

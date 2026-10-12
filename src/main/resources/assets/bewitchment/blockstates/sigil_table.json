@@ -1,0 +1,19 @@
+{
+    "variants":  {
+                     "facing=north":  {
+                                          "model":  "bewitchment:block/sigil_table"
+                                      },
+                     "facing=south":  {
+                                          "model":  "bewitchment:block/sigil_table",
+                                          "y":  180
+                                      },
+                     "facing=east":  {
+                                         "model":  "bewitchment:block/sigil_table",
+                                         "y":  90
+                                     },
+                     "facing=west":  {
+                                         "model":  "bewitchment:block/sigil_table",
+                                         "y":  270
+                                     }
+                 }
+}

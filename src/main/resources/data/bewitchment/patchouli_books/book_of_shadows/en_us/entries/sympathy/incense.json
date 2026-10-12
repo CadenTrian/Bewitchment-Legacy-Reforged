@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:brazier",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Incense uses the same Brazier as curses. Insert the listed offerings one at a time in any order, then use Flint and Steel. No Taglock is needed. The offerings are consumed and containers returned when lit. Invalid recipes preserve their ingredients."
+                  },
+                  {
+                      "text":  "Sleep near a lit incense Brazier to receive effects when you wake. The search covers two blocks in each direction, including vertically, from your position. Walls do not block it. Leaving bed early also counts; simply standing nearby does not grant effects. Dead players and spectators receive none.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Incense burns for about ten loaded minutes (the original 601-second expiry boundary). Unloading its chunk pauses the timer. Remaining time survives saving. It extinguishes automatically at expiry; using a shovel stops it early without refunding consumed offerings. Existing potion effects continue after the incense stops.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Vitality grants Resistance and Strength. Deftness grants Jump Boost and Speed. Invigorating grants Haste and Absorption. Cat\u0027s Eye grants Night Vision. Fullness grants Absorption and Saturation. Ordinary effects last ten minutes at level I; Saturation always lasts three seconds at level II.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Intensity boosts the other nearby incense: one source gives level II, two or more give level III. Concentration doubles ordinary effect duration to twenty minutes when there is no Intensity nearby. Boosters alone grant no effects. Saturation ignores both bonuses.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "When both booster types are present, Intensity takes precedence. This removes the legacy scan-order dependence and null-effect crash. Repeated ordinary incense does not multiply effects; normal potion replacement rules apply. Incense works on the server and does not force-load nearby chunks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "See Incense Offerings for the seven recipes. Incense recipes are checked before curse recipes. Some material acquisition paths remain unfinished. Hoppers and pipes can move offerings while unlit. An inventory screen is not implemented.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:brazier",
+    "category":  "bewitchment:sympathy",
+    "name":  "Incense",
+    "sortnum":  102
+}

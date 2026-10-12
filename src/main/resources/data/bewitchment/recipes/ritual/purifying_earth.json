@@ -1,0 +1,40 @@
+{
+    "circles":  [
+                    "normal",
+                    "normal"
+                ],
+    "ingredients":  [
+                        {
+                            "tag":  "forge:dirt"
+                        },
+                        {
+                            "tag":  "forge:dirt"
+                        },
+                        {
+                            "tag":  "forge:dirt"
+                        },
+                        {
+                            "tag":  "forge:dirt"
+                        },
+                        {
+                            "tag":  "forge:crops/white_sage"
+                        },
+                        {
+                            "tag":  "forge:crops/white_sage"
+                        },
+                        {
+                            "tag":  "forge:dusts/salt"
+                        },
+                        {
+                            "tag":  "forge:dusts/salt"
+                        }
+                    ],
+    "result":  {
+                   "count":  16,
+                   "item":  "bewitchment:purifying_earth"
+               },
+    "type":  "bewitchment:ritual",
+    "starting_power":  200,
+    "running_power":  20,
+    "seconds":  2
+}

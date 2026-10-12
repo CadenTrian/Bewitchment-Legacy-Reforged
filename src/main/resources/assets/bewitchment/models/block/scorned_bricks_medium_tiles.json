@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/scorned_bricks_medium_tiles"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

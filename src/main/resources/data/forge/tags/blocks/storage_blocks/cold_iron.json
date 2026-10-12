@@ -1,0 +1,15 @@
+{
+    "replace":  false,
+    "values":  [
+                   "bewitchment:block_of_cold_iron",
+                   "bewitchment:block_of_cold_iron_symbol",
+                   "bewitchment:block_of_cold_iron_bevel",
+                   "bewitchment:block_of_cold_iron_sun",
+                   "bewitchment:block_of_cold_iron_moon",
+                   "bewitchment:block_of_cold_iron_cup",
+                   "bewitchment:block_of_cold_iron_pentacle",
+                   "bewitchment:block_of_cold_iron_sword",
+                   "bewitchment:block_of_cold_iron_wand",
+                   "bewitchment:block_of_cold_iron_pentagram"
+               ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "forge:crops/mandrake"
+    },
+    {
+      "tag": "forge:crops/belladonna"
+    },
+    {
+      "tag": "forge:crops/aconitum"
+    },
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "tag": "forge:wax"
+    }
+  ],
+  "result": {
+    "item": "bewitchment:flying_ointment"
+  }
+}

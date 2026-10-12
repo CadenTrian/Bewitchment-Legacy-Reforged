@@ -1,0 +1,29 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:toe_of_frog",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Toads have four original skins and croaking sounds. They spawn on suitable grass in Swamp, Wet and Jungle biome types, using weight twenty and groups of one to four. They begin with eight health and can bite nearby players while wild."
+                  },
+                  {
+                      "text":  "Offer Spider Eyes to a wild Toad for a one-in-five taming chance per eye. Creative players keep the eye. Success assigns ownership, raises maximum health to twenty and heals the Toad. Owners can toggle sitting with an item other than its breeding food.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Breed two tamed, standing adults with Fermented Spider Eyes. The baby inherits one parent\u0027s skin but is wild, matching the source\u0027s ownership behavior. Toads follow and defend their owner, retaliate when hurt, and wild Toads hunt Silverfish and Endermites.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A successful bite deals half a point of base damage and applies Slowness II for five seconds without visible particles. Toads are immune to Slowness. They heal one point per second while wet. Damage makes a sitting Toad stand.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Adult drops provide zero to four Toes of Frog plus the original Looting bonus, restoring that survival ingredient source. Use /summon bewitchment:toad or its spawn egg for testing. The optional Wednesday ritual is restored; familiar binding remains unported.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:toe_of_frog",
+    "category":  "bewitchment:sympathy",
+    "name":  "Toads",
+    "sortnum":  58
+}

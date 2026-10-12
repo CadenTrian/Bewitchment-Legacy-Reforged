@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:vampiric_amulet",
+                      "type":  "patchouli:spotlight",
+                      "text":  "When a hit reaches final damage, a worn Vampiric Amulet has a 17.5 percent chance to spend 50 Grimoire power, cancel the remaining damage, heal one heart and grant eight seconds of Absorption I. It does not spend power on a failed roll."
+                  },
+                  {
+                      "text":  "The effect is checked after armor and existing absorption; it does not refund resources already consumed during the hit. A successful activation precedes protective-poppet handling. It is a chance-based defense, not guaranteed death protection.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The amulet uses a Necklace slot. Despot demon merchants can offer it at career level five; a master Hedge Witch can also select it from the accessory pool. These offers are randomized, so a particular merchant need not stock it. See $(l:sympathy/demon)Demon Merchants$(). There is no crafting recipe. The Hedge Witch base offer is 8-16 emeralds; general Curio also accepts the amulet.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:vampiric_amulet",
+    "category":  "bewitchment:beginnings",
+    "name":  "Vampiric Amulet",
+    "sortnum":  27
+}

@@ -1,0 +1,21 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:poppet"
+                        },
+                        {
+                            "item":  "bewitchment:heart"
+                        },
+                        {
+                            "item":  "bewitchment:juniper_berries"
+                        },
+                        {
+                            "tag":  "forge:gems/diamond"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:poppet_deathprotection",
+                   "count":  1
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "bewitchment:legacy_red_flowers"
+                        },
+                        {
+                            "item":  "bewitchment:perpetual_ice"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:frostflower"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

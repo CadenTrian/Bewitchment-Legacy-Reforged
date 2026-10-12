@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:salt",
+                      "type":  "patchouli:spotlight",
+                      "text":  "In the Overworld, draw small and large Phasing circles with a medium Fiery circle. Offer two Salt, a Demon Heart, Opal, a Pentacle, Ebb of Death, Dimensional Sand, a Lizard Leg, a Raven\u0027s Feather and Ectoplasm separately. All ten slots are used."
+                  },
+                  {
+                      "text":  "The ritual runs for 150 seconds, costing 1,600 starting power and 75 each second: 12,850 total, or 12,610 with Hecate\u0027s Visage. It consumes the offerings at paid completion and stops rain and thunder. Weather remains subject to normal world timers.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "It first changes eligible nearby biome cells to Desert, using the same strict 32-block circle, whole-cell boundaries, permissions and loaded-chunk rules as Biome Shift. This changes biome data across the full build height without regenerating terrain.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "It then converts Dirt, Podzol, Grass Blocks, Grass Paths, Mycelium and Farmland to Coarse Dirt within the exact block-radius circle. Existing Coarse Dirt is unchanged. The soil area begins sixty blocks below the focal glyph and reaches the build ceiling.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Soil scanning is limited to 4,096 candidate positions each tick. Unloaded, out-of-border and uneditable positions are skipped. Saved progress resumes with the focal glyph and its living caster in this dimension with build permission; no further power or intact rings are needed.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Stopping or breaking the focal glyph keeps changes already made and does not refund offerings or power. Plants may lose their supporting soil as normal block updates run. Leonard and Baphomet drop Demon Hearts. Athame kills of Endermen or Endermites provide Dimensional Sand bonus rolls. Black Dogs now supply Ectoplasm. Lizards supply Lizard Legs and Ravens now supply Raven\u0027s Feathers.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:salt",
+    "category":  "bewitchment:sympathy",
+    "name":  "Sowing Salt",
+    "sortnum":  56
+}

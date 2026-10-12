@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:triskelion",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Open the Curios inventory beside your normal inventory, or use its configurable key binding. Reforged supplies a Head, Necklace, Hands, Ring, Belt, Charm and general Curio slot. Right-click an accessory to equip an empty compatible slot. Its effects require it to be worn."
+                  },
+                  {
+                      "text":  "Hecate\u0027s Visage uses Head. Nazar, Triskelion and Vampiric Amulet use Necklace slots. Glutton\u0027s Sash and Girdle of the Dryads use Belt; Fortune\u0027s Favor uses Charm. Horseshoe, Token of Remedies and Hellish Bauble are universal trinkets. Curios also accepts every accessory in a general Curio slot.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Binding Curse prevents normal removal, with a creative-mode exception. Extra copies of the same accessory do not multiply periodic effects or damage protection. Powered effects need a charged, carried Grimoire. Curios handles slot persistence and synchronization.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:triskelion",
+    "category":  "bewitchment:beginnings",
+    "name":  "Wearing Accessories",
+    "sortnum":  21
+}

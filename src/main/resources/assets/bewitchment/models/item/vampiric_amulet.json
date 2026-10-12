@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/vampiric_amulet"
+                 },
+    "parent":  "minecraft:item/generated"
+}

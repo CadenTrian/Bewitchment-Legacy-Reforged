@@ -1,0 +1,7 @@
+{
+    "textures":  {
+                     "end":  "bewitchment:block/dragons_blood_wood_end",
+                     "side":  "bewitchment:block/dragons_blood_log_cut"
+                 },
+    "parent":  "minecraft:block/cube_column"
+}

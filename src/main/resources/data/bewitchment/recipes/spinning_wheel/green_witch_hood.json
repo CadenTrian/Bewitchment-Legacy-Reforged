@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:witches_cowl"
+                        },
+                        {
+                            "item":  "bewitchment:pure_filament"
+                        },
+                        {
+                            "item":  "minecraft:blue_wool"
+                        },
+                        {
+                            "item":  "minecraft:blue_wool"
+                        }
+                    ],
+    "type":  "bewitchment:spinning_wheel",
+    "results":  [
+                    {
+                        "item":  "bewitchment:green_witch_hood"
+                    }
+                ]
+}

@@ -1,0 +1,21 @@
+{
+    "curse":  "bewitchment:palor_pestilence",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:aconitum"
+                        },
+                        {
+                            "item":  "bewitchment:hellebore"
+                        },
+                        {
+                            "item":  "bewitchment:snake_venom"
+                        },
+                        {
+                            "item":  "bewitchment:belladonna"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

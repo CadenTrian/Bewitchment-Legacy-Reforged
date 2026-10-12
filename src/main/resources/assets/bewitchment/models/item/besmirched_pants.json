@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/besmirched_pants"
+                 },
+    "parent":  "minecraft:item/generated"
+}

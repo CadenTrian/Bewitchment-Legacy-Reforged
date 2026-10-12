@@ -1,0 +1,11 @@
+{
+ "name":"Cultivating Magical Plants","icon":"bewitchment:blue_ink_cap","category":"bewitchment:nature",
+ "pages":[
+  {"type":"patchouli:spotlight","item":"bewitchment:blue_ink_cap","text":"Blue Ink Caps, Embergrass, Torchwood and Frostflowers spread on random ticks. Each tick has a one-in-twenty-five chance to attempt spreading. Five plants of the same kind within four blocks horizontally and one vertically stop that attempt, counting the source plant. Different kinds do not share this limit."},
+  {"type":"patchouli:text","text":"An attempt walks through up to four possible positions before choosing a final neighboring spot. Only empty spaces with suitable support qualify. Bone meal does not accelerate these plants. Keep the surrounding area loaded; spreading stops at unavailable chunks, the world border or build-height limits."},
+  {"type":"patchouli:spotlight","item":"bewitchment:blue_ink_cap","text":"Make a Blue Ink Cap in a hot powered cauldron using Brown Mushroom, Iron Gall Ink and Liquid Witchcraft. You also recover an Empty Jar. Plant on suitable dirt, grass or farmland; it has no mushroom-style darkness requirement."},
+  {"type":"patchouli:spotlight","item":"bewitchment:embergrass","text":"Combine Grass, Liquid Witchcraft, Blaze Powder and a small flower in the cauldron for Embergrass and an Empty Jar. It grows on soil and releases flames. Living creatures touching it are set alight for ten seconds, subject to their fire immunity. Its selection box is larger than the other three plants."},
+  {"type":"patchouli:spotlight","item":"bewitchment:torchwood","text":"Combine Grass, Liquid Witchcraft, a log and a Glowstone block in the cauldron for Torchwood and an Empty Jar. Torchwood also grows on stone and sand. It gives light level ten and does not ignite creatures."},
+  {"type":"patchouli:spotlight","item":"bewitchment:frostflower","text":"Frostflowers additionally grow on snow and release snow particles. See Frostflower for the cauldron recipe. All four plants drop themselves when harvested and break if their supporting block no longer sustains them. Compatible soils can provide support through Forge's plant hook."}
+ ]
+}

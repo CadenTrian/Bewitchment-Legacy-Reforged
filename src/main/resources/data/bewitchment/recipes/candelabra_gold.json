@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "RFR",
+    " F "
+  ],
+  "key": {
+    "D": {
+      "tag": "bewitchment:candles"
+    },
+    "R": {
+      "tag": "forge:nuggets/gold"
+    },
+    "F": {
+      "tag": "forge:ingots/gold"
+    }
+  },
+  "result": {
+    "item": "bewitchment:candelabra_gold"
+  }
+}

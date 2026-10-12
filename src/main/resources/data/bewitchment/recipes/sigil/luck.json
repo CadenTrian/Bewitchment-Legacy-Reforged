@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/green"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/green"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "tag":  "forge:dyes/green"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/green"
+                        },
+                        {
+                            "tag":  "forge:dyes/red"
+                        },
+                        {
+                            "tag":  "forge:dyes/green"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "tag":  "forge:dyes/green"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_luck"
+               },
+    "type":  "bewitchment:sigil_table"
+}

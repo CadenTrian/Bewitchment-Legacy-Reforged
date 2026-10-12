@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:frostflower",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Frostflower grows on suitable soil or snow and spreads with a local density limit. It releases snow particles and drops itself when harvested."
+                  },
+                  {
+                      "text":  "In a hot powered cauldron, combine a legacy red-flower variant, Perpetual Ice and Liquid Witchcraft. Receive a Frostflower and Empty Jar. Use Poppy, Blue Orchid, Allium, Azure Bluet, a Tulip or Oxeye Daisy; Dandelion is not accepted. Iceworld brews can convert stone and leaves into Perpetual Ice.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:frostflower",
+    "category":  "bewitchment:nature",
+    "name":  "Frostflower",
+    "sortnum":  15
+}

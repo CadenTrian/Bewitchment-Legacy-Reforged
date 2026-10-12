@@ -1,0 +1,21 @@
+{
+    "curse":  "bewitchment:return_to_sender",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:white_sage"
+                        },
+                        {
+                            "item":  "bewitchment:salt"
+                        },
+                        {
+                            "tag":  "forge:nuggets/silver"
+                        },
+                        {
+                            "tag":  "forge:nuggets/iron"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

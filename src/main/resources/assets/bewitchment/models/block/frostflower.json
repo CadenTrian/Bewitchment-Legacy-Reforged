@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "cross":  "bewitchment:block/frostflower"
+                 },
+    "parent":  "minecraft:block/cross"
+}

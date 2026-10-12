@@ -1,0 +1,24 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:baphomet_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Prepare small, medium and large Nether circles. Offer an Athame, Demon Heart, Pentacle, Bottled Hellfire, Flying Ointment, Liquid Witchcraft, Hellhound Horn and Sanguine Cloth. Start at night with an empty main hand. As with the original ritual activation, a sheep sacrifice is an alternative trigger rather than a mandatory extra payment. See $(l:alchemy/flying_ointment)Flying Ointment$() for its recipe."
+                  },
+                  {
+                      "text":  "A sheep death within two blocks on each axis of the focal glyph may activate the prepared rite. A living non-spectator player must be less than ten blocks from the sheep. The nearest is selected, and normal building permissions, ritual inhibition, ingredients, circles and night checks apply. A cancelled death does nothing; failure does not restore the sheep.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Casting takes fifteen seconds: 1332 starting power and 66 per second, totaling 2322. Hecate reduces only the starting payment, for 2122 total. Sunrise after activation does not interrupt it. Clear loaded, dry space for the one-block-wide, 3.6-block-tall boss. Peaceful difficulty, collisions and world/build boundaries prevent insertion.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Success summons Baphomet holding his Caduceus and returns a fresh Athame. Original tool data does not transfer to that replacement. Space is checked again at completion; failed insertion refunds original offerings but not spent power. Nearby players receive the summoned-entity criterion only after successful insertion. One sheep death can activate multiple prepared glyphs.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:pentacle",
+    "category":  "bewitchment:sympathy",
+    "name":  "Conjure Baphomet"
+}

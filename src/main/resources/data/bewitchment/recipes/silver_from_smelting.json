@@ -1,0 +1,9 @@
+{
+    "ingredient":  {
+                       "item":  "bewitchment:silver_ore"
+                   },
+    "result":  "bewitchment:silver_ingot",
+    "cookingtime":  200,
+    "experience":  0.65,
+    "type":  "minecraft:smelting"
+}

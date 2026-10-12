@@ -1,0 +1,208 @@
+{
+    "name":  "Timed Fortunes",
+    "icon":  "minecraft:paper",
+    "category":  "bewitchment:sympathy",
+    "sortnum":  138,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Timed Fortunes",
+                      "text":  "All twenty-nine legacy fortunes are available through a $(l:sympathy/crystal_ball)Crystal Ball$() or the operator command. This chapter lists their IDs, effects and conditions. Baphomet acquisition is not implemented. These fortunes are separate from the Fortune\u0027s Favor accessory."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Available IDs",
+                      "text":  "Use vitality, resilience, salamander_skin, good_luck, bad_luck, illness, courage, thunderbolt, death, meet_merchant, orphan, meet_zombie, meet_witch or meet_silverfish. All twenty-nine have equal Crystal Ball selection weight. Negative fortunes and failed conditional outcomes are possible."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Operator Commands",
+                      "text":  "Permission level 2 is required. Use /fortune \u003cplayer\u003e get, /fortune \u003cplayer\u003e set \u003cid\u003e, /fortune \u003cplayer\u003e remove or /fortune \u003cplayer\u003e execute. Select one online player. IDs accept short names or bewitchment: prefixes. All twenty-nine legacy identities are supported; unknown IDs are rejected."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "One Pending Fortune",
+                      "text":  "Set replaces the pending fortune and chooses a fresh random delay. Get reports its ID and remaining ticks. Remove clears only the pending fortune, not potion effects already applied. Execute triggers it immediately if the player is alive and not spectating; otherwise it remains pending. Treasure and Hellish Fortune require a block break and cannot be forced by execute."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Countdowns",
+                      "text":  "Vitality, Resilience, Salamander Skin and Courage wait 60-599 seconds; Good Luck, Bad Luck and Thunderbolt wait 120-599; Illness and Orphan wait 300-1799. Meet Merchant waits 60-1199; Death waits 1200-10799. Each whole-second delay is equally likely. Countdown uses eligible online ticks, pausing offline, while dead and in spectator mode. Lag stretches real time; creative players remain eligible."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Persistence",
+                      "text":  "Pending fortunes and remaining ticks are saved with the player and copied on respawn. Ordinary dimension travel preserves them. Invalid or unsupported saved fortunes are discarded. A valid zero-tick fortune executes on the next eligible tick. These are normal save guarantees, not protection against a process crash."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Beneficial Effects",
+                      "text":  "Vitality grants Regeneration for 25 seconds; Resilience grants Resistance for 50 seconds; Salamander Skin grants Fire Resistance I for 180 seconds; Good Luck grants Luck for 33.3 seconds. Except Fire Resistance, the level is II-V for Peaceful through Hard, using difficulty at execution."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Misfortune",
+                      "text":  "Bad Luck grants Unluck for 33.3 seconds. Illness grants Hunger, Nausea and Weakness for 10.75 seconds each. Their levels are II-V for Peaceful through Hard. Effects hide particles. Vanilla effect merging, stronger existing effects and other mods can change the visible result."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Courage",
+                      "text":  "At execution, Courage grants Strength for 25 seconds only if Minecraft credits an attacker to you. Its level is II-V for Peaceful through Hard, using current difficulty. Having a target or attacking a creature is not enough. A recently credited attacker may still qualify after combat ends. Without one, the fortune expires with no effect; it does not wait for your next fight."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Thunderbolt",
+                      "text":  "Thunderbolt checks whether rain reaches your current position at execution. If so, a visual lightning bolt appears and attempts one point (half a heart) of lightning damage to you. The bolt itself causes no fire or nearby lightning hits. A thunderstorm is not required. Being wet from water alone is insufficient; shelter or a dry position can prevent activation."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Conditional Results",
+                      "text":  "Courage is beneficial; Thunderbolt is negative. Both are consumed even when their condition fails, including /fortune execute. Damage immunity, protections and other mods can prevent or alter the hit; rejected damage does not refund the fortune. Visual insertion failure does not cancel the separate hit. Conditions are checked when the fortune executes, not when it is assigned."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Death",
+                      "text":  "Death is a negative fortune with a long delay: 20 minutes up to just under three hours of eligible play. It applies Wither for 215 ticks (10.75 seconds), at level II-V for Peaceful through Hard using difficulty at execution. It is not an instant-kill command. Protections, effect rejection and stronger existing effects can change the result; the fortune is still consumed."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Merchant",
+                      "text":  "Meet Merchant is beneficial and attempts to create one ordinary adult villager nearby. The villager starts with one of thirteen vanilla working professions and a biome-appropriate appearance. It follows normal 1.16.5 trading and workstation rules: its initial job can change or be lost. No special trades, workstation or permanent merchant job are supplied."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Orphan",
+                      "text":  "Orphan is beneficial and attempts to create one baby villager nearby, with an age of -2400 ticks: about two loaded, ticking minutes before adulthood. It is an ordinary villager, not a tamed companion. Its initial profession follows the same selection as Meet Merchant; normal AI and workstation rules apply, and babies cannot trade."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Encounter Placement",
+                      "text":  "Both villager encounters test at most 16 candidate positions at your current block elevation, with horizontal Gaussian offsets clamped to 16 blocks per axis. The area must already be loaded, inside the world border, with two air blocks, supporting ground and no collision or liquid. No chunks are forced to load and no terrain is cleared. A cramped or unsupported location can prevent the encounter."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Encounter Limits",
+                      "text":  "The fortune is consumed before searching. No valid position, rejected entity insertion or a callback exception does not restore it. The first fitting position receives one insertion attempt, without repeated spawn callbacks. This replaces legacy repeated retry behavior with bounded work. Existing villagers are not moved or copied. Live placement, village AI and mod-interaction tests are still needed."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Zombie",
+                      "text":  "meet_zombie is negative and waits 300-1499 eligible seconds. It attempts to create one vanilla zombie nearby. Normal initialization supplies its age and equipment; chicken jockey creation is disabled so preparation cannot create or claim another entity. The zombie follows ordinary AI, sunlight and despawn rules; it is not forced to target the fortune holder."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Witch",
+                      "text":  "meet_witch is negative and waits 180-1199 eligible seconds. It attempts to create one vanilla witch nearby, with ordinary witch AI, potion use and despawn behavior. This is an encounter, not a tamed witch or a permanent companion. Brightness and normal natural-spawn population caps do not control these event encounters."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Silverfish",
+                      "text":  "meet_silverfish is negative and waits 300-1799 eligible seconds. It attempts to create one vanilla silverfish nearby. Its ordinary AI and applicable game rules still govern behavior, including infestation and calls for help. The fortune itself inserts only one creature."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Hostile Encounter Buffs",
+                      "text":  "After a successful hostile insertion, Resistance, Strength, Speed and Fire Resistance are rolled independently. Each has a 10% chance on Easy, 20% on Normal and 30% on Hard. Successful rolls grant level II for 900 ticks (45 seconds), with normal particles. Buffs affect the creature, not the player. Rejected insertion rolls no buffs."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Hostile Encounter Limits",
+                      "text":  "In Peaceful these three fortunes expire without creating a creature. Otherwise they share the villager encounters\u0027 sixteen-attempt loaded-terrain search, border, ground, two-air-block and collision checks. Conditions are rechecked after initialization; insertion is attempted once. Failure or rejection still consumes the fortune. No terrain is cleared and no retry work remains. Callback failures can leave partial buffs without another spawn."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Execution Limits",
+                      "text":  "The pending fortune is consumed before effect and lightning callbacks. Recursive execution cannot repeat it, and a newly assigned fortune survives. Rejected effects still consume the fortune. Multiple effects or a visual followed by damage can leave partial results if a callback throws, without replay. Live combat, rain, command, respawn and mod-interaction playtests are still needed."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Blaze",
+                      "text":  "meet_blaze is negative and waits 60-179 eligible seconds. One Blaze is attempted nearby. Its fourth independent buff is Magic Resistance II, replacing Fire Resistance. All new hostile encounters use the existing sixteen-attempt loaded-space search and expire without spawning in Peaceful."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Cambion",
+                      "text":  "meet_cambion is negative and waits 300-1499 eligible seconds. One Cambion is attempted nearby, with ordinary initialization, AI and despawn rules. Resistance, Strength, Speed and Fire Resistance each have an independent 10/20/30% chance by difficulty, lasting 900 ticks at level II."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Druden",
+                      "text":  "meet_druden is negative and waits 300-1499 eligible seconds. One Druden is attempted nearby with the same four Fire Resistance group buff rolls. Its full body must fit; two air blocks alone do not guarantee space for this tall creature."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Shadow Person",
+                      "text":  "meet_shadow_person is negative and waits 300-1499 eligible seconds. One Shadow Person is attempted nearby. It receives the Fire Resistance group of four independent buffs; its normal creature behavior remains active."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Feuerwurm",
+                      "text":  "meet_feuerwurm is negative and waits 60-179 eligible seconds. One Feuerwurm is attempted nearby. Like Blaze, it rolls Resistance, Strength, Speed and Magic Resistance independently, with the usual 900-tick level-II payloads."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Bafometyr",
+                      "text":  "meet_bafometyr is negative and waits 60-179 eligible seconds. One Bafometyr is attempted nearby using the Magic Resistance buff group. This ordinary creature encounter does not summon Baphomet."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Cleaver",
+                      "text":  "meet_cleaver is negative and waits 60-179 eligible seconds. One Cleaver is attempted nearby with normal initialized equipment and the Magic Resistance buff group. Placement checks the full body after initialization."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Demon",
+                      "text":  "meet_demon is negative and waits 60-179 eligible seconds. An equal random choice attempts one Demon or Demoness. Both use the Magic Resistance buff group. Their normal trade, pledge, combat and despawn behavior applies."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Dire Wolf",
+                      "text":  "meet_dire_wolf is negative and waits 300-1199 eligible seconds. One ordinary Wolf targets the fortune holder. It has three independent buff rolls: Resistance, Strength and Regeneration, each 900 ticks at level II. In Peaceful it expires without an encounter."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Drop Item",
+                      "text":  "drop_item is negative and waits 30-899 eligible seconds. It attempts to toss the entire selected main-hand stack through the normal Forge player-drop path. Item drop vetoes and toss events apply. An empty hand or rejected toss still consumes the fortune; there is no repeated inventory action."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Meet Pet",
+                      "text":  "meet_pet is beneficial and waits 120-3599 eligible seconds. It selects equally from Cat, Wolf, Horse, Donkey, Mule, Llama, Parrot, Owl, Raven, Snake and Toad. Cats replace the old tameable Ocelot. Tameable animals and horses receive your ownership before insertion. The loaded-space search can fail and consumes the fortune."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Cats and Dogs",
+                      "text":  "cats_and_dogs is negative and waits 300-899 eligible seconds. It attempts 3-10 Wolves or Ocelots using the original rerolled loop bound. Loaded ground is searched at most sixteen times per animal; bodies appear 24-55 blocks above it only if space is clear. Animals receive Resistance X and disappear with a cosmetic explosion after 60 ticks."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Shower Weather",
+                      "text":  "Cats and Dogs sets rain for 2000 ticks and thunder for 3000 ticks in dimensions with skylight and no ceiling. It changes shared dimension weather, not just weather near you. Loaded-column, height, border and collision checks can reduce or prevent the shower. No terrain is cleared or chunks generated."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Cornucopia",
+                      "text":  "cornucopia is beneficial and waits 300-899 eligible seconds. It uses the same bounded shower placement for 3-10 Pigs or Cows. Animals receive the legacy long-duration high-amplifier Instant Damage effect; ordinary death and loot rules apply. It does not create food directly or change weather."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Treasure",
+                      "text":  "treasure is beneficial, with a 69-419 second displayed delay. Like legacy, a qualifying break can trigger it immediately; reaching zero does not consume it. Break Dirt, Grass Block, Sand, Mycelium, Gravel or Soul Sand to roll the materials loot table twice. Canceled breaks do not trigger it."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Hellish Fortune",
+                      "text":  "hellish_fortune is beneficial, with a 66-665 second displayed delay and the same event-waiting behavior. In the Nether, break Soul Sand, Netherrack, Magma Block, Gravel, Nether Bricks or Nether Quartz Ore to roll the nether materials table once. The legacy Codex reward is migrated to the available Book of Shadows."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Digging Limits",
+                      "text":  "Both digging fortunes persist until a qualifying break, replacement or removal. Loot is consumed before callbacks and dropped with no pickup delay. Zero-count rolls are possible. Rejected insertion or exceptions do not restore a consumed fortune. Break handlers that cancel later at the same event priority can still suppress the actual break."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "title":  "Legacy Advancements",
+                      "text":  "Twenty-five more legacy advancements cover machines, materials, clothing, contracts, stew and creature kills. Inventory criteria mean possession, even where a title says mined, crafted or wore. Clothing accepts either hat or hood, with the original accessory requirements. Broom and the Ghost advancement are also restored, including the original hidden-bat icon."
+                  }
+              ]
+}

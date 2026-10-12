@@ -1,0 +1,30 @@
+{
+  "type": "bewitchment:herb_seeds",
+  "seed": "bewitchment:white_sage_seeds",
+  "conditions": [
+    {
+      "condition": "minecraft:block_state_property",
+      "block": "minecraft:dead_bush"
+    },
+    {
+      "condition": "minecraft:random_chance",
+      "chance": 0.15
+    },
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:match_tool",
+        "predicate": {
+          "enchantments": [
+            {
+              "enchantment": "minecraft:silk_touch",
+              "levels": {
+                "min": 1
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

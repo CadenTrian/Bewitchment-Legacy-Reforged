@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/stew_of_the_grotesque"
+                 },
+    "parent":  "minecraft:item/generated"
+}

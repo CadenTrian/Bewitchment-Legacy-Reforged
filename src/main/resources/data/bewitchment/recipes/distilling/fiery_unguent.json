@@ -1,0 +1,19 @@
+{
+  "type": "bewitchment:distillery",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "bewitchment:cloudy_oil"
+    },
+    {
+      "tag": "forge:tallow"
+    }
+  ],
+  "results": [
+    {
+      "item": "bewitchment:fiery_unguent"
+    }
+  ]
+}

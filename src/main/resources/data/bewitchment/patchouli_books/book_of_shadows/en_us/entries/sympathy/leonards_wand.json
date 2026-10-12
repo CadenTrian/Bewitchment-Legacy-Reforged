@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:leonards_wand",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Leonard\u0027s Wand stores a splash potion as eight repeatable shots. Its original three-dimensional model and texture are restored. It has 128 durability, cannot be repaired, and rejects ordinary table and book enchantments. A spawned Leonard now drops this wand. Conjure Leonard now provides ritual access."
+                  },
+                  {
+                      "text":  "Combine exactly one wand and one Splash Potion, shapelessly, in a two-by-two or larger crafting grid. This replaces the stored effects and sets eight shots; it does not add to existing charges. Drinkable and lingering potions do not work. There is no returned bottle or extra wand.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Charging copies the splash potion\u0027s base and custom effects, including duration and amplifier. A splash with no effects still charges the wand with empty-effect shots. Potion base identity is not retained: this reproduces the legacy effect-copying behavior rather than special water-potion interactions.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Right-click with a charged wand to fire a vanilla splash projectile with those effects. Each successfully inserted shot spends one charge, one durability and a ten-tick cooldown. The projectile travels with the original speed one, inaccuracy one and minus-twenty-degree pitch offset. Vanilla splash impact rules determine affected targets.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The stored effects determine the projectile color; custom potion color overrides are not copied. Charges, names and other wand data are not copied into the projectile. The tooltip shows remaining shots, and only a charged wand glints. An empty wand does not fire merely because it is named or damaged.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Recharging and the final shot preserve durability damage, custom names and unrelated item data. The last shot clears only potion-related data. This prevents a port-specific free-repair bug because modern durability is stored in item NBT. Creative players still spend charges, while ordinary creative durability rules apply.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Placed on an altar, the wand adds 99 capacity in the wand category, from the legacy 64 times 1.56 value. It is currently available through the creative tab or /give @s bewitchment:leonards_wand. The charging recipe does not create an uncharged wand from raw materials.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:leonards_wand",
+    "category":  "bewitchment:sympathy",
+    "name":  "Leonard\u0027s Wand",
+    "sortnum":  82
+}

@@ -1,0 +1,21 @@
+{
+    "type":  "minecraft:crafting_shapeless",
+    "ingredients":  [
+                        {
+                            "tag":  "forge:ingots/iron"
+                        },
+                        {
+                            "tag":  "forge:ingots/iron"
+                        },
+                        {
+                            "tag":  "forge:gems/quartz"
+                        },
+                        {
+                            "item":  "minecraft:nether_brick"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:nethersteel",
+                   "count":  4
+               }
+}

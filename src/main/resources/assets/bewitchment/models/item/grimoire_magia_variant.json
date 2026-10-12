@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/grimoire_magia_variant"
+                 },
+    "parent":  "minecraft:item/generated"
+}

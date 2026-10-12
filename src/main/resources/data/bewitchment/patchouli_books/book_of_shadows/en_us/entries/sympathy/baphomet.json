@@ -1,0 +1,32 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:baphomet_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Baphomet is a persistent greater demon with 666 health, seven base attack damage, 13.616 armor, 6.66 toughness and strong knockback resistance. Fire and falling do not hurt him. He targets players, villagers, illagers, witches and iron golems. He does not spawn naturally. Conjure Baphomet provides survival access."
+                  },
+                  {
+                      "text":  "While fighting a player, the first six ticks of each 600-tick cycle grant Strength II, Resistance II and Speed II for fifteen seconds. These pulses pause his other combat timers. He fires small fireballs on six ticks of each 80-tick cycle when the player is over two blocks away. Melee attempts against players inflict two seconds of Blindness and heal him by two, as in the original.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Below half health he summons one to three Feuerwurms; below thirty percent, Bafometyrs become available. Both share a 180-tick cooldown. The original sequential checks mean the first ready wave is Feuerwurms, while a cooldown that reaches zero below thirty percent produces Bafometyrs. Minions gain Speed III for thirty seconds and remain ordinary creatures, not spectral allies.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Players over ten blocks away are pulled horizontally toward him, at most once every forty active combat ticks. Pulls and cooldowns are server-authoritative; both cooldowns survive save/load. Killing him drops one Caduceus and one Demon Heart, with 185 base experience. His held staff adds no extra equipment drop.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Pledge by wearing a complete witch clothing set, holding a Pentacle offhand and eating Stew of the Grotesque near him. See Greater Demon Pledges. His boss bar hides from pledged players and he stops newly targeting them; attacking him revokes that pledge. Allegiance is not protection from stray damage.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A pledged player may interact with the main hand to spend six experience levels for a random positive contract lasting seven online game days. The five equal choices are Berserker, Salamandrine Tolerance, Devouring Rage, Desiccation and Ignition. An existing positive contract blocks purchase. Return to Sender is a blessing rather than a contract and does not block it. This grants the effect directly, not a task item.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:caduceus",
+    "category":  "bewitchment:sympathy",
+    "name":  "Baphomet"
+}

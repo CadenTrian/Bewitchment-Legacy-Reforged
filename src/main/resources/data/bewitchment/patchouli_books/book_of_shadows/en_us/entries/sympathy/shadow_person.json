@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:shadow_person_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Shadow People are temporary hostile demons with forty-five health, four attack damage, 2.22 armor, half armor toughness and 0.9 knockback resistance. They hunt players, villagers, illagers, witches and iron golems, leap at targets and alert allies when hurt. Besmirched clothing does not prevent their own targeting."
+                  },
+                  {
+                      "text":  "They default to spectral form and a randomly chosen thirty to sixty seconds of loaded lifetime, in one-second increments. Expiry removes them in smoke without death drops. Naming prevents ordinary distance despawning but does not cancel this timer. Chunk unloading pauses the saved lifetime.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "They are immune to fire, fall damage and drowning, but have no special poison or Wither immunity, water weakness or lava healing. Daylight does not remove them. Their footsteps are silent; hurt and death use Enderman sounds. On Hard difficulty they can break wooden doors when mob griefing and Forge protection hooks allow it.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Four saved skin values share two original appearances: zero and two use the classic texture, one and three the hat-demon texture. Both use the original tall model and glowing eyes. The eyes are hidden during invisibility and for babies. Spectral lifetime does not make the body translucent.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Shadow People can appear through Greater Hellmouth, Spiritual Rift, the Meet Shadow Person fortune or a Box of Sealed Evil outcome. Structure pools can add them in Nether fortresses, Overworld strongholds on new-moon nights and mineshafts on half-moon nights. There are no ordinary biome spawn entries. See $(l:sympathy/sealed_evil_box)Box of Sealed Evil$() for its risks.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Saved fields are skin, spectral, lifeTimeTick and summoner. Missing lifetime or spectral fields preserve temporary constructor defaults. An explicit spectral:false creates a lasting test variant. A valid summoner UUID makes the creature assist that player periodically without targeting them; it does not become a tame pet.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Temporary spectral copies yield no ordinary loot, equipment, Athame bonus or experience, matching the other ported spectral creatures. The supplied source has no ordinary Shadow Person loot table, so none is invented. Explicit non-spectral variants can give the legacy Athame Ectoplasm bonus, with a base maximum of four, and forty-five experience under normal rules.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:shadow_person_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Shadow People",
+    "sortnum":  73
+}

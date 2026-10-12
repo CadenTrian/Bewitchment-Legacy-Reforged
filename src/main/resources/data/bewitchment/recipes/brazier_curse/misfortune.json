@@ -1,0 +1,27 @@
+{
+    "curse":  "bewitchment:misfortune",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "item":  "bewitchment:elderberries"
+                        },
+                        {
+                            "item":  "bewitchment:elderberries"
+                        },
+                        {
+                            "item":  "bewitchment:belladonna"
+                        },
+                        {
+                            "item":  "bewitchment:snake_venom"
+                        },
+                        {
+                            "item":  "bewitchment:ravens_feather"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}

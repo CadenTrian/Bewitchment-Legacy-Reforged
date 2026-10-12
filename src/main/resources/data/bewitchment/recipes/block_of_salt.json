@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "tag": "forge:dusts/salt"
+    }
+  },
+  "result": {
+    "item": "bewitchment:block_of_salt"
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:cambion_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Cambions have four original appearances, using regular and slim bodies. Find them in naturally generated $(l:beginnings/legacy_structures)Cambion homes$(), or through Hellmouth and Spiritual Rift. Structure spawn pools can add them in Nether fortresses and Overworld villages on dry full-moon nights. The Meet Cambion fortune can also produce an encounter; there are no ordinary biome spawn entries."
+                  },
+                  {
+                      "text":  "They have thirty-five health, four base attack damage, one armor, one armor toughness and twenty percent knockback resistance. Equipped weapons and armor modify these values. They open wooden doors and do not despawn merely because players are far away. Peaceful difficulty still removes them.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Cambions hunt Hellhounds, Feuerwurms, Black Dogs, Zombies, Skeletons and Spiders. They also hunt Werewolves and Ghosts. They do not proactively hunt players, but retaliate when attacked. They count as demons for accessory protection; their legacy behavior does not grant fire, poison, drowning or fall immunity.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Successful melee hits have a five percent chance to ignite the victim for twenty-five seconds. Otherwise a separate thirty-five percent roll applies Poison for twenty-five seconds. Fire takes precedence, making the overall poison chance 33.25 percent. The two extra effects never apply together from one hit.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Spawn equipment can include leather, gold or chainmail chest armor, gold or iron swords and axes, and a shield. Local difficulty affects extra equipment, enchantments and loot pickup. Eligible Cambions pick up swords, armor and shields using normal equipment comparisons; loose axes are excluded by the original pickup filter. Carrying a shield does not add blocking AI.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The original runtime uses the vanilla Witch loot table. Athame kills add separate Hellhound Horn, Heart, Rotten Flesh and Ectoplasm bonus rolls, with maxima two, one, two and one before Looting adjustment. Temporary spectral copies give no loot or experience. Saved CambionType selects appearance; spectral lifetime and summoner fields work as for other restored demons.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:cambion_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Cambions",
+    "sortnum":  66
+}

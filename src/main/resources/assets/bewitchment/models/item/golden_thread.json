@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/golden_thread"
+                 },
+    "parent":  "minecraft:item/generated"
+}

@@ -1,0 +1,41 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:cleaver_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Cleavers are fire-immune demons with forty health, four base attack damage, 3.5 base armor, 2.5 armor toughness and half knockback resistance. They spawn rarely in Nether biome types at weight one, with the original zero-to-one group range. There is no extra darkness check. Set cleaverWeight to zero and restart to disable natural spawning."
+                  },
+                  {
+                      "text":  "They spawn with a Cleaver Blade, Golden Helmet and Golden Chestplate. Difficulty equipment and enchantment rules also apply. Equipment adds to their base attributes. Their attack truncates the total attack attribute to an integer; an ordinary unenchanted blade adds six, producing ten before other modifiers.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Accepted hits while a target is assigned open the jaw for twenty ticks. Three percent also apply Slowness IV for twenty-five seconds and subtract 1.5 from the victim velocity on the world Z axis. This fixed direction is the original behavior, not knockback away from the Cleaver.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "At roughly thirty-five percent health or less, the first six ticks of each two-hundred-tick cycle grant Resistance I and Strength I for one hundred seconds and play the idle sound. The original long jaw timer remains until replaced by another attack or reload; it is not a separate permanent strength effect.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "They hunt players, Feuerwurms, Hellhounds, Bafometyrs and other living creatures that are neither fire-immune, demons nor undead. Besmirched prevents proactive targeting but not retaliation. Revenge does not alert allies. They resist Poison, Wither, fire, falls and drowning, without water weakness or lava healing.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "One weighted loot entry is selected: Gold Nuggets at weight three, Horns at two, Hooves at two, or Blaze Powder at one. Base ranges are zero to four, two, two and six respectively, with zero-to-two Looting bonuses per level. Athame kills add separate Heart, Hoof, Raw Beef, Blaze Powder and Horn rolls with base maxima one, two, two, four and two.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Two original skins, seven sound recordings and the original model are retained. Equipment drops follow normal rules. Temporary spectral copies yield no loot, equipment, Athame bonuses or experience. Ordinary base experience is twenty-five. Naming prevents distance despawning but not spectral expiry.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Use a spawn egg or /summon bewitchment:cleaver for testing. Greater Hellmouth can also summon Cleavers. The Meet Cleaver fortune is restored, and Nether fortress structure pools can add Cleavers. See $(l:sympathy/timed_fortunes)Timed Fortunes$(). The blade is obtainable through normal equipment drops; there is no invented crafting recipe.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:cleaver_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Cleavers",
+    "sortnum":  75
+}

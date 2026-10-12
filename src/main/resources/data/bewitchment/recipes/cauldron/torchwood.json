@@ -1,0 +1,25 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:grass"
+                        },
+                        {
+                            "item":  "bewitchment:liquid_witchcraft"
+                        },
+                        {
+                            "tag":  "minecraft:logs"
+                        },
+                        {
+                            "item":  "minecraft:glowstone"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:torchwood"
+                    },
+                    {
+                        "item":  "bewitchment:empty_jar"
+                    }
+                ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Salt Barriers", "icon": "bewitchment:salt", "category": "bewitchment:sympathy",
+  "pages": [
+    {"type": "patchouli:spotlight", "item": "bewitchment:salt", "text": "Place Salt on a sturdy upper surface to draw a barrier. Hoppers also support it. Adjacent lines join, including one-block steps when there is room above the lower line. Removing the support breaks the salt; a plain Broom can sweep it up."},
+    {"type": "patchouli:text", "text": "Salt obstructs slimes, magma cubes, demons and spirits, including the restored Bewitchment creatures. Cold-iron-weak creatures and silver-weak creatures other than werewolves are also affected. Ordinary players and animals can physically cross; mob pathfinding treats salt as an obstacle regardless of physical immunity."},
+    {"type": "patchouli:text", "text": "Salt carries no redstone power and never joins redstone dust. Pistons destroy it. Its protective collision uses the original tall wall shape, but teleportation and phasing can bypass collision. The Ghost's separate nearby-salt ward interrupts its targeting; see its guide entry."},
+    {"type": "patchouli:text", "text": "Data packs can add types to bewitchment:salt_barrier_blocked for explicit blocking. The built-in tag includes the demon and spirit tags. Silver and cold iron weakness tags also affect living targets, with the werewolf exception applying only to silver weakness. Slime subclasses remain blocked independently of tags."}
+  ]
+}

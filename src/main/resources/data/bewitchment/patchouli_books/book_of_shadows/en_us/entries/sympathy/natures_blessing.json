@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:essence_of_vitality",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Use a small Phasing circle, medium white circle and large Phasing circle in the Overworld. Offer two White Sage, Lapis Lazuli, Essence of Vitality, a Pentacle, Cleansing Balm, Dimensional Sand, Spruce Heart, Oak Spirit and Garlic separately. All ten slots are used."
+                  },
+                  {
+                      "text":  "The ritual takes 150 seconds, costing 1,600 starting power and 75 each second: 12,850 total, or 12,610 with Hecate\u0027s Visage. Offerings are kept until the paid cast finishes. Cancellation before completion returns them without refunding spent power.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Completion consumes the offerings, starts rain and thunder, then restores Coarse Dirt and Podzol to Dirt in a strict radius of 32 blocks. Grass, Mycelium, Farmland and other blocks are unchanged. It neither plants vegetation nor changes biomes.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The vertical area begins 64 blocks below the focal glyph and reaches the build ceiling. Soil is scanned gradually, at most 4,096 positions per server tick. Only loaded positions inside the world border that the caster may edit are changed. Skipped positions are not retried.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Progress is saved with the focal glyph and resumes when its chunk and living caster are present in this dimension with build permission. It needs no more power or intact rings after the paid cast. Keep the focal glyph until restoration completes.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Clicking the focal glyph or breaking it stops unfinished soil work. Changes already made, the storm and consumed offerings are not reversed. Weather follows normal world timers afterward. Dimensional Sand still lacks its survival acquisition path, so this ritual currently needs creative access to that ingredient.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:essence_of_vitality",
+    "category":  "bewitchment:sympathy",
+    "name":  "Nature\u0027s Blessing",
+    "sortnum":  54
+}

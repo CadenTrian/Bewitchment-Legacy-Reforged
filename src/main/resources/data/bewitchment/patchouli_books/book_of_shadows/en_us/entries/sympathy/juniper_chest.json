@@ -1,0 +1,37 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:juniper_chest",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Surround one Liquid Witchcraft with eight Juniper Planks to craft a Juniper Chest. It has twenty-seven slots, matching the accessible legacy inventory. Adjacent chests remain independent and do not combine into a double chest."
+                  },
+                  {
+                      "text":  "Placing a chest gives its bound Juniper Key, dropping the key nearby if your inventory is full. Carry that key or a matching ring to open or mine it. Bindings use the chest position and dimension, not an owner identity. Custom chest names are retained.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A Skeleton Key can instead pay ten levels, 1000 power from one carried grimoire, and one durability. This pays for opening the inventory once; leaving it open, moving items and closing it do not repeatedly charge you. Breaking in survival is a separate paid action.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A solid conducting block directly above prevents opening, checked before the key is charged. The menu closes when the chest is removed or you move too far away. Sneaking with a held item passes through to item use; this allows creative recovery with an unbound Juniper Key.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Hoppers and ordinary Forge item-handler automation cannot insert or extract, including from underneath. The chest resists pistons and has the legacy high blast resistance. These locks do not protect against commands or other mods deliberately altering inventories.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Breaking drops stored items separately from the chest. The chest item preserves its custom name, not its contents. The original chest texture, inventory model, animated lid and opening/closing sounds are restored. Waterlogging, double chests and migration of old 1.12 save data are not provided.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:juniper_chest"
+                  }
+              ],
+    "icon":  "bewitchment:juniper_chest",
+    "category":  "bewitchment:sympathy",
+    "name":  "Juniper Chest",
+    "sortnum":  85
+}

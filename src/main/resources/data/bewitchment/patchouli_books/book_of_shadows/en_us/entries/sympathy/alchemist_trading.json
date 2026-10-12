@@ -1,0 +1,35 @@
+{
+    "pages":  [
+                  {
+                      "text":  "An unemployed adult villager can become an Alchemist by claiming a reachable Distillery. Trade to unlock later levels. Using a Distillery as its workstation is a 1.16 adaptation; the villager does not take items from the machine or run recipes.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Novice offers: 5-9 Glass Bottles for 1-3 Emeralds, or 2-5 Silver Ingots for 3-5 Emeralds. The Alchemist also buys 10-16 Salt for 1-3 Emeralds, or 10-16 Gold Ingots for 1-2 Emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Apprentice offers: 1-3 Stone Ichor for 2-4 Emeralds, or 1-3 Fiery Unguent for 4-6 Emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Journeyman offers: 3-5 Dragon's Blood Resin or 3-5 Bottled Frostfire for 3-5 Emeralds. The Alchemist also buys 2-5 Amethyst or 2-5 Garnet for 1-3 Emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Expert offers: 1-2 Demonic Elixir for 3-6 Emeralds, or 1-3 Cleansing Balm for 3-6 Emeralds.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Master offer: one Dragon's Blood Sapling for 2-4 Emeralds. This is the original final-tier trade.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Prices are base ranges before modern demand, reputation or discounts. Vanilla chooses up to two offers per level; the master level has one offer. Each starts with seven uses and restocks through normal workstation access. The old full skins are retained as modern profession overlays for villagers and zombie villagers.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:distillery",
+    "category":  "bewitchment:sympathy",
+    "name":  "Alchemist Trading"
+}

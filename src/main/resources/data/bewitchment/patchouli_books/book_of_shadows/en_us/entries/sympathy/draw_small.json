@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "minecraft:clay_ball",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Offer one Clay Ball inside any complete small circle. Keep the desired non-focal chalk in your offhand with at least 16 uses left. The ritual repaints all sixteen small-ring glyphs immediately."
+                  },
+                  {
+                      "text":  "Starting power is 150, or 127 with Hecate\u0027s Visage. There is no ongoing power cost or output item. Medium and large rings are neither required nor changed. This does not draw a new circle onto empty ground.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "minecraft:clay_ball",
+    "category":  "bewitchment:sympathy",
+    "name":  "Draw Small Circle",
+    "sortnum":  44
+}

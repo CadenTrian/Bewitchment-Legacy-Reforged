@@ -1,0 +1,15 @@
+{
+  "type": "bewitchment:oven",
+  "ingredient": {
+    "item": "minecraft:rotten_flesh"
+  },
+  "result": {
+    "item": "minecraft:leather"
+  },
+  "byproduct": {
+    "item": "bewitchment:ectoplasm",
+    "count": 3
+  },
+  "chance": 0.65,
+  "requires_jar": false
+}

@@ -1,0 +1,13 @@
+{
+    "replace":  false,
+    "entries":  [
+                    "bewitchment:boline_harvest",
+                    "bewitchment:garlic_seeds",
+                    "bewitchment:white_sage_seeds",
+                    "bewitchment:grass_seeds",
+                    "bewitchment:oak_gall",
+                    "bewitchment:green_witch_harvest",
+                    "bewitchment:fortunes_favor",
+                    "bewitchment:ignition"
+                ]
+}

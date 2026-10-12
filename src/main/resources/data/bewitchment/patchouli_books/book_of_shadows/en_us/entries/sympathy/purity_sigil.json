@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:sigil_purity",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Purity is a beneficial sigil for Dragon\u0027s Blood Chests and placed marks. It affects listed players, including the placer by default. Bound Taglocks toggle that list. Mobs have no player curse state and receive no purification effect."
+                  },
+                  {
+                      "text":  "For each active lesser, negative curse, Purity independently rolls a fifty percent chance to remove it. Each curse receives its own roll, so an activation may remove none, some or all eligible curses. Failed rolls preserve the remaining curse duration. Purity is not guaranteed cleansing.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Darkness, Misfortune, Conflagration, Overheating and Hydrophobia are eligible. Solar Hatred, Lightning Rod, Palor Pestilence and Paranoia are greater and cannot be removed by Purity. Purity removes the underlying curse state, not potion effects already produced by it. Use milk or Cleansing for ordinary harmful potion effects. Purity does not clear the separate Failure ritual lockout.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The chest cooldown is six thousand loaded ticks. Placed marks wait that cooldown and pulse on the next tick, an interval of six thousand and one ticks. The activation cooldown still runs when no curse is present or all removal rolls fail. Marks retain the standard lifetime and taglock rules.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Craft Purity with the common Sigil Table pattern: D is Cleansing Balm, C is Juniper Berries and M is White Sage. This uses six Balm, four Juniper Berries, one White Sage, six Paper and eight Dragon\u0027s Blood Resin. Bottled ingredients are consumed without container returns.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "All eleven legacy sigil identities now have their restored recipes and implemented behavior in this port. Purity currently operates on the five restored lesser curses; this does not mean the complete legacy curse system is available. See Curses for operator testing and current limitations.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:sigil_purity",
+    "category":  "bewitchment:sympathy",
+    "name":  "Sigil of Purity",
+    "sortnum":  95
+}

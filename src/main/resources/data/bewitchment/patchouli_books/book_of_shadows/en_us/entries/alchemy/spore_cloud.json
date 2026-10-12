@@ -1,0 +1,40 @@
+{
+    "name":  "Spore Cloud",
+    "icon":  "minecraft:mushroom_stew",
+    "category":  "bewitchment:alchemy",
+    "sortnum":  131,
+    "pages":  [
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Spore Cloud brings brewing to 63 effects: 25 vanilla and thirty-eight custom. Add Mandrake Root, then Mushroom Stew, to hot powered water. Its base duration is one tick. Each successfully powered stew addition returns one Bowl. Returned bowls are not brewing ingredients. Gunpowder makes splash brews; adding Owlet\u0027s Wing too makes lingering brews."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Vanilla cows can become red mooshrooms. Existing mooshrooms and custom cow entity types are excluded. Leashed cows, passengers and cows carrying riders are not converted. Forge conversion cancellation or rejected entity insertion leaves the cow intact. No separate damage or status effect is applied."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Conversion preserves age, health up to the mooshroom\u0027s maximum, name, name visibility, persistence, invulnerability and disabled AI. The original cow is removed only after insertion succeeds. Existing potion effects, love mode and arbitrary mod data are not copied. No items drop from conversion."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Cobblestone becomes mossy cobblestone. Regular, cracked and chiseled stone bricks become mossy stone bricks. Ordinary Scorned Bricks and their stairs, slab, fence and wall become their mossy counterparts. Other decorated Scorned Bricks remain unchanged. Shared state properties preserve facing, connections, stair shape, slab halves and waterlogging."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Short grass becomes fern. Flowers can become either red or brown mushrooms with equal chance. Dirt, coarse dirt and podzol become mycelium. Ferns, mushrooms and already mossy blocks are left alone. New plants require valid support and light conditions, unlike unconditional legacy placement. No terrain replacement drops or XP are generated."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Each candidate has a one-in-three chance. Inclusive radius is three, six or nine at levels I, II or III; high command levels stay capped at nine, at most 6,859 positions. Each dimension holds 32 Spore Cloud jobs, scanning at most 512 positions per tick and 128 per job. Cursor, sampling seed and ownership survive saves and restarts."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Edits stay within loaded chunks, build height and world border. Player jobs stop if the owner leaves, dies or cannot build; other delivery uses the Minecraft fake player. Interaction permissions and cancellable Forge block-break events apply. Listener replacements are preserved. Placement-only listeners are not invoked."
+                  },
+                  {
+                      "type":  "patchouli:text",
+                      "text":  "Drinking schedules terrain work around the drinker. Splash and lingering impacts schedule around the hit block or entity, even without living targets. Occupied clouds schedule at most once per effect application tick. Empty clouds do not repeatedly sweep. Queue overflow does not prevent cow conversion. Bowls use normal item-spawn rules and doTileDrops."
+                  }
+              ]
+}

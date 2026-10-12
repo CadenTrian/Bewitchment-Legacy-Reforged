@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "all":  "bewitchment:block/nethersteel_sentient"
+                 },
+    "parent":  "minecraft:block/cube_all"
+}

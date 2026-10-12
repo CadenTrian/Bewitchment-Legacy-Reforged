@@ -1,0 +1,25 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:athame",
+                      "type":  "patchouli:spotlight",
+                      "text":  "The Athame obtains special drops from eligible creatures killed with a direct strike. Hearts, Ectoplasm and other materials unlock further witchcraft. Carry empty glass bottles in your offhand to collect blood from eligible victims."
+                  },
+                  {
+                      "text":  "The Boline is used for plant harvesting, including Spanish Moss. It can shear supported plants, but moss specifically requires a Boline: ordinary shears do not collect it. Terminal moss tips do not drop an item.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:athame"
+                  },
+                  {
+                      "type":  "patchouli:crafting",
+                      "recipe":  "bewitchment:boline"
+                  }
+              ],
+    "icon":  "bewitchment:athame",
+    "category":  "bewitchment:beginnings",
+    "name":  "Athame and Boline",
+    "sortnum":  4
+}

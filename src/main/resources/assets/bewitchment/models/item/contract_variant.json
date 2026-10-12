@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/contract_signed"
+                 },
+    "parent":  "minecraft:item/generated"
+}

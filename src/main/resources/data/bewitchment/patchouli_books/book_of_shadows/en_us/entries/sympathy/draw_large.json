@@ -1,0 +1,17 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:fiery_chalk",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Offer two Clay Balls and two Wood Ash separately. All three circles must already be complete, in any mix of non-focal chalks. Hold the desired chalk in your offhand with at least 40 uses left."
+                  },
+                  {
+                      "text":  "Pay 450 starting power, or 382 with Hecate\u0027s Visage. Only the forty large-ring glyphs are repainted. There is no ongoing power cost or output. As with other drawing recipes, success consumes the offerings immediately.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:fiery_chalk",
+    "category":  "bewitchment:sympathy",
+    "name":  "Draw Large Circle",
+    "sortnum":  46
+}

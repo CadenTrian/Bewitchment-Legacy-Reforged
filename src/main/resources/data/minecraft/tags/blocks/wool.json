@@ -1,0 +1,8 @@
+{
+    "values":  [
+                   "bewitchment:greenwitch_fleece",
+                   "bewitchment:besmirched_fleece",
+                   "bewitchment:alchemists_fleece"
+               ],
+    "replace":  false
+}

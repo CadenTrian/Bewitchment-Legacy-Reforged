@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:black_dog_spawn_egg",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Black Dogs are hostile spirits with five original skins and matching glowing eyes. They appear at night or during rain in Plains, Wasteland, Forest, Spooky and Magical biome types. Spawn weight is three, with groups of one to three. Valid ground and the normal monster cap still apply, but darkness is not required."
+                  },
+                  {
+                      "text":  "An unnamed Black Dog vanishes without drops during a clear day, even under shelter. Rain prevents this. A custom name protects it from this disappearance and ordinary distance despawning. Set blackDogWeight to zero in bewitchment-creatures.toml and restart to disable natural spawning. Spawn eggs and /summon bewitchment:black_dog are available.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Black Dogs have fifteen health, four base damage, two and a quarter armor and full knockback resistance. They hunt players, villagers, illagers, witches, iron golems and livestock. Their bite has no extra fire or slowing effect. Fire, lava damage, Poison, Wither, falling and drowning do not harm them.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "A successful damaging hit grants the surviving dog Invisibility and Resistance II for fifty ticks. Its eyes remain visible through this invisibility. Black Dogs count as spirits for Spiritbane Poppets; Besmirched clothing does not pacify them. They are not tameable pets.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Ordinary loot chooses one weighted entry: Tongue of Dog at weight three, Ectoplasm at weight two, or Spectral Dust at weight one. Base amounts are zero to one, zero to two and zero to one respectively, plus Looting. Athame kills add separate bonus rolls with maxima one, four and one before the usual Looting adjustment.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The saved spectral lifetime and summoner fields work as for other restored spirits. Temporary spectral copies give no ordinary loot, Athame bonuses or experience. Naming does not cancel spectral expiry. $(l:sympathy/spiritual_rift)Spiritual Rift$() can summon Black Dogs; structure pools also include them in Overworld strongholds on new-moon nights. The unfinished legacy healing-damage and lightning-strengthening ideas remain absent.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:black_dog_spawn_egg",
+    "category":  "bewitchment:sympathy",
+    "name":  "Black Dogs",
+    "sortnum":  64
+}

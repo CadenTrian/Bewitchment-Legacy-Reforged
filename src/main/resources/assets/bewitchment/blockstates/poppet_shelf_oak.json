@@ -1,0 +1,19 @@
+{
+    "variants":  {
+                     "facing=north":  {
+                                          "model":  "bewitchment:block/poppet_shelf_oak"
+                                      },
+                     "facing=south":  {
+                                          "model":  "bewitchment:block/poppet_shelf_oak",
+                                          "y":  180
+                                      },
+                     "facing=east":  {
+                                         "model":  "bewitchment:block/poppet_shelf_oak",
+                                         "y":  90
+                                     },
+                     "facing=west":  {
+                                         "model":  "bewitchment:block/poppet_shelf_oak",
+                                         "y":  270
+                                     }
+                 }
+}

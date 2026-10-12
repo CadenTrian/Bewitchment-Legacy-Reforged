@@ -1,0 +1,22 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:tongue_of_dog"
+                        },
+                        {
+                            "item":  "bewitchment:tongue_of_dog"
+                        },
+                        {
+                            "item":  "minecraft:glass_bottle"
+                        }
+                    ],
+    "type":  "bewitchment:cauldron",
+    "results":  [
+                    {
+                        "item":  "bewitchment:bottle_of_blood"
+                    },
+                    {
+                        "item":  "minecraft:slime_ball"
+                    }
+                ]
+}

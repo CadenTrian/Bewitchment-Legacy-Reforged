@@ -1,0 +1,33 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:taglock",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Twelve curse identities and five positive contract effects are restored. Five negative curses are lesser; six are greater, including the one-shot Mahapadma. Return to Sender is a positive greater ward. The five positive contracts are lesser. State saves with the player and pauses offline. Mahapadma removes itself before execution; other active state survives respawn. Milk and Cleansing remove resulting potion effects, not underlying curses or contracts."
+                  },
+                  {
+                      "text":  "Darkness and Misfortune each have a 0.05 percent chance per server player tick to act. Darkness gives its player one hundred ticks of Blindness and nearby living mobs two hundred ticks. The mob search extends four blocks in each direction from the player, without a line-of-sight requirement. It does not spread the curse itself.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Misfortune chooses a harmful, non-instant potion effect from the current registry. Poison, Wither, Mortal Coil and Wednesday are excluded. The selected effect lasts two hundred to five hundred eighty ticks at level one. An empty eligible pool produces no potion rather than an error. Modded harmful effects may qualify.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Duration is measured in Minecraft days of twenty-four thousand ticks. It decreases by twenty on each twenty-player-tick boundary while online. Sleeping and changing world time do not skip it. Reapplying an already active curse keeps its remaining duration. Spectators receive no curse procs, but their online timer continues.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Operators can use /curse \u003cplayer\u003e get, /curse \u003cplayer\u003e clear, /curse \u003cplayer\u003e add bewitchment:darkness \u003cdays\u003e, or /curse \u003cplayer\u003e remove bewitchment:darkness. Use any restored curse identity, including bewitchment:misfortune or bewitchment:solar_hatred. Add accepts one to 89478 days; unknown curses and invalid durations are rejected. Permission level two is required.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "The Brazier casts its restored curse recipes and supports Return to Sender reflection. Positive contracts are available directly from a pledged Baphomet for six levels. The full old capability/API remains unported. Purity can remove lesser negative curses, but not greater curses. Removal and expiry stop future procs while already-applied potion effects expire normally. Mahapadma has no Brazier recipe.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:taglock",
+    "category":  "bewitchment:sympathy",
+    "name":  "Curses",
+    "sortnum":  94
+}

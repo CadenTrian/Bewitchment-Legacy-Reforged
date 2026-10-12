@@ -1,0 +1,6 @@
+{
+    "textures":  {
+                     "layer0":  "bewitchment:item/waystone"
+                 },
+    "parent":  "minecraft:item/generated"
+}

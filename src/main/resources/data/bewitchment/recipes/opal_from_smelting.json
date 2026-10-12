@@ -1,0 +1,9 @@
+{
+    "ingredient":  {
+                       "item":  "bewitchment:opal_ore"
+                   },
+    "result":  "bewitchment:opal",
+    "cookingtime":  200,
+    "experience":  0.85,
+    "type":  "minecraft:smelting"
+}

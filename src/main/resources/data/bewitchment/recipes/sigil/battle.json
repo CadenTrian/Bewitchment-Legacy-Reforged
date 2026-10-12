@@ -1,0 +1,83 @@
+{
+    "ingredients":  [
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:iron_gall_ink"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "bewitchment:bottle_of_blood"
+                        },
+                        {
+                            "item":  "bewitchment:dragons_blood_resin"
+                        },
+                        {
+                            "item":  "minecraft:paper"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:sigil_battle"
+               },
+    "type":  "bewitchment:sigil_table"
+}

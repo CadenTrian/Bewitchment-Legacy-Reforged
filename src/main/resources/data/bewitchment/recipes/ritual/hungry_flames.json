@@ -1,0 +1,21 @@
+{
+    "circles":  [
+                    "nether"
+                ],
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:ectoplasm"
+                        },
+                        {
+                            "item":  "minecraft:blaze_powder"
+                        },
+                        {
+                            "tag":  "minecraft:coals"
+                        }
+                    ],
+    "type":  "bewitchment:ritual",
+    "starting_power":  333,
+    "running_power":  25,
+    "effect":  "hungry_flames",
+    "seconds":  180
+}

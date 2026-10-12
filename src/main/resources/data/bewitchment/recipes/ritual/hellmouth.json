@@ -1,0 +1,34 @@
+{
+    "seconds":  15,
+    "starting_power":  1250,
+    "result":  {
+                   "item":  "bewitchment:athame"
+               },
+    "type":  "bewitchment:ritual",
+    "effect":  "hellmouth",
+    "circles":  [
+                    "nether",
+                    "nether"
+                ],
+    "running_power":  45,
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:athame"
+                        },
+                        {
+                            "item":  "minecraft:netherrack"
+                        },
+                        {
+                            "item":  "minecraft:magma_block"
+                        },
+                        {
+                            "tag":  "forge:crops/hellebore"
+                        },
+                        {
+                            "item":  "bewitchment:snake_venom"
+                        },
+                        {
+                            "item":  "minecraft:charcoal"
+                        }
+                    ]
+}

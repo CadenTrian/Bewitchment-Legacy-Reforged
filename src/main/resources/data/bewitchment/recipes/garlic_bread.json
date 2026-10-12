@@ -1,0 +1,23 @@
+{
+    "ingredients":  [
+                        {
+                            "tag":  "forge:crops/garlic"
+                        },
+                        {
+                            "tag":  "forge:herbs"
+                        },
+                        {
+                            "item":  "minecraft:wheat"
+                        },
+                        {
+                            "tag":  "forge:dusts/salt"
+                        },
+                        {
+                            "item":  "minecraft:wheat"
+                        }
+                    ],
+    "result":  {
+                   "item":  "bewitchment:garlic_bread"
+               },
+    "type":  "minecraft:crafting_shapeless"
+}

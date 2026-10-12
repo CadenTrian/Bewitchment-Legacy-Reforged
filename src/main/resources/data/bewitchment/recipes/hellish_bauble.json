@@ -1,0 +1,28 @@
+{
+    "key":  {
+                "G":  {
+                          "tag":  "forge:ingots/gold"
+                      },
+                "D":  {
+                          "item":  "bewitchment:demonic_elixir"
+                      },
+                "N":  {
+                          "tag":  "forge:storage_blocks/nethersteel"
+                      },
+                "V":  {
+                          "item":  "bewitchment:diabolical_vein"
+                      },
+                "H":  {
+                          "item":  "bewitchment:hellhound_horn"
+                      }
+            },
+    "pattern":  [
+                    "HVH",
+                    "NGN",
+                    "NDN"
+                ],
+    "result":  {
+                   "item":  "bewitchment:hellish_bauble"
+               },
+    "type":  "minecraft:crafting_shaped"
+}

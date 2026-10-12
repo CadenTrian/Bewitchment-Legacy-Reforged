@@ -1,0 +1,21 @@
+{
+    "pages":  [
+                  {
+                      "item":  "bewitchment:contract",
+                      "type":  "patchouli:spotlight",
+                      "text":  "Operators can use /contract \u003cplayer\u003e random to give one unsigned task selected with equal chances from Berserker, Desiccation, Devouring Rage, Ignition, Salamandrine Tolerance and Mahapadma. Selecting a task does not activate its effect. Sign it and complete its objective before redemption."
+                  },
+                  {
+                      "text":  "Kill tasks require six to ten qualifying kills. Donation tasks roll six to eleven separately for each ingredient; Mahapadma always requires exactly one water bucket. Every new task starts with zero progress and no owner. The named /contract commands use the same task generator while selecting a specific kind.",
+                      "type":  "patchouli:text"
+                  },
+                  {
+                      "text":  "Random issuance requires operator permission level two and one online player target. It places the task in that player\u0027s inventory or drops it when full. Creative variants retain their minimum requirements. The Box of Sealed Evil can now reward tasks. Demon merchants can now sell tasks; Conjure Demon now provides ritual access. This command supplies tasks for testing.",
+                      "type":  "patchouli:text"
+                  }
+              ],
+    "icon":  "bewitchment:contract",
+    "category":  "bewitchment:sympathy",
+    "name":  "Random Contract Tasks",
+    "sortnum":  111
+}

@@ -1,0 +1,24 @@
+{
+    "curse":  "bewitchment:overheating",
+    "ingredients":  [
+                        {
+                            "item":  "bewitchment:oil_of_vitriol"
+                        },
+                        {
+                            "item":  "bewitchment:fiery_unguent"
+                        },
+                        {
+                            "item":  "bewitchment:tallow"
+                        },
+                        {
+                            "item":  "minecraft:bone"
+                        },
+                        {
+                            "item":  "minecraft:bone"
+                        },
+                        {
+                            "item":  "bewitchment:taglock"
+                        }
+                    ],
+    "type":  "bewitchment:brazier_curse"
+}
